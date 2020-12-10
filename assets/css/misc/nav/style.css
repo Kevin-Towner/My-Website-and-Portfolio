@@ -1,0 +1,48 @@
+nav{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  width:100%;
+  margin:auto;
+  padding:15px 0 15px 0;
+  background-color:#fff;
+  border-bottom:1px solid rgb(148,149,153,.3);
+  top:0;
+  position:fixed;
+  z-index:1;
+  font-family: 'PT Sans', sans-serif;
+}
+
+label{
+  margin:auto;
+  text-align:center;
+  display:none;
+}
+#logo{
+  height:36px;
+  margin-left:8vw;
+}
+
+#toggle{
+  display:none;
+}
+
+#menu{
+  float: right;
+  margin-right:8vw;
+  margin-top:7.5px;
+}
+
+#menu > a{
+  text-decoration: none;
+  color:#3A3A3A;
+}
+
+#menu > a:hover{
+  font-weight:bold;
+  color:#1654F8;
+}
+
+
+#menu > a:nth-child(2){
+  padding:0 2em 0 2em;
+}
