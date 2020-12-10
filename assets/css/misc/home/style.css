@@ -1,3 +1,4 @@
+
 body{
   margin:0 auto;
   height:100vh;
@@ -23,8 +24,9 @@ ul{
 }
 
 ul > li:nth-child(1){
-  margin-right:33px
+  margin-right:33px;
 }
+
 
 ul > li:nth-child(3){
   margin-left:33px
@@ -32,25 +34,30 @@ ul > li:nth-child(3){
 
 
 button{
-  padding:8px 16px 8px 16px;
+  display:flex;
+  align-items:center;
+  padding:10px 20px 10px 20px;
   font-size:10px;
   text-transform:uppercase;
   letter-spacing:2px;
   border-radius:2px;
-  background: #009FC1;
+  background: #009BA5;
   font-weight:bold;
   transition: 0.5s;
   border:none;
+  color:#fff;
 }
 
 button:hover{
-  background:rgb(0, 159, 193, .6);
+  background:rgb(0, 155, 165, .7);
   color:#fff;
+  cursor: pointer;
 }
 
 a{
   text-decoration:none;
   color:#fff;
+  display:inline-flex;
 }
 
 
@@ -60,4 +67,28 @@ a{
   width:84%;
   font-family: 'PT Sans', sans-serif;
   text-align:center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.button-icons{
+  height:16px;
+  padding-right:8px;
+}
+
+/*--Importants--*/
+
+#menu > a:nth-child(1){
+  color:#009BA5 !important;
+}
+
+/*--Keyframes--*/
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
