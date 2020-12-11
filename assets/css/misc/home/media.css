@@ -16,7 +16,6 @@
   h1{
     font-size:28pt;
     width:100%;
-    color:red;
   }
   ul{
     display:flex;
@@ -39,19 +38,21 @@
   button{
     padding:0px;
     width:84vw;
-    height:8em;
+    height:4em;
     font-size:12px;
     letter-spacing:1px;
     border-radius:1px;
   }
   .btn-text{
-    margin:auto;
+    text-align: center;
   }
   .button-icons{
     height:20px;
+    margin-left:33%;
+    padding-right:16px;
   }
   .main-content{
-    padding-top:16vh;
+    padding-top:20vh;
     margin:auto;
     width:84%;
     font-family: 'PT Sans', sans-serif;
