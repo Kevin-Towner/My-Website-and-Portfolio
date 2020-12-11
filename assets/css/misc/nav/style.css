@@ -27,7 +27,7 @@ label{
 }
 
 #menu{
-  margin-left:10%;
+
 }
 
 #menu > a{
@@ -38,9 +38,4 @@ label{
 #menu > a:hover{
   font-weight:bold;
   color:#1654F8;
-}
-
-
-#menu > a:nth-child(2){
-  padding:0 2em 0 2em;
 }
