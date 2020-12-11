@@ -15,10 +15,11 @@ footer{
   bottom:0px;
   background:#fff;
   border-top:1px solid rgb(148,149,153,.3);
-  text-align:center;
+  text-align:left;
   font-family: 'PT Sans', sans-serif;
   color:#3a3a3a;
 }
 ul{
   padding-left:0;
+  margin-left:8vw;
 }

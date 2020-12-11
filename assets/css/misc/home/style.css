@@ -2,7 +2,7 @@
 body{
   margin:0 auto;
   height:100vh;
-  background:#fefefe;
+  background:#efefef;
   z-index:0;
   color:#3a3a3a;
 }
@@ -20,7 +20,8 @@ p{
 
 ul{
   display:inline-flex;
-  padding-left:0;
+  width:100%;
+  margin:auto;
 }
 
 ul > li:nth-child(1){
