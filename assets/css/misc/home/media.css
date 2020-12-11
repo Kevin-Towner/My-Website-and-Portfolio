@@ -14,14 +14,14 @@
   }
 
   h1{
-    font-size:32pt !important;
+    font-size:30pt !important;
     width:100%;
-    text-align:left;
+    text-align:center
   }
 
   p{
     font-size:14pt;
-    text-align:left;
+    text-align:center
   }
 
   ul{
@@ -59,7 +59,7 @@
     padding-right:16px;
   }
   .main-content{
-    padding-top:20vh;
+    padding-top:16vh;
     margin:auto;
     width:84%;
     font-family: 'PT Sans', sans-serif;
