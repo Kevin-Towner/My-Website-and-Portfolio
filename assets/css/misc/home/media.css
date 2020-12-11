@@ -93,7 +93,7 @@
   }
 }
 
-@media (max-width:1281px) {
+@media (min-width:1281px) {
   h1{
     font-size:40pt !important;
   }
