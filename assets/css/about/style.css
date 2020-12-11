@@ -1,0 +1,61 @@
+body{
+  margin:0 auto;
+  background:#f8f8f8;
+  z-index:0;
+  color:#3a3a3a;
+}
+
+h1{
+  font-size:28pt;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p{
+  font-size:12pt;
+  font-family:'PT Sans', sans-serif;
+  line-height:140%;
+}
+.main-content{
+  padding-top:20vh;
+  margin:auto;
+  width:84%;
+  font-family: 'PT Sans', sans-serif;
+  text-align:center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.button-icons{
+  height:16px;
+  padding-right:8px;
+}
+
+.row{
+  width:46%;
+}
+
+#column-two-row-one{
+  margin-top:8em;
+  margin-bottom:8em;
+  display:flex;
+  flex-direction:row;
+}
+#picture-of-me{
+  width:100%;
+}
+/*--Importants--*/
+
+#menu > a:nth-child(2){
+  color:#009BA5;
+}
+
+/*--Keyframes--*/
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}

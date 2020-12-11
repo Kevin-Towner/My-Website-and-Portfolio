@@ -7,6 +7,17 @@ body{
   color:#3a3a3a;
 }
 
+.main-content{
+  padding-top:33vh;
+  margin:auto;
+  width:84%;
+  font-family: 'PT Sans', sans-serif;
+  text-align:center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 h1{
   font-size:28pt;
   font-family: 'Open Sans', sans-serif;
@@ -59,18 +70,6 @@ a{
   text-decoration:none;
   color:#fff;
   display:inline-flex;
-}
-
-
-.main-content{
-  padding-top:33vh;
-  margin:auto;
-  width:84%;
-  font-family: 'PT Sans', sans-serif;
-  text-align:center;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .button-icons{
