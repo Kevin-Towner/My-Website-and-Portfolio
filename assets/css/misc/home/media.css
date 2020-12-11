@@ -14,7 +14,7 @@
   }
 
   h1{
-    font-size:30pt !important;
+    font-size:28pt !important;
     width:100%;
     text-align:center
   }
@@ -61,7 +61,7 @@
   .main-content{
     padding-top:16vh;
     margin:auto;
-    width:84%;
+    width:84vw;
     font-family: 'PT Sans', sans-serif;
     text-align:center;
     animation: fadeInAnimation ease 2s;
@@ -95,6 +95,6 @@
 
 @media (max-width:1281px) {
   h1{
-    font-size:28pt;
+    font-size:40pt !important;
   }
 }
