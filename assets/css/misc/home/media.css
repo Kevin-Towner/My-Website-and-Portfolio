@@ -28,14 +28,14 @@
 
 @media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */
   h1{
-    font-size:28pt;
+    font-size:32pt;
     font-family: 'Open Sans', sans-serif;
   }
 }
 
-@media (max-width:1281px) {
+@media (min-width:1281px) {
   h1{
-    font-size:48pt;
+    font-size:32pt;
     font-family: 'Open Sans', sans-serif;
   }
 }
