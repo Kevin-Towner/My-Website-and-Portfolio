@@ -5,18 +5,18 @@
 
   h1{
     font-size:28pt;
-    font-family: 'Open Sans', sans-serif;
   }
 }
 
-@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+@media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
   body{
     height:none;
   }
 
   h1{
     font-size:28pt;
-    font-family: 'Open Sans', sans-serif;
+    width:100%;
+    color:red;
   }
 }
 
@@ -27,27 +27,23 @@
 
   h1{
     font-size:28pt;
-    font-family: 'Open Sans', sans-serif;
   }
 }
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   h1{
     font-size:28pt;
-    font-family: 'Open Sans', sans-serif;
   }
 }
 
 @media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */
   h1{
     font-size:32pt;
-    font-family: 'Open Sans', sans-serif;
   }
 }
 
-@media (min-width:1281px) {
+@media (max-width:1281px) {
   h1{
     font-size:32pt;
-    font-family: 'Open Sans', sans-serif;
   }
 }

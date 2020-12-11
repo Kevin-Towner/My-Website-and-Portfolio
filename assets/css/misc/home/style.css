@@ -81,7 +81,7 @@ a{
 /*--Importants--*/
 
 #menu > a:nth-child(1){
-  color:#009BA5 !important;
+  color:#009BA5;
 }
 
 /*--Keyframes--*/

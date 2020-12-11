@@ -1,11 +1,11 @@
 nav{
-  display:inline-flex;
-  align-items:center;
+  display:grid;
+  grid-template-columns:1fr 1fr;
   width:100%;
   margin:auto;
   padding:15px 0 15px 0;
   background-color:#fff;
-  border-bottom:1px solid rgb(148,149,153,.3);
+  border-bottom:1px solid rgb(148,149,153,.5);
   top:0;
   position:fixed;
   z-index:1;
@@ -18,7 +18,7 @@ label{
   display:none;
 }
 #logo{
-  height:32px;
+  height:36px;
   margin-left:8vw;
 }
 
@@ -27,7 +27,9 @@ label{
 }
 
 #menu{
-  margin-left:84%;
+  float: right;
+  margin-right:8vw;
+  margin-top:7.5px;
 }
 
 #menu > a{
@@ -38,4 +40,9 @@ label{
 #menu > a:hover{
   font-weight:bold;
   color:#1654F8;
+}
+
+
+#menu > a:nth-child(2){
+  padding:0 2em 0 2em;
 }
