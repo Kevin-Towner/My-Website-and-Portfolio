@@ -1,6 +1,6 @@
 nav{
-  display:grid;
-  grid-template-columns:1fr 1fr;
+  display:inline-flex;
+  align-items:center;
   width:100%;
   margin:auto;
   padding:15px 0 15px 0;
@@ -18,7 +18,7 @@ label{
   display:none;
 }
 #logo{
-  height:36px;
+  height:24px;
   margin-left:8vw;
 }
 
@@ -27,9 +27,7 @@ label{
 }
 
 #menu{
-  float: right;
-  margin-right:8vw;
-  margin-top:7.5px;
+  margin-left:10%;
 }
 
 #menu > a{
