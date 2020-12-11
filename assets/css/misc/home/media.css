@@ -14,9 +14,16 @@
   }
 
   h1{
-    font-size:28pt;
+    font-size:32pt !important;
     width:100%;
+    text-align:left;
   }
+
+  p{
+    font-size:14pt;
+    text-align:left;
+  }
+
   ul{
     display:flex;
     flex-direction: column;
