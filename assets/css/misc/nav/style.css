@@ -18,7 +18,7 @@ label{
   display:none;
 }
 #logo{
-  height:24px;
+  height:32px;
   margin-left:8vw;
 }
 
@@ -27,7 +27,7 @@ label{
 }
 
 #menu{
-
+  margin-left:84%;
 }
 
 #menu > a{
