@@ -12,8 +12,9 @@ h1{
 }
 h2{
   font-family: 'Open Sans', sans-serif;
-  text-align: left;
   font-size: 20pt;
+  margin-top:0;
+  text-align: left;
 
 }
 
@@ -52,14 +53,15 @@ p{
 }
 
 #column-a{
-  width:33%;
-}
-#column-b{
   width:67%;
 }
-#column-b > p{
-  padding:50px 0px 0px 50px;
+#column-b{
+  width:33%;
+}
+#column-a > p{
+  padding:0px 50px 0px 0px;
   text-align: left;
+  margin-top:0;
 }
 /*--Importants--*/
 
