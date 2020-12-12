@@ -64,6 +64,57 @@ p{
   text-align: left;
   margin-top:0;
 }
+
+
+/*--buttons--*/
+ul{
+  display:inline-flex;
+  list-style-type:none;
+  margin:auto;
+  margin-top:2em;
+}
+
+ul > li:nth-child(1){
+
+}
+
+ul > li:nth-child(2){
+  margin-left:33px
+}
+
+button{
+  display:flex;
+  align-items:center;
+  padding:10px 20px 10px 20px;
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  border-radius:2px;
+  background: #009BA5;
+  font-weight:bold;
+  transition: 0.5s;
+  border:none;
+  color:#fff;
+}
+
+button:hover{
+  background:rgb(0, 155, 165, .7);
+  color:#fff;
+  cursor: pointer;
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+  display:inline-flex;
+}
+
+.button-icons{
+  height:16px;
+  padding-right:8px;
+}
+
+
 /*--Importants--*/
 
 #menu > a:nth-child(2){
