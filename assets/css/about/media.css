@@ -1,0 +1,109 @@
+@media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  body{
+    height:none;
+  }
+
+  h1{
+    font-size:28pt;
+  }
+}
+
+@media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
+  body{
+    height:auto;
+  }
+
+  h1{
+    font-size:28pt !important;
+    width:100%;
+    text-align:left;
+  }
+
+  p{
+    font-size:14pt;
+    text-align:center
+  }
+
+  ul{
+    flex-direction: column;
+  }
+
+  ul > li:nth-child(1){
+    margin-right:0px;
+  }
+
+  ul > li:nth-child(2){
+    margin-top:1em;
+    margin-left:0;
+  }
+
+  button{
+    padding:0px;
+    width:84vw;
+    height:4em;
+    font-size:12px;
+    letter-spacing:1px;
+    border-radius:1px;
+  }
+  .btn-text{
+    text-align: center;
+  }
+  .button-icons{
+    height:20px;
+    margin-left:33%;
+    padding-right:16px;
+  }
+
+  #column-two-row-one{
+    margin-bottom:8em;
+    display:flex;
+    flex-direction:column;
+  }
+
+  #picture-of-me{
+  margin-top:2em;
+  }
+
+  #column-a{
+    width:100%;
+  }
+
+  #column-b{
+    width:100%;
+  }
+
+  #column-a > p{
+    padding:0px 0px 0px 0px;
+    text-align: left;
+    margin-top:0;
+  }
+
+}
+
+@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  body{
+    height:none;
+  }
+
+  h1{
+    font-size:28pt;
+  }
+}
+
+@media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  h1{
+    font-size:28pt;
+  }
+}
+
+@media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  h1{
+    font-size:28pt;
+  }
+}
+
+@media (min-width:1281px) {
+  h1{
+    font-size:32pt !important;
+  }
+}

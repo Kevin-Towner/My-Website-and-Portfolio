@@ -50,6 +50,8 @@ p{
 
 #picture-of-me{
   width:100%;
+  border-radius: 1px;
+  opacity:.8;
   margin-top:16%;
 }
 
@@ -79,7 +81,7 @@ ul > li:nth-child(1){
 }
 
 ul > li:nth-child(2){
-  margin-left:33px
+  margin-left:33px;
 }
 
 button{
