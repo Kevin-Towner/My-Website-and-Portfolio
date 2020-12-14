@@ -81,6 +81,7 @@ a{
 
 #menu > a:nth-child(1){
   color:#009BA5;
+  opacity:1;
 }
 
 /*--Keyframes--*/

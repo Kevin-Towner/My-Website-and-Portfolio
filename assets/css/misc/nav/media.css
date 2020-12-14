@@ -75,8 +75,8 @@
   }*/
   #menu > a {
     display:block;
-    font-family: 'Lato', sans-serif;
-    font-size:32pt;
+    font-family: 'PT Sans', sans-serif;
+    font-size:18pt;
     padding:120px 0 120px 0;
   }
 }
@@ -146,8 +146,8 @@
   }*/
   #menu > a {
     display:block;
-    font-family: 'Lato', sans-serif;
-    font-size:32pt;
+    font-family: 'PT Sans', sans-serif;
+    font-size:18pt;
     padding:120px 0 120px 0;
   }
 }

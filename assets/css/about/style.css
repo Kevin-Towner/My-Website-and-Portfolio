@@ -121,6 +121,7 @@ a{
 
 #menu > a:nth-child(2){
   color:#009BA5;
+  opacity:1;
 }
 
 /*--Keyframes--*/
