@@ -8,7 +8,7 @@ body{
 }
 
 .main-content{
-  padding-top:33vh;
+  padding-top:28vh;
   margin:auto;
   width:84%;
   font-family: 'PT Sans', sans-serif;
@@ -26,12 +26,13 @@ h1{
 p{
   font-size:12pt;
   font-family:'PT Sans', sans-serif;
-  line-height:140%;
+  margin-top:0px;
+  padding:0px;
 }
 
 ul{
   display:inline-flex;
-  margin:auto;
+  margin:2em auto auto auto;
   list-style-type:none;
 }
 
@@ -58,12 +59,14 @@ button{
   transition: 0.5s;
   border:none;
   color:#fff;
+  box-shadow: .25px .5px 2px #8F9094;
 }
 
 button:hover{
-  background:rgb(0, 155, 165, .7);
+  background:rgb(0, 155, 165, .92);
   color:#fff;
   cursor: pointer;
+  box-shadow: .5px 2px 8px #8F9094;
 }
 
 a{

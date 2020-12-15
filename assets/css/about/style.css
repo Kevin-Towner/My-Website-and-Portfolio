@@ -99,12 +99,14 @@ button{
   transition: 0.5s;
   border:none;
   color:#fff;
+  box-shadow: .25px .5px 2px #8F9094;
 }
 
 button:hover{
-  background:rgb(0, 155, 165, .7);
+  background:rgb(0, 155, 165, .92);
   color:#fff;
   cursor: pointer;
+  box-shadow: .5px 2px 8px #8F9094;
 }
 
 a{
