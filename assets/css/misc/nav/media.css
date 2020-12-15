@@ -16,13 +16,14 @@
     display:block;
     cursor:pointer;
     font-size:32px;
-    color:#262626;
+    color:#3a3a3a;
     float:right;
     margin-right:8vw;
   }
   label:hover{
-    color:#1654F8;
+    opacity:.7;
   }
+
   nav{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -45,10 +46,13 @@
   }
 
   #toggle{
-    display:none;
+    display: none;
+    height:32px;
   }
+
   #menu{
     display:none;
+    height:32px;
   }
 
   #toggle:checked + #menu{
@@ -87,12 +91,12 @@
     display:block;
     cursor:pointer;
     font-size:30px;
-    color:#323232;
+    color:#3a3a3a;
     float:right;
     margin-right:8vw;
   }
   label:hover{
-    color:#1654F8;
+    opacity:7;
   }
   nav{
     display:grid;
