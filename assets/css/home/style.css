@@ -8,6 +8,7 @@ body{
 }
 
 .main-content{
+
   padding-top:28vh;
   margin:auto;
   width:84%;
@@ -30,18 +31,18 @@ p{
   padding:0px;
 }
 
-ul{
+.btn-list{
   display:inline-flex;
   margin:2em auto auto auto;
   list-style-type:none;
 }
 
-ul > li:nth-child(1){
+.btn-list > li:nth-child(1){
   margin-right:33px;
 }
 
 
-ul > li:nth-child(3){
+.btn-list > li:nth-child(3){
   margin-left:33px;
 }
 

@@ -30,15 +30,15 @@
     list-style-type:none;
   }
 
-  ul > li:nth-child(1){
+.btn-list > li:nth-child(1){
     margin-right:0px;
   }
 
-  ul > li:nth-child(2){
+.btn-list > li:nth-child(2){
     margin-top:2em;
   }
 
-  ul > li:nth-child(3){
+.btn-list > li:nth-child(3){
     margin-left:0px;
     margin-top:2em;
   }

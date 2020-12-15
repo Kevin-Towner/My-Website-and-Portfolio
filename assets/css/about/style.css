@@ -70,7 +70,7 @@ p{
 
 
 /*--buttons--*/
-ul{
+.btn-list{
   display:inline-flex;
   list-style-type:none;
   margin:auto;
@@ -78,11 +78,11 @@ ul{
   float:right;
 }
 
-ul > li:nth-child(1){
+.btn-list > li:nth-child(1){
 
 }
 
-ul > li:nth-child(2){
+.btn-list > li:nth-child(2){
   margin-left:33px;
 }
 
