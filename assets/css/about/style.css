@@ -103,7 +103,7 @@ button{
 }
 
 button:hover{
-  background:rgb(0, 155, 165, .92);
+  background:#00C4D0;
   color:#fff;
   cursor: pointer;
   box-shadow: .5px 2px 8px #8F9094;
