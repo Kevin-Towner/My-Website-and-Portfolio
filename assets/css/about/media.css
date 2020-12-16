@@ -31,21 +31,17 @@
   }
 
   .btn-list{
-    flex-direction: column;
-    float:none;
   }
 
   .btn-list > li:nth-child(1){
-    margin-right:0px;
+    margin-right:20px;
   }
 
   .btn-list > li:nth-child(2){
-    margin-top:1em;
-    margin-left:0;
+    margin-left:0px;
   }
 
   button{
-    padding:10px 40px 10px 40px;
     height:4em;
     letter-spacing:1px;
     border-radius:1px;
@@ -57,21 +53,50 @@
   h1{
     font-size:28pt;
   }
+
+  .btn-list{
+    display:flex;
+    float:right;
+  }
+
+  .btn-list > li:nth-child(1){
+
+  }
+
+  .btn-list > li:nth-child(2){
+  }
+
+  .btn-list{
+    flex-direction: row;
+
+    margin-top:2em;
+  }
+
+  .btn-list > li:nth-child(1){
+    margin-right:0px;
+  }
+
+  .btn-list > li:nth-child(2){
+    margin-left:33px;
+  }
+
+  #column-a{
+    width:50%;
+  }
+
+  #column-b{
+    width:50%;
+
+  }
+
+  #picture-of-me{
+;
+  }
 }
 
 
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  body{
-    height:none;
-  }
-
-  h1{
-    font-size:28pt;
-  }
-}
-
-@media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
   body{
     height:auto;
   }
@@ -90,6 +115,7 @@
 .btn-list{
     flex-direction: column;
     float:none;
+    margin-top:2em;
   }
 
 .btn-list > li:nth-child(1){
@@ -97,12 +123,12 @@
   }
 
 .btn-list > li:nth-child(2){
-    margin-top:1em;
+    margin-top:2em;
     margin-left:0;
   }
 
   button{
-    padding:0px;
+    padding:10px 20px 10px 20px;
     width:84vw;
     height:4em;
     font-size:12px;
@@ -144,6 +170,10 @@
     text-align: left;
     margin-top:0;
   }
+}
+
+@media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
+
 }
 
 
