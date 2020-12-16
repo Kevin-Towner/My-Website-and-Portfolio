@@ -49,18 +49,16 @@ p{
 }
 
 #picture-of-me{
-  max-width:80%;
-  float:right;
+  max-width:100%;
   border-radius: 1px;
   opacity:.8;
-  margin-top:16%;
 }
 
 #column-a{
   width:67%;
 }
 #column-b{
-  width:33%;
+  width:33%;s
 }
 #column-a > p{
   padding:0px 50px 0px 0px;
@@ -73,9 +71,8 @@ p{
 .btn-list{
   display:inline-flex;
   list-style-type:none;
-  margin:auto;
   margin-top:2em;
-  float:right;
+  vertical-align: middle;
 }
 
 .btn-list > li:nth-child(1){
