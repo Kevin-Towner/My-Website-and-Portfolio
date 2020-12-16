@@ -49,9 +49,11 @@ p{
 }
 
 #picture-of-me{
-  max-width:100%;
+  max-width:84%;
   border-radius: 1px;
   opacity:.8;
+  margin-top:2em;
+  float:right;
 }
 
 #column-a{
@@ -71,8 +73,7 @@ p{
 .btn-list{
   display:inline-flex;
   list-style-type:none;
-  margin-top:2em;
-  vertical-align: middle;
+  float:right;
 }
 
 .btn-list > li:nth-child(1){
