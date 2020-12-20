@@ -26,19 +26,8 @@
     font-size:28pt;
   }
 
-  .btn-text{
-    text-align: center;
-  }
-
   .btn-list{
-  }
-
-  .btn-list > li:nth-child(1){
-    margin-right:20px;
-  }
-
-  .btn-list > li:nth-child(2){
-    margin-left:0px;
+    margin-left:0;
   }
 
   button{
@@ -55,8 +44,8 @@
   }
 
   .btn-list{
-    display:flex;
-    float:right;
+    margin-left:0;
+
   }
 
   .btn-list > li:nth-child(1){
@@ -67,17 +56,15 @@
   }
 
   .btn-list{
-    flex-direction: row;
 
-    margin-top:2em;
   }
 
   .btn-list > li:nth-child(1){
-    margin-right:0px;
+
   }
 
   .btn-list > li:nth-child(2){
-    margin-left:33px;
+
   }
 
   #column-a{
@@ -90,7 +77,6 @@
   }
 
   #picture-of-me{
-;
   }
 }
 
@@ -128,7 +114,6 @@
   }
 
   button{
-    padding:10px 20px 10px 20px;
     width:84vw;
     height:4em;
     font-size:12px;

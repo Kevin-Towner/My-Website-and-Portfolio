@@ -8,21 +8,22 @@ body{
 h1{
   font-size:28pt;
   font-family: 'Open Sans', sans-serif;
-  float:left;
-
 }
+
 h2{
   font-family: 'Open Sans', sans-serif;
   font-size: 18pt;
   margin-top:0;
-  text-align: left;
-
 }
 
 p{
   font-size:12pt;
   font-family:'PT Sans', sans-serif;
   line-height:140%;
+  width:84%;
+}
+ul{
+
 }
 .main-content{
   display:flex;
@@ -34,6 +35,35 @@ p{
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+.contact-type{
+  font-size:11pt;
+}
+
+.contact-specific{
+  font-weight:bold;
+  margin-top:5px;
+}
+
+#column-two-row-one{
+  margin-bottom:8em;
+  display:flex;
+  flex-direction:row;
+}
+
+#column-a{
+  width:50%;
+}
+
+#column-b{
+  width:50%;
+}
+
+#contact-image{
+  max-width:84%;
+  border-radius: 1px;
+  opacity:.8;
 }
 
 

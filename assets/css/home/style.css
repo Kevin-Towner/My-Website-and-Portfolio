@@ -14,7 +14,7 @@ body{
   width:84%;
   font-family: 'PT Sans', sans-serif;
   text-align:center;
-  animation: fadeInAnimation ease 1s;
+  animation: fadeInAnimation ease .25s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
