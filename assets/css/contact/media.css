@@ -9,9 +9,11 @@
 
 @media (max-width:1025px){
 
-  #picture-of-me{
-    margin-top:2em;
+  #contact-image{
     max-width:100%;
+    border-radius: 1px;
+    opacity:.8;
+    float:right;
   }
 
   #column-a{
@@ -76,7 +78,11 @@
 
   }
 
-  #picture-of-me{
+  #contact-image{
+    max-width:100%;
+    border-radius: 1px;
+    opacity:.8;
+    float:right;
   }
 }
 
@@ -115,7 +121,7 @@
   }
 
   .contact-specific > a{
-    font-size:14pt;
+    font-size:14pt;t
   }
 
   #column-a{

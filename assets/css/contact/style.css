@@ -38,11 +38,12 @@ ul{
 }
 
 .contact-type{
-  font-size:11pt;
+  font-size:12pt;
 }
 
 .contact-specific{
   margin-top:5px;
+  font-size:13pt;
 }
 
 .contact-specific > a{
@@ -62,15 +63,15 @@ ul{
 }
 
 #column-a{
-  width:50%;
+  width:67%;
 }
 
 #column-b{
-  width:50%;
+  width:67%;
 }
 
 #contact-image{
-  max-width:67%;
+  max-width:50%;
   border-radius: 1px;
   opacity:.8;
   float:right;
@@ -78,7 +79,7 @@ ul{
 
 
 
-#menu > a:nth-child(3){
+#menu > a:nth-child(4){
   color:#009BA5;
 }
 
