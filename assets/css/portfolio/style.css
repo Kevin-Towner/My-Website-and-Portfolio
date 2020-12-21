@@ -1,0 +1,42 @@
+body{
+  margin:0 auto;
+  background:#f8f8f8;
+  z-index:0;
+  color:#3a3a3a;
+}
+
+h1{
+  font-size:28pt;
+  font-family: 'Open Sans', sans-serif;
+  text-align:left;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18pt;
+  margin-top:0;
+  text-align: left;
+
+}
+
+p{
+  font-size:12pt;
+  font-family:'PT Sans', sans-serif;
+  line-height:140%;
+}
+.main-content{
+  display:flex;
+  flex-direction:column;
+  padding-top:16vh;
+  margin:auto;
+  width:84%;
+  font-family: 'PT Sans', sans-serif;
+  text-align:center;
+  animation: fadeInAnimation ease .25s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.button-icons{
+  height:16px;
+  padding-right:8px;
+}
