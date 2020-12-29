@@ -33,6 +33,7 @@ p{
   animation: fadeInAnimation ease .25s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  padding-bottom:20vh;
 }
 
 .button-icons{
