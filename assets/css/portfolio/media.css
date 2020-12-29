@@ -109,6 +109,10 @@
     margin-top:2em;
     margin-left:0;
   }
+  .btn-list > li:nth-child(3){
+      margin-top:2em;
+      margin-left:0;
+    }
 
   button{
     width:84vw;
