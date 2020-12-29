@@ -77,11 +77,11 @@ p{
   padding-bottom:2em;
 }
 
-.pseudo-list-item{
-}
 
 .column-a{
-  width:67%
+  width:67%;
+  display:flex;
+  flex-direction: column;
 }
 
 .column-b{
