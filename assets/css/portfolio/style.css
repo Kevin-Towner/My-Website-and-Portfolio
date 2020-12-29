@@ -42,8 +42,8 @@ p{
 
 .btn-list{
   display:inline-flex;
-  margin:0 auto auto auto;
   list-style-type:none;
+  float:left;
 }
 
 .btn-list > li:nth-child(1){
@@ -68,31 +68,36 @@ p{
  color:#00C4D0;
 }
 
-#ctrt-row-2{
+.column-two-row-one{
   display:flex;
   flex-direction:row;
+  border-bottom:1px solid lightgrey;
+  margin-bottom:2em;
+  padding-bottom:2em;
 }
 
-#ctrt-2-column-a{
+.pseudo-list-item{
+}
+
+.column-a{
   width:67%
 }
 
-#ctrt-2-column-b{
+.column-b{
   width:33%;
 }
 
-#ctrt-2-column-a > p{
+.column-a > p{
   padding:0px 50px 0px 0px;
   text-align: left;
   margin-top:0;
 }
 
-#ctrt-2-column-b > img{
+.column-b > img{
   max-width:84%;
   border-radius: 1px;
   opacity:.8;
   float:right;
-  margin-top:-4em;
 }
 
 button{
