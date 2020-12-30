@@ -79,9 +79,9 @@ p{
 .column-two-row-one{
   display:flex;
   flex-direction:row;
-  border-bottom:1px solid lightgrey;
+  border-bottom:1px solid #3a3a3a;
   margin-bottom:2em;
-  padding-bottom:2em;
+  padding-bottom:4em;
 }
 
 
