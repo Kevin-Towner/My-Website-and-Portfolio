@@ -56,6 +56,12 @@ p{
   margin-left:33px;
 }
 
+.btn-list > li > a{
+  text-decoration:none;
+  color:#fff;
+  display:inline-flex;
+}
+
 .ctrt-content{
   border-radius:2px;
   border-bottom:1px black solid .7;
@@ -126,7 +132,4 @@ button:hover{
 }
 
 a{
-  text-decoration:none;
-  color:#fff;
-  display:inline-flex;
 }
