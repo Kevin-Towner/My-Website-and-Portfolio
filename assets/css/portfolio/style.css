@@ -70,6 +70,7 @@ p{
 
 .project-anchors{
   color:#009BA5;
+  text-decoration:none;;
 }
 .project-anchors:hover{
  color:#00C4D0;
