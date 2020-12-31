@@ -44,6 +44,7 @@ p{
 
 #column-two-row-one{
   margin-bottom:8em;
+  padding-top:2em;
   display:flex;
   flex-direction:row;
 }
