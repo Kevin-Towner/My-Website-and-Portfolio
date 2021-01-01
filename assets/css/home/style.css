@@ -15,7 +15,7 @@ h1{
 
 h2{
   font-family: 'Prata', serif;
-  font-size: 20pt;
+  font-size: 16pt;
   margin-top:0;
 }
 
@@ -27,14 +27,20 @@ h3{
 }
 
 p{
-  font-size:12pt;
+  font-size:14pt;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  line-height:160%;
+
+}
+#header-one{
+  font-size:40pt;
+  font-family: 'Prata', serif;
+  text-align:center;
+  margin:auto;
 }
 
 .main-content{
-  padding-top:28vh;
+  padding-top:32vh;
   margin:auto;
   width:84%;
   font-family: 'PT Sans', sans-serif;
