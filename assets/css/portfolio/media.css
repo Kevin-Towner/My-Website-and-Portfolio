@@ -158,18 +158,4 @@
   }
 }
 
-@media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
-
-}
-
-
-
-@media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  body{
-    height:none;
-  }
-
-  h1{
-    font-size:28pt;
-  }
 }
