@@ -2,7 +2,7 @@
 
 @media (min-width:1281px) {
   h1{
-    font-size:32pt !important;
+
   }
 }
 
@@ -23,7 +23,7 @@
   }
 
   h1{
-    font-size:28pt;
+
   }
 
   .btn-list{
@@ -85,6 +85,7 @@
   }
 
   h1{
+    font-size:28pt !important;
     width:100%;
     text-align:left;
   }

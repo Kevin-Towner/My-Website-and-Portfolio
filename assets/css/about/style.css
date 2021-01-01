@@ -52,7 +52,6 @@ p{
 
 #column-two-row-one{
   margin-bottom:8em;
-  padding-top:2em;
   display:flex;
   flex-direction:row;
 }
@@ -97,8 +96,8 @@ p{
 button{
   display:flex;
   align-items:center;
-  padding:10px 16px 10px 16px;
-  font-size:10px;
+  padding:8px 16px 8px 16px;
+  font-size:11px;
   text-transform:uppercase;
   letter-spacing:1px;
   border-radius:2px;
