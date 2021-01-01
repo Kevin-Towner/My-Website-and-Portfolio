@@ -7,6 +7,32 @@ body{
   color:#3a3a3a;
 }
 
+h1{
+  font-size:40pt;
+  font-family: 'Prata', serif;
+  text-align:center
+}
+
+h2{
+  font-family: 'Prata', serif;
+  font-size: 20pt;
+  margin-top:0;
+}
+
+h3{
+ font-family: 'Prata', serif;
+  font-size: 18pt;
+  margin-top:0;
+  text-align: left;
+}
+
+p{
+  font-size:12pt;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height:160%;
+}
+
 .main-content{
 
   padding-top:28vh;
@@ -19,21 +45,9 @@ body{
   animation-fill-mode: forwards;
 }
 
-h1{
-  font-size:28pt;
-  font-family: 'Open Sans', sans-serif;
-}
-
-p{
-  font-size:12pt;
-  font-family:'PT Sans', sans-serif;
-  margin-top:0px;
-  padding:0px;
-}
-
 .btn-list{
   display:inline-flex;
-  margin:2em auto auto auto;
+  margin: auto;
   list-style-type:none;
 }
 
@@ -53,14 +67,15 @@ button{
   padding:10px 16px 10px 16px;
   font-size:10px;
   text-transform:uppercase;
-  letter-spacing:1px;
+  letter-spacing:.7px;
   border-radius:2px;
   background: #009BA5;
-  font-weight:bold;
   transition: 0.5s;
   border:none;
   color:#fff;
   box-shadow: .25px .5px 2px #8F9094;
+  font-family: 'Lato', sans-serif;
+  font-weight:400;
 }
 
 button:hover{

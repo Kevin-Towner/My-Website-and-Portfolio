@@ -14,7 +14,6 @@
   }
 
   h1{
-    font-size:28pt !important;
     width:100%;
     text-align:center
   }
@@ -83,18 +82,18 @@
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   h1{
-    font-size:28pt;
+
   }
 }
 
 @media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */
   h1{
-    font-size:28pt;
+
   }
 }
 
 @media (min-width:1281px) {
   h1{
-    font-size:32pt !important;
+
   }
 }
