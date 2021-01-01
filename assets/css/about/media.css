@@ -93,7 +93,7 @@
   }
 
   p{
-    font-size:14pt;
+    font-size:16pt;
     text-align:center
   }
 
@@ -115,7 +115,7 @@
   button{
     width:84vw;
     height:4em;
-    font-size:12px;
+    font-size:14px;
     letter-spacing:1px;
     border-radius:1px;
   }

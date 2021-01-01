@@ -19,7 +19,7 @@
   }
 
   p{
-    font-size:16pt;
+    font-size:14pt;
     text-align:center
   }
 
@@ -45,7 +45,7 @@
     padding:0px;
     width:84vw;
     height:4em;
-    font-size:12px;
+    font-size:14px;
     letter-spacing:1px;
     border-radius:1px;
   }
@@ -75,7 +75,7 @@
     height:none;
   }
 
-  h1{
+  #header-one{
     font-size:28pt;
   }
 }
