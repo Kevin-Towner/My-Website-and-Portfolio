@@ -14,7 +14,7 @@ h1{
 
 h2{
   font-family: 'Raleway', sans-serif;
-  font-weight:400;
+  font-weight:500;
   margin-top:0;
   text-align: left;
 }
@@ -109,6 +109,7 @@ p{
   padding:0px 4em 0px 0px;
   text-align: left;
   margin-top:0;
+  text-align: justify;
 }
 
 .row-b-column-right{
@@ -161,7 +162,7 @@ button{
   color:#fff;
   box-shadow: .25px .5px 2px #8F9094;
   font-family: 'Roboto', sans-serif;
-  font-weight:400;
+  font-weight:500;
 }
 
 button:hover{
