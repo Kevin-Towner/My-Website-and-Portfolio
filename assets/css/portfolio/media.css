@@ -15,7 +15,7 @@
   }
 
   button{
-    height:4em;
+    padding:1.05em 0 1em 0;
     letter-spacing:1px;
     border-radius:1px;
   }
@@ -96,13 +96,12 @@
   .btn-list > li:nth-child(3){
       margin-top:2em;
       margin-left:0;
-    }
+  }
 
   button{
     width:84vw;
-    height:4em;
     font-size:14px;
-    letter-spacing:1px;
+    letter-spacing:.6px;
     border-radius:1px;
   }
 
@@ -119,17 +118,12 @@
   .project-section{
     display:flex;
     flex-direction:column;
-    border-bottom:1px solid #3a3a3a;
-    padding: 0 0 4em 0;
   }
 
   .row-a{
-    display: flex;
-    flex-direction:column;
   }
 
   .row-b{
-    display:flex;
     flex-direction:column;
   }
 
@@ -158,4 +152,18 @@
   }
 }
 
+@media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
+
+}
+
+
+
+@media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  body{
+    height:none;
+  }
+
+  h1{
+    font-size:28pt;
+  }
 }

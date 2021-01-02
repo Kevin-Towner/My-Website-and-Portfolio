@@ -42,10 +42,7 @@
     margin-top:2em;
   }
   button{
-    padding:0px;
-    width:84vw;
-    height:4em;
-    font-size:14px;
+    padding:1.05em auto 1em auto;
     letter-spacing:1px;
     border-radius:1px;
   }
@@ -61,7 +58,6 @@
     padding-top:24vh;
     margin:auto;
     width:84vw;
-    font-family: 'PT Sans', sans-serif;
     text-align:center;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
@@ -77,6 +73,12 @@
 
   #header-one{
     font-size:28pt;
+  }
+  button{
+    width:84vw;
+    padding:1.05em 0 1em 0;
+    letter-spacing:1px;
+    border-radius:1px;
   }
 }
 

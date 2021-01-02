@@ -3,32 +3,39 @@ body{
   background:#f8f8f8;
   z-index:0;
   color:#3a3a3a;
-  font-family: 'Lato', sans-serif;
 }
 
 h1{
   font-size:40pt;
-  font-family: 'Prata', serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
   text-align:left;
 }
-
 h2{
-  font-family: 'Prata', serif;
-  font-size: 20pt;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+  margin-top:0;
+  text-align: left;
+}
+
+h3{
+ font-family: 'Prata', serif;
+  font-size: 18pt;
+  margin-top:0;
   text-align: left;
 }
 
 p{
-  font-size:14pt;
-  font-family: 'Lato', sans-serif;
-  line-height:140%;
-  width:84%;
+  font-size:12pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height:160%;
 }
 
 .main-content{
   display:flex;
   flex-direction:column;
-  padding-top:16vh;
+  padding-top:10vh;
   margin:auto;
   width:84%;
   animation: fadeInAnimation ease 1s;
@@ -38,11 +45,15 @@ p{
 
 .contact-type{
   font-size:12pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .contact-specific{
   margin-top:5px;
-  font-size:13pt;
+  font-size:12pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .contact-specific > a{
