@@ -19,7 +19,7 @@
   }
 
   p{
-    font-size:14pt;
+    font-size:16pt;
     text-align:center
   }
 
@@ -42,9 +42,9 @@
     margin-top:2em;
   }
   button{
-    padding:1.05em auto 1em auto;
     letter-spacing:1px;
     border-radius:1px;
+    font-size:14px;
   }
   .btn-text{
     text-align: center;
