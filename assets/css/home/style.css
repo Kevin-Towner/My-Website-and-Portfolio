@@ -16,8 +16,8 @@ body{
 
 h2{
   font-family: 'Raleway', sans-serif;
-  font-size: 16pt;
-  font-weight:300;
+  font-size: 18pt;
+  font-weight:500;
 }
 
 h3{
@@ -34,7 +34,7 @@ p{
 
 }
 #header-one{
-  font-size:40pt;
+  font-size:38pt;
   font-family: 'Raleway', sans-serif;
   font-weight:400;
   text-align:center;
