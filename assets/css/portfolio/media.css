@@ -78,6 +78,10 @@
     text-align:center
   }
 
+  footer{
+   position:relative !important;
+  }
+
   .btn-list{
     flex-direction: column;
     float:none;
