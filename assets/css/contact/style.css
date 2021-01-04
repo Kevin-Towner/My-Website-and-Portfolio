@@ -41,6 +41,7 @@ p{
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  padding-bottom:20vh;
 }
 
 .contact-type{
