@@ -89,7 +89,7 @@ p{
 .project-section{
   display:flex;
   flex-direction:column;
-  border-bottom:1px solid #3a3a3a;
+  border-bottom:1px solid lightgrey;
   padding: 0 0 4em 0;
 }
 

@@ -34,7 +34,7 @@ p{
 }
 .main-content{
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   padding-top:10vh;
   margin:auto;
   width:84%;
@@ -66,10 +66,10 @@ p{
 }
 
 #column-a{
-  width:67%;
+  width:50%;
 }
 #column-b{
-  width:33%;
+  width:50%;
 }
 #column-a > p{
   padding:0px 50px 0px 0px;
