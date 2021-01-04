@@ -24,10 +24,6 @@
     width:33%;
   }
 
-  h1{
-    font-size:28pt;
-  }
-
   .btn-list{
     margin-left:0;
   }
@@ -42,9 +38,21 @@
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   h1{
-    font-size:28pt;
+    font-size:44pt;
   }
 
+  h2{
+    font-size:32;
+  }
+
+  h3{
+    font-size: 20pt;
+  }
+
+  p{
+    font-size:16pt;
+    text-align:center
+  }
   .btn-list{
     margin-left:0;
 
@@ -94,17 +102,20 @@
   }
 
   h1{
-    font-size:28pt !important;
-    width:100%;
-    text-align:left;
+    font-size:44pt;
+  }
+
+  h2{
+    font-size:32;
+  }
+
+  h3{
+    font-size: 20pt;
   }
 
   p{
-    font-size:14pt;
+    font-size:16pt;
     text-align:center
-  }
-
-  ul{
   }
 
   #column-two-row-one{

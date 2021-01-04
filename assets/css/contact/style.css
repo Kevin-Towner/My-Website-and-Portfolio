@@ -7,23 +7,27 @@ body{
 }
 
 h1{
-  font-size:40pt;
+  font-size:50pt;
   font-family: 'Raleway', sans-serif;
   font-weight:400;
   text-align:left;
+  opacity:.6;
 }
+
 h2{
+  font-size:38;
   font-family: 'Raleway', sans-serif;
-  font-weight:500;
+  font-weight:400;
   margin-top:0;
   text-align: left;
 }
 
 h3{
- font-family: 'Prata', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18pt;
-  margin-top:0;
+  font-weight:500;
   text-align: left;
+  margin-top:0;
 }
 
 p{
@@ -51,7 +55,7 @@ p{
 }
 
 .contact-specific{
-  margin-top:5px;
+  margin-top:0;
   font-size:12pt;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
