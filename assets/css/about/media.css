@@ -86,9 +86,15 @@
   }
 
   h1{
-    font-size:28pt !important;
-    width:100%;
-    text-align:left;
+    font-size:44pt;
+  }
+
+  h2{
+    font-size:32;
+  }
+
+  h3{
+    font-size: 20pt;
   }
 
   p{
@@ -163,9 +169,5 @@
 @media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   body{
     height:none;
-  }
-
-  h1{
-
   }
 }
