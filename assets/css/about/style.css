@@ -6,22 +6,25 @@ body{
 }
 
 h1{
-  font-size:40pt;
+  font-size:50pt;
   font-family: 'Raleway', sans-serif;
   font-weight:400;
   text-align:left;
+  opacity:.6;
 }
+
 h2{
-  font-size:28;
+  font-size:38;
   font-family: 'Raleway', sans-serif;
-  font-weight:600;
-  margin-top:20;
+  font-weight:400;
+  margin-top:0;
   text-align: left;
 }
 
 h3{
- font-family: 'Prata', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18pt;
+  font-weight:500;
   margin-top:0;
   text-align: left;
 }
@@ -29,10 +32,11 @@ h3{
 p{
   font-size:12pt;
   font-family: 'Roboto', sans-serif;
+  font-weight:300;
   font-weight: 300;
   line-height:160%;
-  margin-block-end:0;
 }
+
 .main-content{
   display:flex;
   flex-direction:row;
