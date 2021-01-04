@@ -150,8 +150,7 @@
   .row-b-image-ghost{
     visibility:visible;
     width:100%;
-    height:42vh;
-    margin-top:1em;
+    height:48vh;
     box-shadow:none;
   }
 }
