@@ -1,5 +1,6 @@
 body{
   margin:0 auto;
+  min-height:100%;
   background:#f8f8f8;
   z-index:0;
   color:#3a3a3a;
@@ -41,7 +42,6 @@ p{
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  padding-bottom:20vh;
 }
 
 .contact-type{
