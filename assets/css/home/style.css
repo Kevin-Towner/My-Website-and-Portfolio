@@ -16,7 +16,7 @@ body{
 
 h2{
   font-family: 'Raleway', sans-serif;
-  font-size: 28pt;
+  font-size: 18pt;
   font-weight:300;
   margin:0;
 }
@@ -43,8 +43,8 @@ p{
 }
 
 .main-content{
-  padding-top:36vh;
   margin:auto;
+  margin-top:16em;
   width:84%;
   text-align:center;
   animation: fadeInAnimation ease 1s;
