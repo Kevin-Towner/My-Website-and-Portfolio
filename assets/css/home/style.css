@@ -17,7 +17,7 @@ body{
 h2{
   font-family: 'Raleway', sans-serif;
   font-size: 18pt;
-  font-weight:200;
+  font-weight:300;
   opacity:.6;
 }
 
@@ -35,7 +35,7 @@ p{
 
 }
 #header-one{
-  font-size:38pt;
+  font-size:50pt;
   font-family: 'Raleway', sans-serif;
   font-weight:200;
   text-align:center;
@@ -43,7 +43,7 @@ p{
 }
 
 .main-content{
-  padding-top:32vh;
+  padding-top:16vh;
   margin:auto;
   width:84%;
   text-align:center;
