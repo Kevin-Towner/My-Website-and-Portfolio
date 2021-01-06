@@ -29,7 +29,7 @@ h2{
 
 h3{
   font-family: 'Raleway', sans-serif;
-  font-size: 18pt;
+  font-size: 20pt;
   font-weight:500;
   margin: 0 0 16px 0;
   text-align: left;
@@ -85,7 +85,7 @@ p{
   margin-bottom:10em;
 }
 
-.category-section{
+/* .category-section{
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -101,7 +101,7 @@ p{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
+} */
 .line{
   border-bottom:1px solid red;
   width:100%;
@@ -192,7 +192,7 @@ button{
   color:#fff;
   box-shadow: .25px .5px 2px #8F9094;
   font-family: 'Roboto', sans-serif;
-  font-weight:00;
+  font-weight:500;
 }
 
 button:hover{

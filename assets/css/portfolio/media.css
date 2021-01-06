@@ -82,15 +82,19 @@
 
   h1{
     font-size:44pt;
+    font-weight:500;
   }
 
   h2{
     font-size:32;
+    margin:0 0 36px 0;
+    font-weight:500;
   }
 
   h3{
-    font-size: 18pt;
+    font-size: 20pt;
     margin-bottom:24px;
+    font-weight:400;
   }
 
   p{
