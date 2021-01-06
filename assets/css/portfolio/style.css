@@ -38,7 +38,6 @@ h3{
 p{
   font-size:12pt;
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
   line-height:160%;
 }
 .main-content{
@@ -56,8 +55,10 @@ p{
 .project-section{
   display:flex;
   flex-direction:column;
-  border-bottom:1px solid lightgrey;
-  padding: 0 0 24px 0;
+  border:1px solid rgb(148,149,153,.5);
+  background-color:#fff;
+  padding:24px;
+  border-radius:2px;
 }
 
 .row-b{
@@ -72,12 +73,17 @@ p{
   width:67%;
 }
 
+.project-description-list{
+  margin: 0 0 16px 0;
+}
+
 .project-descriptor-bold{
   font-weight:400;
 }
 
 .row-b-column-left > p{
   padding:0px 4em 0px 0px;
+  margin:0 0 24px 0;
   text-align: left;
   margin-top:0;
   text-align: justify;
@@ -92,7 +98,6 @@ p{
   border-radius: 2px;
   opacity:.8;
   float:right;
-  box-shadow:0 4px 8px rgba(0,0,0,.2);
 }
 
 .row-b-image-ghost{
@@ -106,38 +111,6 @@ p{
   width:1px;
 }
 
-.button-icons{
-  height:16px;
-  padding-right:8px;
-}
-
-.btn-list{
-  display:inline-flex;
-  list-style-type:none;
-  float:left;
-}
-
-.btn-list > li:nth-child(1){
-  margin-right:33px;
-}
-
-
-.btn-list > li:nth-child(3){
-  margin-left:33px;
-}
-
-.btn-list > li > a{
-  text-decoration:none;
-  color:#fff;
-  display:inline-flex;
-}
-
-.ctrt-content{
-  border-radius:2px;
-  border-bottom:1px black solid .7;
-  margin-bottom:10em;
-}
-
 .project-anchors{
   color:#009BA5;
   text-decoration:none;;
@@ -147,19 +120,6 @@ p{
 }
 
 /*--buttons--*/
-
-.btn-list{
-  display:inline-flex;
-  list-style-type:none;
-  float:left;
-}
-
-.btn-list > li:nth-child(1){
-
-}
-
-.btn-list > li:nth-child(2){
-}
 
 button{
   display:flex;
@@ -190,12 +150,33 @@ a{
   display:inline-flex;
 }
 
+
+.btn-list{
+  display:inline-flex;
+  list-style-type:none;
+  float:left;
+  margin:0;
+}
+
+.btn-list > li:nth-child(1){
+  margin-right:33px;
+}
+
+
+.btn-list > li:nth-child(3){
+  margin-left:33px;
+}
+
+.btn-list > li > a{
+  text-decoration:none;
+  color:#fff;
+  display:inline-flex;
+}
+
 .button-icons{
   height:16px;
   padding-right:8px;
 }
-
-
 
 
 /*--Keyframes--*/
