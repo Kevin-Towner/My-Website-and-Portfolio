@@ -52,6 +52,11 @@ p{
   animation-fill-mode: forwards;
 }
 
+.header-row{
+  display:flex;
+  flex-direction: row;
+}
+
 .project-section{
   display:flex;
   flex-direction:column;
