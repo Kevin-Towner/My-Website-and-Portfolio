@@ -57,6 +57,8 @@ p{
   flex-direction: row;
 }
 
+/*-- Project Section --*/
+
 .project-section{
   display:flex;
   flex-direction:column;
@@ -64,6 +66,7 @@ p{
   background-color:#fff;
   padding:24px;
   border-radius:2px;
+  box-shadow: .75px .75px 3px #D2D7D8;
 }
 
 .row-b{
