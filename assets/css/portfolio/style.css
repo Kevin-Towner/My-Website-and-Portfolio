@@ -43,6 +43,7 @@ p{
   display:flex;
   flex-direction:column;
   padding-top:16vh;
+  padding-bottom:4em;
   margin:auto;
   width:84%;
   font-family: 'PT Sans', sans-serif;
