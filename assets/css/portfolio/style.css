@@ -52,11 +52,6 @@ p{
   animation-fill-mode: forwards;
 }
 
-.header-row{
-  display:flex;
-  flex-direction: row;
-}
-
 /*-- Project Section --*/
 
 .project-section{
@@ -140,7 +135,7 @@ button{
   transition: 0.5s;
   border:none;
   color:#fff;
-  box-shadow: 1px 1px 1px #8F9094;
+  box-shadow: 1.5px 1.5px 1px #8F9094;
   font-family: 'Roboto', sans-serif;
   font-weight:500;
   border:1px solid #51549B;
@@ -150,7 +145,7 @@ button:hover{
   background:#7579D1;
   color:#fff;
   cursor: pointer;
-  box-shadow: 4px 4px 8px #D2D2D6;
+  box-shadow: 4px 4px 8px #B7B7BE;
   border:1px solid #7579D1;
 }
 

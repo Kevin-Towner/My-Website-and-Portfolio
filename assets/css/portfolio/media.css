@@ -136,7 +136,7 @@
     margin-right:0px;
   }
   .btn-list > li:nth-child(2){
-    margin-top:2em;
+    margin-top:1em;
     margin-left:0;
   }
   .btn-list > li:nth-child(3){
@@ -163,7 +163,7 @@
   .project-section{
     display:flex;
     flex-direction:column;
-    margin:auto;
+    margin:0 auto 24 auto;
   }
 
   .row-a{
