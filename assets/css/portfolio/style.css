@@ -136,22 +136,22 @@ button{
   text-transform:uppercase;
   letter-spacing:1px;
   border-radius:2px;
-  background: #009BA5;
+  background: #666ACB;
   transition: 0.5s;
   border:none;
   color:#fff;
-  box-shadow: .25px .5px 2px #8F9094;
+  box-shadow: 1px 1px 1px #8F9094;
   font-family: 'Roboto', sans-serif;
   font-weight:500;
-  border:1px solid #00868E;
+  border:1px solid #51549B;
 }
 
 button:hover{
-  background:#00C4D0;
+  background:#7579D1;
   color:#fff;
   cursor: pointer;
-  box-shadow: 0px 1px 6px #8F9094;
-  border:1px solid #00C4D0;
+  box-shadow: 4px 4px 8px #D2D2D6;
+  border:1px solid #7579D1;
 }
 
 a{
