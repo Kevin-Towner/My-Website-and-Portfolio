@@ -45,7 +45,7 @@ p{
 
 .main-content{
   margin:auto;
-  padding-top:20%;
+  padding-top:40vh;
   width:84%;
   text-align:center;
   animation: fadeInAnimation ease 1s;
