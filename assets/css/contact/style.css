@@ -8,35 +8,34 @@ body{
 }
 
 h1{
-  font-size:50pt;
+  font-size:40pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:200;
+  font-weight:300;
   text-align:left;
-  opacity:.6;
   margin:0 0 36px 0;
+  z-index:1;
 }
 
 h2{
-  font-size:38;
+  font-size:28;
   font-family: 'Raleway', sans-serif;
   font-weight:300;
   text-align: left;
-  margin: 0 0 24px 0;
 }
 
 h3{
   font-family: 'Raleway', sans-serif;
   font-size: 16pt;
   font-weight:500;
-  margin: 0 0 24px 0;
+  margin: 0 0 16px 0;
   text-align: left;
 }
 
 p{
   font-size:12pt;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   line-height:160%;
+  font-weight:300;
 }
 
 .main-content{
@@ -52,26 +51,63 @@ p{
 
 .contact-section{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.row-a{
+  display:flex;
+  flex-direction:row;
+}
+
+.row-a-column-left{
+  width:33%;
+}
+
+.row-a-column-right{
+  padding:0 0 0 8em;
+}
+
+.row-a-column-right > b{
+  margin: 0 0 24px 0;
 }
 
 .contact-image{
   margin-top:24px;
-  max-width:84%;
+  width:240px;
+  height:240px;
   border-radius: 2px;
   opacity:.8;
+  border-radius:50%;
 }
 
-.contact-section-left{
-  width:33%;
+.contact-description-list{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 24px 0;
+  font-weight:300;
+  line-height:180%;
 }
 
-.contact-section-right{
-  width:67%;
-  padding-left: 4em;
+.contact-descriptor-bold{
+  font-weight:400;
 }
 
 /*--buttons--*/
+
+.btn-list{
+  display:inline-flex;
+  margin: auto;
+  list-style-type:none;
+}
+
+.btn-list > li:nth-child(1){
+  margin-right:33px;
+}
+
+
+.btn-list > li:nth-child(3){
+  margin-left:33px;
+}
+
 
 button{
   display:flex;
@@ -80,41 +116,28 @@ button{
   text-transform:uppercase;
   letter-spacing:1px;
   border-radius:2px;
-  background: #009BA5;
+  background: #666ACB;
   transition: 0.5s;
   border:none;
   color:#fff;
-  box-shadow: .25px .5px 2px #8F9094;
+  box-shadow: 1.5px 1.5px 2px #8F9094;
   font-family: 'Roboto', sans-serif;
-  font-weight:00;
+  font-weight:500;
+  border:1px solid #51549B;
 }
 
 button:hover{
-  background:#00C4D0;
+  background:#7579D1;
   color:#fff;
   cursor: pointer;
-  box-shadow: 0px 1px 6px #8F9094;
+  box-shadow: 4px 4px 8px #B7B7BE;
+  border:1px solid #7579D1;
 }
 
 a{
   text-decoration:none;
   color:#fff;
   display:inline-flex;
-}
-
-.btn-list{
-  display:inline-flex;
-  list-style-type:none;
-  width:100%;
-  padding-right:4em;
-}
-
-.btn-list > li:nth-child(1){
-
-}
-
-.btn-list > li:nth-child(2){
-
 }
 
 .button-icons{
