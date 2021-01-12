@@ -17,10 +17,22 @@
     width:100%;
     text-align:center;
   }
+  h1{
+    font-size:36pt;
+    font-weight:300;
+    margin-left:8%;
+  }
+
+  h2{
+    font-size:20pt;
+    margin:0 0 36px 0;
+    font-weight:300;
+    margin-left:0;
+  }
 
   p{
-    font-size:16pt;
-    text-align:center
+    font-size:14.5pt;
+    text-align:left;
   }
 
   ul{
