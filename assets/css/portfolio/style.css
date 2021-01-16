@@ -57,11 +57,10 @@ p{
 .project-section{
   display:flex;
   flex-direction:column;
-  border:1px solid rgb(148,149,153,.5);
+  border:1px solid rgb(148,149,153,.4);
   background-color:#fff;
   padding:24px;
   border-radius:2px;
-  box-shadow: .25px .25px .25px #D2D7D8;
 }
 
 .row-b{
