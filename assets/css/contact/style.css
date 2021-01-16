@@ -149,6 +149,15 @@ a{
   color:#009BA5;
 }
 
+
+
+/*--Importants--*/
+
+#menu > a:nth-child(3){
+  color:#666ACB;
+  opacity:1;
+}
+
 /*--Keyframes--*/
 @keyframes fadeInAnimation {
   0% {
