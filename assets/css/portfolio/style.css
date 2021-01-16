@@ -141,7 +141,7 @@ button{
 }
 
 button:hover{
-  background:#7579D1;
+  background:#777DFF;
   color:#fff;
   cursor: pointer;
   box-shadow: 4px 4px 8px #B7B7BE;
