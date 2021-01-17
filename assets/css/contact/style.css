@@ -93,6 +93,31 @@ p{
 
 /*--buttons--*/
 
+button{
+  display:flex;
+  padding:10px 16px 8px 16px;
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  border-radius:2px;
+  background: #666ACB;
+  transition: 0.5s;
+  border:none;
+  color:#fff;
+  box-shadow: 1px 1px 1.5px lightgrey;
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  border:1px solid #51549B;
+}
+
+button:hover{
+  background:#777DFF;
+  color:#fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px lightgrey;
+  border:1px solid #7579D1;
+}
+
 .btn-list{
   display:inline-flex;
   margin: auto;
@@ -106,32 +131,6 @@ p{
 
 .btn-list > li:nth-child(3){
   margin-left:33px;
-}
-
-
-button{
-  display:flex;
-  padding:10px 16px 8px 16px;
-  font-size:11px;
-  text-transform:uppercase;
-  letter-spacing:1px;
-  border-radius:2px;
-  background: #666ACB;
-  transition: 0.5s;
-  border:none;
-  color:#fff;
-  box-shadow: 1.5px 1.5px 2px #8F9094;
-  font-family: 'Roboto', sans-serif;
-  font-weight:500;
-  border:1px solid #51549B;
-}
-
-button:hover{
-  background:#777DFF;
-  color:#fff;
-  cursor: pointer;
-  box-shadow: 4px 4px 8px #B7B7BE;
-  border:1px solid #7579D1;
 }
 
 a{
