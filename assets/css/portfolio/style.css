@@ -1,6 +1,6 @@
 body{
   margin:0 auto;
-  background:#f8f8f8;
+  background:#fafafa;
   z-index:0;
   min-width: 100%;
   color:#3a3a3a;
@@ -29,7 +29,7 @@ h2{
 h3{
   font-family: 'Raleway', sans-serif;
   font-size: 16pt;
-  font-weight:500;
+  font-weight:400;
   margin: 0 0 16px 0;
   text-align: left;
 }
