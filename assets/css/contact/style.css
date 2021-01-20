@@ -67,7 +67,7 @@ p{
   padding:0 0 0 8em;
 }
 
-.row-a-column-right > b{
+.row-a-column-right > p{
   margin: 0 0 24px 0;
 }
 
@@ -82,7 +82,7 @@ p{
 
 .contact-description-list{
   font-family: 'Roboto', sans-serif;
-  margin: 0 0 24px 0;
+  margin: 0 0 16px 0;
   font-weight:300;
   line-height:180%;
 }
