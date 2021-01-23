@@ -160,6 +160,7 @@ a{
   list-style-type:none;
   float:left;
   margin:0;
+  padding-left:0;
 }
 
 .btn-list > li:nth-child(1){
