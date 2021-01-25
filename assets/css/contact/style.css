@@ -8,11 +8,11 @@ body{
 }
 
 h1{
-  font-size:40pt;
+  font-size:36pt;
   font-family: 'Raleway', sans-serif;
   font-weight:200;
   text-align:left;
-  margin:0 0 36px 0;
+  margin:0;
   z-index:1;
 }
 
@@ -40,6 +40,7 @@ p{
 
 ul{
   padding-left:0;
+  list-style-type:none;
 }
 
 .main-content{
@@ -157,7 +158,7 @@ a{
 /*--Importants--*/
 
 #menu > a:nth-child(3){
-  color:#666ACB;
+  color:#51549B;
   opacity:1;
 }
 

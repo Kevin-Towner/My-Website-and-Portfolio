@@ -12,15 +12,15 @@
 footer{
   width:100%;
   background:#fff;
-  text-align:center;
   bottom:0;
   border-top:1px solid rgb(148,149,153,.3);
   z-index:1;
+  padding: 10px 0;
+}
+
+.copyright{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color:#3a3a3a;
-  padding: 0;
-}
-ul{
-  list-style-type: none;
+  opacity:.7;
 }

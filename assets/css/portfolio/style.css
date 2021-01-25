@@ -2,16 +2,12 @@ body{
   margin:0 auto;
   background:#fafafa;
   z-index:0;
-  min-height:100vh;
   color:#3a3a3a;
 }
 
-footer{
- position:relative;
-}
 
 h1{
-  font-size:40pt;
+  font-size:36pt;
   font-family: 'Raleway', sans-serif;
   font-weight:200;
   text-align:left;
@@ -22,7 +18,7 @@ h1{
 h2{
   font-size:28;
   font-family: 'Raleway', sans-serif;
-  font-weight:400;
+  font-weight:300;
   text-align: left;
 }
 
@@ -36,6 +32,7 @@ h3{
 
 ul{
   padding-left:0;
+  list-style-type:none;
 }
 
 p{
@@ -191,7 +188,7 @@ a{
 /*--Importants--*/
 
 #menu > a:nth-child(2){
-  color:#666ACB;
+  color:#51549B;
   opacity:1;
 }
 
