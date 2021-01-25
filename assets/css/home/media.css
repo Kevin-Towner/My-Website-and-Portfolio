@@ -78,6 +78,9 @@
   .home-image{
     display:none;
   }
+  .row-a > div:nth-child(2){
+      padding:0 0 0 0;
+  }
 }
 
 @media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */
