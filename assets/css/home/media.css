@@ -3,7 +3,16 @@
 }
 
 @media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
+
+}
+
+@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   body{
+    margin:0 auto;
+    background:#fafafa;
+    z-index:0;
+    color:#3a3a3a;
+    min-height:100%;
   }
 
   h1{
@@ -26,60 +35,36 @@
 
   }
 
-  .main-content{
-  }
-
-  .home-section{
-  }
-
-  .row-a{
-    flex-direction:column-reverse;
-  }
-  .row-a > div:nth-child(2){
-
-  }
-  .row-a > div:nth-child(1){
-
-  }
-  .row-a > div > p{
-
-  }
-  .row-a > div > h3{
-
-  }
-
-}
-
-@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   footer{
    position:relative !important;
   }
+
   #image-home-about-ghost{
     display:inline-block;
     margin-top:24px;
     max-width:80%;
   }
+
+  .main-content{
+    width:90%;
+  }
+
   .home-image{
     display:none;
+  }
+
+  .home-section{
+    padding:16px;
+  }
+
+  .row-a > div:nth-child(2){
+      padding:0;
   }
 }
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   footer{
    position:relative !important;
-   margin-top:4em;
-  }
-
-  #image-home-about-ghost{
-    display:inline-block;
-    margin-top:24px;
-    max-width:80%;
-  }
-  .home-image{
-    display:none;
-  }
-  .row-a > div:nth-child(2){
-      padding:0 0 0 0;
   }
 }
 

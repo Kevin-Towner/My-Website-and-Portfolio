@@ -6,13 +6,12 @@ body{
   min-height:100%;
 }
 
-
 h1{
   font-size:36pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:200;
+  font-weight:300;
   text-align:left;
-  margin:0 0 0 0;
+  margin:0;
   z-index:1;
 }
 
@@ -32,15 +31,17 @@ h3{
 }
 
 ul{
-  padding-left:0;
   list-style-type:none;
+  padding:0;
 }
 
 p{
   font-size:12pt;
   font-family: 'Roboto', sans-serif;
   line-height:160%;
+  font-weight:300;
 }
+
 .main-content{
   display:flex;
   flex-direction:column;

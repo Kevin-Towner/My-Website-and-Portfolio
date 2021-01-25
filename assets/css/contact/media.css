@@ -22,21 +22,23 @@
   }
 
   h1{
-    font-size:32pt;
-    font-weight:300;
-    margin-left:8%;
+    font-size:24pt;
   }
 
   h2{
     font-size:20pt;
-    font-weight:300;
-    margin-left:0;
-    margin-left:8%;
+  }
+
+  h3{
+    font-size: 16pt;
   }
 
   p{
-    font-size:14.5pt;
-    text-align:left;
+    font-size:12pt;
+  }
+
+  ul{
+
   }
 
   footer{

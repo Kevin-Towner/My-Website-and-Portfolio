@@ -44,6 +44,7 @@ ul{
 .main-content{
   display:flex;
   flex-direction:column;
+  padding-bottom:4em;
   padding-top:16vh;
   margin:auto;
   width:84%;
