@@ -1,110 +1,77 @@
 @media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  body{
-    height:none;
-  }
 
-  #header-one{
-    font-size:28pt;
-  }
 }
 
 @media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
   body{
-    height:auto;
   }
 
-  #header-one{
-    width:100%;
-    text-align:center;
-    font-size:36pt;
-    font-weight:300;
+  h1{
+    font-size:24pt;
+  }
+
+  h2{
+    font-size:20pt;
+  }
+
+  h3{
+    font-size: 16pt;
   }
 
   p{
-    font-size:14.5pt;
-    text-align:left;
+    font-size:12pt;
   }
 
   ul{
-    display:flex;
-    flex-direction: column;
-    list-style-type:none;
+
   }
 
-.btn-list > li:nth-child(1){
-    margin-right:0px;
-  }
-
-.btn-list > li:nth-child(2){
-    margin-top:2em;
-  }
-
-.btn-list > li:nth-child(3){
-    margin-left:0px;
-    margin-top:2em;
-  }
-  button{
-    letter-spacing:1px;
-    border-radius:1px;
-    font-size:14px;
-    font-weight:500;
-  }
-  .btn-text{
-    text-align: center;
-  }
-  .button-icons{
-    height:20px;
-    margin-left:33%;
-    padding-right:16px;
-  }
   .main-content{
-    padding-top:36vh;
-    margin:auto;
-    width:84vw;
-    text-align:center;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  }
+
+  .home-section{
+  }
+
+  .row-a{
+    flex-direction:column-reverse;
+  }
+  .row-a > div:nth-child(2){
+
+  }
+  .row-a > div:nth-child(1){
+
+  }
+  .row-a > div > p{
+
+  }
+  .row-a > div > h3{
+
   }
 
 }
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-
-  body{
-    height:none;
+  footer{
+   position:relative !important;
   }
-
-  h2{
-  font-size:20;
-  text-align: center;
+  #image-home-about-ghost{
+    display:inline-block;
+    margin-top:24px;
+    max-width:80%;
   }
-
-  #header-one{
-    font-size:36pt;
-  }
-  button{
-    width:84vw;
-    padding:1.05em 0 1em 0;
-    letter-spacing:1px;
-    border-radius:1px;
+  .home-image{
+    display:none;
   }
 }
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-  h1{
 
-  }
 }
 
 @media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */
-  h1{
 
-  }
 }
 
 @media (min-width:1281px) {
-  h1{
 
-  }
 }

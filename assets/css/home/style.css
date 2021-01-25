@@ -4,13 +4,12 @@ body{
   background:#f8f8f8;
   z-index:0;
   color:#3a3a3a;
-  min-height:100vh;
 }
 
 h1{
   font-size:36pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:200;
+  font-weight:300;
   text-align:left;
   margin:0;
   z-index:1;
@@ -55,11 +54,33 @@ ul{
 
 .home-section{
   display:flex;
-  flex-direction: column;
+  flex-direction:column;
+  border:1px solid rgb(148,149,153,.4);
+  background-color:#fff;
+  padding:24px;
+  border-radius:2px;
 }
 
 .row-a{
-  displaty:
+  display:flex;
+  flex-direction:row;
+}
+.row-a > div:nth-child(2){
+    padding:0 0 0 0em;
+}
+.row-a > div:nth-child(1){
+
+}
+.row-a > div > p{
+  margin:0 0 24px 0;
+}
+.row-a > div > h3{
+  margin:0 0 16px 0;
+}
+.row-a > div > img{
+  max-width:80%;
+  opacity:.8;
+  border-radius:2px;
 }
 
 
@@ -116,6 +137,9 @@ a{
   padding-right:8px;
 }
 
+#image-home-about-ghost{
+  display:none;
+}
 
 /*--Importants--*/
 
