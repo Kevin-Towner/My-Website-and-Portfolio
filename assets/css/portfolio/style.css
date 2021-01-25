@@ -3,6 +3,7 @@ body{
   background:#fafafa;
   z-index:0;
   color:#3a3a3a;
+  min-height:100%;
 }
 
 
