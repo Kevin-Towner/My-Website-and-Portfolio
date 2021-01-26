@@ -11,6 +11,11 @@
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .contact-section{
+    padding:16px;
+    margin-bottom:2em;
+    width:96%;
+  }
 
 }
 
@@ -81,7 +86,7 @@
   /*-- Buttons --*/
 
     button{
-      width:84vw;
+      width:67vw;
       font-size:13px;
       letter-spacing:.6px;
       border-radius:1px;
@@ -110,7 +115,7 @@
     }
 
     .btn-text{
-      text-align: center;
+      text-align:center;
     }
 
     .button-icons{
