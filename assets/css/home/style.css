@@ -79,8 +79,7 @@ ul{
   margin:0 0 16px 0;
 }
 .row-a-column > img{
-  max-width:12em;
-  min-width:8em;
+  max-width:14em;
   opacity:.8;
   border-radius:2px;
   border:1px solid rgb(148,149,153,.8);
