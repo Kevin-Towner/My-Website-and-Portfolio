@@ -3,7 +3,7 @@ body{
   background:#fafafa;
   z-index:0;
   color:#3a3a3a;
-  max-height:100vh;
+  min-height:100vh;
 }
 
 h1{
@@ -46,6 +46,7 @@ p{
   display:flex;
   flex-direction:column;
   padding-top:16vh;
+  padding-bottom:4em;
   margin:auto;
   width:84%;
   font-family: 'PT Sans', sans-serif;
@@ -185,6 +186,10 @@ a{
 
 
 /*--Importants--*/
+
+footer{
+  position:relevant !important;
+}
 
 #menu > a{
   text-decoration:none !important;
