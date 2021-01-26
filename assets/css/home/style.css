@@ -1,6 +1,5 @@
 body{
   margin:0 auto;
-  min-height:100%;
   background:#f8f8f8;
   z-index:0;
   color:#3a3a3a;
@@ -45,7 +44,6 @@ ul{
 .main-content{
   display:flex;
   flex-direction:column;
-  padding-bottom:4em;
   padding-top:16vh;
   margin:auto;
   width:84%;
