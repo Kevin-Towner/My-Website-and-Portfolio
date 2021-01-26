@@ -63,23 +63,23 @@ ul{
   width:67%;
 }
 
-.row-a{
+.row-a-1{
   display:flex;
   flex-direction:row;
 }
-#row-a-column-1{
+#row-a-1-column-1{
 
 }
-#row-a-column-2{
+#row-a-1-column-2{
   padding:0 0 0 36px;
 }
-.row-a-column > p{
+.row-a-1-column > p{
   margin:0 0 24px 0;
 }
-.row-a-column > h3{
+.row-a-1-column > h3{
   margin:0 0 16px 0;
 }
-.row-a-column > img{
+.row-a-1-column > img{
   max-width:14em;
 
   opacity:.8;
