@@ -68,7 +68,7 @@ ul{
 }
 
 .row-a-column-left{
-  padding-right:4em;
+  padding-right:2em;
 }
 
 .row-a-column-right{
@@ -84,6 +84,7 @@ ul{
   width:84%;
   border-radius:2px;
   border:1px solid rgb(148,149,153,.8);
+  float:right;
 }
 
 .contact-description-list{
