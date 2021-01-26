@@ -43,6 +43,7 @@
     display:inline-block;
     margin-top:24px;
     max-width:80%;
+    border:1px solid rgb(148,149,153,.8);
   }
 
   .main-content{

@@ -83,7 +83,7 @@ ul{
   max-width:100%;
   opacity:.8;
   border-radius:2px;
-  border:1px solid #e3e3e3;
+  border:1px solid rgb(148,149,153,.8);
 }
 
 
@@ -96,18 +96,17 @@ button{
   text-transform:uppercase;
   letter-spacing:.6px;
   border-radius:2px;
-  background: #00C4D0;
-  border:1px solid #21A0A7;
+  background: #21A0A7;
+  border: 1px solid #21A0A7;
   transition: 0.3s;
   color:#efefef;
-  /* box-shadow: 1px 1px 4px rgb(148,149,153); */
   font-family: 'Roboto', sans-serif;
   font-weight:500;
 }
 
 button:hover{
-  background: #21A0A7;
-  border: 1px solid #21A0A7;
+  background: #00C4D0;
+  border:1px solid #21A0A7;
   cursor: pointer;
 }
 
