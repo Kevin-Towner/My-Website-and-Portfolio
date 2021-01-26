@@ -3,7 +3,7 @@ body{
   background:#fafafa;
   z-index:0;
   color:#3a3a3a;
-  min-height:100vh;
+  min-height:100%;
 }
 
 h1{
@@ -192,13 +192,13 @@ footer{
 }
 
 #menu > a{
-  text-decoration:none !important;
+
 }
 
 #anchor-portfolio{
   color:#3a3a3a;
   opacity:1 !important;
-  text-decoration: underline;
+  text-decoration:underline !important;
 }
 #anchor-index{
   text-decoration: none;
