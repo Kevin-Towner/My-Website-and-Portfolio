@@ -66,20 +66,21 @@ ul{
   display:flex;
   flex-direction:row;
 }
-.row-a > div:nth-child(2){
-    padding:0 0 0 2em;
-}
-.row-a > div:nth-child(1){
+#row-a-column-1{
 
 }
-.row-a > div > p{
+#row-a-column-2{
+  padding:0 0 0 36px;
+}
+.row-a-column > p{
   margin:0 0 24px 0;
 }
-.row-a > div > h3{
+.row-a-column > h3{
   margin:0 0 16px 0;
 }
-.row-a > div > img{
-  max-width:84%;
+.row-a-column > img{
+  max-width:12em;
+  min-width:8em;
   opacity:.8;
   border-radius:2px;
   border:1px solid rgb(148,149,153,.8);

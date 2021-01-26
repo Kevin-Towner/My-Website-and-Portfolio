@@ -29,6 +29,7 @@
 
   p{
     font-size:12pt;
+    text-align: justify;
   }
 
   ul{
@@ -41,7 +42,6 @@
 
   #image-home-about-ghost{
     display:inline-block;
-    margin-top:24px;
     max-width:80%;
     border:1px solid rgb(148,149,153,.8);
   }
@@ -59,8 +59,49 @@
     margin-bottom:2em;
   }
 
-  .row-a > div:nth-child(2){
-      padding:0;
+  #row-a-column-2{
+    padding:0;
+  }
+
+  /*-- Buttons --*/
+
+  button{
+    width:84vw;
+    font-size:13px;
+    letter-spacing:.6px;
+    border-radius:1px;
+    font-weight:500;
+  }
+
+  .btn-list > li:nth-child(1){
+    margin-right:0px;
+  }
+
+  .btn-list > li:nth-child(2){
+    margin-top:1em;
+    margin-left:0;
+  }
+
+  .btn-list > li:nth-child(3){
+    margin-top:1em;
+    margin-left:0;
+  }
+
+  .btn-list{
+    flex-direction: column;
+    float:none;
+    margin-bottom:24px;
+
+  }
+
+  .btn-text{
+    text-align: center;
+  }
+
+  .button-icons{
+    height:18px;
+    margin-left:30%;
+    padding-right:16px;
   }
 }
 
