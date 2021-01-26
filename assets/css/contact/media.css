@@ -70,6 +70,9 @@
   .row-a-column-left{
     width:100%;
   }
+  .row-a-column-left > p{
+    text-align:left;
+  }
   .row-a-column-right{
     padding-left:0em;
     text-align:left;

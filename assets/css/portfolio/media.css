@@ -51,6 +51,8 @@
 
   .main-content{
     width:90%;
+    margin-bottom:2em;
+
   }
 
   .project-description-list{
@@ -115,6 +117,7 @@
   .row-b-column-left > p{
     padding:0px 0px 0px 0px;
     margin-top:0;
+    text-align: left;
   }
 
   .row-b-column-right{

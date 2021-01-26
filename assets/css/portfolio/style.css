@@ -90,9 +90,8 @@ p{
 .row-b-column-left > p{
   padding:0px 2em 0px 0px;
   margin:0 0 24px 0;
-  text-align: left;
   margin-top:0;
-  text-align: left;
+  text-align: justify;
 }
 
 .row-b-column-right{

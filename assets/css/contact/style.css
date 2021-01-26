@@ -76,6 +76,7 @@ ul{
 
 .row-a-column-left > p{
   margin: 0 0 24px 0;
+  text-align:justify;
 }
 
 .contact-image{
