@@ -50,16 +50,16 @@
   }
 
   .main-content{
-    width:100%;
+    width:90%;
   }
   .contact-description-list{
-    font-size:14.5pt;
     line-height:160%;
   }
 
   .contact-section{
-    width:84%;
+    width:90%;
     margin:auto;
+    padding:16px;
   }
 
   .row-a{
@@ -102,7 +102,8 @@
     .btn-list{
       flex-direction: column;
       float:none;
-      margin-top:2em;
+      margin-bottom:24px;
+
     }
 
     .btn-text{
@@ -110,7 +111,7 @@
     }
 
     .button-icons{
-      height:20px;
+      height:18px;
       margin-left:30%;
       padding-right:16px;
     }
