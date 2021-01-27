@@ -125,15 +125,16 @@
   }
 
   .row-b-image{
-  }
-  .row-b-image-ghost{
     display:none;
+  }
+  .image-ghost{
     max-width:67%;
     box-shadow:none;
     border-radius: 2px;
     float:none;
     border:1px solid rgb(148,149,153,.8);
     margin-bottom:24px;
+    display:inline-block;
   }
 }
 
