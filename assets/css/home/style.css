@@ -129,12 +129,12 @@ button:hover{
 }
 
 .btn-list > li:nth-child(1){
-  margin-right:33px;
+  margin-right:24px;
 }
 
 
 .btn-list > li:nth-child(3){
-  margin-left:33px;
+  margin-left:24px;
 }
 
 a{

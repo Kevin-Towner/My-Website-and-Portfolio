@@ -57,6 +57,7 @@
     display:inline-block;
     max-width:67vw;
     border:1px solid rgb(148,149,153,.8);
+    margin-top:24px;
   }
 
   .main-content{
@@ -89,7 +90,7 @@
 
   /*-- Buttons --*/
 
-  button{
+  /* button{
     width:67vw;
     font-size:13px;
     letter-spacing:.6px;
@@ -126,7 +127,7 @@
     height:18px;
     margin-left:30%;
     padding-right:16px;
-  }
+  } */
 }
 
 @media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
