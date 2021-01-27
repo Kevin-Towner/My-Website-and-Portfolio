@@ -111,8 +111,6 @@ p{
   border-radius: 2px;
   opacity:.8;
   visibility:hidden;
-  height:0px;
-  width:0px;
 }
 
 .project-anchors{
@@ -161,12 +159,12 @@ a{
 }
 
 .btn-list > li:nth-child(1){
-  margin-right:33px;
+  margin-right:24px;
 }
 
 
 .btn-list > li:nth-child(3){
-  margin-left:33px;
+  margin-left:24px;
 }
 
 .btn-list > li > a{
@@ -178,9 +176,6 @@ a{
 .button-icons{
   height:16px;
   padding-right:8px;
-}
-/* footer{
-  position:absolute; */
 }
 
 

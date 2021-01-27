@@ -61,7 +61,7 @@
 
 /*-- Buttons --*/
 
-  button{
+  /* button{
     width:84vw;
     font-size:13px;
     letter-spacing:.6px;
@@ -95,7 +95,7 @@
     height:20px;
     margin-left:30%;
     padding-right:16px;
-  }
+  } */
 
   .project-section{
     display:flex;
@@ -129,11 +129,12 @@
   }
   .row-b-image-ghost{
     visibility:visible;
-    width:80%;
-    height:32vh;
+    max-width:67%;
     box-shadow:none;
+    border-radius: 2px;
     float:none;
     border:1px solid rgb(148,149,153,.8);
+    margin-bottom:24px;
   }
 }
 
