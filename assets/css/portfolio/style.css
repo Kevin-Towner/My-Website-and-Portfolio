@@ -154,7 +154,6 @@ a{
   display:inline-flex;
   list-style-type:none;
   float:right;
-  margin:0 0 24px 0;
 }
 
 .btn-list > li:nth-child(1){
@@ -189,7 +188,7 @@ footer{
 }
 
 #anchor-portfolio{
-  color:#3a3a3a;
+  color:#21A0A7 !important;
   opacity:1 !important;
   text-decoration:underline !important;
 }
