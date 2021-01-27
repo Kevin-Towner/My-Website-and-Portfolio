@@ -47,7 +47,7 @@ ul{
   flex-direction:column;
   padding-top:16vh;
   width:67%;
-  margin:0 auto 20vh auto;
+  margin:0 auto 33vh auto;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
