@@ -55,7 +55,7 @@
 
   #image-home-about-ghost{
     display:inline-block;
-    max-width:80%;
+    max-width:67vw;
     border:1px solid rgb(148,149,153,.8);
   }
 
@@ -85,7 +85,7 @@
   /*-- Buttons --*/
 
   button{
-    width:84vw;
+    width:67vw;
     font-size:13px;
     letter-spacing:.6px;
     border-radius:1px;
