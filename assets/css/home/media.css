@@ -2,8 +2,10 @@
 @media (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
 }
 
-@media (min-width:1025px) {
-
+@media (max-width:1025px) {
+  .main-content{
+    width:80%;
+  }
 }
 
 

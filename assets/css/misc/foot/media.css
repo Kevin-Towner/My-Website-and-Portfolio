@@ -1,9 +1,9 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1025px) {
   footer{
 
   }
 
   .copyright{
-    margin-left:5%;
+    margin-left:10%;
   }
 }
