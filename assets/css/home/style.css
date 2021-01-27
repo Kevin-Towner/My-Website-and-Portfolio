@@ -45,7 +45,7 @@ ul{
   display:flex;
   flex-direction:column;
   padding-top:16vh;
-  margin:auto;
+  margin:0 auto 2em auto;
   width:84%;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
@@ -74,12 +74,13 @@ ul{
 .row-a-1{
   display:flex;
   flex-direction:row;
+  display:grid;
+  grid-template-columns:3fr 7fr;
 }
 
 #section-who-am-i{
 
 }
-
 #row-a-1-column-1{
 
 }
