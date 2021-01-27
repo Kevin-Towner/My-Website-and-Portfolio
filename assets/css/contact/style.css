@@ -95,6 +95,9 @@ ul{
   font-weight:300;
   line-height:180%;
 }
+.contact-description-list > li > a{
+  color:#21A0A7;
+}
 
 .contact-descriptor-bold{
   font-weight:400;

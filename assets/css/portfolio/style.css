@@ -112,10 +112,13 @@ p{
 
 .project-anchors{
   color:#009BA5;
-
+  text-decoration:none;
+  font-weight:400;
 }
+
 .project-anchors:hover{
  color:#00C4D0;
+ text-decoration:underline;
 }
 
 /*--buttons--*/
