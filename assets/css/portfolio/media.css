@@ -125,10 +125,9 @@
   }
 
   .row-b-image{
-    display:none;
   }
   .row-b-image-ghost{
-    visibility:visible;
+    display:none;
     max-width:67%;
     box-shadow:none;
     border-radius: 2px;
