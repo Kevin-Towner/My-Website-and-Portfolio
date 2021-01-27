@@ -1,9 +1,8 @@
 
-@media (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+@media (min-width:1281px) { /* big landscape tablets, laptops, and desktops */
 }
 
-@media (min-width:1025px) {
-
+@media (max-width:1025px) {
 }
 
 
@@ -11,11 +10,28 @@
   footer{
    position:relative !important;
   }
-
+  .row-a-1{
+    display:flex;
+    flex-direction:column-reverse;
+  }
   .home-section-67{
     padding:16px;
     margin-bottom:2em;
     width:96%;
+  }
+  .home-section-100{
+    padding:16px;
+    margin-bottom:2em;
+    width:94%;
+  }
+  .home-image{
+    display:none;
+  }
+  #image-home-about-ghost{
+    display:inline-block;
+    max-width:67%;
+    border:1px solid rgb(148,149,153,.8);
+    margin-top:24px;
   }
 }
 
@@ -55,17 +71,13 @@
 
   #image-home-about-ghost{
     display:inline-block;
-    max-width:67vw;
+    max-width:67%;
     border:1px solid rgb(148,149,153,.8);
     margin-top:24px;
   }
 
   .main-content{
     width:90%;
-  }
-
-  .home-image{
-    display:none;
   }
 
   .home-section-67{
@@ -77,11 +89,6 @@
     padding:16px;
     margin-bottom:2em;
     width:94%;
-  }
-
-  .row-a-1{
-    display:flex;
-    flex-direction:row;
   }
 
   #row-a-1-column-2{
