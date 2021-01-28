@@ -59,6 +59,10 @@
 }
 
 @media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
+  .project-section{;
+    width:94%;
+    padding:16px;
+  }
   body{
 
   }
