@@ -46,7 +46,7 @@ p{
   display:flex;
   flex-direction:column;
   padding-top:16vh;
-  margin:0 auto 33em auto;
+  margin:0 auto 28em auto;
   width:67%;
   font-family: 'PT Sans', sans-serif;
   animation: fadeInAnimation ease 1s;
