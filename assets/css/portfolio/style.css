@@ -193,10 +193,10 @@ footer{
   text-decoration:underline !important;
 }
 #anchor-index{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 #anchor-contact{
-  text-decoration: none;
+  text-decoration: none !important; 
 }
 
 
