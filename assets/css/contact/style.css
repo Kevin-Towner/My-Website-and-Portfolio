@@ -93,8 +93,12 @@ ul{
   font-weight:300;
   line-height:180%;
 }
-.contact-description-list > li > a{
-  color:#21A0A7;
+.contact-anchors{
+  color:#644CC6;
+}
+.contact-anchors:hover{
+  color:#9E86FC;
+  text-decoration:underline;
 }
 
 .contact-descriptor-bold{
@@ -110,8 +114,8 @@ button{
   text-transform:uppercase;
   letter-spacing:.6px;
   border-radius:2px;
-  background: #21A0A7;
-  border: 1px solid #21A0A7;
+  background: #795BF0;
+  border: 1px solid #644CC6;
   transition: 0.3s;
   color:#efefef;
   font-family: 'Roboto', sans-serif;
@@ -119,8 +123,8 @@ button{
 }
 
 button:hover{
-  background: #00C4D0;
-  border:1px solid #21A0A7;
+  background: #9E86FC;
+  border:1px solid #795BF0;
   cursor: pointer;
 }
 
@@ -160,7 +164,7 @@ a{
 }
 
 #menu > a:nth-child(3){
-  color:#21A0A7;
+  color:#644CC6;
   opacity:1;
   text-decoration: underline;
 }

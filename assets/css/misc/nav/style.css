@@ -42,11 +42,10 @@ label{
 
 #menu > a{
   color:#3a3a3a;
-  opacity:.7;
 }
 
 #menu > a:hover{
-  opacity:1;
+  color:#644CC6;
 }
 
 

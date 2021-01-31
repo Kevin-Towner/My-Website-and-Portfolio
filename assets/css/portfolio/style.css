@@ -111,13 +111,13 @@ p{
 }
 
 .project-anchors{
-  color:#009BA5;
+  color:#644CC6;
   text-decoration:none;
   font-weight:300;
 }
 
 .project-anchors:hover{
- color:#00C4D0;
+ color:#9E86FC;
  text-decoration:underline;
 }
 
@@ -188,7 +188,7 @@ footer{
 }
 
 #anchor-portfolio{
-  color:#21A0A7 !important;
+  color:#644CC6 !important;
   opacity:1 !important;
   text-decoration:underline !important;
 }

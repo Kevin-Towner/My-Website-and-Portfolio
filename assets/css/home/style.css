@@ -107,8 +107,8 @@ button{
   text-transform:uppercase;
   letter-spacing:.6px;
   border-radius:2px;
-  background: #21A0A7;
-  border: 1px solid #21A0A7;
+  background: #795BF0;
+  border: 1px solid #644CC6;
   transition: 0.3s;
   color:#efefef;
   font-family: 'Roboto', sans-serif;
@@ -116,8 +116,8 @@ button{
 }
 
 button:hover{
-  background: #00C4D0;
-  border:1px solid #21A0A7;
+  background: #9E86FC;
+  border:1px solid #795BF0;
   cursor: pointer;
 }
 
@@ -158,7 +158,7 @@ a{
 }
 
 #menu > a:nth-child(1){
-  color:#21A0A7;
+  color:#644CC6;
   opacity:1;
   text-decoration: underline;
 }
