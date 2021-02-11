@@ -36,7 +36,7 @@ ul{
 }
 
 p{
-  font-size:12pt;
+  font-size:12.5pt;
   font-family: 'Roboto', sans-serif;
   line-height:180%;
   font-weight:300;
@@ -126,7 +126,7 @@ p{
 button{
   display:flex;
   padding:7px 13px 7px 13px;
-  font-size:10.5px;
+  font-size:12px;
   text-transform:uppercase;
   letter-spacing:.5px;
   border-radius:2px;
