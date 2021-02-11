@@ -16,7 +16,8 @@ footer{
   z-index:1;
   padding: 10px 0;
   text-align:left;
-  border-top:1px solid rgb(0,0,0,.1)
+  border-top:1px solid rgb(0,0,0,.1);
+  padding: 24px 0;
 }
 
 .copyright{
