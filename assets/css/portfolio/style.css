@@ -76,6 +76,7 @@ p{
 
 .row-b-column-left{
   width:67%;
+  padding:0 36px 0 0;
 }
 
 .row-b-column-right{
@@ -92,7 +93,7 @@ p{
 }
 
 .row-b-column-left > p{
-  padding:0px 48px 0px 0px;
+  padding:0px 0px 0px 0px;
   margin:0 0 16px 0;
   margin-top:0;
   text-align: justify;
