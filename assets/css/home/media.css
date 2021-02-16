@@ -10,6 +10,9 @@
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #row-a-1-column-2{
+    padding-left:0;
+  }
   footer{
    position:relative !important;
   }
@@ -48,19 +51,17 @@
   }
 
   h1{
-    font-size:24pt;
+
   }
 
   h2{
-    font-size:20pt;
   }
 
   h3{
-    font-size: 16pt;
+
   }
 
   p{
-    font-size:12pt;
     text-align: justify;
   }
 

@@ -86,6 +86,7 @@ p{
 .project-description-list{
   margin: 0 0 16px 0;
   font-size:14pt;
+  line-height:160%;
 }
 
 .project-descriptor-bold{
