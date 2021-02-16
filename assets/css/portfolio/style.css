@@ -24,7 +24,7 @@ h2{
 
 h3{
   font-family: 'Raleway', sans-serif;
-  font-size: 18pt;
+  font-size: 20pt;
   font-weight:400;
   margin: 0 0 16px 0;
   text-align: left;
@@ -36,7 +36,7 @@ ul{
 }
 
 p{
-  font-size:12.5pt;
+  font-size:14pt;
   font-family: 'Roboto', sans-serif;
   line-height:160%;
   font-weight:300;
@@ -85,7 +85,7 @@ p{
 
 .project-description-list{
   margin: 0 0 16px 0;
-
+  font-size:14pt;
 }
 
 .project-descriptor-bold{
@@ -122,59 +122,9 @@ p{
  text-decoration:underline;
 }
 
-/*--buttons--*/
-
-button{
-  display:flex;
-  padding:7px 13px 7px 13px;
-  font-size:12px;
-  text-transform:uppercase;
-  letter-spacing:.5px;
-  border-radius:2px;
-  background: #21A0A7;
-  border: 1px solid #21A0A7;
-  transition: 0.3s;
-  color:#efefef;
-  font-family: 'Roboto', sans-serif;
-  font-weight:500;
-}
-
-button:hover{
-  background: #00C4D0;
-  border:1px solid #21A0A7;
-  cursor: pointer;
-}
-
 a{
   color:#644CC6;
   display:inline-flex;
-}
-
-
-.btn-list{
-  display:inline-flex;
-  list-style-type:none;
-  float:right;
-}
-
-.btn-list > li:nth-child(1){
-  margin-right:24px;
-}
-
-
-.btn-list > li:nth-child(3){
-  margin-left:24px;
-}
-
-.btn-list > li > a{
-  text-decoration:none;
-  color:#fff;
-  display:inline-flex;
-}
-
-.button-icons{
-  height:16px;
-  padding-right:8px;
 }
 
 
