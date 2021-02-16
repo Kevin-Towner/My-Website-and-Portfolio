@@ -92,6 +92,10 @@ p{
   font-weight:400;
 }
 
+.project-link-list{
+  font-size:14pt;
+}
+
 .row-b-column-left > p{
   padding:0px 0px 0px 0px;
   margin:0 0 16px 0;
