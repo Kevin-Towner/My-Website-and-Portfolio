@@ -85,6 +85,11 @@ ul{
 #row-a-1-column-2{
   padding:0 0 0 36px;
 }
+
+.row-a-1-column{
+  flex:1;
+}
+
 .row-a-1-column > p{
   margin:0 0 24px 0;
 }
