@@ -113,62 +113,9 @@
     border:1px solid rgb(148,149,153,.8);
     margin:0 0 24px 0;
   }
-
-/*-- Buttons --*/
-
-button{
-  display:flex;
-  padding:7px 13px 7px 13px;
-  font-size:10.5px;
-  text-transform:uppercase;
-  letter-spacing:.5px;
-  border-radius:2px;
-  background: #21A0A7;
-  border: 1px solid #21A0A7;
-  transition: 0.3s;
-  color:#efefef;
-  font-family: 'Roboto', sans-serif;
-  font-weight:500;
-}
-
-button:hover{
-  background: #00C4D0;
-  border:1px solid #21A0A7;
-  cursor: pointer;
-}
-
-a{
-  color:#fff;
-  display:inline-flex;
-}
-
-
-.btn-list{
-  display:inline-flex;
-  list-style-type:none;
-  float:left;
-  margin:0 0 24px 0;
-}
-
-.btn-list > li:nth-child(1){
-  margin-right:24px;
-}
-
-
-.btn-list > li:nth-child(3){
-  margin-left:24px;
-}
-
-.btn-list > li > a{
-  text-decoration:none;
-  color:#fff;
-  display:inline-flex;
-}
-
-.button-icons{
-  height:16px;
-  padding-right:8px;
-}
+  .project-link-list{
+    margin:0, 0, 16px, 0;
+  }
 }
 
 

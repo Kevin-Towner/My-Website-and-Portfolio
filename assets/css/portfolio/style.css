@@ -16,7 +16,7 @@ body{
 h1{
   font-size:40pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:300;
+  font-weight:200;
   text-align:left;
   margin:0;
   z-index:1;
@@ -25,7 +25,7 @@ h1{
 h2{
   font-size:32;
   font-family: 'Raleway', sans-serif;
-  font-weight:300;
+  font-weight:200;
   text-align: left;
 }
 
@@ -91,7 +91,7 @@ p{
 }
 
 .project-description-list{
-  margin: 0 0 16px 0;
+  margin: 0 0 8px 0;
   font-size:12pt;
   line-height:160%;
 }
@@ -102,12 +102,12 @@ p{
 
 .project-link-list{
   font-size:12pt;
-  font-weight:400;
+  font-weight:300;
+  line-height:180%;
 }
 
 .row-b-column-left > p{
-  padding:0px 0px 0px 0px;
-  margin:0 0 16px 0;
+  margin:0 0 12px 0;
   margin-top:0;
   text-align: justify;
 }
@@ -127,7 +127,7 @@ p{
 .project-anchors{
   color:#644CC6;
   text-decoration:none;
-  font-weight:300;
+  font-weight:400;
 }
 
 .project-anchors:hover{
