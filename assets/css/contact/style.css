@@ -73,7 +73,7 @@ ul{
 }
 
 .row-a-column-left > p{
-  margin: 0 0 24px 0;
+  margin: 0 0 12px 0;
   text-align:left;
 }
 
@@ -89,9 +89,9 @@ ul{
 
 .contact-description-list{
   font-family: 'Roboto', sans-serif;
-  margin: 0 0 16px 0;
-  font-weight:300;
-  line-height:160%;
+  margin: 0 0 36px 0;
+  font-weight:400;
+  line-height:180%;
   font-size:12pt;
 }
 .contact-anchors{
@@ -103,7 +103,7 @@ ul{
 }
 
 .contact-descriptor-bold{
-  font-weight:400;
+  font-weight:300;
 }
 
 a{
