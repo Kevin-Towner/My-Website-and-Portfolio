@@ -45,6 +45,7 @@ label{
 
 #menu > a:hover{
   color:#644CC6;
+  text-decoration:underline;
 }
 
 
