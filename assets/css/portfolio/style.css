@@ -80,6 +80,11 @@ p{
   padding:0 36px 0 0;
 }
 
+
+.image-ghost--column-a{
+  display:none;
+}
+
 .paragraph--column-a{
   margin:0 0 12px 0;
 }
@@ -109,19 +114,14 @@ p{
 
 .project-link-list{
   font-size:12pt;
-  font-weight:300;
   line-height:160%;
   margin:0;
-}
-
-.image-ghost--column-a{
-  display:none;
+  font-weight:300;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-anchors{
   color:#644CC6;
-  text-decoration:none;
-  font-weight:400;
 }
 
 .project-anchors:hover{

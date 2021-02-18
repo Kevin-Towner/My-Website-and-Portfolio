@@ -90,9 +90,9 @@ ul{
 .contact-description-list{
   font-family: 'Roboto', sans-serif;
   margin: 0 0 36px 0;
-  font-weight:400;
-  line-height:180%;
+  line-height:160%;
   font-size:12pt;
+  font-weight:300;
 }
 .contact-anchors{
   color:#644CC6;
@@ -103,7 +103,6 @@ ul{
 }
 
 .contact-descriptor-bold{
-  font-weight:300;
 }
 
 a{

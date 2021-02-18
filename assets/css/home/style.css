@@ -99,13 +99,12 @@ ul{
   font-size:12pt;
   font-weight:300;
   font-family: 'Roboto', sans-serif;
-  line-height:180%;
+  line-height:160%;
   margin:0;
 }
 
 .home-anchors{
   color:#644CC6;
-  font-weight:400;
 }
 .home-anchors:hover{
  color:#9E86FC;
