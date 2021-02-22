@@ -4,7 +4,7 @@ a:-webkit-any-link {
 
 
 html{
-  background-color:#1C78E3;
+  background:#FAFBFE;
 }
 
 body{
@@ -105,7 +105,7 @@ p{
   border-radius: 2px;
   opacity:.8;
   float:right;
-  border:1px solid rgb(148,149,153,.8);
+  border:1px solid rgb(148,149,153);
 }
 
 .description-list{
