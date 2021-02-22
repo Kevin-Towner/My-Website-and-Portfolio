@@ -62,9 +62,19 @@ button{
   font-weight:500;
 }
 
+#btn-insta:hover{
+  background-image:none;
+  background-color:#0047FF;
+}
+
 #btn-linkedin{
   background-image: linear-gradient(to right, rgba(0,119,181,67%), rgba(0,119,181,1));
   font-weight:500;
+}
+
+#btn-linkedin:hover{
+  background-image:none;
+  background-color:#0047FF;
 }
 
 button:hover{

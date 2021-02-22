@@ -3,7 +3,9 @@ a:-webkit-any-link {
 }
 
 
-
+html{
+  background-color:#1C78E3;
+}
 
 body{
   margin:0 auto;
