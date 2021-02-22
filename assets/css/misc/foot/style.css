@@ -12,18 +12,18 @@
 footer{
   font-size:12pt;
   width:100%;
-  background:#fff;
+  background:#1C78E3;
   bottom:0;
   z-index:1;
   padding: 10px 0;
   text-align:left;
   border-top:1px solid rgb(0,0,0,.1);
-  padding: 24px 0;
+  padding: 12px 0;
 }
 
 .copyright{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color:#3a3a3a;
+  font-weight: 400;
+  color:#e3e3e3;
   margin-left:16.5%;
 }
