@@ -21,21 +21,28 @@ button{
 }
 
 #btn-insta:hover{
-  background-image:none;
-  background-color:#1C78E3;
+  /* background-image:none;
+  background-color:#1C78E3; */
 }
 
 #btn-linkedin{
   background-image: linear-gradient(to right, rgba(0,119,181,67%), rgba(0,119,181,1));
   font-weight:500;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 #btn-linkedin:hover{
-  background-image:none;
-  background-color:#1C78E3;
+  /* background-image:none;
+  background-color:#1C78E3; */
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 button:hover{
+  background-image: linear-gradient(to right, rgb(138, 73, 161), rgb(193, 85, 139), rgb(246, 186, 109));
   border-radius:20px;
   cursor: pointer;
 }
@@ -68,3 +75,9 @@ button:hover{
 .btn-text:hover{
   text-decoration: underline;
 }
+
+
+
+animation: fadeInAnimation ease 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
