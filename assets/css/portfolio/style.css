@@ -4,12 +4,12 @@ a:-webkit-any-link {
 
 
 html{
-  background:#FAFBFE;
+  background:#FBFCFF;
 }
 
 body{
   margin:0 auto;
-  background:#fafafa;
+  background:#fefefe;
   z-index:0;
   color:#3a3a3a;
   min-height:100vh;
