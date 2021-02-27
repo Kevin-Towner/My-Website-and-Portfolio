@@ -129,8 +129,8 @@ p{
 
 .image-container-16{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-gap:1em;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap:2em;
 }
 
 .image-of-3{
@@ -139,8 +139,9 @@ p{
   max-height:400px;
 }
 .image-of-16{
-  width:100%;
+  max-width:100%;
   border:1px solid rgb(148,149,153,.4);
+
 }
 
 
