@@ -123,13 +123,13 @@ p{
 .image-container-3{
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
-  grid-gap:1em;
+  grid-gap:2em;
 }
 
 .image-of-3{
   width:100%;
-  border:1px solid rgb(148,149,153,.7);
-  max-height:360px;
+  border:1px solid rgb(148,149,153,.4);
+  max-height:400px;
 }
 
 
