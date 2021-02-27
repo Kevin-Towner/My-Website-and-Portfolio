@@ -116,11 +116,11 @@ p{
 
 .description-list{
   margin: 0 0 8px 0;
-  font-size:12pt;
-
+  font-size:12.5pt;
 }
 
 .project-link-list{
+  font-weight:400;
 }
 
 .project-anchors{
