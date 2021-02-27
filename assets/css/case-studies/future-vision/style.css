@@ -141,6 +141,17 @@ p{
   width:100%;
 }
 
+.checkpoint{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.checkpoint > a{
+  margin-block-start:2em;
+  margin-block-end:2em;
+}
+
 
 /*--Importants--*/
 
