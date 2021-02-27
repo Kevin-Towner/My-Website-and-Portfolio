@@ -11,6 +11,7 @@
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
   .container{
     display:flex;
     flex-direction:column;
@@ -28,6 +29,23 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
+  .image-container-3{
+    grid-template-columns:1fr;
+  }
+
+  .image-of-3{
+    width:100%;
+    border:1px solid rgb(148,149,153,.7);
+    max-height:500px;
+  }
+
+  .image-large-container{
+    margin:0 0 32px 0;
+    text-align: left;
+    font-size:10pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+  }
 }
 
 @media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
