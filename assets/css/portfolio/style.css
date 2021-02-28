@@ -121,13 +121,12 @@ p{
   border:1px solid rgb(148,149,153);
 }
 
-.description-list{
-  margin: 0 0 8px 0;
-  font-size:12.5pt;
-}
-
 .project-link-list{
   font-weight:400;
+
+}
+.project-link-list > li:nth-child(2){
+
 }
 
 .project-anchors{
