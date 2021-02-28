@@ -17,7 +17,7 @@
   }
 
   .image--column-b{
-    width:90%;
+    width:100%;
     border-radius: 2px;
     opacity:.8;
     float:right;
@@ -28,7 +28,14 @@
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-
+  .project-section{
+    width:94%;
+    padding:16px;
+    flex-direction: column;
+  }
+  .project-link-list{
+    margin:0 0 16px 0;
+  }
 }
 
 
@@ -38,11 +45,6 @@
 }
 
 @media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
-  .project-section{
-    width:94%;
-    padding:16px;
-    flex-direction: column;
-  }
   body{
 
   }
@@ -85,7 +87,7 @@
 
   }
   .image--column-b{
-    width:67%;
+    width:100%;
     border-radius:2px;
     opacity:.8;
     float:left;
@@ -94,7 +96,6 @@
   }
   .project-link-list{
     margin:0 0 16px 0;
-    line-height: 180%;
   }
 }
 
