@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-  font-size:28;
+  font-size: 24pt;
   font-family: 'Raleway', sans-serif;
   font-weight:300;
   text-align: left;
@@ -28,9 +28,17 @@ h2{
 
 h3{
   font-family: 'Raleway', sans-serif;
-  font-size: 16pt;
+  font-size:18pt ;
   font-weight:400;
   margin: 0 0 16px 0;
+  text-align: left;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16.5pt;
+  font-weight:400;
+  margin: 0 0 8px 0;
   text-align: left;
 }
 
@@ -45,7 +53,7 @@ ul{
   list-style-type:none;
   font-family: 'Roboto', sans-serif;
   margin: 0 0 24px 0;
-  line-height:180%;
+  line-height:170%;
   font-size:12.5pt;
   font-weight:300;
   padding:0;
