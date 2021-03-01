@@ -31,7 +31,7 @@
     width:94%;
   }
   .home-image{
-
+    display:none;
   }
   #image-home-about-ghost{
     display:inline-block;
