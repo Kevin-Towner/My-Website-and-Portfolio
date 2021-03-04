@@ -74,7 +74,7 @@ ul{
   display:flex;
   /* box-shadow: rgb(0 0 0 / 33%) 0px 0.5px 2px; */
   background-color:#fff;
-  padding:16px;
+  padding:24px;
   border-radius:2px;
   border:1px solid rgb(148,149,153,.4);
 }
