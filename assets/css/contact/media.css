@@ -25,7 +25,7 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   body{
-    height:auto;
+    height:100%;
   }
 
   h1{
@@ -48,7 +48,6 @@
   }
 
   footer{
-   position:relative !important;
   }
 
   .contact-image{

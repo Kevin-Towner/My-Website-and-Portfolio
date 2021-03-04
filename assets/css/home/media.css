@@ -43,11 +43,10 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   body{
-    margin:0 auto;
     background:#fafafa;
     z-index:0;
     color:#3a3a3a;
-    min-height:100%;
+    height:auto;
   }
 
   h1{
@@ -71,7 +70,7 @@
   }
 
   footer{
-   position:relative !important;
+
   }
 
   #image-home-about-ghost{
