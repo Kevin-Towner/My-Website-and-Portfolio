@@ -12,7 +12,7 @@
 footer{
   font-size:12.5pt;
   width:100%;
-  background:#1C78E3;
+  background:#fff;
   bottom:0;
   z-index:1;
   padding: 10px 0;
@@ -25,6 +25,6 @@ footer{
 .copyright{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color:#e3e3e3;
+  color:#3a3a3a;
   margin-left:16.5%;
 }
