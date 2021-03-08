@@ -106,12 +106,14 @@ ul{
 }
 
 .contact-description-list{
-  font-weight:400;
 
 }
+
 .contact-anchors{
   color:#1C78E3;
+  font-weight:400;
 }
+
 .contact-anchors:hover{
   color:#0047FF;
   text-decoration:underline;

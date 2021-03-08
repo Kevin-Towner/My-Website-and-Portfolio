@@ -113,11 +113,12 @@ ul{
 }
 
 .home-link-list{
-  font-weight:400;
+
 }
 
 .home-anchors{
   color:#1C78E3;
+  font-weight:400;
 }
 .home-anchors:hover{
  color:#0047FF;
