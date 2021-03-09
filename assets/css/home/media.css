@@ -1,5 +1,9 @@
 
 @media (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+  .main-content{
+    width:50%;
+    margin-bottom:4em;
+  }
 
 }
 
