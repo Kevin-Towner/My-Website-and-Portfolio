@@ -9,7 +9,7 @@ html{
 
 body{
   margin:0;
-  background:#FAFBFF;
+  background:#Fafafa;
   z-index:0;
   color:#3a3a3a;
 }
@@ -88,7 +88,7 @@ p{
   display:flex;
   flex-direction:column;
   padding-top:16vh;
-  margin:0 auto 33vh auto;
+  margin:0 auto 33vh 16.5vw;
   max-width:50%;
   font-family: 'PT Sans', sans-serif;
   animation: fadeInAnimation ease 1s;
@@ -149,7 +149,7 @@ p{
 }
 
 .checkpoint > a{
-  margin-block-start:2em;
+  margin-block-start:3em;
   margin-block-end:2em;
   text-align:right;
 }

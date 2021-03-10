@@ -1,11 +1,17 @@
 
-@media only screen and (min-width:1281px) { /* big landscape tablets, laptops, and desktops */
+/* @media only screen  and (min-width : 1824px) {
   .main-content{
     width:50%;
   }
+} */
+
+@media only screen and (min-width:1281px) { /* big landscape tablets, laptops, and desktops */
+  .main-content{
+    width:67%;
+  }
 }
 
-@media (min-width:1025px) {
+@media (max-width:1025px) {
   body{
     background:#fafafa;
   }
