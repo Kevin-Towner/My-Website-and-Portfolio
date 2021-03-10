@@ -43,7 +43,7 @@ h3{
 h4{
   font-family: 'Raleway', sans-serif;
   font-size: 14pt;
-  font-weight:400;
+  font-weight:500;
   margin: 0 0 8px 0;
   text-align: left;
 }
@@ -67,7 +67,7 @@ p{
 }
 
 .bold-text{
-  font-weight:500;
+  font-weight:400;
 }
 
 .light-text{
