@@ -1,6 +1,7 @@
-
-
-@media (min-width:1281px) {
+@media only screen  and (min-width : 1824px) {
+  .main-content{
+    width:50%;
+  }
   h1{
     font-size:32pt;
   }
@@ -18,7 +19,13 @@
   }
 
   ul{
-    font-size:14pt;
+    font-size:13.5pt;
+  }
+}
+
+@media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+  .main-content{
+    width:67%;
   }
 }
 
