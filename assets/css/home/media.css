@@ -3,6 +3,21 @@
   .main-content{
     width:50%;
   }
+  h1{
+    font-size:32pt;
+  }
+
+  h2{
+    font-size:24pt;
+  }
+
+  h3{
+    font-size: 20pt;
+  }
+
+  p{
+    font-size:14pt;
+  }
 }
 
 @media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
