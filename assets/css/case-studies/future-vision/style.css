@@ -89,7 +89,7 @@ p{
 .container{
   display:grid;
   grid-template-columns:2fr 1fr;
-  grid-gap:2.5em;
+  grid-gap:1em;
   padding-top:16vh;
   margin:0 auto 33vh 16.5vw;
   max-width:67%;
@@ -120,7 +120,7 @@ p{
 
 #content-container-2{
   position:fixed;
-  width:21%;
+  width:27%;
   color:#7C7C7C;
   border:none;
   padding:0;
@@ -132,8 +132,8 @@ p{
 }
 
 #content-container-2 > img{
-  height:220px;
-  width:90%;
+  width:80%;
+  opacity:.5
 }
 
 .image-large-container{

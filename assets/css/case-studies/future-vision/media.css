@@ -23,6 +23,10 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
+  #container-column-2{
+    margin-top:4.4em;
+    display:none;
+  }
 }
 
 
@@ -30,7 +34,7 @@
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
   body{
-      
+
   }
 
   h1{
