@@ -88,8 +88,8 @@ p{
 
 .container{
   display:grid;
-  grid-template-columns:2fr 1fr;
-  grid-gap:1em;
+  grid-template-columns:2.3fr .7fr;
+  grid-gap:2em;
   padding-top:16vh;
   margin:0 auto 33vh 16.5vw;
   max-width:67%;
@@ -120,8 +120,8 @@ p{
 
 #content-container-2{
   position:fixed;
-  width:27%;
-  color:#7C7C7C;
+  width:19%;
+  color:#3a3a3a;
   border:none;
   padding:0;
 }
