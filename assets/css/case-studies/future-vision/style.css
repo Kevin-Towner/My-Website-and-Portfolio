@@ -127,12 +127,13 @@ p{
 }
 
 #content-container-2 > p{
-  margin-bottom:12px;
+  margin-bottom:8px;
 
 }
 
 #content-container-2 > img{
   width:100%;
+  border:1px solid rgb(148,149,153,.4);
 }
 
 .image-large-container{
