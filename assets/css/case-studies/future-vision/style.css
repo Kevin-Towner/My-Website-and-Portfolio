@@ -131,6 +131,11 @@ p{
   font-size:10pt;
 }
 
+#content-container-2 > img{
+  height:220px;
+  width:90%;
+}
+
 .image-large-container{
   margin:0 0 32px 0;
   text-align: left;
