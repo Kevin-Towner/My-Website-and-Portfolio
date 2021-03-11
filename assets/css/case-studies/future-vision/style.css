@@ -120,8 +120,8 @@ p{
 
 #content-container-2{
   position:fixed;
-  width:19%;
-  color:#3a3a3a;
+  width:16%;
+  color:#7C7C7C;
   border:none;
   padding:0;
 }
@@ -132,8 +132,8 @@ p{
 }
 
 #content-container-2 > img{
-  width:80%;
-  opacity:.5
+  width:100%;
+  opacity:.7;
 }
 
 .image-large-container{
