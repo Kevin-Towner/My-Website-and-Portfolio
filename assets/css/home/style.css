@@ -82,7 +82,7 @@ ul{
 
 .row-a-1{
   display:grid;
-  grid-template-columns:3fr 7fr;
+  grid-template-columns:1fr 2fr;
 }
 
 #section-who-am-i{
@@ -119,6 +119,7 @@ ul{
 .home-anchors{
   color:#1C78E3;
   font-weight:400;
+
 }
 .home-anchors:hover{
  color:#0047FF;
