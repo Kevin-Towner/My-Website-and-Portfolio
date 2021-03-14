@@ -205,17 +205,21 @@ footer{
   position:relative;
 }
 
-
-#anchor-portfolio{
-
-}
-#anchor-index{
-
-}
-#anchor-contact{
-
+.copyright{
+  margin-left:25vw;
 }
 
+.contact-icons{
+  margin-right:25vw
+}
+
+#logo{
+  margin-left:25vw;
+}
+
+#menu{
+  margin-right:25vw;
+}
 
 /*--Keyframes--*/
 @keyframes fadeInAnimation {

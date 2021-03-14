@@ -90,6 +90,10 @@
   p{
     text-align: justify;
   }
+  
+  ul{
+    margin-bottom:12px;
+  }
 
   #image-home-about-ghost{
     display:inline-block;

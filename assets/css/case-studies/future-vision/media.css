@@ -32,6 +32,7 @@
 
 @media (max-width:1025px){
 
+
 }
 
 
@@ -90,5 +91,23 @@
 
   .container{
     max-width:90%;
+  }
+
+
+
+  .copyright{
+    margin-left:5vw
+  }
+
+  .contact-icons{
+    margin-right:5vw;
+  }
+
+  #menu{
+    margin-right:5vw;
+  }
+
+  #logo{
+    margin-left:5vw;
   }
 }
