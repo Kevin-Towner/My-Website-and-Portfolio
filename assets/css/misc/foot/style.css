@@ -10,6 +10,9 @@
 } */
 
 footer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
   font-size:12pt;
   width:100%;
   background:#1C78E3;
@@ -26,5 +29,20 @@ footer{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color:#fefefe;
-  margin-left:16.5%;
+  margin-left:16.5vw;
+}
+.contact-icons{
+  margin-right:16.5vw;
+}
+
+.contact-icons > a:nth-child(1){
+  margin-right:12px;
+}
+
+.contact-icons > a:nth-child(2){
+  margin-right:12px;
+}
+
+.footer-icon{
+  height:24px;
 }
