@@ -1,9 +1,36 @@
-@media only screen and (max-width: 1025px) {
-  footer{
 
-  }
-
+@media only screen  and (min-width : 1824px) {
   .copyright{
-    margin-left:10%;
+    margin-left:25%;
   }
+  .contact-icons{
+    margin-right:25%;
+  }
+}
+
+@media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+
+}
+
+@media (max-width:1025px) {
+
+}
+
+
+@media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+
+@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .copyright{
+    margin-left:5%;
+  }
+  .contact-icons{
+    margin-right:5%;
+  }
+}
+
+
+@media (max-width:320px)  { /* smartphones, Android phones, landscape iPhone */
+
 }
