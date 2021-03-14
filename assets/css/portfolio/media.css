@@ -37,10 +37,6 @@
     position:relative;
   }
 
-  .main-content{
-
-  }
-
   .column-b{
     width:100%;
     flex-direction:column-reverse;
@@ -53,13 +49,18 @@
     border:1px solid rgb(148,149,153,.8);
     margin:0 0 24px 0;
   }
+
+  .project-section{
+    flex-direction: column;
+  }
+
+  .project-link-list{
+    margin-bottom: 12px;
+  }
 }
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .project-section{
-    flex-direction: column;
-  }
   .project-link-list{
     margin:0 0 16px 0;
   }
