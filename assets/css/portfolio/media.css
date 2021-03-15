@@ -81,17 +81,18 @@
   }
 }
 
-@media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
+@media (max-width:600px)  { /* smartphones, Android phones, landscape iPhone */
   body{
 
   }
 
   h1{
-    font-size:24pt;
+    font-size:28pt;
   }
 
   h2{
     font-size:20pt;
+    margin-bottom:1em;
   }
 
   h3{

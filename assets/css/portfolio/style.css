@@ -16,24 +16,32 @@ body{
 }
 
 h1{
-  font-size:28pt;
+  font-size:36pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:300;
+  font-weight:200;
   text-align:left;
-  margin:0;
   z-index:1;
+  margin:0 0 1em 0;
 }
 
 h2{
-  font-size: 20pt;
+  font-size: 26pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:300;
+  font-weight:200;
   text-align: left;
+  border-bottom:1px solid rgb(148,149,153,.4);
+  line-height: 0.1em;
+  margin:0 0 1.4em 0;
+}
+.h2-text{
+  background:#F9F9F9;
+  padding:0 16px 0 0;
+  margin-bottom:24px;
 }
 
 h3{
   font-family: 'Raleway', sans-serif;
-  font-size:16pt ;
+  font-size:20pt ;
   font-weight:400;
   margin: 0 0 16px 0;
   text-align: left;
@@ -50,7 +58,7 @@ h4{
 ul{
   list-style-type:none;
   padding:0;
-  font-size:12pt;
+  font-size:13.5pt;
   line-height:170%;
   margin:0;
   font-weight:300;
@@ -58,7 +66,7 @@ ul{
 }
 
 p{
-  font-size:12.5pt;
+  font-size:14pt;
   font-family: 'Roboto', sans-serif;
   line-height:160%;
   font-weight:300;

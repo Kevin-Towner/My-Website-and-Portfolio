@@ -4,15 +4,15 @@
     width:50%;
   }
   h1{
-    font-size:32pt;
+
   }
 
   h2{
-    font-size:24pt;
+
   }
 
   h3{
-    font-size: 20pt;
+
   }
 
   p{
@@ -76,11 +76,12 @@
   }
 
   h1{
-    font-size:24pt;
+    font-size:28pt;
   }
 
   h2{
     font-size:20pt;
+    margin-bottom:1em;
   }
 
   h3{
@@ -90,7 +91,7 @@
   p{
     text-align: justify;
   }
-  
+
   ul{
     margin-bottom:12px;
   }
@@ -108,7 +109,6 @@
 
   .home-section{
     margin-bottom:2em;
-    padding:16px;
   }
 
   .home-link-list{
