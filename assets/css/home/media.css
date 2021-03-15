@@ -67,7 +67,6 @@
   #image-home-about-ghost{
     display:inline-block;
     max-width:100%;
-    border:1px solid rgb(148,149,153,.8);
   }
 }
 
@@ -103,7 +102,6 @@
   #image-home-about-ghost{
     display:inline-block;
     max-width:100%;
-    border:1px solid rgb(148,149,153,.8);
   }
 
   .main-content{
