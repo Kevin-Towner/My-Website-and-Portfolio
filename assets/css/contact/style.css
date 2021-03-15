@@ -87,29 +87,25 @@ ul{
   border:1px solid rgb(148,149,153,.4); */
 }
 
-.row-a{
-  display:flex;
-  flex-direction:row;
-}
-
 .row-a-column-left{
+  width:67%;
 }
 
 .row-a-column-right{
+  width:33%;
 }
 
 .row-a-column-left > p{
   margin: 0 0 12px 0;
-  text-align:left;
+  text-align: justify;
 }
 
 .contact-image{
-  margin-top:24px;
-  opacity:.8;
   max-width:14em;
   border-radius:2px;
-  border:1px solid rgb(148,149,153,.8);
+  /* border:1px solid rgb(148,149,153,.8); */
   float:right;
+  max-width:82%;
 }
 
 .contact-description-list{

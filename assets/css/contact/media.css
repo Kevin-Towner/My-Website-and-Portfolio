@@ -33,9 +33,33 @@
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  body{
+    height:auto;
+  }
+
   .contact-section{
     margin-bottom:2em;
     width:96%;
+    flex-direction: column;
+  }
+
+  .row-a-column-left{
+    width:100%;
+  }
+
+  .row-a-column-right{
+    width:100%;
+  }
+
+  .contact-image{
+    float:left;
+    margin-top:2em;
+    max-width:100%;
+  }
+
+  footer{
+    position:relative;
   }
 
 }
@@ -44,7 +68,7 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   body{
-    height:100%;
+    height:auto;
   }
 
   h1{
@@ -69,9 +93,6 @@
   footer{
   }
 
-  .contact-image{
-    margin:0;
-  }
 
   .main-content{
     width:90%;
