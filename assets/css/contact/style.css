@@ -108,7 +108,25 @@ ul{
   /* border:1px solid rgb(148,149,153,.8); */
   float:right;
   max-width:88%;
-  opacity:.7;
+  border:4px solid #fff;
+  box-shadow: 0px 6px 16px 0 rgba(0, 0, 0, 0.1), 0 4px 20px 0 rgba(0, 0, 0, 0.06);
+}
+
+.image-subtext{
+  font-size:8pt;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
+  display:inline-block;
+  float:right;
+}
+
+.image-subtext-anchors{
+  color:#1C78E3;
+}
+
+.image-subtext-anchors:hover{
+  color:#0047FF;
+  text-decoration:underline;
 }
 
 .contact-description-list{
@@ -130,7 +148,6 @@ ul{
 
 a{
   text-decoration:none;
-  color:#fff;
   display:inline-flex;
 }
 
