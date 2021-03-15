@@ -53,6 +53,10 @@
    position:relative !important;
    margin-top:4em;
   }
+
+  #row-a-1-column-1 > ul{
+    border-bottom:none !important;
+  }
   .row-a-1{
     display:flex;
     flex-direction:column-reverse;

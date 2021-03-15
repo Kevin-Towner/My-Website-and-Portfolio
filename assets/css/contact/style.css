@@ -108,6 +108,7 @@ ul{
   /* border:1px solid rgb(148,149,153,.8); */
   float:right;
   max-width:82%;
+  opacity:.7;
 }
 
 .contact-description-list{
