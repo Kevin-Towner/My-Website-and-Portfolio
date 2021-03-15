@@ -85,7 +85,7 @@ ul{
   /* border-radius:2px; */
   /* background-color:#fff;
   border:1px solid rgb(148,149,153,.4); */
-  /* border-bottom:1px solid rgb(148,149,153,.4); */
+  border-bottom:1px solid rgb(148,149,153,.4);
   padding-bottom:2em;
 }
 
@@ -117,6 +117,7 @@ ul{
 .row-a-1-column > h3{
   margin:0 0 16px 0;
 }
+
 .row-a-1-column > img{
   max-width:88%;
   border-radius:2px;
