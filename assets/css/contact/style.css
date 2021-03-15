@@ -70,7 +70,7 @@ ul{
 .main-content{
   display:flex;
   flex-direction:column;
-  padding-top:20vh;
+  padding-top:18vh;
   width:67%;
   margin:auto;
   animation: fadeInAnimation ease 1s;
