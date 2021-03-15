@@ -121,9 +121,9 @@ ul{
 .row-a-1-column > img{
   max-width:88%;
   border-radius:2px;
-  border:1px solid rgb(148,149,153,);
   opacity:.9;
   float:right;
+  box-shadow: 0px 4px 14px 0 rgba(0, 0, 0, 0.3), 0 6px 18px 0 rgba(0, 0, 0, 0.15);
 }
 
 .home-link-list{
