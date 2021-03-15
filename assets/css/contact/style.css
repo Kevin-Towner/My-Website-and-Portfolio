@@ -55,6 +55,7 @@ p{
   font-family: 'Roboto', sans-serif;
   line-height:160%;
   font-weight:300;
+  color:#575757;
 }
 
 ul{
@@ -85,7 +86,7 @@ ul{
   /* border-radius:2px; */
   /* background-color:#fff;
   border:1px solid rgb(148,149,153,.4); */
-  border-bottom:1px solid rgb(148,149,153,.4);
+  /* border-bottom:1px solid rgb(148,149,153,.4); */
   padding-bottom:2em;
 }
 

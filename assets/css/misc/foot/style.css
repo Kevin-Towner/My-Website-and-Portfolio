@@ -13,22 +13,22 @@ footer{
   display:flex;
   flex-direction:row;
   justify-content: space-between;
-  font-size:12pt;
+  font-size:13.5pt;
   width:100%;
-  background:#1C78E3;
+  /* background:#1C78E3; */
+  background:#fff;
   bottom:0;
   z-index:1;
-  padding: 10px 0;
   text-align:left;
-  border-top:1px solid rgb(0,0,0,.1);
-  padding: 12px 0;
+  border-top:1px solid rgb(148,149,153,.4);
+  padding: 15px 0 10px 0;
   position:absolute;
 }
 
 .copyright{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color:#fefefe;
+  color:#575757;
   margin-left:16.5vw;
 }
 .contact-icons{

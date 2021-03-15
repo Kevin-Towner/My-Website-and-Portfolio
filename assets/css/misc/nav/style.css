@@ -2,7 +2,7 @@ nav{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  padding:12px 0 12px 0;
+  padding:10px 0 15px 0;
   background-color:#fff;
   width:100%;
   box-shadow: rgba(0, 0, 0, .33) 0px .5px 2px;
@@ -12,7 +12,7 @@ nav{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   align-items:center;
-  font-size: 12pt;
+  font-size: 13.5pt;
 }
 
 nav > a{
@@ -40,7 +40,7 @@ label{
 }
 
 #menu > a{
-  color:#3a3a3a;
+  color:#575757;
 }
 
 #menu > a:hover{
