@@ -101,6 +101,7 @@ ul{
 .row-a-column-left > p{
   margin: 0 0 12px 0;
   text-align: justify;
+  padding-right:36px;
 }
 
 .contact-image{
@@ -116,9 +117,10 @@ ul{
 .image-subtext{
   font-size:8pt;
   font-family:'Roboto', sans-serif;
-  font-weight:400;
+  font-weight:300;
   display:inline-block;
   float:right;
+  color:#575757;
 }
 
 .image-subtext-anchors{

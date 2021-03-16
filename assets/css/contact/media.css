@@ -116,53 +116,16 @@
   }
   .row-a-column-left > p{
     text-align:left;
+    padding-right:0;
+    text-align:left;
   }
   .row-a-column-right{
     padding-left:0em;
     text-align:left;
   }
-
-  /*-- Buttons --*/
-
-    /* button{
-      width:67vw;
-      font-size:13px;
-      letter-spacing:.6px;
-      border-radius:1px;
-      font-weight:500;
-    }
-
-    .btn-list > li:nth-child(1){
-      margin-right:0px;
-    }
-
-    .btn-list > li:nth-child(2){
-      margin-top:1em;
-      margin-left:0;
-    }
-
-    .btn-list > li:nth-child(3){
-      margin-top:1em;
-      margin-left:0;
-    }
-
-    .btn-list{
-      flex-direction: column;
-      float:none;
-      margin-bottom:24px;
-
-    }
-
-    .btn-text{
-      text-align:center;
-    }
-
-    .button-icons{
-      height:18px;
-      margin-left:30%;
-      padding-right:16px;
-    } */
-
+  .contact-image{
+    max-width:100%;
+  }
 }
 
 @media (max-width:520px)  { /* smartphones, Android phones, landscape iPhone */
