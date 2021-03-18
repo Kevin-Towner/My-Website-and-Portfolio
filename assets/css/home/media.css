@@ -64,6 +64,15 @@
   .home-image{
     display:none;
   }
+
+  .row-a-1-column > p{
+    padding-right:0;
+  }
+
+  .row-a-1-column > ul{
+    padding-right:0;
+  }
+
   #image-home-about-ghost{
     display:inline-block;
     max-width:100%;
@@ -125,7 +134,6 @@
   }
 
   .row-a-1-column > p{
-    text-align: left;
     padding-left:0;
   }
 
