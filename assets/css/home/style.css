@@ -14,7 +14,7 @@ h1{
   font-size:36pt;
   font-family: 'Raleway', sans-serif;
   font-weight:200;
-  text-align:left;
+  text-align:center;
   z-index:1;
   margin:0 0 1em 0;
 }
@@ -23,14 +23,14 @@ h2{
   font-size: 26pt;
   font-family: 'Raleway', sans-serif;
   font-weight:200;
-  text-align: left;
+  text-align: center;
   border-bottom:1px solid rgb(148,149,153,.4);
   line-height: 0.1em;
   margin:0 0 1.4em 0;
 }
 .h2-text{
   background:#F9F9F9;
-  padding:0 16px 0 0;
+  padding:0 16px 0 16px;
   margin-bottom:24px;
 }
 
@@ -51,6 +51,7 @@ h4{
 }
 
 p{
+  margin:0;
   font-size:14pt;
   font-family: 'Roboto', sans-serif;
   line-height:160%;
@@ -59,7 +60,7 @@ p{
 }
 
 ul{
-  padding-left:0;
+  padding-left:36px;
   list-style-type:none;
   font-family: 'Roboto', sans-serif;
   font-size:14pt;
@@ -93,7 +94,7 @@ ul{
 
 .row-a-1{
   display:grid;
-  grid-template-columns:2fr 1fr;
+  grid-template-columns:1fr 2fr;
   grid-gap:1em;
 }
 
@@ -112,7 +113,7 @@ ul{
 }
 
 .row-a-1-column > p{
-  margin:0 0 0 0;
+  padding:0 0 0 36px;
   text-align: justify;
 }
 

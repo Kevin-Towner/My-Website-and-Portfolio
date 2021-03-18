@@ -103,7 +103,7 @@
 
   .contact-section{
     margin-bottom:2em;
-    width:94%;
+    width:100%;
   }
 
   .row-a{
@@ -115,9 +115,8 @@
     width:100%;
   }
   .row-a-column-left > p{
-    text-align:left;
+    text-align:justify;
     padding-right:0;
-    text-align:left;
   }
   .row-a-column-right{
     padding-left:0em;

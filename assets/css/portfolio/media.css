@@ -130,6 +130,9 @@
   .project-link-list{
     margin:0 0 16px 0;
   }
+  .paragraph--column-a{
+    text-align: justify;
+  }
 }
 
 
