@@ -2,6 +2,7 @@
 @media only screen  and (min-width : 1824px) {
   .main-content{
     width:50%;
+    padding-top:24vh;
   }
   h1{
     font-size:32pt;

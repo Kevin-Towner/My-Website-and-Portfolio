@@ -2,6 +2,7 @@
   .container{
     width:50%;
     margin:auto;
+    padding-top:24vh;
   }
   h1{
     font-size:32pt;
@@ -69,7 +70,7 @@
   h3{
     font-size: 16pt;
   }
-  
+
   .image-container-3{
     grid-template-columns:1fr;
   }
