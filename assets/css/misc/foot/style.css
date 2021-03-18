@@ -29,10 +29,10 @@ footer{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color:#575757;
-  margin-left:16.5vw;
+  margin-right:16.5vw;
 }
 .contact-icons{
-  margin-right:16.5vw;
+  margin-left:16.5vw;
 }
 
 .contact-icons > a:nth-child(1){
