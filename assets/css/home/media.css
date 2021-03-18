@@ -95,7 +95,7 @@
 
   h2{
     font-size:20pt;
-    margin-bottom:1em;
+    margin-bottom:1.4em;
     text-align:left;
   }
   .h2-text{
@@ -132,6 +132,10 @@
     font-family: 'Roboto', sans-serif;
     line-height:180%;
     margin:0, 0, 16px, 0;
+  }
+
+  .row-a-1{
+    grid-gap:0;
   }
 
   .row-a-1-column > p{
