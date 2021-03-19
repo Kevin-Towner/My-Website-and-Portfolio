@@ -13,13 +13,6 @@
 }
 
 @media only screen and (max-width:1025px) {
-  nav{
-
-  }
-
-  nav > a{
-
-  }
 
   label{
     margin:auto;
@@ -118,7 +111,6 @@
 
   #menu > a {
     display:block;
-    font-family: 'PT Sans', sans-serif;
     font-size:18pt;
     padding:44px 0 44px 0;
   }
