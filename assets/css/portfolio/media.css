@@ -72,40 +72,13 @@
 }
 
 
+@media (max-width:600px)  { /* smartphones, Android phones, landscape iPhone */
 
-@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   .main-content{
     width:90%;
   }
   .project-section{
-    padding:16px;
-  }
-}
-
-@media (max-width:600px)  { /* smartphones, Android phones, landscape iPhone */
-  body{
-
-  }
-
-  h1{
-    font-size:28pt;
-  }
-
-  h2{
-    font-size:20pt;
-    margin-bottom:1em;
-  }
-
-  h3{
-    font-size: 16pt;
-  }
-
-  p{
-
-  }
-
-  ul{
-
+    padding:24px;
   }
 
   footer{
@@ -117,7 +90,7 @@
     flex-direction: column-reverse;
   }
   .main-content{
-    width:90%;
+    width:78%;
     margin-bottom:2em;
 
   }
