@@ -16,7 +16,7 @@ button{
 #btn-insta{
   background-image: linear-gradient(to right, rgb(138, 73, 161), rgb(193, 85, 139), rgb(246, 186, 109));
   font-weight:600;
-  font-size:10pt;
+  font-size:9pt;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -27,7 +27,7 @@ button{
 #btn-linkedin{
   background-image: linear-gradient(to right, rgba(0,119,181,67%), rgba(0,119,181,1));
   font-weight:600;
-  font-size:10pt;
+  font-size:9pt;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -43,7 +43,7 @@ button:hover{
 
 .btn-list{
   display:inline-flex;
-  margin: 0 0 24px 0;
+  margin: 0 0 16px 0;
   list-style-type:none;
 }
 
