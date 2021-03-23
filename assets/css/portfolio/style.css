@@ -16,18 +16,18 @@ body{
 }
 
 h1{
-  font-size:28pt;
+  font-size:36pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:200;
+  font-weight:300;
   text-align:left;
   z-index:1;
   margin:0 0 1em 0;
 }
 
 h2{
-  font-size: 20pt;
+  font-size: 24pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:200;
+  font-weight:300;
   text-align: left;
   border-bottom:1px solid rgb(148,149,153,.6);
   line-height: 0.1em;
@@ -41,18 +41,20 @@ h2{
 
 h3{
   font-family: 'Raleway', sans-serif;
-  font-size:16pt ;
-  font-weight:400;
+  font-size:18pt ;
+  font-weight:300;
   margin: 0 0 16px 0;
   text-align: left;
 }
 
 h4{
   font-family: 'Raleway', sans-serif;
-  font-size: 12pt;
-  font-weight:400;
+  font-size: 16pt;
+  font-weight:300;
   margin: 0 0 8px 0;
   text-align: left;
+  line-height:140%;
+  padding:0 64px 0 0;
 }
 
 p{
@@ -92,7 +94,7 @@ ul{
   display:flex;
   flex-direction:row;
   background-color:#fefefe;
-  padding:24px;
+  padding:16px;
   border-radius:2px;
   margin:0 0 36px;
   box-shadow:rgb(0 0 0 / 7%) 1px 3px 7px, rgb(0 0 0 / 3%) -1px -2px 2px;
