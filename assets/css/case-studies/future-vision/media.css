@@ -23,6 +23,21 @@
   ul{
     font-size:13.5pt;
   }
+  .copyright{
+    margin-right:25vw;
+  }
+
+  .contact-icons{
+    margin-left:25vw;
+  }
+
+  #logo{
+    margin-left:25vw;
+  }
+
+  #menu{
+    margin-right:25vw;
+  }
 }
 
 @media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
