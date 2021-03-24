@@ -11,9 +11,9 @@ body{
 }
 
 h1{
-  font-size:36pt;
+  font-size:38pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:300;
+  font-weight:200;
   text-align:left;
   z-index:1;
   margin:0 0 1em 0;
@@ -22,7 +22,7 @@ h1{
 h2{
   font-size: 24pt;
   font-family: 'Raleway', sans-serif;
-  font-weight:300;
+  font-weight:200;
   text-align: left;
   border-bottom:1px solid rgb(148,149,153,.6);
   line-height: 0.1em;
@@ -36,7 +36,7 @@ h2{
 
 h3{
   font-family: 'Raleway', sans-serif;
-  font-size:18pt ;
+  font-size:18pt;
   font-weight:300;
   margin: 0 0 16px 0;
   text-align: left;
@@ -44,8 +44,8 @@ h3{
 
 h4{
   font-family: 'Raleway', sans-serif;
-  font-size: 16pt;
-  font-weight:300;
+  font-size: 14pt;
+  font-weight:400;
   margin: 0 0 8px 0;
   text-align: left;
   line-height:140%;
@@ -129,7 +129,8 @@ ul{
   opacity:.9;
   float:left;
   border:8px solid #fff;
-  box-shadow: 0px 6px 16px 0 rgba(0, 0, 0, 0.1), 0 4px 20px 0 rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0px 6px 16px 0 rgba(0, 0, 0, 0.1), 0 4px 20px 0 rgba(0, 0, 0, 0.06); */
+  box-shadow:rgb(0 0 0 / 12%) 2px 2px 4px, rgb(0 0 0 / 12%) -1px -1px 2px;
 }
 
 .home-link-list{
