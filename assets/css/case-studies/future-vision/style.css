@@ -56,7 +56,7 @@ p{
   line-height:160%;
   font-weight:300;
   color:#575757;
-  margin-bottom:48px;
+  margin-bottom:54px;
 }
 
 ul{
@@ -94,7 +94,7 @@ ul{
   grid-gap:2em;
   padding-top:18vh;
   margin:auto auto 4em auto;
-  max-width:50%;
+  max-width:67%;
   font-family: 'PT Sans', sans-serif;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
