@@ -23,10 +23,10 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   .copyright{
-    margin-right:5%;
+    margin-right:11vw;
   }
   .contact-icons{
-    margin-left:5%;
+    margin-left:11vw;
   }
   .footer-icon{
     height:20px;

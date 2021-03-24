@@ -40,11 +40,11 @@
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   #logo{
     height:32px;
-    margin-left:5vw;
+    margin-left:11vw;
   }
 
   #menu{
-    margin-right:5vw;
+    margin-right:11vw;
   }
 }
 
@@ -55,7 +55,7 @@
     font-size:32px;
     color:#3a3a3a;
     float:right;
-    margin-right:5vw;
+    margin-right:11vw;
   }
   label:hover{
     opacity:.7;
@@ -74,7 +74,7 @@
 
   #logo{
     height:28px;
-    margin-left:3.3vw;
+    margin-left:11vw;
   }
 
   #home-container-all{
@@ -85,13 +85,13 @@
   #toggle{
     display: none;
     height:32px;
-    margin-right:4vw;
+    margin-right:11vw !important;
   }
 
   #menu{
     display:none;
     height:24px;
-    margin-right:4%;
+    margin-right:11vw;
   }
 
   #toggle:checked + #menu{
@@ -105,7 +105,7 @@
     width:100%;
     left:0;
     top:0;
-    margin-right:5%;
+    margin-right:11%;
   }
 
 
