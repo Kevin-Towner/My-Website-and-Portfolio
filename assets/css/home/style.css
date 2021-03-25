@@ -74,7 +74,7 @@ ul{
 .main-content{
   display:flex;
   flex-direction:column;
-  padding-top:18vh;
+  padding:18vh 0 4em 0;
   width:67%;
   margin:auto;
   animation: fadeInAnimation ease 1s;
@@ -85,7 +85,7 @@ ul{
 .home-section{
   display:flex;
   flex-direction:column;
-  padding-bottom:3.2em;
+  padding-bottom:2em;
 }
 
 .row-a-1{
@@ -175,10 +175,11 @@ a{
 
 #home-section--about{
    border-bottom: 1px solid rgb(148,149,153,.3);
+   padding-bottom:3em;
 }
 
 #home-section--work{
-  padding-top:3.2em;
+  padding-top:3em;
 
 }
 /*--Importants--*/
