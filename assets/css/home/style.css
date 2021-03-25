@@ -85,7 +85,7 @@ ul{
 .home-section{
   display:flex;
   flex-direction:column;
-  padding-bottom:4em;
+  padding-bottom:3.2em;
 }
 
 .row-a-1{
@@ -129,7 +129,7 @@ ul{
 }
 
 .home-image{
-  max-width:100%;
+  max-width:96%;
   border-radius:1px;
   opacity:.9;
   float:left;
@@ -163,6 +163,14 @@ a{
   display:none
 }
 
+#home-section--about{
+   border-bottom: 1px solid rgb(148,149,153,.4);
+}
+
+#home-section--work{
+  padding-top:3.2em;
+
+}
 /*--Importants--*/
 
 #menu > a:{
