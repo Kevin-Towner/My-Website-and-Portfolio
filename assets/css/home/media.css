@@ -145,9 +145,9 @@
     padding-left:0;
   }
 
-  #image-home-about-ghost{
+  .image-ghost{
     display:inline-block;
-    max-width:100%;
+    max-width:67%;
   }
 }
 
@@ -173,6 +173,8 @@
 
   .image-ghost{
     display:inline-block;
+    max-width:88%;
+    margin-top:16px;
   }
 
   .main-content{
@@ -185,7 +187,6 @@
   }
 
   .home-images{
-    max-width:100%
   }
 
   .home-link-list{
