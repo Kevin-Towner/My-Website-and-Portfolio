@@ -97,12 +97,14 @@
   #row-a-1-column-1 > ul{
     border-bottom:none !important;
   }
+
+  .home-image{
+    display:none;
+  }
+
   .row-a-1{
     display:flex;
     flex-direction:column-reverse;
-  }
-  .home-image{
-    display:none;
   }
 
   .row-a-1-column > p{
@@ -111,6 +113,11 @@
 
   .row-a-1-column > ul{
     padding-right:0;
+  }
+
+  .row-b-1{
+    display:flex;
+    flex-direction:column-reverse;
   }
 
   #image-home-about-ghost{
@@ -168,6 +175,22 @@
   }
 
   .row-a-1-column > ul{
+    padding-left:0;
+  }
+
+  .row-b-1{
+    grid-gap:0;
+  }
+
+  .row-b-1-column >p{
+    padding-left:0;
+  }
+
+  .row-b-1-column > ul{
+    padding-left:0;
+  }
+
+  .row-b-1-column > h3{
     padding-left:0;
   }
 
