@@ -1,9 +1,17 @@
 
 @media only screen  and (min-width : 1824px) {
+
   .main-content{
     width:50%;
     padding-top:24vh;
   }
+
+  .home-section{
+    display:flex;
+    flex-direction:column;
+    padding-bottom:6em;
+  }
+
   h1{
     font-size:36pt;
     font-family: 'Raleway', sans-serif;
