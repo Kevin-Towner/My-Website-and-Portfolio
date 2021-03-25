@@ -171,9 +171,8 @@
     margin-bottom:12px;
   }
 
-  #image-home-about-ghost{
+  .image-ghost{
     display:inline-block;
-    max-width:96%;
   }
 
   .main-content{

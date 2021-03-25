@@ -134,9 +134,19 @@ ul{
   opacity:.9;
   float:left;
   border:8px solid #fff;
-  /* box-shadow: 0px 6px 16px 0 rgba(0, 0, 0, 0.1), 0 4px 20px 0 rgba(0, 0, 0, 0.06); */
   box-shadow:rgb(0 0 0 / 12%) 2px 2px 4px, rgb(0 0 0 / 12%) -1px -1px 2px;
 }
+
+.image-ghost{
+  max-width:96%;
+  border-radius:1px;
+  opacity:.9;
+  float:left;
+  border:8px solid #fff;
+  box-shadow:rgb(0 0 0 / 12%) 2px 2px 4px, rgb(0 0 0 / 12%) -1px -1px 2px;
+  display:none;
+}
+
 
 .home-link-list{
 
@@ -164,7 +174,7 @@ a{
 }
 
 #home-section--about{
-   border-bottom: 1px solid rgb(148,149,153,.4);
+   border-bottom: 1px solid rgb(148,149,153,.3);
 }
 
 #home-section--work{
