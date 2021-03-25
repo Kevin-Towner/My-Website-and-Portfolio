@@ -40,6 +40,7 @@ h3{
   font-weight:300;
   margin: 0 0 16px 0;
   text-align: left;
+  line-height:140%;
 }
 
 h4{
@@ -48,8 +49,16 @@ h4{
   font-weight:400;
   margin: 0 0 8px 0;
   text-align: left;
-  line-height:140%;
   padding:0 64px 0 0;
+}
+
+p{
+  margin:0;
+  font-size:12pt;
+  font-family: 'Open Sans', sans-serif;
+  line-height:160%;
+  font-weight:300;
+  color:#575757;
 }
 
 p{
