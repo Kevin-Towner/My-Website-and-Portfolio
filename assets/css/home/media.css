@@ -1,6 +1,23 @@
 
 @media only screen  and (min-width : 1824px) {
 
+  h1{
+    font-size:44pt;
+  }
+
+  h2{
+    font-size:32pt;
+  }
+
+  h3{
+    font-size:24pt;
+  }
+
+  h4{
+    font-size:16pt;
+    padding-right:0;
+  }
+
   .main-content{
     width:50%;
     padding-top:18vh;
