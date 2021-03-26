@@ -181,7 +181,7 @@ a{
 }
 
 #home-section--work{
-  border-bottom: 1px solid rgb(148,149,153,.3);
+  /* border-bottom: 1px solid rgb(148,149,153,.3); */
   padding:3em 0 3em 0;
 
 }
