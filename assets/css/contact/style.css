@@ -41,6 +41,7 @@ h3{
   margin: 0 0 16px 0;
   text-align: left;
   line-height:140%;
+  padding:0 64px 0 0;
 }
 
 h4{
@@ -49,7 +50,6 @@ h4{
   font-weight:400;
   margin: 0 0 8px 0;
   text-align: left;
-  padding:0 64px 0 0;
 }
 
 p{
