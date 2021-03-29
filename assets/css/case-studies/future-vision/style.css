@@ -168,7 +168,7 @@ ul{
 .image-container-16{
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
-  grid-gap:2em;
+  grid-gap:4em;
 }
 
 .image-of-3{
