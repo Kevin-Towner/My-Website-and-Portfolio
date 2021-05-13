@@ -2,17 +2,15 @@ nav{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  padding:10px 0 15px 0;
+  padding:12px 0 12px 0;
   background-color:#fff;
   width:100%;
-  box-shadow: rgba(0, 0, 0, .33) 0px .5px 2px;
+  box-shadow: #CACACA 0px 1px 0px;
   top:0;
+  font-size:16pt;
   position:fixed;
   z-index:1;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
   align-items:center;
-  font-size: 12pt;
 }
 
 nav > a{
@@ -25,7 +23,7 @@ label{
   display:none;
 }
 #logo{
-  height:28px;
+  height:32px;
   margin-left:16.5vw;
 }
 
@@ -34,33 +32,38 @@ label{
 }
 
 #menu{
-  float: right;
+  display:inline-flex;
+  margin:0;
+  /* margin-right:3vw; */
   margin-right:16.5vw;
-  margin-top:7.5px;
+}
+#menu > li:nth-child(1){
+  margin-right:2em;
+}
+#menu > li:nth-child(3){
+  margin-left:2em;
 }
 
-#menu > a{
-  color:#575757;
+#menu > li > a{
+  color:#4A576B;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
 }
 
-#menu > a:hover{
+#menu > li > a:hover{
   color:#0047FF;
   text-decoration:underline;
 }
 
 
 #anchor-index{
-  padding:0 2em 0 0;
+
 }
 
 #anchor-about{
-  padding:0 2em 0 0;
-}
 
-#anchor-portfolio{
-  padding:0 2em 0 0;
 }
 
 #anchor-contact{
-  padding:0 0 0 0em;
+
 }

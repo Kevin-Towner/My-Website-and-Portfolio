@@ -1,7 +1,7 @@
 
 @media only screen  and (min-width: 1824px) {
   nav{
-    font-size:14pt;
+
   }
 
   #logo{
@@ -49,6 +49,7 @@
 
   #menu{
     margin-right:11vw;
+    padding:0;
   }
 }
 
@@ -59,7 +60,7 @@
     font-size:32px;
     color:#3a3a3a;
     float:right;
-    margin-right:11vw;
+    margin-right:10vw;
   }
   label:hover{
     opacity:.7;
@@ -78,7 +79,7 @@
 
   #logo{
     height:28px;
-    margin-left:11vw;
+    margin-left:10vw;
   }
 
   #home-container-all{
@@ -95,7 +96,6 @@
   #menu{
     display:none;
     height:24px;
-    margin-right:11vw;
   }
 
   #toggle:checked + #menu{
@@ -103,20 +103,25 @@
     z-index:1;
     position:absolute;
     height:500vh;
-    margin-top:4em;
+    margin-top:3.5em;
     background-color:#fff;
     text-align:center;
     width:100%;
     left:0;
     top:0;
-    margin-right:11%;
   }
 
 
-  #menu > a {
+  #menu > li > a {
     display:block;
     font-size:18pt;
     padding:44px 0 44px 0;
+  }
+  #menu > li:nth-child(1){
+    margin-right:0em;
+  }
+  #menu > li:nth-child(3){
+    margin-left:0em;
   }
 
   #anchor-index{

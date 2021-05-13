@@ -13,26 +13,25 @@ footer{
   display:flex;
   flex-direction:row;
   justify-content: space-between;
-  font-size:12pt;
   width:100%;
-  /* background:#1C78E3; */
-  background:#fff;
+  background-color:#1C78E3;
+  /* background-image: linear-gradient(to right, #1C78E3, #DC00EF); */
   bottom:0;
   z-index:1;
   text-align:left;
   border-top:1px solid rgb(148,149,153,.2);
   padding: 20px 0 12px 0;
-  position:absolute;
 }
 
 .copyright{
-  font-family: 'Open Sans', sans-serif;
+  font-size:16pt;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color:#575757;
-  margin-right:16.5vw;
+  color:#fff;
+  margin-left:16.5vw;
 }
 .contact-icons{
-  margin-left:16.5vw;
+  visibility:hidden;
 }
 
 .contact-icons > a:nth-child(1){

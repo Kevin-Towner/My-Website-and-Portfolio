@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15/"
+     xml:base="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-15="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#is_a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <rdfs:comment>&lt;Beer Name&gt; &quot;is_a&quot; &lt;Beer Style&gt;</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#ABV -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#ABV">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Amount"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Brewery"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Amount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Amount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Brewery"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Brewery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Brewery">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Amber_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Amber_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Adjunct_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Adjunct_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Amber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Amber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Brown_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Brown_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Double -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Double">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_IPA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_IPA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Pale_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Pale_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Pale_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Pale_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Stout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Stout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Strong_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Strong_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Black_Toad_Dark_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Black_Toad_Dark_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#English_Brown_Ale"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Black Toad Brewing Co. California, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_Chocolate_Stout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_Chocolate_Stout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Stout"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.4</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Rhinelander Brewing Company Wisconsin, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_Heavy_Lift_Vessel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_Heavy_Lift_Vessel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Strong_Ale"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Minhas Craft Brewery Wisconsin, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_IPA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_IPA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_IPA"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.7</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Minhas Craft Brewery Wisconsin, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_Twin_Screw_Steamer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Boatswain_Twin_Screw_Steamer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Double"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.4</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Minhas Craft Brewery Wisconsin, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Czech_Pilsner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Czech_Pilsner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Dunkelweizen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Dunkelweizen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Dutch_Style_Pilsner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Dutch_Style_Pilsner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#English_Brown_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#English_Brown_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#English_Porter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#English_Porter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Euro_Pale_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Euro_Pale_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Fat_Weasel_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Fat_Weasel_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Strong_Ale"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.1</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Steinhaus Brewing Co. California, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#German_Pilsner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#German_Pilsner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Hefeweizen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Hefeweizen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Bavarian_Style_Hefeweizen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Bavarian_Style_Hefeweizen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Hefeweizen"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Bohemian_Style_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Bohemian_Style_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Czech_Pilsner"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Dunkelweizen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Dunkelweizen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Dunkelweizen"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Heller_Bock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Heller_Bock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Maibock"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.1</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_PLZNR_Czech-Style_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_PLZNR_Czech-Style_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Czech_Pilsner"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.4</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Summer_Brew -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Summer_Brew">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Kolsch"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, US</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Vienna_Style_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Josephsbrau_Vienna_Style_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Vienna_Lager"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Jumping_Cow_Amber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Jumping_Cow_Amber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Amber_Ale"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Steinhaus Brewing Co. California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#KBC_Blueberry_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#KBC_Blueberry_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Wheat_Ale"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Federal Jack&apos;s Restaurant &amp; Brew Pub Maine, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#KBC_Porter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#KBC_Porter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#English_Porter"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Federal Jack&apos;s Restaurant &amp; Brew Pub Maine, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Kolsch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Kolsch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Light_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Light_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Maibock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Maibock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._Brown_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._Brown_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Brown_Ale"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Steinhaus Brewing Co. California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._Hefeweizen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._Hefeweizen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Hefeweizen"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Steinhaus Brewing Co. California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._India_Pale_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._India_Pale_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_IPA"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Steinhaus Brewing Co. California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._Pale_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Mission_St._Pale_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Pale_Ale"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Steinhaus Brewing Co. California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Name_Tag_Classic_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Name_Tag_Classic_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Pale_Lager"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Oatmeal_Stout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Oatmeal_Stout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Oranjeboom_Premium_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Oranjeboom_Premium_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Euro_Pale_Lager"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Oranjeboom Bierbrouwerij B. V. Netherlands</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Simpler_Times_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Simpler_Times_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Adjunct_Lager"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Minhas Craft Brewery Wisconsin, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Simpler_Times_Pilsner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Simpler_Times_Pilsner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#German_Pilsner"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Minhas Craft Brewery Wisconsin, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Stockyard_Oatmeal_Stout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Stockyard_Oatmeal_Stout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Oatmeal_Stout"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Trader_Jose_Dark_Premium_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Trader_Jose_Dark_Premium_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Amber"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Trader_Jose_Light_Premium_Beer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Trader_Jose_Light_Premium_Beer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Light_Lager"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Trader_Jose_Premium_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Trader_Jose_Premium_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#American_Adjunct_Lager"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Trader Joe&apos;s Brewing Company California, United States</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Vienna_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Vienna_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Wheat_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Wheat_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Style"/>
+        <untitled-ontology-15:Amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-15:Amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Peter&apos;s_Brand_Classics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Peter&apos;s_Brand_Classics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Beer_Name"/>
+        <untitled-ontology-15:is_a rdf:resource="http://www.semanticweb.org/kevin91/ontologies/2021/4/untitled-ontology-15#Dutch_Style_Pilsner"/>
+        <untitled-ontology-15:ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-15:ABV>
+        <untitled-ontology-15:Brewery>Union Export Brewery Netherlands</untitled-ontology-15:Brewery>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

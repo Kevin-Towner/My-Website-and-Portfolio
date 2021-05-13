@@ -34,20 +34,21 @@
   <link rel="stylesheet" type="text/css" href="assets/css/misc/others/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/buttons/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/buttonss/media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/home/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/home/master.less">
+  <link rel="stylesheet" type="text/css" href="assets/css/home/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/foot/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/foot/media.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/home/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/home/media.css">
+
+<!-- less -->
+  <link rel="stylesheet/less" type="text/css" href="assets/css/styles.less" />
+  <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
 
   <!--fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@100;300;500&family=Josefin+Slab:wght@100;200;300;400;500&family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -66,84 +67,102 @@
     <div>
       <label for="toggle">☰</label>
       <input type="checkbox" id="toggle">
-      <div id= "menu">
-        <a id="anchor-index" target="" href = "index.html">home</a>
-        <!-- <a id ="anchor-about" target="" href = "about.html">about</a> -->
-        <a id="anchor-portfolio" target="" href = "portfolio.html">portfolio</a>
-        <a id="anchor-contact" target="" href = "contact.html">contact</a>
-      </div>
+      <ul id="menu">
+        <li><a style="color:#1C78E3;" id="anchor-index" target="" href = "index.html">home</a></li>
+        <li><a id="anchor-portfolio" target="" href = "portfolio.html">about</a></li>
+        <li><a id="anchor-contact" target="" href = "contact.html">contact</a></li>
+      </ul>
     </div>
   </nav>
   <div class = "main-content">
-    <div class = "header-row">
+    <div class="row" id = "row-header">
       <div>
-        <h1>Kevin Towner</h1>
+        <h1><span>Hello, I'm Kevin<img src="assets/images/misc/praying-emoji.png" alt="praying emoji"></span></h1>
+        <p>Full-time employeee, part-time graduate student, and muay thai enthusiast. I study HCI at Drexel University and work for a large insurance company.</p>
+        <ul class="list-header_row">
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/kevin-towner-b0960b96/">LinkedIn</a>
+          </li>
+          <!-- <span style="margin-left:10px">•</span> -->
+          <li>
+            <a target="_blank" href="https://www.instagram.com/kevn0_o/">Instagram</a>
+          </li>
+          <!-- <span style="margin-left:10px">•</span> -->
+          <li>
+            <a target="_blank" href="mailto:kevintowner@gmail.com">Email</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div>
-      <h2><span class="h2-text">Welcome To My Site</span></h2>
-    </div>
-
-
-    <div id= "home-section--about" class= "home-section"> <!--About (WHO?)-->
-      <div class= "row-a-1">
-        <div id= "row-a-1-column-1" class= "row-a-1-column">
-          <h3>About Me</h3>
-          <p>I work at AIG and study at Drexel University CCI. Aside from my academic and professional lives, I train Muay Thai &amp boxing, play video games, enjoy indie films, and drink unhealthy amounts of coffee. Visit my social media profiles to learn more.</p>
-          <ul>
-            <li>• Always active on <a target="_blank" class="home-anchors" href="https://www.linkedin.com/in/kevin-towner-b0960b96/">Linkedin</a></li>
-            <li>• Mostly active on <a target="_blank" class="home-anchors" href="https://www.instagram.com/kevn0_o/">Instagram</a></li>
-          </ul>
-          <img style="opacity:.8" class="image-ghost" id="image-home-work-ghost" src="assets/images/me/me.png" alt="Me in front of a red background, wrapping my hands in blue wraps">
-        </div>
-        <div id="row-a-1-column-2" class= "row-a-1-column">
-          <img style="opacity:.8" id= "image-home-about" class="home-image" src="assets/images/me/me.png" alt="Me in front of a red background, wrapping my hands in blue wraps">
-        </div>
+    <div class="row" id="row-projects">
+      <h2><span>HCI & Research</span></h2>
+      <div class="grid-columns_3">
+        <a href="case-studies/future-vision.html" target="_blank">
+          <div>
+            <img src="assets/images/misc/future-vision/portfolio-image-1.png" alt="">
+            <h4>Future Vision</h4>
+            <p>Aims to address variables that can negatively affect people's travels.</p>
+          </div>
+        </a>
+        <a style="" href="#" target="_blank">
+          <div>
+            <img src="assets/images/misc/waze/waze.png" alt="">
+            <h4>A/B Test</h4>
+            <p>Coming Soon...</p>
+          </div>
+        </a>
+        <a style="visibility:hidden;" href="#" target="_blank">
+          <div>
+            <img src="assets/images/misc/future-vision/portfolio-image-1.png" alt="">
+            <h4>Coming Soon</h4>
+            <p>...</p>
+          </div>
+        </a>
       </div>
     </div>
-    <div id= "home-section--work" class= "home-section"><!--About (WHAT?)-->
-      <div class= "row-b-1">
-        <div id="row-b-1-column-2" class= "row-b-1-column">
-          <img id= "image-home-about" class="home-image" src="assets/images/misc/shy-guy.png" alt="glow in the dark figurine">
-        </div>
-        <div id= "row-b-1-column-1" class= "row-b-1-column">
-          <h3>HCI & User Experience</h3>
-          <p>I'm studying Human-Computer Interaction & User Experience at Drexel University. I appreciate group ideation and minimalistic, thoughtful, design as a means to address complex problems. Skilled in qualitative research, digital prototyping, and creating user interface design systems.</p>
-          <ul>
-            <li>• Look at my <a target="_blank" class="home-anchors" href="https://kevin-towner.github.io/kevintowner/portfolio.html">design projects </a></li>
-            <li>• View and/or download my <a target="_blank" class="home-anchors" href="assets/images/misc/resume-master.pdf"> resume</a></li>
-          </ul>
-          <img class="image-ghost" id="image-home-work-ghost" src="assets/images/misc/shy-guy.png" alt="glow in the dark figurine">
-        </div>
-      </div>
+    <div class="row" id="row-misc_projects">
+      <h2><span>Misc Projects</span></h2>
+      <ul>
+        <!-- <li>
+          <a href="#">A/B Test, Waze - Elements & UI Components</a>
+          <p style="font-size:12.5pt; font-weight:400;">May 2nd, 2021</p>
+        </li> -->
+        <li>
+          <a target="_blank" href="case-studies/ontology-trader_joes.html">Ontology, Trader Joe's - TJ Beers</a>
+          <p style="font-size:12.5pt; font-weight:400;">May 2nd, 2021</p>
+        </li>
+      </ul>
+      <!-- <div class="grid-columns_3">
+        <a href="case-studies/future-vision.html" target="_blank">
+          <div>
+            <img src="assets/images/misc/waze/vaccine.png" alt="">
+            <h4>Waze App - A/B Test</h4>
+            <p>Aims to address variables that can negatively affect people's travels.</p>
+          </div>
+        </a>
+        <a style="visibility:hidden;" href="#" target="_blank">
+          <div>
+            <img src="assets/images/misc/future-vision/portfolio-image-1.png" alt="">
+            <h4>Coming Soon</h4>
+            <p>...</p>
+          </div>
+        </a>
+        <a style="visibility:hidden;" href="#" target="_blank">
+          <div>
+            <img src="assets/images/misc/future-vision/portfolio-image-1.png" alt="">
+            <h4>Coming Soon</h4>
+            <p>...</p>
+          </div>
+        </a>
+      </div> -->
     </div>
-
-
-    <!-- <div id= "home-section--work" class= "home-section">
-      <div class= "row-b-1">
-        <div id="row-b-1-column-2" class= "row-b-1-column">
-          <img id= "image-home-about" class="home-image" src="assets/images/misc/shy-guy.png" alt="glow in the dark figurine">
-        </div>
-        <div id= "row-b-1-column-1" class= "row-b-1-column">
-          <h3>I study the way humans interact with computing tech</h3>
-          <p>I'm studying Human-Computer Interaction & User Experience at Drexel University. I appreciate group ideation and minimalistic, thoughtful, design as a means to address complex problems. Skilled in qualitative research, digital prototyping, and creating user interface design systems.</p>
-          <ul>
-            <li>• Look at my <a target="_blank" class="home-anchors" href="https://kevin-towner.github.io/kevintowner/portfolio.html">design projects </a></li>
-            <li>• View and/or download my <a target="_blank" class="home-anchors" href="assets/images/misc/resume-master.pdf"> resume</a></li>
-          </ul>
-          <img class="image-ghost" id="image-home-work-ghost" src="assets/images/misc/shy-guy.png" alt="glow in the dark figurine">
-        </div>
-      </div>
-    </div> -->
-
-
   </div>
   <footer>
-    <div class="contact-icons">
+    <!-- <div class="contact-icons">
       <a href="https://www.linkedin.com/in/kevin-towner-b0960b96/"><img class="footer-icon" src="assets/images/icons/icons-linkedin.png" alt="Linkedin icon"></a>
       <a href="https://www.instagram.com/kevn0_o/"><img class="footer-icon" src="assets/images/icons/icons-instagram.png" alt="Instagram icon"></a>
       <a href="mailto:kevintowner@gmail.com"><img class="footer-icon" src="assets/images/icons/icons-email.png" alt="Email icon"></a>
-    </div>
+    </div> -->
     <span class = "copyright">&copy Kevin Towner 2021</span>
   </footer>
 </body>

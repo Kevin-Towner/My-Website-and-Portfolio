@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1281px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (max-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  h1 {
+    font-weight: 800;
+    font-size: 36pt;
+    padding: 0 0 1em 0;
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 28pt;
+    margin: 0 0 2em 0;
+  }
+  h2 span {
+    padding: 0 16px 0 0px;
+  }
+  h3 {
+    font-size: 22pt;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+  }
+  h4 {
+    font-size: 18pt;
+    font-weight: 500;
+    color: #4A576B;
+    margin: 0 0 8px 0;
+  }
+  .row-1-column-2_67-33 {
+    display: fled;
+    flex-direction:row;;
+  }
+  .row-1-column-2_67-33 div:nth-child(1){
+    padding-right:2em;
+  }
+  .row-1-column-2_33-67 {
+    display: flex;
+    flex-direction:row;
+  }
+  .row-1-column-2_33-67 div:nth-child(2){
+    padding-left:2em;
+  }
+}
+@media (max-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h1 {
+    font-weight: 800;
+    font-size: 44pt;
+    padding: 0 0 1em 0;
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 32pt;
+    margin: 0 0 2em 0;
+  }
+  h2 span {
+    padding: 0 16px 0 0px;
+  }
+  h3 {
+    font-size: 24pt;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+  }
+  h4 {
+    font-size: 18pt;
+    font-weight: 500;
+    color: #4A576B;
+    margin: 0 0 8px 0;
+  }
+  .main-content {
+    padding: 16vh 0 2vh 0;
+    width: 80%;
+    margin:auto;
+  }
+  .list-header_row {
+    padding: 0;
+    margin-top: 1em;
+    list-style-type: none;
+  }
+  .row{
+    margin:0 0 4em 0;
+  }
+  .row-1-column-2_67-33 {
+    display: flex;
+    flex-direction:column;
+  }
+  .row-1-column-2_67-33 div:nth-child(1){
+    padding:0;
+  }
+  .row-1-column-2_33-67 {
+    display: flex;
+    flex-direction:column-reverse;
+  }
+  .row-1-column-2_33-67 div:nth-child(2){
+    padding:0;
+  }
+}
+@media (max-width: 520px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+@media (max-width: 320px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
