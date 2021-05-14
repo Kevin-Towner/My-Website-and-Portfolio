@@ -83,7 +83,6 @@
   flex-direction: column;
   padding: 24vh 0 4vh 0;
   width: 67%;
-  margin-left: 17%;
 }
 .container-body-100 {
   margin: 0 auto;
@@ -198,7 +197,6 @@ a:hover {
   flex-direction: column;
   padding: 24vh 0 4vh 0;
   width: 67%;
-  margin-left: 17%;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forward;
@@ -227,7 +225,6 @@ a:hover {
   color: #DC00EF;
   text-decoration: none;
   margin-botton: 0;
-  font-size: 20pt;
   font-weight: 400;
 }
 .list-header_row li a:hover {
