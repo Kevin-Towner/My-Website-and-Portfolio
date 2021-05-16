@@ -16,10 +16,10 @@
 }
 .font-heading_text-h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 36pt;
+  font-weight: 700;
+  font-size: 2em;
   text-align: left;
-  border-bottom: 2px solid #1C78E3;
+  border-bottom: 2px solid #e0e0e0;
   line-height: 0.1em;
   color: #1C78E3;
   margin: 0 0 2em 0;
@@ -30,16 +30,16 @@
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 28pt;
-  font-weight: 600;
-  margin: 0 0 1.5em 0;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 0 0 1em 0;
   text-align: left;
   line-height: 140%;
   color: #4A576B;
 }
 .font-body_text-p {
   margin: 0;
-  font-size: 14.5pt;
+  font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
@@ -48,8 +48,8 @@
 }
 .font-subtitle {
   font-family: 'Roboto', sans-serif;
-  font-size: 18pt;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 400;
   text-align: left;
   line-height: 140%;
   color: #4A576B;
@@ -57,7 +57,7 @@
 }
 .font-hyperlink_text {
   margin: 0;
-  font-size: 14.5pt;
+  font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
@@ -73,9 +73,9 @@
 .font-caption {
   color: #4A576B;
   font-family: 'Roboto', sans-serif;
-  font-size: 11.5pt;
+  font-size: 0.8em;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 400;
 }
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
@@ -83,6 +83,7 @@
   flex-direction: column;
   padding: 24vh 0 4vh 0;
   width: 67%;
+  margin: auto;
 }
 .container-body-100 {
   margin: 0 auto;
@@ -135,10 +136,10 @@ h1 {
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 36pt;
+  font-weight: 700;
+  font-size: 2em;
   text-align: left;
-  border-bottom: 2px solid #1C78E3;
+  border-bottom: 2px solid #e0e0e0;
   line-height: 0.1em;
   color: #1C78E3;
   margin: 0 0 2em 0;
@@ -149,17 +150,17 @@ h2 span {
 }
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 28pt;
-  font-weight: 600;
-  margin: 0 0 1.5em 0;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 0 0 1em 0;
   text-align: left;
   line-height: 140%;
   color: #4A576B;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 18pt;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 400;
   text-align: left;
   line-height: 140%;
   color: #4A576B;
@@ -167,7 +168,7 @@ h4 {
 }
 p {
   margin: 0;
-  font-size: 14.5pt;
+  font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
@@ -179,7 +180,7 @@ ul {
 }
 a {
   margin: 0;
-  font-size: 14.5pt;
+  font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
@@ -197,6 +198,7 @@ a:hover {
   flex-direction: column;
   padding: 24vh 0 4vh 0;
   width: 67%;
+  margin: auto;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forward;
@@ -216,7 +218,7 @@ a:hover {
 }
 .list-header_row li a {
   margin: 0;
-  font-size: 14.5pt;
+  font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
@@ -225,6 +227,7 @@ a:hover {
   color: #DC00EF;
   text-decoration: none;
   margin-botton: 0;
+  font-size: 20pt;
   font-weight: 400;
 }
 .list-header_row li a:hover {
@@ -264,9 +267,9 @@ a:hover {
 .image-subscript {
   color: #4A576B;
   font-family: 'Roboto', sans-serif;
-  font-size: 11.5pt;
+  font-size: 0.8em;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 400;
   display: block;
 }
 .image-anchor {
