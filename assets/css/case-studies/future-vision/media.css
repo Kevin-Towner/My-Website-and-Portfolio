@@ -122,6 +122,10 @@
   .highlight{
     font-weight:300;
   }
+  #list-columns_artifacts{
+    display:flex;
+    flex-direction: column-reverse;
+  }
 }
 @media (max-width: 520px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
