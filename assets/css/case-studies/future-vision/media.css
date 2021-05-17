@@ -58,7 +58,7 @@
     margin-top:1em;
   }
   .list-header_row li a{
-    font-size:16pt;
+    font-size:14.5pt;
     font-weight:500;
   }
   .highlight{
@@ -103,6 +103,9 @@
     width: 80%;
     margin:auto;
   }
+  .list-header_row li a{
+    font-size:16pt;
+  }
   .row-1-column-2_50-50-text{
     display:flex;
     flex-direction: column;
@@ -113,12 +116,12 @@
   .row-2-column-2_50-50_text{
     grid-template-columns:1fr;
   }
-  .row-2-column-2_50-50-text
   .row-2-column-2_50-50_text-images{
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
   }
+
   .row-1-column-2_67-33_text-images{
     display:flex;
     flex-direction:column;
