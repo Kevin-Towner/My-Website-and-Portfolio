@@ -4,7 +4,7 @@
 .font-heading_text-h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2.6em;
+  font-size: 3em;
   color: #1C78E3;
   letter-spacing: 1px;
   border-bottom: 2px solid #e0e0e0;
@@ -13,7 +13,7 @@
 .font-heading_text-h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.2em;
   text-align: left;
   border-bottom: 2px solid #1C78E3;
   line-height: 0.1em;
@@ -26,12 +26,16 @@
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 500;
-  margin: 0 0 1em 0;
   text-align: left;
-  line-height: 140%;
+  line-height: 0.1em;
   color: #4A576B;
+  margin: 0 0 1.5em 0;
+}
+.font-heading_text-h3 span {
+  background: #F9F9F9;
+  padding: 0 16px 0 0px;
 }
 .font-body_text-p {
   margin: 0;
@@ -44,12 +48,21 @@
 }
 .font-subtitle {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.05em;
+  font-size: 16pt;
+  font-weight: 500;
+  text-align: left;
+  line-height: 140%;
+  color: #1C78E3;
+  margin: 0 0 8px 0;
+}
+.font-h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14.5pt;
   font-weight: 400;
   text-align: left;
   line-height: 140%;
   color: #4A576B;
-  margin: 0 0 8px 0;
+  margin: 4px 0 4px 0;
 }
 .font-hyperlink_text {
   margin: 0;
@@ -69,13 +82,24 @@
 .font-caption {
   color: #4A576B;
   font-family: 'Roboto', sans-serif;
-  font-size: 12.5pt;
+  font-size: 11pt;
   line-height: 150%;
   font-weight: 300;
 }
 .highlight {
-  background-color: rgba(28, 120, 227, 0.15);
+  background-color: rgba(28, 120, 227, 0.085);
   color: #282828;
+}
+.list-standard {
+  list-style-type: circle;
+  margin: 0;
+  font-size: 14pt;
+  font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+  font-weight: 300;
+  color: #4A576B;
+  margin: 0 0 2em 0;
+  font-weight: 400;
 }
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
@@ -91,43 +115,61 @@
   z-index: 0;
   min-height: 100%;
 }
-.row-1-column-2_50-50 {
+.row-1-column-2_50-50_text-image {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2em;
 }
-.row-1-column-2_50-50 div p {
+.row-1-column-2_50-50_text-image div p {
+  margin-bottom: 1em;
+}
+.row-1-column-2_50-50-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2em;
+}
+.row-1-column-2_50-50-text div p {
   margin: 0;
 }
-.row-2-column-2_50-50 {
+.row-2-column-2_50-50_text {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 4em;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+}
+.row-2-column-2_50-50_text div p {
+  text-align: justify;
+  margin: 0;
+}
+.row-2-column-2_50-50_text-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2em;
   grid-row-gap: 4em;
 }
-.row-2-column-2_50-50 div p {
+.row-2-column-2_50-50_text-images div p {
   margin: 0;
 }
 .row-1-column-2_33-67 {
   display: grid;
   grid-template-columns: 1.4fr 2.6fr;
-}
-.row-1-column-2_33-67 div:nth-child(2) {
-  padding-left: 4em;
+  grid-column-gap: 2em;
 }
 .row-1-column-2_33-67 div:nth-child(2) h4 {
   margin-top: 0;
 }
-.row-1-column-2_67-33 {
+.row-1-column-2_67-33_text-images {
   display: grid;
-  grid-template-columns: 2.6fr 1.4fr;
+  grid-template-columns: 2.3fr 1.7fr;
+  grid-column-gap: 2em;
 }
-.row-1-column-2_67-33 div:nth-child(1) {
-  padding-right: 4em;
+.row-1-column-2_67-33_text-images div p {
+  margin-bottom: 1em;
 }
-.row-1-column-2_67-33 div:nth-child(1) h4 {
-  margin-top: 0;
+.row-1-column-2_67-33_text-images div:nth-child(1) {
+  padding-right: 2em;
 }
 html {
   background: #1C78E3;
@@ -142,7 +184,7 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2.6em;
+  font-size: 3em;
   color: #1C78E3;
   letter-spacing: 1px;
   border-bottom: 2px solid #e0e0e0;
@@ -151,7 +193,7 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.2em;
   text-align: left;
   border-bottom: 2px solid #1C78E3;
   line-height: 0.1em;
@@ -164,21 +206,34 @@ h2 span {
 }
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 500;
-  margin: 0 0 1em 0;
   text-align: left;
-  line-height: 140%;
+  line-height: 0.1em;
   color: #4A576B;
+  margin: 0 0 1.5em 0;
+}
+h3 span {
+  background: #F9F9F9;
+  padding: 0 16px 0 0px;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.05em;
+  font-size: 16pt;
+  font-weight: 500;
+  text-align: left;
+  line-height: 140%;
+  color: #1C78E3;
+  margin: 0 0 8px 0;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14.5pt;
   font-weight: 400;
   text-align: left;
   line-height: 140%;
   color: #4A576B;
-  margin: 0 0 8px 0;
+  margin: 4px 0 4px 0;
 }
 p {
   margin: 0;
@@ -190,7 +245,18 @@ p {
   margin: 0 0 2em 0;
 }
 ul {
-  list-style-type: none;
+  list-style-type: circle;
+  margin: 0;
+  font-size: 14pt;
+  font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+  font-weight: 300;
+  color: #4A576B;
+  margin: 0 0 2em 0;
+  font-weight: 400;
+}
+ul li:not(first-child) {
+  margin-top: 8px;
 }
 a {
   margin: 0;
@@ -210,7 +276,7 @@ a:hover {
 sub {
   color: #4A576B;
   font-family: 'Roboto', sans-serif;
-  font-size: 12.5pt;
+  font-size: 11pt;
   line-height: 150%;
   font-weight: 300;
 }
@@ -266,24 +332,24 @@ sub {
 }
 .image-100-image {
   max-width: 100%;
-  box-shadow: rgba(224, 224, 224, 0.2) 0px 0px 0px 1px inset, rgba(224, 224, 224, 0.9) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   transition: 0.3s;
 }
 .image-100-image:hover {
-  box-shadow: rgba(220, 0, 239, 0.15) 1px 2px 0px 0px, rgba(220, 0, 239, 0.05) -1px -1px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
 }
 .image-67-image {
   max-width: 67%;
-  box-shadow: rgba(224, 224, 224, 0.2) 0px 0px 0px 1px inset, rgba(224, 224, 224, 0.9) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   transition: 0.5s;
 }
 .image-67-image:hover {
-  box-shadow: rgba(220, 0, 239, 0.15) 1px 2px 0px 0px, rgba(220, 0, 239, 0.05) -1px -1px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
 }
 .image-subscript {
   color: #4A576B;
   font-family: 'Roboto', sans-serif;
-  font-size: 12.5pt;
+  font-size: 11pt;
   line-height: 150%;
   font-weight: 300;
   display: block;
@@ -305,9 +371,6 @@ sub {
 }
 #row-header div p {
   width: 67%;
-}
-#row-ideation div:nth-child(1) {
-  margin-bottom: 4em;
 }
 #row-documents ul {
   padding: 0;

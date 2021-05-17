@@ -36,6 +36,7 @@ label{
   margin:0;
   /* margin-right:3vw; */
   margin-right:16.5vw;
+  list-style-type:none;
 }
 #menu > li:nth-child(1){
   margin-right:2em;
