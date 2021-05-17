@@ -103,6 +103,10 @@
     width: 80%;
     margin:auto;
   }
+  .row-1-column-2_50-50-text{
+    display:flex;
+    flex-direction: column;
+  }
   .row-2-column-2_50-50_text{
     grid-template-columns:1fr;
   }
@@ -110,6 +114,10 @@
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
+  }
+  .row-1-column-2_67-33_text-images{
+    display:flex;
+    flex-direction:column;
   }
   .highlight{
     font-weight:300;

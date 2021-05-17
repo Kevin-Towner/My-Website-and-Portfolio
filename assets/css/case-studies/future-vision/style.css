@@ -91,7 +91,6 @@
   color: #282828;
 }
 .list-standard {
-  list-style-type: circle;
   margin: 0;
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
@@ -100,6 +99,8 @@
   color: #4A576B;
   margin: 0 0 2em 0;
   font-weight: 400;
+  list-style-type: none;
+  padding: 0;
 }
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
@@ -245,7 +246,6 @@ p {
   margin: 0 0 2em 0;
 }
 ul {
-  list-style-type: circle;
   margin: 0;
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
@@ -254,9 +254,11 @@ ul {
   color: #4A576B;
   margin: 0 0 2em 0;
   font-weight: 400;
+  list-style-type: none;
+  padding: 0;
 }
 ul li:not(first-child) {
-  margin-top: 8px;
+  margin-top: 12px;
 }
 a {
   margin: 0;
