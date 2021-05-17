@@ -47,11 +47,11 @@
     padding-right:.5em;
   }
   .row-2-column-2_50-50_text{
-    grid-column-gap:2.5em;
-    grid-row-gap:1em;
+    grid-column-gap:2em;
+    grid-row-gap:1.5em;
   }
   .row-2-column-2_50-50_text-images{
-    grid-column-gap:1.5em;
+    grid-column-gap:2em;
     grid-row-gap:2em;
   }
   .list-header_row{
@@ -63,7 +63,7 @@
   }
   .highlight{
     font-weight:400;
-
+    color:#4A576B;
   }
 
   #row-header{
@@ -96,7 +96,7 @@
     margin: 0 0 8px 0;
   }
   p{
-    font-size:14.5pt;;
+    font-size:14.5pt;
   }
   .main-content {
     padding: 16vh 0 2vh 0;

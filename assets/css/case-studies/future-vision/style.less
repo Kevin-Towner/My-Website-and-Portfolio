@@ -26,7 +26,7 @@
   // -webkit-background-clip: text;
   // -webkit-text-fill-color: transparent;
   letter-spacing:1px;
-  border-bottom:2px solid #e0e0e0;
+  border-bottom:2px solid @color-CTA;
   padding:0 0 1.5em 0;
 }
 .font-heading_text-h2{
@@ -154,7 +154,7 @@
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap:2em;
+  grid-column-gap:4em;
   grid-row-gap:2em;
   div{
     p{
@@ -297,6 +297,7 @@ sub{
   max-width:100%;
   box-shadow: @box-shadow-primary;
   transition:0.3s;
+  border:1px solid #e0e0e0;
   &:hover{
     box-shadow: @box-shadow-hover;
   }

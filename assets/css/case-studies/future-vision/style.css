@@ -7,7 +7,7 @@
   font-size: 3em;
   color: #1C78E3;
   letter-spacing: 1px;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid #1C78E3;
   padding: 0 0 1.5em 0;
 }
 .font-heading_text-h2 {
@@ -139,7 +139,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 2em;
+  grid-column-gap: 4em;
   grid-row-gap: 2em;
 }
 .row-2-column-2_50-50_text div p {
@@ -191,7 +191,7 @@ h1 {
   font-size: 3em;
   color: #1C78E3;
   letter-spacing: 1px;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid #1C78E3;
   padding: 0 0 1.5em 0;
 }
 h2 {
@@ -339,6 +339,7 @@ sub {
   max-width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   transition: 0.3s;
+  border: 1px solid #e0e0e0;
 }
 .image-100-image:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
