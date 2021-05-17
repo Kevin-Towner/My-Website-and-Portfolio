@@ -385,6 +385,9 @@ sub {
 #row-documents ul li:not(first-child) {
   padding-top: 1em;
 }
+#list-columns_artifacts div h4 {
+  color: #4A576B;
+}
 /*--Importantants--*/
 #menu > li > a {
   text-decoration: none;
