@@ -131,6 +131,7 @@
 }
 .row-1-column-2_50-50-text div p {
   margin: 0;
+  text-align: justify;
 }
 .row-2-column-2_50-50_text {
   display: grid;
