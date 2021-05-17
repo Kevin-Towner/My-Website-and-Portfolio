@@ -125,6 +125,7 @@
   #list-columns_artifacts{
     display:flex;
     flex-direction: column-reverse;
+    gap:0;
   }
 }
 @media (max-width: 520px) {
