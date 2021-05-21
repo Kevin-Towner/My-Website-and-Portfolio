@@ -14,7 +14,7 @@ nav{
 }
 
 nav > a{
-
+  MARGIN-BOTTOM:0;
 }
 
 label{
@@ -23,7 +23,7 @@ label{
   display:none;
 }
 #logo{
-  height:32px;
+  height:48px;
   margin-left:16.5vw;
 }
 
