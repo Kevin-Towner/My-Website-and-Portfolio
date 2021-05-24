@@ -15,9 +15,9 @@
 .font-heading_text-h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: left;
-  border-bottom: 2px solid #434145;
+  border-bottom: 3px solid #434145;
   line-height: 0.1em;
   color: #434145;
   margin: 0 0 2em 0;
@@ -61,7 +61,7 @@
   font-weight: 300;
   color: #434145;
   margin: 0 0 16px 0;
-  color: #DE16EF;
+  color: #A338F8;
   text-decoration: none;
   font-weight: 400;
 }
@@ -114,9 +114,9 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: left;
-  border-bottom: 2px solid #434145;
+  border-bottom: 3px solid #434145;
   line-height: 0.1em;
   color: #434145;
   margin: 0 0 2em 0;
@@ -164,7 +164,7 @@ a {
   font-weight: 300;
   color: #434145;
   margin: 0 0 16px 0;
-  color: #DE16EF;
+  color: #A338F8;
   text-decoration: none;
   font-weight: 400;
 }
@@ -204,7 +204,7 @@ sub {
   font-weight: 300;
   color: #434145;
   margin: 0 0 16px 0;
-  color: #DE16EF;
+  color: #A338F8;
   text-decoration: none;
   font-weight: 400;
 }
@@ -241,25 +241,24 @@ sub {
 }
 .grid-columns_3 a div img {
   max-width: 100%;
-  max-height: 270px;
+  max-height: 250px;
   position: relative;
   border-radius: 1.8px;
 }
 .grid-columns_3 a div h3 {
   color: #434145;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 .grid-columns_3 a div p {
   color: #434145;
   margin: 0;
 }
-.grid-columns_3 a:hover img {
-  filter: hue-rotate(42deg);
-}
 .grid-columns_3 a:hover h3 {
-  color: #282828;
+  color: #A338F8;
 }
 .grid-columns_3 a:hover p {
-  color: #282828;
+  color: #7500D0;
 }
 .grid-columns_3 a:hover {
   text-decoration: none;
@@ -285,6 +284,9 @@ sub {
 #row-misc_projects ul li {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 1.5em;
+}
+#row-misc_projects ul li a {
+  color: #A338F8;
 }
 #row-misc_projects ul li:not(first-child) {
   padding-top: 1.5em;
