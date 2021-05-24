@@ -194,9 +194,8 @@ sub {
 .list-header_row {
   display: inline-flex;
   list-style-type: none;
-  padding: 0;
 }
-.list-header_row li a {
+.list-header_row padding:0 li a {
   margin: 0;
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
@@ -208,10 +207,10 @@ sub {
   text-decoration: none;
   font-weight: 400;
 }
-.list-header_row li a:hover {
+.list-header_row padding:0 li a:hover {
   text-decoration: underline;
 }
-.list-header_row li a:hover {
+.list-header_row padding:0 li a:hover {
   background-color: #FFFFFF;
 }
 .bullet-point {

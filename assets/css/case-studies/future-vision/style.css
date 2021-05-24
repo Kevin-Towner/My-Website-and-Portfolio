@@ -5,20 +5,22 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.6em;
-  color: #434145;
+  background-color: #434145;
+  background-size: 100%;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
-  border-bottom: 2px solid #434145;
-  padding: 0 0 1.5em 0;
 }
 .font-heading_text-h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: left;
-  border-bottom: 2px solid #434145;
+  border-bottom: 3px solid #434145;
   line-height: 0.1em;
   color: #434145;
-  margin: 0 0 1.5em 0;
+  margin: 0 0 2em 0;
 }
 .font-heading_text-h2 span {
   background: #F9F9F9;
@@ -26,16 +28,12 @@
 }
 .font-heading_text-h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.4em;
-  font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 8px 0 8px 0;
   text-align: left;
-  line-height: 0.1em;
-  color: #7500D0;
-  margin: 0 0 1.5em 0;
-}
-.font-heading_text-h3 span {
-  background: #F9F9F9;
-  padding: 0 16px 0 0px;
+  line-height: 140%;
+  color: #434145;
 }
 .font-body_text-p {
   margin: 0;
@@ -44,7 +42,7 @@
   line-height: 150%;
   font-weight: 300;
   color: #434145;
-  margin: 0 0 2em 0;
+  margin: 0 0 16px 0;
 }
 .font-subtitle {
   font-family: 'Roboto', sans-serif;
@@ -53,16 +51,7 @@
   text-align: left;
   line-height: 140%;
   color: #7500D0;
-  margin: 0 0 8px 0;
-}
-.font-h5 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14.5pt;
-  font-weight: 400;
-  text-align: left;
-  line-height: 140%;
-  color: #434145;
-  margin: 4px 0 4px 0;
+  margin: 24px 0 8px 0;
 }
 .font-hyperlink_text {
   margin: 0;
@@ -71,7 +60,7 @@
   line-height: 150%;
   font-weight: 300;
   color: #434145;
-  margin: 0 0 2em 0;
+  margin: 0 0 16px 0;
   color: #CF11FF;
   text-decoration: none;
   font-weight: 400;
@@ -82,9 +71,18 @@
 .font-caption {
   color: #434145;
   font-family: 'Roboto', sans-serif;
-  font-size: 11pt;
+  font-size: 12.5pt;
   line-height: 150%;
   font-weight: 300;
+}
+.font-h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14.5pt;
+  font-weight: 400;
+  text-align: left;
+  line-height: 140%;
+  color: #434145;
+  margin: 4px 0 4px 0;
 }
 .highlight {
   background-color: rgba(28, 120, 227, 0.085);
@@ -97,7 +95,7 @@
   line-height: 150%;
   font-weight: 300;
   color: #434145;
-  margin: 0 0 2em 0;
+  margin: 0 0 16px 0;
   font-weight: 400;
   list-style-type: none;
   padding: 0;
@@ -189,20 +187,22 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.6em;
-  color: #434145;
+  background-color: #434145;
+  background-size: 100%;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
-  border-bottom: 2px solid #434145;
-  padding: 0 0 1.5em 0;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: left;
-  border-bottom: 2px solid #434145;
+  border-bottom: 3px solid #434145;
   line-height: 0.1em;
   color: #434145;
-  margin: 0 0 1.5em 0;
+  margin: 0 0 2em 0;
 }
 h2 span {
   background: #F9F9F9;
@@ -210,16 +210,12 @@ h2 span {
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.4em;
-  font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 8px 0 8px 0;
   text-align: left;
-  line-height: 0.1em;
-  color: #7500D0;
-  margin: 0 0 1.5em 0;
-}
-h3 span {
-  background: #F9F9F9;
-  padding: 0 16px 0 0px;
+  line-height: 140%;
+  color: #434145;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
@@ -228,7 +224,7 @@ h4 {
   text-align: left;
   line-height: 140%;
   color: #7500D0;
-  margin: 0 0 8px 0;
+  margin: 24px 0 8px 0;
 }
 h5 {
   font-family: 'Roboto', sans-serif;
@@ -246,7 +242,7 @@ p {
   line-height: 150%;
   font-weight: 300;
   color: #434145;
-  margin: 0 0 2em 0;
+  margin: 0 0 16px 0;
 }
 ul {
   margin: 0;
@@ -255,7 +251,7 @@ ul {
   line-height: 150%;
   font-weight: 300;
   color: #434145;
-  margin: 0 0 2em 0;
+  margin: 0 0 16px 0;
   font-weight: 400;
   list-style-type: none;
   padding: 0;
@@ -270,7 +266,7 @@ a {
   line-height: 150%;
   font-weight: 300;
   color: #434145;
-  margin: 0 0 2em 0;
+  margin: 0 0 16px 0;
   color: #CF11FF;
   text-decoration: none;
   font-weight: 400;
@@ -281,7 +277,7 @@ a:hover {
 sub {
   color: #434145;
   font-family: 'Roboto', sans-serif;
-  font-size: 11pt;
+  font-size: 12.5pt;
   line-height: 150%;
   font-weight: 300;
 }
@@ -315,7 +311,7 @@ sub {
   line-height: 150%;
   font-weight: 300;
   color: #434145;
-  margin: 0 0 2em 0;
+  margin: 0 0 16px 0;
   color: #CF11FF;
   text-decoration: none;
   color: #282828;
@@ -356,7 +352,7 @@ sub {
 .image-subscript {
   color: #434145;
   font-family: 'Roboto', sans-serif;
-  font-size: 11pt;
+  font-size: 12.5pt;
   line-height: 150%;
   font-weight: 300;
   display: block;
