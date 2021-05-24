@@ -4,39 +4,38 @@
 @color-primary:#F9F9F9;
 @color-secondary:#FFFFFF;
 @color-misc_1:#282828;
-@color-misc_2:#4A576B;
-@color-CTA:#1C78E3;
-@color-RGB-CTA:rgba(28,120,227,.085);
-@color-hyperlink:#DC00EF;
-@color-hyperlink-rgb:rgba(220, 0, 239,0.3);
-@box-shadow-primary: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-@box-shadow-hover: rgba(0, 0, 0, 0.1) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
+@color-misc_2:#434145;
+@color-CTA:#7500D0;
+@color-hyperlink:#CF11FF;
+@box-shadow-primary: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+@box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px 3px 7px -3px;
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-@box-shadow-misc-2: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+@color-RGB-CTA:rgba(28,120,227,.085);
+
 
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1{
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
-  font-size:3em;
-  color:@color-CTA;
+  font-size:2.6em;
+  color:@color-misc_2;
   // background-image: linear-gradient(to right, @color-misc_1, @color-CTA, @color-hyperlink, @color-hyperlink);
   // background-size:100%;
   // text-fill-color:transparent;
   // -webkit-background-clip: text;
   // -webkit-text-fill-color: transparent;
   letter-spacing:1px;
-  border-bottom:2px solid @color-CTA;
+  border-bottom:2px solid @color-misc_2;
   padding:0 0 1.5em 0;
 }
 .font-heading_text-h2{
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
-  font-size:2.2em;
+  font-size:2em;
   text-align: left;
-  border-bottom:2px solid @color-CTA;
+  border-bottom:2px solid @color-misc_2;
   line-height: 0.1em;
-  color:@color-CTA;
+  color:@color-misc_2;
   margin:0 0 1.5em 0;
   span{
     background:@color-primary;
@@ -45,11 +44,11 @@
 }
 .font-heading_text-h3{
   font-family: 'Montserrat', sans-serif;
-  font-size:1.5em;
-  font-weight:500;
+  font-size:1.4em;
+  font-weight:600;
   text-align: left;
   line-height:0.1em;
-  color:@color-misc_2;
+  color:@color-CTA;
   margin:0 0 1.5em 0;
   span{
     background:@color-primary;
@@ -273,11 +272,12 @@ sub{
   li
     a{
       .font-hyperlink_text;
+      color:@color-misc_1;
       margin-botton:0;
-      font-size:20pt;
+      font-size:18pt;
       font-weight:400;
       &:hover{
-        color:@color-hyperlink;
+        color:@color-CTA;
         text-decoration:underline;
       }
     }

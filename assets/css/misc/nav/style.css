@@ -46,13 +46,13 @@ label{
 }
 
 #menu > li > a{
-  color:#4A576B;
+  color:#000;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
 
 #menu > li > a:hover{
-  color:#0047FF;
+  color:#7500D0;
   text-decoration:underline;
 }
 

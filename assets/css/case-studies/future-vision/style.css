@@ -4,20 +4,20 @@
 .font-heading_text-h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 3em;
-  color: #1C78E3;
+  font-size: 2.6em;
+  color: #434145;
   letter-spacing: 1px;
-  border-bottom: 2px solid #1C78E3;
+  border-bottom: 2px solid #434145;
   padding: 0 0 1.5em 0;
 }
 .font-heading_text-h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 2em;
   text-align: left;
-  border-bottom: 2px solid #1C78E3;
+  border-bottom: 2px solid #434145;
   line-height: 0.1em;
-  color: #1C78E3;
+  color: #434145;
   margin: 0 0 1.5em 0;
 }
 .font-heading_text-h2 span {
@@ -25,12 +25,12 @@
   padding: 0 24px 0 0px;
 }
 .font-heading_text-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
   text-align: left;
   line-height: 0.1em;
-  color: #4A576B;
+  color: #7500D0;
   margin: 0 0 1.5em 0;
 }
 .font-heading_text-h3 span {
@@ -43,7 +43,7 @@
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #4A576B;
+  color: #434145;
   margin: 0 0 2em 0;
 }
 .font-subtitle {
@@ -52,7 +52,7 @@
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #1C78E3;
+  color: #7500D0;
   margin: 0 0 8px 0;
 }
 .font-h5 {
@@ -61,7 +61,7 @@
   font-weight: 400;
   text-align: left;
   line-height: 140%;
-  color: #4A576B;
+  color: #434145;
   margin: 4px 0 4px 0;
 }
 .font-hyperlink_text {
@@ -70,9 +70,9 @@
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #4A576B;
+  color: #434145;
   margin: 0 0 2em 0;
-  color: #DC00EF;
+  color: #CF11FF;
   text-decoration: none;
   font-weight: 400;
 }
@@ -80,7 +80,7 @@
   text-decoration: underline;
 }
 .font-caption {
-  color: #4A576B;
+  color: #434145;
   font-family: 'Roboto', sans-serif;
   font-size: 11pt;
   line-height: 150%;
@@ -96,7 +96,7 @@
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #4A576B;
+  color: #434145;
   margin: 0 0 2em 0;
   font-weight: 400;
   list-style-type: none;
@@ -176,7 +176,7 @@
   padding-right: 2em;
 }
 html {
-  background: #1C78E3;
+  background: #7500D0;
 }
 body {
   margin: 0 auto;
@@ -188,20 +188,20 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 3em;
-  color: #1C78E3;
+  font-size: 2.6em;
+  color: #434145;
   letter-spacing: 1px;
-  border-bottom: 2px solid #1C78E3;
+  border-bottom: 2px solid #434145;
   padding: 0 0 1.5em 0;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 2em;
   text-align: left;
-  border-bottom: 2px solid #1C78E3;
+  border-bottom: 2px solid #434145;
   line-height: 0.1em;
-  color: #1C78E3;
+  color: #434145;
   margin: 0 0 1.5em 0;
 }
 h2 span {
@@ -209,12 +209,12 @@ h2 span {
   padding: 0 24px 0 0px;
 }
 h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
   text-align: left;
   line-height: 0.1em;
-  color: #4A576B;
+  color: #7500D0;
   margin: 0 0 1.5em 0;
 }
 h3 span {
@@ -227,7 +227,7 @@ h4 {
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #1C78E3;
+  color: #7500D0;
   margin: 0 0 8px 0;
 }
 h5 {
@@ -236,7 +236,7 @@ h5 {
   font-weight: 400;
   text-align: left;
   line-height: 140%;
-  color: #4A576B;
+  color: #434145;
   margin: 4px 0 4px 0;
 }
 p {
@@ -245,7 +245,7 @@ p {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #4A576B;
+  color: #434145;
   margin: 0 0 2em 0;
 }
 ul {
@@ -254,7 +254,7 @@ ul {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #4A576B;
+  color: #434145;
   margin: 0 0 2em 0;
   font-weight: 400;
   list-style-type: none;
@@ -269,9 +269,9 @@ a {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #4A576B;
+  color: #434145;
   margin: 0 0 2em 0;
-  color: #DC00EF;
+  color: #CF11FF;
   text-decoration: none;
   font-weight: 400;
 }
@@ -279,7 +279,7 @@ a:hover {
   text-decoration: underline;
 }
 sub {
-  color: #4A576B;
+  color: #434145;
   font-family: 'Roboto', sans-serif;
   font-size: 11pt;
   line-height: 150%;
@@ -314,46 +314,47 @@ sub {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #4A576B;
+  color: #434145;
   margin: 0 0 2em 0;
-  color: #DC00EF;
+  color: #CF11FF;
   text-decoration: none;
+  color: #282828;
   margin-botton: 0;
-  font-size: 20pt;
+  font-size: 18pt;
   font-weight: 400;
 }
 .list-header_row li a:hover {
   text-decoration: underline;
 }
 .list-header_row li a:hover {
-  color: #DC00EF;
+  color: #7500D0;
   text-decoration: underline;
 }
 .list-header_row :not(:first-child) {
   margin-top: 1em;
 }
 .image:hover sub {
-  color: #DC00EF;
+  color: #CF11FF;
 }
 .image-100-image {
   max-width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   transition: 0.3s;
   border: 1px solid #e0e0e0;
 }
 .image-100-image:hover {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px 3px 7px -3px;
 }
 .image-67-image {
   max-width: 67%;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   transition: 0.5s;
 }
 .image-67-image:hover {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px 3px 7px -3px;
 }
 .image-subscript {
-  color: #4A576B;
+  color: #434145;
   font-family: 'Roboto', sans-serif;
   font-size: 11pt;
   line-height: 150%;
@@ -390,7 +391,7 @@ sub {
   padding-top: 1em;
 }
 #list-columns_artifacts div h4 {
-  color: #4A576B;
+  color: #434145;
 }
 /*--Importantants--*/
 #menu > li > a {
