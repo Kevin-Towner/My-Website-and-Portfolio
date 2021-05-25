@@ -61,7 +61,7 @@
   font-weight: 300;
   color: #434145;
   margin: 0 0 16px 0;
-  color: #A338F8;
+  color: #7000FF;
   text-decoration: none;
   font-weight: 400;
 }
@@ -164,7 +164,7 @@ a {
   font-weight: 300;
   color: #434145;
   margin: 0 0 16px 0;
-  color: #A338F8;
+  color: #7000FF;
   text-decoration: none;
   font-weight: 400;
 }
@@ -203,7 +203,7 @@ sub {
   font-weight: 300;
   color: #434145;
   margin: 0 0 16px 0;
-  color: #A338F8;
+  color: #7000FF;
   text-decoration: none;
   font-weight: 400;
 }
@@ -247,13 +247,14 @@ sub {
   color: #434145;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
+  margin-left: 1em;
 }
 .grid-columns_3 a div p {
   color: #434145;
   margin: 0;
 }
 .grid-columns_3 a:hover h3 {
-  color: #A338F8;
+  color: #7000FF;
 }
 .grid-columns_3 a:hover p {
   color: #7500D0;
@@ -284,7 +285,7 @@ sub {
   padding-bottom: 1.5em;
 }
 #row-misc_projects ul li a {
-  color: #A338F8;
+  color: #7000FF;
 }
 #row-misc_projects ul li:not(first-child) {
   padding-top: 1.5em;

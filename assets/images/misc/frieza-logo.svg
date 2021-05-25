@@ -23,9 +23,9 @@
 <stop offset="1" stop-color="white" stop-opacity="0.95"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="36" y1="61" x2="33" y2="-72.5" gradientUnits="userSpaceOnUse">
-<stop offset="0.118523" stop-color="#3900B4"/>
-<stop offset="0.329804" stop-color="#7900FF"/>
-<stop offset="0.877277" stop-color="#FF2372"/>
+<stop offset="0.163134" stop-color="#3900B4"/>
+<stop offset="0.439181" stop-color="#7900FF"/>
+<stop offset="0.877277" stop-color="#F200E9"/>
 </linearGradient>
 </defs>
 </svg>
