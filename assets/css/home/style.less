@@ -3,12 +3,13 @@
 /* - - - - COLORS & EFFECTS - - - - -  */
 @color-primary:#F9F9F9;
 @color-secondary:#FFFFFF;
-@color-misc_1:#341277;
+@color-misc_1:#33137A;
 @color-misc_2:#7963A3;
-@color-CTA:#9A55EE;
-@color-hyperlink:#FF7A19;
-@box-shadow-primary: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-@box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px 3px 7px -3px;
+@color-CTA:#6F00FF;
+@color-CTA-Alt:rgba(111, 0, 255, 70%);
+@color-hyperlink:#FF4D00;
+@box-shadow-primary: rgba(60, 64, 67, 0.4) 0px 1.5px 3px 0px, rgba(60, 64, 67, 0.2) 0px -.5px 3px 1px;
+@box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px -1px 6px -2px;
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
 /* - - - - FONTS - - - - - - */
@@ -31,8 +32,8 @@
   font-weight:700;
   font-size:1.6em;
   text-align: left;
-  border-bottom:2px solid @color-CTA;
   color:@color-CTA;
+  border-bottom:2px solid @color-CTA-Alt;
   line-height: 0.1em;
   margin:0 0 2em 0;
   span{
@@ -72,16 +73,17 @@
   color:@color-hyperlink;
   text-decoration:none;
   font-weight:400;
+  font-size:15pt;
   &:hover{
     text-decoration:underline;
   }
 }
 .font-caption{
-  color:@color-misc_1;
+  color:@color-CTA-Alt;
   font-family: 'Roboto', sans-serif;
   font-size:12.5pt;
   line-height:150%;
-  font-weight:300;
+  font-weight:400;
 }
 
 
@@ -197,7 +199,7 @@ sub{
   grid-template-columns:1fr 1fr 1fr;
   gap:2em;
   a{
-    background-color:@color-primary;
+    background-color:@color-secondary;
     box-shadow:@box-shadow-primary;
     transition:0.5s;
     border-radius: 2px;
@@ -205,14 +207,14 @@ sub{
       display:flex;
       flex-direction:column;
       img{
-        transition:0.2s;
+        transition:0.5s;
         max-width:100%;
-        // opacity:.88;
+        opacity:.88;
         position:relative;
       }
       h3{
-        transition:0.2s;
-        // color:@color-CTA;
+        transition:0.5s;
+        color:@color-misc_2;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-weight:500;
@@ -227,7 +229,7 @@ sub{
       background-color:@color-secondary;
       box-shadow:@box-shadow-hover;
       img{
-        // opacity:1;
+        opacity:1;
       }
       h3{
         color:@color-hyperlink;
@@ -272,7 +274,7 @@ sub{
 }
 
 #row-projects{
-  // width:120%;
+  width:120%;
 }
 
 #row-misc_projects{
