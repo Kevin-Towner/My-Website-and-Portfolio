@@ -7,7 +7,7 @@
 @color-misc_2:#7963A3;
 @color-CTA:#6F00FF;
 @color-CTA-Alt:rgba(111, 0, 255, 70%);
-@color-hyperlink:#FF4D00;
+@color-hyperlink:#2FC373;
 @box-shadow-primary: rgba(60, 64, 67, 0.4) 0px 1.5px 3px 0px, rgba(60, 64, 67, 0.2) 0px -.5px 3px 1px;
 @box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px -1px 6px -2px;
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -48,7 +48,7 @@
   margin: 8px 0 8px 0;
   text-align: left;
   line-height:140%;
-  color:@color-misc_2;
+  color:@color-misc_1;
 }
 .font-body_text-p{
   margin:0;
@@ -70,19 +70,19 @@
 }
 .font-hyperlink_text{
   .font-body_text-p;
-  color:@color-hyperlink;
+  color:@color-CTA;
   text-decoration:none;
   font-weight:400;
-  font-size:15pt;
   &:hover{
     text-decoration:underline;
+    color:@color-hyperlink;
   }
 }
 .font-caption{
   color:@color-CTA-Alt;
   font-family: 'Roboto', sans-serif;
-  font-size:12.5pt;
-  line-height:150%;
+  // font-size:12.5pt;
+  line-height:200%;
   font-weight:400;
 }
 
@@ -168,19 +168,12 @@ sub{
   display:inline-flex;
   list-style-type: none;
   padding:0
-  li
-    a{
-      .font-hyperlink_text;
-      &:hover{
-        background-color: @color-secondary;
-      }
-    }
 }
 
 .bullet-point{
   padding:0 10px 0 10px;
   font-size:20pt;
-  color:@color-CTA;
+  color:@color-CTA-Alt;
 }
 
 
@@ -199,7 +192,7 @@ sub{
   grid-template-columns:1fr 1fr 1fr;
   gap:2em;
   a{
-    background-color:@color-secondary;
+    background-color:@color-primary;
     box-shadow:@box-shadow-primary;
     transition:0.5s;
     border-radius: 2px;
@@ -214,7 +207,7 @@ sub{
       }
       h3{
         transition:0.5s;
-        color:@color-misc_2;
+        color:@color-misc_1;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-weight:500;
@@ -264,10 +257,9 @@ sub{
       width:67%;
     }
     a{
-      // font-weight:400;
-      // transition:0.3s;
+      color:@color-misc_1;
       &:hover{
-
+        color:@color-hyperlink;
       }
     }
   }
@@ -283,10 +275,10 @@ sub{
       border-bottom:1px solid #fefefe;
       padding-bottom:1.5em;
       a{
-        color:@color-hyperlink;
-      }
-      &:not(first-child){
-        padding-top:1.5em;
+        color:@color-misc_1;
+        &:hover{
+          color:@color-hyperlink;
+        }
       }
     }
   }
