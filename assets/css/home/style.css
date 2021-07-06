@@ -229,7 +229,6 @@ sub {
 .grid-columns_3 a {
   background-color: #F9F9F9;
   border: 1px solid #D3D3D3;
-  border-radius: 2px;
 }
 .grid-columns_3 a div {
   display: flex;

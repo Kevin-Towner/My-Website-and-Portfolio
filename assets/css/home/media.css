@@ -59,7 +59,7 @@
   }
   #row-header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap:2em;
   }
   #row-header div ul li a{
@@ -67,7 +67,7 @@
     font-weight:400;
   }
   #row-header div img{
-
+    border-radius:0;
   }
   #row-header div p {
     font-size:14pt;
