@@ -91,7 +91,10 @@
 
   #visible-while-mobile--h1{
     display:inline-block;
+  }
 
+  #displayed-while-mobile--ul{
+    display:inline-flex;
   }
   #displayed-while-mobile--ul > li > a{
     display:inline-flex;

@@ -292,6 +292,9 @@ sub {
 #row-header div a:hover {
   color: #B41AB7;
 }
+#displayed-while-mobile--ul {
+  display: none;
+}
 #row-misc_projects ul li {
   border-bottom: 1px solid #fefefe;
   padding-bottom: 1.5em;
