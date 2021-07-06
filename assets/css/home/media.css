@@ -59,7 +59,7 @@
   }
   #row-header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap:1.5em;
   }
   #row-header div ul li a{
@@ -129,18 +129,10 @@
 }
 
 @media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  #row-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:1.5em;
-  }
+
 }
 
 @media (max-width:320px)  { /* smartphones, Android phones, landscape iPhone */
-  #row-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:1.5em;
-  }
+
 
 }
