@@ -266,7 +266,7 @@ sub {
 #row-header {
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
-  grid-gap: 2em;
+  grid-gap: 4em;
   width: 100%;
 }
 #row-header div img {
