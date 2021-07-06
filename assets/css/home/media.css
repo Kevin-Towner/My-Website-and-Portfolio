@@ -93,6 +93,7 @@
   #visible-while-mobile--ul{
     display:inline-block;
     margin-top:24px;
+    line-height:180%;
   }
   #visible-while-mobile--ul li a{
     color:#0978F8;
