@@ -15,11 +15,11 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1em;
+  font-weight: 400;
+  font-size: 12pt;
   text-align: left;
-  color: #524C66;
-  border-bottom: 1px solid #524C66;
+  color: #8E8E8E;
+  border-bottom: 1px solid #C8C8C8;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -67,7 +67,7 @@
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #0978F8;
+  color: #7558C8;
 }
 .font-caption {
   color: rgba(111, 0, 255, 0.7);
@@ -113,11 +113,11 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1em;
+  font-weight: 400;
+  font-size: 12pt;
   text-align: left;
-  color: #524C66;
-  border-bottom: 1px solid #524C66;
+  color: #8E8E8E;
+  border-bottom: 1px solid #C8C8C8;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -169,7 +169,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #0978F8;
+  color: #7558C8;
 }
 sub {
   color: rgba(111, 0, 255, 0.7);
@@ -197,7 +197,7 @@ sub {
 .bullet-point {
   padding: 0 10px 0 10px;
   font-size: 20pt;
-  color: #3C3452;
+  color: #524C66;
 }
 .list-misc_projects li {
   display: flex;
@@ -226,7 +226,7 @@ sub {
   position: relative;
 }
 .grid-columns_3 a div h3 {
-  color: #0978F8;
+  color: #524C66;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
@@ -241,7 +241,7 @@ sub {
   opacity: 1;
 }
 .grid-columns_3 a:hover h3 {
-  color: #B41AB7;
+  color: #7558C8;
 }
 .grid-columns_3 a:hover p {
   color: #B41AB7;
@@ -267,7 +267,7 @@ sub {
   display: none;
 }
 #row-header div a {
-  color: #0978F8;
+  color: #7558C8;
   font-weight: 400;
 }
 #row-header div a:hover {
@@ -281,7 +281,7 @@ sub {
   color: #524C66;
 }
 #row-misc_projects ul li a:hover {
-  color: #0978F8;
+  color: #7558C8;
 }
 /*--Importantants--*/
 #menu > li > a {

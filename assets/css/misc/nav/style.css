@@ -3,11 +3,10 @@ nav{
   flex-direction:row;
   justify-content:space-between;
   padding:12px 0 12px 0;
-  background-color:#F9F9F9;
+  background-color:#FFF;
   width:100%;
-  box-shadow: #CACACA 0px 1px 0px;
+  /* box-shadow: #CACACA 0px 1px 0px; */
   top:0;
-  font-size:16pt;
   position:fixed;
   z-index:1;
   align-items:center;
@@ -46,8 +45,9 @@ label{
 }
 
 #menu > li > a{
-  color:#3C3452;
-  font-weight: 300;
+  font-size: 12pt;
+  color:#8E8E8E;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
 
