@@ -60,7 +60,7 @@
   }
   #row-header {
     display: grid;
-    grid-template-columns: .4fr .6fr;
+    grid-template-columns: .5fr .6fr;
     grid-gap:2em;
   }
   #row-header div img{
@@ -70,13 +70,10 @@
     width:100%;
     font-size:14.5pt;
   }
-  #row-header div a{
-    font-size:11.5pt;
-  }
 
   #row-projects{
     width:100%;
-    margin-top:4em;
+    margin-top:2em;
   }
 
   #hidden-while-mobile--h1{
@@ -98,6 +95,7 @@
   #visible-while-mobile--ul li a{
     color:#0978F8;
     font-weight:400;
+    font-size:14pt;
   }
 
   .grid-columns_3{
