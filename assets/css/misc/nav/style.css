@@ -38,10 +38,10 @@ label{
   list-style-type:none;
 }
 #menu > li:nth-child(1){
-  margin-right:2em;
+  margin-right:1.2em;
 }
 #menu > li:nth-child(3){
-  margin-left:2em;
+  margin-left:1.2em;
 }
 
 #menu > li > a{
