@@ -272,6 +272,10 @@ sub {
 #row-header div img {
   width: 100%;
   border-radius: 300%;
+  opacity: 0.9;
+}
+#row-header div img:hover {
+  opacity: 1;
 }
 #row-header div h1 span {
   display: inline-flex;

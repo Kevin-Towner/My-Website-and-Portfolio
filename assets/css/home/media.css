@@ -82,7 +82,7 @@
     display:none;
   }
   #hidden-while-mobile--ul{
-    /* display:none; */
+    display:none;
     margin-top:0;
   }
   #hidden-while-mobile--ul > li a{
@@ -93,10 +93,11 @@
     display:inline-block;
 
   }
-  #visible-while-mobile--ul{
+  #displayed-while-mobile--ul > li > a{
     display:inline-flex;
-    line-height:180%;
-    display:none;
+    color:#7558C8;
+    margin-top:0;
+    font-weight:400;
   }
   /* #visible-while-mobile--ul li a{
     color:#7558C8;
