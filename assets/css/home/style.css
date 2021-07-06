@@ -69,6 +69,21 @@
   text-decoration: underline;
   color: #7558C8;
 }
+.font-hyperlink_in-text {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+  color: #3C3452;
+  margin: 0 0 16px 0;
+  color: #7558C8;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14pt;
+}
+.font-hyperlink_in-text:hover {
+  text-decoration: underline;
+  color: #7558C8;
+}
 .font-caption {
   color: rgba(111, 0, 255, 0.7);
   font-family: 'Roboto', sans-serif;
