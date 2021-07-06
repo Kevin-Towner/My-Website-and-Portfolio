@@ -49,11 +49,11 @@
 
   #logo{
     height:32px;
-    margin-left:11vw;
+    margin-left:5vw;
   }
 
   #menu{
-    margin-right:11vw;
+    margin-right:5vw;
     padding:0;
   }
   /* nav{
@@ -75,7 +75,7 @@
     font-size:32px;
     color:#3a3a3a;
     float:right;
-    margin-right:10vw;
+    margin-right:5vw;
   }
   label:hover{
     opacity:.7;
@@ -93,7 +93,7 @@
 
   #logo{
     height:36px;
-    margin-left:10vw;
+    margin-left:5vw;
   }
 
   #home-container-all{
@@ -104,12 +104,13 @@
   #toggle{
     display: none;
     height:32px;
-    margin-right:11vw !important;
+    margin-right:5vw !important;
   }
 
   #menu{
     display:none;
     height:24px;
+    margin-right:5vw;
   }
 
   #toggle:checked + #menu{
