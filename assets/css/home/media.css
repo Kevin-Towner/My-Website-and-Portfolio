@@ -60,7 +60,7 @@
   #row-header {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap:2em;
+    grid-gap:1em;
   }
   #row-header div ul li a{
     font-size:12.5pt;
