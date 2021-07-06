@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  background-color: #3C3452;
+  background-color: #524C66;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -16,7 +16,7 @@
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 12pt;
+  font-size: 12.5pt;
   text-align: left;
   color: #8E8E8E;
   border-bottom: 1px solid #524C66;
@@ -118,7 +118,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  background-color: #3C3452;
+  background-color: #524C66;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -129,7 +129,7 @@ h1 {
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 12pt;
+  font-size: 12.5pt;
   text-align: left;
   color: #8E8E8E;
   border-bottom: 1px solid #524C66;

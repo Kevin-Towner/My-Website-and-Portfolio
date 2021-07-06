@@ -62,14 +62,15 @@
     grid-template-columns: 1fr 1fr;
     grid-gap:2em;
   }
-  #row-header div a{
-    font-size:14.5pt;
+  #row-header div ul li a{
+    font-size:12.5pt;
+    font-weight:400;
   }
   #row-header div img{
 
   }
   #row-header div p {
-    font-size:14.5pt;
+    font-size:14pt;
   }
 
   #row-projects{
