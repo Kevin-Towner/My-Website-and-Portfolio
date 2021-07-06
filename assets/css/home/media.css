@@ -59,7 +59,7 @@
   }
   #row-header {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap:1.5em;
   }
   #row-header div ul li a{
