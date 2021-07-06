@@ -19,7 +19,7 @@
   font-size: 12pt;
   text-align: left;
   color: #8E8E8E;
-  border-bottom: 1px solid #C8C8C8;
+  border-bottom: 1px solid #524C66;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -132,7 +132,7 @@ h2 {
   font-size: 12pt;
   text-align: left;
   color: #8E8E8E;
-  border-bottom: 1px solid #C8C8C8;
+  border-bottom: 1px solid #524C66;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -304,9 +304,6 @@ sub {
   color: #3C3452;
 }
 #visible-while-mobile--h1 {
-  display: none;
-}
-#visible-while-mobile--ul {
   display: none;
 }
 footer {
