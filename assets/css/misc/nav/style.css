@@ -3,7 +3,7 @@ nav{
   flex-direction:row;
   justify-content:space-between;
   padding:12px 0 12px 0;
-  background-color:#fff;
+  background-color:#F9F9F9;
   width:100%;
   box-shadow: #CACACA 0px 1px 0px;
   top:0;
@@ -23,7 +23,7 @@ label{
   display:none;
 }
 #logo{
-  height:48px;
+  height:40px;
   margin-left:16.5vw;
 }
 
@@ -46,13 +46,13 @@ label{
 }
 
 #menu > li > a{
-  color:#000;
+  color:#3C3452;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
 
 #menu > li > a:hover{
-  color:#7500D0;
+  color:#524C66;
   text-decoration:underline;
 }
 
