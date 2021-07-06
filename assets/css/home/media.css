@@ -60,7 +60,7 @@
   #row-header {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap:1em;
+    grid-gap:1.5em;
   }
   #row-header div ul li a{
     font-size:12.5pt;
@@ -112,11 +112,12 @@
   .grid-columns_3 a div img{
     max-height:100%;
   }
+
   .grid-columns_3 a div p{
     font-size:12pt;
   }
-  .grid-columns_3 a div h4{
-    font-size:18pt;
+  .grid-columns_3 a div h3{
+    font-size:14.5pt;
   }
 
   .font-hyperlink_in-text{
@@ -128,7 +129,7 @@
   #row-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:1em;
+    grid-gap:1.5em;
   }
 }
 
@@ -136,7 +137,7 @@
   #row-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:1em;
+    grid-gap:1.5em;
   }
 
 }
