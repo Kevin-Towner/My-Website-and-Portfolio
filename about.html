@@ -8,7 +8,7 @@
   <meta name="author" content="Kevin Towner">
   <meta name="description" content="Personal website of Kevin Towner's user experience, human-computer interaction and user interface design work, studies and processes.">
   <meta name="keywords" content="Kevin Towner, Human-Computer Interaction, Drexel University, Design Systems, User Experience, User Interface Design, UI Design, UX Design">
-  <title>Kevin Towner - HCI & User Experience</title>
+  <title>Kevin Towner</title>
 
   <!--FAVICON-->
   <link rel="apple-touch-icon" sizes="180x180" href="favicons.ico/apple-touch-icon.png">
@@ -21,9 +21,9 @@
   <link rel="stylesheet" type="text/css" href="assets/css/misc/others/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/buttons/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/buttonss/media.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/about/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/about/master.less">
-  <link rel="stylesheet" type="text/css" href="assets/css/about/media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/home/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/home/master.less">
+  <link rel="stylesheet" type="text/css" href="assets/css/home/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/foot/style.css">
@@ -55,18 +55,23 @@
       <label for="toggle">☰</label>
       <input type="checkbox" id="toggle">
       <ul id="menu">
-        <li><a id="anchor-index" target="#" href = "index.html">home</a></li>
-        <li><a style="color:#EB00F0;" id="anchor-portfolio" target="#" href = "portfolio.html">about</a></li>
+        <li><a style="color:#B41AB7;" id="anchor-index" target="#" href = "index.html">home</a></li>
+        <li><a id="anchor-portfolio" target="#" href = "portfolio.html">about</a></li>
         <li><a id="anchor-contact" target="#" href = "contact.html">contact</a></li>
       </ul>
     </div>
   </nav>
+
   <div class = "main-content">
+    <h1 id="visible-while-mobile--h1" class="hidden-white-not-mobile"><span>Kevin Towner</span></h1>
     <div class="row" id = "row-header">
       <div>
-        <h1><span>About<img src="assets/images/misc/praying-emoji.png" alt="praying emoji"></span></h1>
-        <p>Full-time employeee, part-time graduate student, and martial arts practicioner. I study HCI at Drexel University and work for a large insurance company.</p>
-        <ul class="list-header_row">
+        <a target="_blank" href="assets/images/me/me-1.png"><img id="me-1" src="assets/images/me/me-1.png" alt="image of me at the Amazura in Queens, NY"></a>
+      </div>
+      <div>
+        <h1 id="hidden-while-mobile--h1"><span>Kevin Towner</span></h1>
+        <p>Product designer with a focus on design systems, mobile experiences, and knowledge management.
+        <ul id="hidden-while-mobile--ul"  class="list-header_row">
           <li>
             <a target="_blank" href="https://www.linkedin.com/in/kevin-towner-b0960b96/">LinkedIn</a>
           </li>
@@ -80,45 +85,6 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div class="row" id="row-projects">
-      <h2><span>Research & Design</span></h2>
-      <div class="grid-columns_3">
-        <a href="case-studies/future-vision.html" target="_blank">
-          <div>
-            <img src="assets/images/misc/future-vision/portfolio-image-1.png" alt="">
-            <h4>Future Vision</h4>
-            <p>Aims to address variables that can negatively affect people's travels.</p>
-          </div>
-        </a>
-        <a style="" href="#" target="_blank">
-          <div>
-            <img src="assets/images/misc/waze/waze.png" alt="">
-            <h4>A/B Test</h4>
-            <p>Coming Soon...</p>
-          </div>
-        </a>
-        <!-- <a style="visibility:hidden;" href="#" target="_blank">
-          <div>
-            <img src="assets/images/misc/future-vision/portfolio-image-1.png" alt="">
-            <h4>Coming Soon</h4>
-            <p>...</p>
-          </div>
-        </a> -->
-      </div>
-    </div>
-    <div class="row" id="row-misc_projects">
-      <h2><span>Misc Projects</span></h2>
-      <ul class="list-misc_projects">
-        <li>
-          <a target="_blank" href="case-studies/ontology-trader_joes.html">Ontology, Trader Joe's - TJ Beers</a>
-          <sub>• May 2nd, 2021</sub>
-        </li>
-        <li>
-          <a target="_blank" href="">One UI, Design Guidelines in Figma</a>
-          <sub>• May 2nd, 2021</sub>
-        </li>
-      </ul>
     </div>
   </div>
   <footer>
