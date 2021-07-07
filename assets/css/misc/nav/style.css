@@ -2,7 +2,6 @@ nav{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  align-items: center;
   padding:12px 0 12px 0;
   background-color:#FFF;
   width:100%;
@@ -13,8 +12,8 @@ nav{
   align-items:center;
 }
 
-nav > a{
-  MARGIN-BOTTOM:0;
+nav div h1{
+  margin-bottom:0;
 }
 
 label{
@@ -28,7 +27,7 @@ label{
   align-items:center;
 }
 #navigation-right{
-
+  align-items:center;
 }
 #logo{
   height:40px;

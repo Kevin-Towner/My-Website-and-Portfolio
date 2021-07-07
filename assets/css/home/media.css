@@ -68,7 +68,7 @@
     font-weight:400;
   }
   #row-header div img{
-
+    border-radius:2px;
   }
   #row-header div p {
     font-size:14pt;
