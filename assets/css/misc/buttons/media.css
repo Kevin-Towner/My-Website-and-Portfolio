@@ -1,5 +1,4 @@
 @media (max-width:600px){
-  .btn-list > li:nth-child(2){
-    margin-left:54px;
+  button{
+    font-size:12pt;
   }
-}
