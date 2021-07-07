@@ -320,7 +320,7 @@ sub {
   margin-left: 1em;
 }
 footer {
-  position: relative;
+  position: absolute;
 }
 /*--Keyframes--*/
 @keyframes fadeInAnimation {
