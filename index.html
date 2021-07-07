@@ -50,7 +50,9 @@
 </head>
 <body>
   <nav>
-    <a href = "index.html"><img id="logo" src="assets/images/misc/frieza-logo.svg" alt=""></a>
+    <div>
+      <a href = "index.html"><img id="logo" src="assets/images/misc/frieza-logo.svg" alt=""></a>
+    </div>
     <div>
       <label for="toggle">☰</label>
       <input type="checkbox" id="toggle">
@@ -63,29 +65,24 @@
   </nav>
 
   <div class = "main-content">
-    <h1 id="visible-while-mobile--h1" class="hidden-white-not-mobile"><span>Kevin Towner</span></h1>
+    <h1 id="visible-while-mobile_h1" class="hidden-white-not-mobile"><span>Kevin Towner</span></h1>
     <div class="row" id = "row-header">
       <div>
         <a target="_blank" href="assets/images/me/me-1.png"><img id="me-1" src="assets/images/me/me-1.png" alt="image of me at the Amazura in Queens, NY"></a>
       </div>
       <div>
-        <h1 id="hidden-while-mobile--h1"><span>Kevin Towner</span></h1>
+        <h1 id="hidden-while-mobile_h1"><span>Kevin Towner</span></h1>
         <p>Product designer with a focus on design systems, mobile experiences, and knowledge management. I study HCI at Drexel CCI and compete in amateur Muay Thai and K-1.</p>
-        <ul id="hidden-while-mobile--ul"  class="list-header_row">
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/kevin-towner-b0960b96/">LinkedIn</a>
-          </li>
-          <span class="bullet-point">·</span>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/kevn0_o/">Instagram</a>
-          </li>
-          <span class="bullet-point">·</span>
-          <li>
-            <a target="_blank" href="mailto:kevintowner@gmail.com">Email</a>
-          </li>
+        <ul id="hidden-while-mobile_button-list"  class="list-header_row">
+          <li><a href="#"><button>View my work</button></a></li>
+          <li><a href=""><button>Contact me</button></a></li>
         </ul>
       </div>
     </div>
+    <ul id="visible-while-mobile_button-list"  class="list-header_row">
+      <li><a href="#"><button>View my work</button></a></li>
+      <li><a href=""><button>Contact me</button></a></li>
+    </ul>
     <div class="row" id="row-projects">
       <h2><span>View work below</span></h2>
       <div class="grid-columns_3">

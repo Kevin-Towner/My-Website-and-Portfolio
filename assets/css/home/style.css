@@ -289,12 +289,6 @@ sub {
   color: #7558C8;
   font-weight: 400;
 }
-#row-header div a:hover {
-  color: #B41AB7;
-}
-#displayed-while-mobile--ul {
-  display: none;
-}
 #row-misc_projects ul li {
   border-bottom: 1px solid #fefefe;
   padding-bottom: 1.5em;
@@ -310,8 +304,17 @@ sub {
   text-decoration: none;
   color: #3C3452;
 }
-#visible-while-mobile--h1 {
+#visible-while-mobile_h1 {
   display: none;
+}
+#visible-while-mobile_button-list {
+  display: none;
+}
+#visible-while-mobile_button-list li:nth-child(2) {
+  margin-left: 1em;
+}
+#hidden-while-mobile_button-list li:nth-child(2) {
+  margin-left: 1em;
 }
 footer {
   position: relative;

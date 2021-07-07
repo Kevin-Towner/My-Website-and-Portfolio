@@ -275,14 +275,10 @@ sub{
       color:@color-hyperlink;
       font-weight:400;
       &:hover{
-        color:@color-CTA;
+
       }
     }
   }
-}
-
-#displayed-while-mobile--ul{
-  display:none;
 }
 
 #row-projects{
@@ -308,8 +304,22 @@ sub{
   text-decoration: none;
   color:@color-misc_1;
 }
-#visible-while-mobile--h1{
+#visible-while-mobile_h1{
   display:none;
+}
+#visible-while-mobile_button-list{
+  display:none;
+  li:nth-child(2){
+    margin-left:1em;
+  }
+}
+#hidden-while-mobile_button-list{
+  li:nth-child(2){
+    margin-left:1em;
+  }
+}
+#hidden-while-mobile_h1{
+
 }
 
 footer{
