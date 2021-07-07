@@ -27,6 +27,7 @@
   }
   #row-header div p {
     font-size:14.5pt;
+    width:100%;
   }
   #row-header div a{
     font-size:14pt;
@@ -53,7 +54,7 @@
     margin: 0 0 0em 0;
   }
   .main-content{
-    padding:20vh 0 8vh 0;
+    padding:16vh 0 8vh 0;
     width:90vw;
     margin:auto;
   }

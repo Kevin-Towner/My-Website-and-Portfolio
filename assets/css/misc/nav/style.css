@@ -2,6 +2,7 @@ nav{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
+  align-items: center;
   padding:12px 0 12px 0;
   background-color:#FFF;
   width:100%;
@@ -21,9 +22,24 @@ label{
   text-align:center;
   display:none;
 }
+
+#navigation-left{
+  display:inline-flex;
+  align-items:center;
+}
+#navigation-right{
+
+}
 #logo{
   height:40px;
   margin-left:16.5vw;
+}
+#navigation-h1{
+  font-size:16.5pt;
+  font-weight:400;
+  color:#B41AB7;
+  margin-left:1em;
+  display:none;
 }
 
 #toggle{
