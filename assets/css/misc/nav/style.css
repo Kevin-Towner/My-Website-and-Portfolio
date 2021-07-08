@@ -83,3 +83,10 @@ label{
 #anchor-contact{
 
 }
+
+#visible-while-mobile_navigation-h1{
+  display:none;
+}
+#visible-while-mobile_navigation-logo{
+  display:none;
+}
