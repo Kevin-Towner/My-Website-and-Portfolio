@@ -249,12 +249,13 @@ sub {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
+  color: #3C3452;
   margin: 0 0 16px 0;
   color: #7558C8;
   text-decoration: none;
   font-weight: 400;
   font-size: 12.5pt;
-  color: #3C3452;
+  color: #524C66;
   text-align: left;
 }
 .grid-columns_3 a div span:hover {
@@ -273,6 +274,9 @@ sub {
 }
 .grid-columns_3 a:hover p {
   color: #B41AB7;
+}
+.grid-columns_3 a:hover span {
+  color: #7558C8;
 }
 .grid-columns_3 a:hover {
   text-decoration: none;
