@@ -5,7 +5,7 @@ nav{
   padding:12px 0 12px 0;
   background-color:#FFF;
   width:100%;
-  /* box-shadow: #CACACA 0px 1px 0px; */
+  border-bottom:1px solid rgb(148,149,153,.2);
   top:0;
   position:fixed;
   z-index:1;
@@ -60,14 +60,14 @@ label{
 }
 
 #menu > li > a{
-  font-size: 12pt;
+  font-size: 12.5pt;
   color:#8E8E8E;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
 
 #menu > li > a:hover{
-  color:#524C66;
+  color:#7558C8;
   text-decoration:underline;
 }
 
