@@ -25,7 +25,7 @@
 }
 .font-heading_text-h2 span {
   background: #FFFFFF;
-  padding: 0 24px 0 0px;
+  padding: 0 12px 0 0px;
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
@@ -140,7 +140,7 @@ h2 {
 }
 h2 span {
   background: #FFFFFF;
-  padding: 0 24px 0 0px;
+  padding: 0 12px 0 0px;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -227,9 +227,7 @@ sub {
 }
 .grid-columns_3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 24px;
+  grid-template-columns: 1fr 1fr;
 }
 .grid-columns_3 a {
   background-color: #FFFFFF;
@@ -248,7 +246,6 @@ sub {
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
-  font-weight: 300;
   color: #3C3452;
   margin: 0 0 16px 0;
   color: #7558C8;
@@ -257,6 +254,7 @@ sub {
   font-size: 12.5pt;
   color: #524C66;
   text-align: left;
+  font-weight: 300;
 }
 .grid-columns_3 a div span:hover {
   text-decoration: underline;
