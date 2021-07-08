@@ -30,6 +30,7 @@
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 12.5pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
@@ -58,11 +59,12 @@
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
+  font-weight: 300;
   color: #3C3452;
   margin: 0 0 16px 0;
-  color: #B41AB7;
+  color: #7558C8;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
@@ -143,6 +145,7 @@ h2 span {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 12.5pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
@@ -175,11 +178,12 @@ a {
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
+  font-weight: 300;
   color: #3C3452;
   margin: 0 0 16px 0;
-  color: #B41AB7;
+  color: #7558C8;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12.5pt;
 }
 a:hover {
@@ -224,11 +228,11 @@ sub {
 .grid-columns_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2em;
+  grid-template-rows: auto;
+  gap: 24px;
 }
 .grid-columns_3 a {
-  background-color: #F9F9F9;
-  border: 1px solid #D3D3D3;
+  background-color: #FFFFFF;
 }
 .grid-columns_3 a div {
   display: flex;
@@ -236,13 +240,26 @@ sub {
 }
 .grid-columns_3 a div img {
   max-width: 100%;
-  opacity: 0.7;
+  opacity: 0.9;
   position: relative;
 }
-.grid-columns_3 a div h3 {
-  color: #524C66;
-  text-align: center;
+.grid-columns_3 a div span {
+  margin: 0;
+  font-size: 14pt;
   font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+  font-weight: 300;
+  margin: 0 0 16px 0;
+  color: #7558C8;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12.5pt;
+  color: #3C3452;
+  text-align: left;
+}
+.grid-columns_3 a div span:hover {
+  text-decoration: underline;
+  color: #7558C8;
 }
 .grid-columns_3 a div p {
   color: #524C66;
@@ -253,9 +270,6 @@ sub {
 }
 .grid-columns_3 a:hover img {
   opacity: 1;
-}
-.grid-columns_3 a:hover h3 {
-  color: #7558C8;
 }
 .grid-columns_3 a:hover p {
   color: #B41AB7;
@@ -320,7 +334,7 @@ sub {
   margin-left: 1em;
 }
 footer {
-  position: absolute;
+  position: relative;
 }
 /*--Keyframes--*/
 @keyframes fadeInAnimation {

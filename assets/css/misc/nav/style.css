@@ -23,8 +23,8 @@ label{
 }
 
 #navigation-left{
-  display:inline-flex;
   align-items:center;
+
 }
 #navigation-right{
   align-items:center;
