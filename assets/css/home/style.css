@@ -19,7 +19,7 @@
   font-size: 12.5pt;
   text-align: left;
   color: #8E8E8E;
-  border-bottom: 2px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -134,7 +134,7 @@ h2 {
   font-size: 12.5pt;
   text-align: left;
   color: #8E8E8E;
-  border-bottom: 2px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
