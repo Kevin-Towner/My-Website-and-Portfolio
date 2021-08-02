@@ -283,12 +283,12 @@ sub {
 #row-header {
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
-  grid-gap: 6em;
+  grid-gap: 4em;
   width: 100%;
 }
 #row-header div img {
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
 }
 #row-header div img:hover {
   opacity: 1;
