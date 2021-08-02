@@ -283,7 +283,7 @@ sub {
 #row-header {
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
-  grid-gap: 4em;
+  grid-gap: 6em;
   width: 100%;
 }
 #row-header div img {
@@ -302,7 +302,7 @@ sub {
   display: none;
 }
 #row-header div p {
-  width: 67%;
+  width: 80%;
 }
 #row-header div a {
   color: #7558C8;
