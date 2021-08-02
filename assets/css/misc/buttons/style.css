@@ -3,11 +3,12 @@
 /*--Social Media Buttons--*/
 
 button{
+  border-color:none;
   display:flex;
   padding:6px 18px 6px 18px;
   letter-spacing:.2px;
-  border-radius:2px;
-  border: 1px solid #8E8E8E;
+  border-radius:.5px;
+  border: 2px solid #686868;
   color:#524C66;
   background-color:#fff;
   font-size:11pt;

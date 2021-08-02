@@ -32,8 +32,6 @@
 <path d="M27.706 9.0405L26.8849 12.9632H20.3292L19.5082 9.0405V5.13021L23.7118 4.76581L27.706 5.12981V9.0405Z" fill="white" stroke="#454545" stroke-width="0.2"/>
 <path d="M20.8041 8.72621L20.8041 5.97952L23.5993 6.58005L23.6102 6.5824L23.6209 6.58006L26.4769 5.95296L26.4768 8.72143L26.1239 11.8382L21.321 11.8591L20.8041 8.72621Z" fill="#FF4E63" stroke="#454545" stroke-width="0.1" stroke-linecap="round"/>
 <line x1="14.5152" y1="28.6137" x2="16.2339" y2="27.7281" stroke="#7A7777" stroke-width="0.2" stroke-linecap="round" stroke-dasharray="2.2 0"/>
-<line x1="20.4275" y1="19.3695" x2="21.9683" y2="18.5756" stroke="#454545" stroke-width="0.4" stroke-linecap="round"/>
-<line x1="0.2" y1="-0.2" x2="1.93341" y2="-0.2" transform="matrix(-0.888931 -0.458041 -0.458041 0.888931 26.9032 19.6389)" stroke="#454545" stroke-width="0.4" stroke-linecap="round"/>
 <line x1="0.1" y1="-0.1" x2="2.03341" y2="-0.1" transform="matrix(-0.888931 -0.458041 -0.458041 0.888931 32.7886 28.7484)" stroke="#7A7777" stroke-width="0.2" stroke-linecap="round" stroke-dasharray="2.2 0"/>
 <defs>
 <linearGradient id="paint0_linear" x1="2.72446" y1="2.66768" x2="18.3967" y2="18.6735" gradientUnits="userSpaceOnUse">
