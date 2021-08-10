@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  background-color: #524C66;
+  background-color: #5F646A;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -18,8 +18,8 @@
   font-weight: 400;
   font-size: 12.5pt;
   text-align: left;
-  color: #8E8E8E;
-  border-bottom: 1px solid #AAA;
+  color: #5F646A;
+  border-bottom: 1px solid #5F646A;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -34,7 +34,7 @@
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
-  color: #3C3452;
+  color: #303841;
 }
 .font-body_text-p {
   margin: 0;
@@ -42,7 +42,7 @@
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #3C3452;
+  color: #303841;
   margin: 0 0 16px 0;
 }
 .font-subtitle {
@@ -51,7 +51,7 @@
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #3C3452;
+  color: #303841;
   margin: 24px 0 8px 0;
 }
 .font-hyperlink_text {
@@ -60,7 +60,7 @@
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #3C3452;
+  color: #303841;
   margin: 0 0 16px 0;
   color: #7558C8;
   text-decoration: none;
@@ -75,7 +75,7 @@
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
-  color: #3C3452;
+  color: #303841;
   margin: 0 0 16px 0;
   color: #7558C8;
   text-decoration: none;
@@ -120,7 +120,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  background-color: #524C66;
+  background-color: #5F646A;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -133,8 +133,8 @@ h2 {
   font-weight: 400;
   font-size: 12.5pt;
   text-align: left;
-  color: #8E8E8E;
-  border-bottom: 1px solid #AAA;
+  color: #5F646A;
+  border-bottom: 1px solid #5F646A;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -149,7 +149,7 @@ h3 {
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
-  color: #3C3452;
+  color: #303841;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
@@ -157,7 +157,7 @@ h4 {
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #3C3452;
+  color: #303841;
   margin: 24px 0 8px 0;
 }
 p {
@@ -166,7 +166,7 @@ p {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #3C3452;
+  color: #303841;
   margin: 0 0 16px 0;
 }
 ul {
@@ -179,7 +179,7 @@ a {
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
   font-weight: 300;
-  color: #3C3452;
+  color: #303841;
   margin: 0 0 16px 0;
   color: #7558C8;
   text-decoration: none;
@@ -216,7 +216,7 @@ sub {
 .bullet-point {
   padding: 0 10px 0 10px;
   font-size: 20pt;
-  color: #524C66;
+  color: #5F646A;
 }
 .list-misc_projects li {
   display: flex;
@@ -247,13 +247,13 @@ sub {
   font-size: 14pt;
   font-family: 'Roboto', sans-serif;
   line-height: 150%;
-  color: #3C3452;
+  color: #303841;
   margin: 0 0 16px 0;
   color: #7558C8;
   text-decoration: none;
   font-weight: 400;
   font-size: 12.5pt;
-  color: #524C66;
+  color: #5F646A;
   text-align: left;
   font-weight: 300;
 }
@@ -262,7 +262,7 @@ sub {
   color: #7558C8;
 }
 .grid-columns_3 a div p {
-  color: #524C66;
+  color: #5F646A;
   margin: 0;
 }
 .grid-columns_3 a:hover {
@@ -313,7 +313,7 @@ sub {
   padding-bottom: 1.5em;
 }
 #row-misc_projects ul li a {
-  color: #524C66;
+  color: #5F646A;
 }
 #row-misc_projects ul li a:hover {
   color: #7558C8;
@@ -321,7 +321,7 @@ sub {
 /*--Importantants--*/
 #menu > li > a {
   text-decoration: none;
-  color: #3C3452;
+  color: #303841;
 }
 #visible-while-mobile_h1 {
   display: none;
