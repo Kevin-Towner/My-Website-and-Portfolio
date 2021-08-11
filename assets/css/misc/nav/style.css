@@ -61,13 +61,13 @@ label{
 
 #menu > li > a{
   font-size: 12.5pt;
-  color:#8E8E8E;
+  color:#565F6D;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
 
 #menu > li > a:hover{
-  color:#7558C8;
+  color:#B41AB7;
   text-decoration:underline;
 }
 
