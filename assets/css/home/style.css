@@ -40,7 +40,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 14pt;
-  line-height: 150%;
+  line-height: 160%;
   font-weight: 300;
   color: #303841;
   margin: 0 0 16px 0;
@@ -58,33 +58,33 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 14pt;
-  line-height: 150%;
+  line-height: 160%;
   font-weight: 300;
   color: #303841;
   margin: 0 0 16px 0;
-  color: #7558C8;
+  color: #FF3B6A;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #7558C8;
+  color: #FF3B6A;
 }
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  line-height: 150%;
+  line-height: 160%;
   color: #303841;
   margin: 0 0 16px 0;
-  color: #7558C8;
+  color: #FF3B6A;
   text-decoration: none;
   font-weight: 300;
   font-size: 14pt;
 }
 .font-hyperlink_in-text:hover {
   text-decoration: underline;
-  color: #7558C8;
+  color: #FF3B6A;
 }
 .font-caption {
   color: rgba(111, 0, 255, 0.7);
@@ -168,7 +168,7 @@ p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 14pt;
-  line-height: 150%;
+  line-height: 160%;
   font-weight: 300;
   color: #303841;
   margin: 0 0 16px 0;
@@ -181,18 +181,18 @@ a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 14pt;
-  line-height: 150%;
+  line-height: 160%;
   font-weight: 300;
   color: #303841;
   margin: 0 0 16px 0;
-  color: #7558C8;
+  color: #FF3B6A;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12.5pt;
 }
 a:hover {
   text-decoration: underline;
-  color: #7558C8;
+  color: #FF3B6A;
 }
 sub {
   color: rgba(111, 0, 255, 0.7);
@@ -250,12 +250,12 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 14pt;
-  line-height: 150%;
+  line-height: 160%;
   color: #303841;
   margin: 0 0 16px 0;
-  color: #7558C8;
+  color: #FF3B6A;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12.5pt;
   color: #565F6D;
   text-align: left;
@@ -263,7 +263,7 @@ sub {
 }
 .grid-columns_3 a div span:hover {
   text-decoration: underline;
-  color: #7558C8;
+  color: #FF3B6A;
 }
 .grid-columns_3 a div p {
   color: #565F6D;
@@ -279,7 +279,7 @@ sub {
   color: #B41AB7;
 }
 .grid-columns_3 a:hover span {
-  color: #7558C8;
+  color: #FF3B6A;
 }
 .grid-columns_3 a:hover {
   text-decoration: none;
@@ -306,10 +306,10 @@ sub {
   display: none;
 }
 #row-header div p {
-  width: 80%;
+  width: 100%;
 }
 #row-header div a {
-  color: #7558C8;
+  color: #FF3B6A;
   font-weight: 400;
 }
 #row-misc_projects ul li {
@@ -320,7 +320,7 @@ sub {
   color: #565F6D;
 }
 #row-misc_projects ul li a:hover {
-  color: #7558C8;
+  color: #FF3B6A;
 }
 /*--Importantants--*/
 #menu > li > a {
