@@ -21,21 +21,24 @@
   <link rel="stylesheet" type="text/css" href="assets/css/misc/others/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/buttons/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/buttonss/media.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/home/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/home/master.less">
-  <link rel="stylesheet" type="text/css" href="assets/css/home/media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/about/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/about/master.less">
+  <link rel="stylesheet" type="text/css" href="assets/css/about/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/foot/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/foot/media.css">
 
 <!-- less -->
-  <link rel="stylesheet/less" type="text/css" href="assets/css/styles.less" />
+  <link rel="stylesheet/less" type="text/css" href="assets/css/styles.less"/>
   <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
 
   <!--fonts-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -50,44 +53,129 @@
 </head>
 <body>
   <nav>
-    <a href = "index.html"><img id="logo" src="assets/images/misc/frieza-logo.svg" alt=""></a>
-    <div>
+    <div class="navigation-section" id="navigation-left">
+      <a style="margin-bottom:0;" href = "index.html"><img id="logo" src="assets/images/misc/gundam-logo.svg" alt=""></a>
+      <h1 id="visible-while-mobile_navigation-h1">Kevin Towner</h1>
+    </div>
+    <div class="navigation-section" id="navigation-right">
       <label for="toggle">☰</label>
       <input type="checkbox" id="toggle">
       <ul id="menu">
-        <li><a style="color:#B41AB7;" id="anchor-index" target="#" href = "index.html">home</a></li>
-        <li><a id="anchor-portfolio" target="#" href = "portfolio.html">about</a></li>
+        <li><a style="color:#303841;" id="anchor-index" target="#" href = "index.html">home</a></li>
+        <li><a id="anchor-portfolio" target="#" href = "about.html">about</a></li>
         <li><a id="anchor-contact" target="#" href = "contact.html">contact</a></li>
       </ul>
     </div>
   </nav>
-
   <div class = "main-content">
-    <h1 id="visible-while-mobile--h1" class="hidden-white-not-mobile"><span>Kevin Towner</span></h1>
+    <h1 id="visible-while-mobile_h1" class="hidden-white-not-mobile"><span>ABOUT</span></h1>
     <div class="row" id = "row-header">
+      <!-- <div>
+        <a target="_blank" href="assets/images/misc/gundam-image.png"><img id="me-1" src="assets/images/misc/gundam-image.svg" alt="Gundam, RX-78-2, designed by Kevin using Figma"></a>
+      </div> -->
       <div>
-        <a target="_blank" href="assets/images/me/me-1.png"><img id="me-1" src="assets/images/me/me-1.png" alt="image of me at the Amazura in Queens, NY"></a>
-      </div>
-      <div>
-        <h1 id="hidden-while-mobile--h1"><span>Kevin Towner</span></h1>
-        <p>Product designer with a focus on design systems, mobile experiences, and knowledge management.
-        <ul id="hidden-while-mobile--ul"  class="list-header_row">
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/kevin-towner-b0960b96/">LinkedIn</a>
-          </li>
-          <span class="bullet-point">·</span>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/kevn0_o/">Instagram</a>
-          </li>
-          <span class="bullet-point">·</span>
-          <li>
-            <a target="_blank" href="mailto:kevintowner@gmail.com">Email</a>
-          </li>
-        </ul>
+        <h1 id="hidden-while-mobile_h1"><span>ABOUT</span></h1>
+        <!-- <ul id="hidden-while-mobile_button-list"  class="list-header_row">
+          <li><a href="#"><button>About me</button></a></li>
+          <li><a href=""><button>Contact</button></a></li>
+        </ul> -->
       </div>
     </div>
+    <!-- <ul id="visible-while-mobile_button-list"  class="list-header_row">
+      <li><a href="#"><button>View my work</button></a></li>
+      <li><a href=""><button>Contact me</button></a></li>
+    </ul> -->
+    <div class="row">
+      <h2><span>Kevin Towner</span></h2>
+      <div class="row-33_66-prim">
+        <div>
+          <h3>Professional</h3>
+          <h4>Corporate employee, graduate student and designer</h4>
+          <p>I work full time at AIG, Private Client Group, as an account analyst and business services associate. I manage the completion and communication of multiple policy-related transactions, such as endorsements, cancellations renewals and issuances, for multiple lines of business including auto, home, worker's compensation and excess liability.</p>
+          <p>
+          I'm also a product designer with a passion for qualitative research, prototyping and user interface design elements. I am especially enthusiastic for design systems, and the creation of design system components, for long-term reusability and iterative improvements. Human-computer interaction is my field of study as I'm currently a graduate student at Drexel University CCI, currently working towards my MSI.
+          </p>
+        </div>
+        <div>
+          <a target="_blank" href="assets/images/me/me-1.png"><img id="me-1" src="assets/images/me/me-1.png" alt="A photo of me wearing a Frieza shirt and holding a bottle of water"></a>
+          <span class="font-caption">Photo of me at the Amazura Nightclub in Queens, NY</span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row-33_66-prim">
+        <div>
+          <h3>Personal</h3>
+          <h4>Muay Thai/K-1, running, nerd stuff </h4>
+          <p>Outside of work and school, I enjoy compeition and martial arts in the form of Muay Thai and K-1 Kickboxing. I'm currently an amateur MT fighter and will soon be competing in the WKA Nationals 2021,in MT and K-1 tournaments. I've also fought for Extreme Cafe Fighting (ECF) as a K-1 fighter. Aside from training, I enjoy distance running, video games and watching anime. If you haven't already figured, I enjoy <span class="font-italic">Mobile Suit Gundam</span></p>
+        </div>
+        <div>
+          <a target="_blank" href="assets/images/misc/me-5.png"><img id="me-5" src="assets/images/misc/me-5.png" alt="A photo of me landing a lead hook at ECF"></a>
+          <span class="font-caption">Photo of me at the Amazura Nightclub in Queens, NY</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h2><span>Newtype & empathy</span></h2>
+      <div>
+        <div class="row-33_66-seco">
+          <div>
+            <h3>What's a "newtype"?</h3>
+            <h4>The term "newtype" is from Japanese anime series, <span class="font-italic">Mobile Suit Gundam</span>, a science-fiction, military drama/space opera.</h4>
+            <p>Newtypes are people who have reached the next stage in the evolution of humans. They are said to be better adapted to living in outer space by possessing telepathic abilities and heightened mental awareness - a sixth sense.</p>
+            <p>Not only do newtype abilities make it possible for newtypes to become better mobile suit pilots, but they also have abilities in telepathic communication.</p>
+          </div>
+          <div>
+            <a target="_blank" href="assets/images/misc/newtype-2.png"><img id="me-1" src="assets/images/misc/newtype-2.png" alt="Gundam, RX-78-2, designed by Kevin using Figma"></a>
+            <span class="font-caption">Amuro Ray, "The White Devil", teenage newtype and pilot of the RX-78-2</span>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row-33_66-seco">
+          <div>
+            <h3>Newtype and dsign</h3>
+            <h4>I apply the concept of the newtype into my design mentality</h4>
+            <p>The one dimensional view of having, and recognizing, feelings as weak is in line with what many of us are taught from a young age. The <span class="font-italic">Mobile Suit Gundam</span> series effectively illustrates how a heightened sense of empathy is what allows space-adapted humans to accomplish difficult and courageous feats.</p>
+            <h4>Newtype characteristics include:</h4>
+            <ul>
+              <li>• clear communication</li>
+              <li>• sharp intuition</li>
+              <li>• strong empaths</li>
+            </ul>
+          </div>
+          <div>
+            <a target="_blank" href="assets/images/misc/newtype-4.png"><img id="me-1" src="assets/images/misc/newtype-4.png" alt="Gundam, RX-78-2, designed by Kevin using Figma"></a>
+            <span class="font-caption">Mobile Suit Gundam III: Encounters in Space (1982)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row" id="row-misc_projects">
+      <h2><span>Design Systems</span></h2>
+      <ul class="list-misc_projects">
+        <li>
+          <a target="_blank" href="">One UI, Design Guidelines in Figma</a>
+          <sub>May 2nd, 2021</sub>
+        </li>
+      </ul>
+    </div> -->
+    <!-- <div class="row" id="row-misc_projects">
+      <h2><span>Misc</span></h2>
+      <ul class="list-misc_projects">
+        <li>
+          <a target="_blank" href="case-studies/muay-thai.html">Three Lessons Muay Thai Taught Me About Changing Careers</a>
+          <sub>Date</sub>
+        </li>
+      </ul>
+    </div> -->
   </div>
   <footer>
+    <!-- <div class="contact-icons">
+      <a href="https://www.linkedin.com/in/kevin-towner-b0960b96/"><img class="footer-icon" src="assets/images/icons/icons-linkedin.png" alt="Linkedin icon"></a>
+      <a href="https://www.instagram.com/kevn0_o/"><img class="footer-icon" src="assets/images/icons/icons-instagram.png" alt="Instagram icon"></a>
+      <a href="mailto:kevintowner@gmail.com"><img class="footer-icon" src="assets/images/icons/icons-email.png" alt="Email icon"></a>
+    </div> -->
     <span class = "copyright">&copy Kevin Towner 2021</span>
   </footer>
 </body>

@@ -3,9 +3,9 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 2.5em;
-  background-color: #303841;
+  font-weight: 300;
+  font-size: 2.2em;
+  background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -16,10 +16,10 @@
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 13.5pt;
+  font-size: 16pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 1px solid #565F6D;
+  border-bottom: 1px solid #c4c4c4;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -39,7 +39,7 @@
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 160%;
   font-weight: 300;
   color: #565F6D;
@@ -57,7 +57,7 @@
 .font-hyperlink_text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 160%;
   font-weight: 300;
   color: #565F6D;
@@ -74,6 +74,7 @@
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  font-size: 16pt;
   line-height: 160%;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -122,9 +123,9 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 2.5em;
-  background-color: #303841;
+  font-weight: 300;
+  font-size: 2.2em;
+  background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -135,10 +136,10 @@ h1 {
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 13.5pt;
+  font-size: 16pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 1px solid #565F6D;
+  border-bottom: 1px solid #c4c4c4;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -167,7 +168,7 @@ h4 {
 p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 160%;
   font-weight: 300;
   color: #565F6D;
@@ -180,7 +181,7 @@ ul {
 a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 160%;
   font-weight: 300;
   color: #565F6D;
@@ -210,7 +211,7 @@ sub {
   animation-fill-mode: forward;
 }
 .row {
-  margin: 0 0 8em 0;
+  margin: 0 0 4em 0;
 }
 .list-header_row {
   display: inline-flex;
@@ -249,7 +250,7 @@ sub {
 .grid-columns_3 a div span {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 160%;
   margin: 0 0 16px 0;
   color: #FF3B6A;
