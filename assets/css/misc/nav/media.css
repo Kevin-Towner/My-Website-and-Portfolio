@@ -25,14 +25,16 @@
   }
   #logo{
     margin-left:16.7vw;
+      margin-left:5vw;
   }
 
   #toggle{
     display:none;
+    margin-left:5vw;
   }
 
   #menu{
-    margin-right:16.7vw;
+    margin-right:5vw;
   }
 }
 

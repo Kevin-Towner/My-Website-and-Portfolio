@@ -10,13 +10,15 @@
 }
 
 @media (max-width:1025px) {
-
+  .main-content{
+    width:90%;
+  }
 }
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   .main-content{
-    width:80vw;
+    width:90%;
   }
   #row-header {
     display: grid;
