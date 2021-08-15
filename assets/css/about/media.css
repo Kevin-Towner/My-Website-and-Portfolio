@@ -30,6 +30,11 @@
 
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h2 span {
+    background: #FEFEFE;
+    padding: 0 .5em 0 0px;
+  }
+
   .main-content {
     width: 90%;
   }
