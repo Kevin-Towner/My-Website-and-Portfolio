@@ -301,7 +301,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
-  font-size: 11pt;
+  font-size: 10.5pt;
 }
 .row-33_66-prim div .font-italic {
   font-style: italic;
@@ -321,7 +321,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
-  font-size: 11pt;
+  font-size: 10.5pt;
 }
 .row-33_66-seco div .font-italic {
   font-style: italic;
