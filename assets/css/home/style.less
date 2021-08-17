@@ -17,7 +17,7 @@
 .font-heading_text-h1{
   font-family: 'Roboto', sans-serif;
   font-weight:300;
-  font-size:40px;
+  font-size:28pt;
   background-color:@color-misc_2;
   // background-image: linear-gradient(to right, @color-misc_1, @color-CTA, @color-hyperlink, @color-hyperlink);
   background-size:100%;
@@ -31,31 +31,41 @@
 }
 .font-heading_text-h2{
   font-family: 'Roboto', sans-serif;
-  font-weight:400;
-  font-size:16pt;
+  font-weight:300;
+  font-size:24pt;
   text-align: left;
   color:@color-misc_2;
-  border-bottom:1px solid #c4c4c4;
+  border-bottom:2px solid @color-misc_2;
   line-height: 0.1em;
   margin:0 0 2em 0;
   span{
     background:@color-secondary;
-    padding:0 12px 0 0px;
+    padding:0 1em 0 0px;
   }
 }
 .font-heading_text-h3{
   font-family: 'Roboto', sans-serif;
-  font-weight:400;
-  font-size:12.5pt;
+  font-weight:300;
+  font-size:18pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height:140%;
-  color:@color-misc_1;
+  color:@color-misc_2;
+}
+
+.font-heading_text-h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size:16.5pt;
+  margin: 8px 0 8px 0;
+  text-align: left;
+  line-height:160%;
+  color:@color-misc_2;
 }
 .font-body_text-p{
   font-family: 'Roboto', sans-serif;
   margin:0;
-  font-size:16pt;
+  font-size:12pt;
   line-height:160%;
   font-weight:300;
   color:@color-misc_2;
@@ -72,9 +82,9 @@
 }
 .font-hyperlink_text{
   .font-body_text-p;
-  color:@color-hyperlink;
+  color:@color-misc_1;
   text-decoration:none;
-  font-weight:500;
+  font-weight:300;
   &:hover{
     text-decoration:underline;
     color:@color-hyperlink;
@@ -93,9 +103,14 @@
   font-size:14pt;
 }
 .font-caption{
-  color:@color-CTA-Alt;
+  color:@color-misc_1;
   font-family: 'Roboto', sans-serif;
-  line-height:200%;
+  line-height:140%;
+  font-weight:300;
+}
+.font-italic{
+  font-style:italic;
+  font-size: 12.5pt;
 }
 .highlight{
   font-weight:400;
@@ -150,7 +165,7 @@ h3{
 }
 
 h4{
-  .font-subtitle
+  .font-heading_text-h4
 }
 
 p{

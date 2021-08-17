@@ -4,7 +4,7 @@
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 2.2em;
+  font-size: 28pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -15,31 +15,40 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16pt;
+  font-weight: 300;
+  font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 2px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
 .font-heading_text-h2 span {
   background: #FEFEFE;
-  padding: 0 12px 0 0px;
+  padding: 0 1em 0 0px;
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 12.5pt;
+  font-weight: 300;
+  font-size: 18pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
-  color: #303841;
+  color: #565F6D;
+}
+.font-heading_text-h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16.5pt;
+  margin: 8px 0 8px 0;
+  text-align: left;
+  line-height: 160%;
+  color: #565F6D;
 }
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
   color: #565F6D;
@@ -57,14 +66,13 @@
 .font-hyperlink_text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 160%;
-  font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #FF3B6A;
+  color: #303841;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
@@ -74,7 +82,7 @@
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 160%;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -88,9 +96,14 @@
   color: #FF3B6A;
 }
 .font-caption {
-  color: rgba(111, 0, 255, 0.7);
+  color: #303841;
   font-family: 'Roboto', sans-serif;
-  line-height: 200%;
+  line-height: 140%;
+  font-weight: 300;
+}
+.font-italic {
+  font-style: italic;
+  font-size: 12.5pt;
 }
 .highlight {
   font-weight: 400;
@@ -124,7 +137,7 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 2.2em;
+  font-size: 28pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -135,40 +148,40 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16pt;
+  font-weight: 300;
+  font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 2px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
 h2 span {
   background: #FEFEFE;
-  padding: 0 12px 0 0px;
+  padding: 0 1em 0 0px;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 12.5pt;
+  font-weight: 300;
+  font-size: 18pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
-  color: #303841;
+  color: #565F6D;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 16.5pt;
+  margin: 8px 0 8px 0;
   text-align: left;
-  line-height: 140%;
-  color: #303841;
-  margin: 24px 0 8px 0;
+  line-height: 160%;
+  color: #565F6D;
 }
 p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 160%;
   font-weight: 300;
   color: #565F6D;
@@ -181,14 +194,13 @@ ul {
 a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 160%;
-  font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #FF3B6A;
+  color: #303841;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 12.5pt;
 }
 a:hover {
@@ -196,9 +208,10 @@ a:hover {
   color: #FF3B6A;
 }
 sub {
-  color: rgba(111, 0, 255, 0.7);
+  color: #303841;
   font-family: 'Roboto', sans-serif;
-  line-height: 200%;
+  line-height: 140%;
+  font-weight: 300;
 }
 .main-content {
   display: flex;
@@ -250,12 +263,11 @@ sub {
 .grid-columns_3 a div span {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 160%;
   margin: 0 0 16px 0;
-  color: #FF3B6A;
+  color: #303841;
   text-decoration: none;
-  font-weight: 500;
   font-size: 12.5pt;
   color: #565F6D;
   text-align: left;
