@@ -39,7 +39,7 @@
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16.5pt;
+  font-size: 16pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 160%;
@@ -172,7 +172,7 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16.5pt;
+  font-size: 16pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 160%;
@@ -233,7 +233,7 @@ sub {
 }
 .bullet-point {
   padding: 0 10px 0 10px;
-  font-size: 20pt;
+  font-size: 18pt;
   color: #565F6D;
 }
 .list-misc_projects li {
