@@ -50,6 +50,16 @@
     grid-template-columns: 1fr;
     grid-gap: 2em;
   }
+  .row-25_25_25_25-prim{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1em;
+    div{
+      ul{
+        .font-body_text-p
+      }
+    }
+  }
 
 @media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 

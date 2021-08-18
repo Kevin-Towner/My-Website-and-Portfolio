@@ -336,6 +336,20 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
+.row-25_25_25_25-prim {
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  grid-gap: 1em;
+}
+.row-25_25_25_25-prim div ul {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+}
 #row-header {
   display: flex;
   flex-direction: row;
