@@ -309,12 +309,19 @@ sub {
   max-height: 54px;
   display: none;
 }
+#row-header div h4 {
+  font-weight: 300;
+  color: #292F37;
+}
 #row-header div p {
   width: 100%;
 }
 #row-header div a {
   color: #E93661;
   font-weight: 400;
+}
+#row-header div .bullet-point {
+  color: #292F37;
 }
 #row-misc_projects ul li {
   border-bottom: 1px solid #fefefe;
