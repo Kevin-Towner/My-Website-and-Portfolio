@@ -4,7 +4,7 @@
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 28pt;
+  font-size: 24pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -42,7 +42,7 @@
   font-size: 14pt;
   margin: 8px 0 8px 0;
   text-align: left;
-  line-height: 160%;
+  line-height: 180%;
   color: #565F6D;
 }
 .font-body_text-p {
@@ -137,7 +137,7 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 28pt;
+  font-size: 24pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -175,7 +175,7 @@ h4 {
   font-size: 14pt;
   margin: 8px 0 8px 0;
   text-align: left;
-  line-height: 160%;
+  line-height: 180%;
   color: #565F6D;
 }
 p {
@@ -233,7 +233,7 @@ sub {
 }
 .bullet-point {
   padding: 0 10px 0 10px;
-  font-size: 18pt;
+  font-size: 14pt;
   color: #565F6D;
 }
 .list-misc_projects li {
@@ -272,6 +272,14 @@ sub {
 .grid-columns_3 a div p {
   color: #565F6D;
   margin: 0;
+  font-size: 12.5pt;
+  line-height: 140%;
+  text-align: justify;
+}
+.grid-columns_3 a div h4 {
+  font-size: 14.5pt;
+  font-weight: 400;
+  margin: 4px 0 4px 0;
 }
 .grid-columns_3 a:hover {
   background-color: #FEFEFE;
@@ -283,6 +291,9 @@ sub {
   color: #E93661;
 }
 .grid-columns_3 a:hover h4 {
+  color: #E93661;
+}
+.grid-columns_3 a:hover p {
   color: #E93661;
 }
 .grid-columns_3 a:hover {
