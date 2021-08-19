@@ -39,7 +39,7 @@
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 14.5pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 180%;
@@ -172,7 +172,7 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 14.5pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 180%;
@@ -246,7 +246,7 @@ sub {
 .grid-columns_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 24px;
+  grid-gap: 2px;
 }
 .grid-columns_3 a {
   background-color: #FEFEFE;
@@ -277,9 +277,8 @@ sub {
   text-align: justify;
 }
 .grid-columns_3 a div h4 {
-  font-size: 14.5pt;
   font-weight: 400;
-  margin: 4px 0 4px 0;
+  margin: 4px 0 0px 0;
 }
 .grid-columns_3 a:hover {
   background-color: #FEFEFE;
@@ -319,10 +318,6 @@ sub {
 #row-header div h1 span img {
   max-height: 54px;
   display: none;
-}
-#row-header div h4 {
-  font-weight: 300;
-  color: #292F37;
 }
 #row-header div p {
   width: 100%;
