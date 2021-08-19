@@ -114,10 +114,11 @@
   }
 
   .grid-columns_3 a div p{
-
+    text-align: left;
+    width:90%;
   }
-  .grid-columns_3 a div h3{
-
+  .grid-columns_3 a div h4{
+    margin:4px 0 4px 0;
   }
 
   .font-hyperlink_in-text{
