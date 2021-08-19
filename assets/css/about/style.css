@@ -43,7 +43,7 @@
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
-  color: #303841;
+  color: #292F37;
 }
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
@@ -60,7 +60,7 @@
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #303841;
+  color: #292F37;
   margin: 24px 0 8px 0;
 }
 .font-hyperlink_text {
@@ -70,14 +70,14 @@
   line-height: 160%;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #303841;
+  color: #292F37;
   text-decoration: none;
   font-weight: 300;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #FF94A1;
+  color: #E93661;
 }
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
@@ -86,17 +86,17 @@
   line-height: 160%;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #FF94A1;
+  color: #E93661;
   text-decoration: none;
   font-weight: 300;
   font-size: 14pt;
 }
 .font-hyperlink_in-text:hover {
   text-decoration: underline;
-  color: #FF94A1;
+  color: #E93661;
 }
 .font-caption {
-  color: #303841;
+  color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -176,7 +176,7 @@ h4 {
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
-  color: #303841;
+  color: #292F37;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -198,17 +198,17 @@ a {
   line-height: 160%;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #303841;
+  color: #292F37;
   text-decoration: none;
   font-weight: 300;
   font-size: 12.5pt;
 }
 a:hover {
   text-decoration: underline;
-  color: #FF94A1;
+  color: #E93661;
 }
 sub {
-  color: #303841;
+  color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -261,7 +261,7 @@ sub {
   position: relative;
 }
 .grid-columns_3 a div span {
-  color: #303841;
+  color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   color: #565F6D;
@@ -282,7 +282,7 @@ sub {
   color: #B41AB7;
 }
 .grid-columns_3 a:hover span {
-  color: #FF94A1;
+  color: #E93661;
 }
 .grid-columns_3 a:hover {
   text-decoration: none;
@@ -297,7 +297,7 @@ sub {
   border-radius: 2px;
 }
 .row-33_66-prim div span {
-  color: #303841;
+  color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -317,7 +317,7 @@ sub {
   border-radius: 2px;
 }
 .row-33_66-seco div span {
-  color: #303841;
+  color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -376,7 +376,7 @@ sub {
   width: 100%;
 }
 #row-header div a {
-  color: #FF94A1;
+  color: #E93661;
   font-weight: 400;
 }
 #row-misc_projects ul li {
@@ -387,12 +387,12 @@ sub {
   color: #565F6D;
 }
 #row-misc_projects ul li a:hover {
-  color: #FF94A1;
+  color: #E93661;
 }
 /*--Importantants--*/
 #menu > li > a {
   text-decoration: none;
-  color: #303841;
+  color: #292F37;
 }
 #visible-while-mobile_h1 {
   display: none;

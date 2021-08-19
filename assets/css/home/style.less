@@ -3,11 +3,11 @@
 /* - - - - COLORS & EFFECTS - - - - -  */
 @color-primary:#FFF;
 @color-secondary:#FEFEFE;
-@color-misc_1:#303841;
+@color-misc_1:#292F37;
 @color-misc_2:#565F6D;
 @color-CTA:#B41AB7;
 @color-CTA-Alt:rgba(111, 0, 255, 70%);
-@color-hyperlink:#FF3B6A;
+@color-hyperlink:#E93661;
 @box-shadow-primary: rgba(60, 64, 67, 0.4) 0px 1.5px 3px 0px, rgba(60, 64, 67, 0.2) 0px -.5px 3px 1px;
 @box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px -1px 6px -2px;
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -55,8 +55,8 @@
 
 .font-heading_text-h4{
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
-  font-size:16pt;
+  font-weight:400;
+  font-size:14pt;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height:160%;
@@ -220,7 +220,7 @@ sub{
 
 .grid-columns_3{
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
   grid-gap:24px;
   a{
     background-color:@color-secondary;
@@ -235,10 +235,11 @@ sub{
         position:relative;
       }
       span{
-        .font-hyperlink_text;
+        .font-caption;
         color:@color-misc_2;
         text-align: left;
         font-weight:300;
+        font-size:10.5;
       }
       p{
         // transition:0.2s;
@@ -251,10 +252,10 @@ sub{
       img{
         opacity:1;
       }
-      p{
-        color:@color-CTA;
-      }
       span{
+        color:@color-hyperlink;
+      }
+      h4{
         color:@color-hyperlink;
       }
     }
@@ -267,8 +268,8 @@ sub{
 
 #row-header{
   display:grid;
-  grid-template-columns: .3fr .7fr;
-  grid-gap:6em;
+  grid-template-columns: 1fr 2fr;
+  grid-gap:4em;
   width:100%;
   div{
     img{
