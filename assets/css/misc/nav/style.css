@@ -91,3 +91,7 @@ label{
 #visible-while-mobile_navigation-logo{
   display:none;
 }
+.font-bold{
+  font-weight:400 !important;
+  color:#E93661 !important;
+}
