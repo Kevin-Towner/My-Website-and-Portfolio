@@ -3,7 +3,7 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24pt;
   background-color: #565F6D;
   background-size: 100%;
@@ -12,6 +12,7 @@
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
   margin: 0 0 24px;
+  line-height: 160%;
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
@@ -38,7 +39,7 @@
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14.5pt;
   margin: 8px 0 4px 0;
   text-align: left;
@@ -105,6 +106,10 @@
   font-style: italic;
   font-size: 12.5pt;
 }
+.font-bold {
+  font-weight: 400;
+  color: #292F37 !important;
+}
 .highlight {
   font-weight: 400;
   color: #565F6D;
@@ -136,7 +141,7 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24pt;
   background-color: #565F6D;
   background-size: 100%;
@@ -145,6 +150,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
   margin: 0 0 24px;
+  line-height: 160%;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
@@ -171,7 +177,7 @@ h3 {
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14.5pt;
   margin: 8px 0 4px 0;
   text-align: left;
@@ -245,7 +251,7 @@ sub {
 }
 .grid-columns_3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
 }
 .grid-columns_3 a {
@@ -301,11 +307,10 @@ sub {
 #row-header {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 4em;
   width: 100%;
 }
 #row-header div img {
-  width: 100%;
+  width: 60%;
   opacity: 1;
 }
 #row-header div img:hover {

@@ -23,7 +23,6 @@
   #row-header {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 3em;
   }
   h1{
     font-size:1.6em;
@@ -79,6 +78,7 @@
     font-weight:400;
   }
   #row-header div img{
+    width:100%;
   }
   #row-header div p {
 
@@ -95,7 +95,7 @@
   }
 
   #hidden-while-mobile_h1{
-    display:none;
+
 
   }
   #hidden-while-mobile_button-list{
