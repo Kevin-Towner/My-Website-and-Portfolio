@@ -60,10 +60,11 @@ label{
 }
 
 #menu > li > a{
-  font-size: 12.5pt;
+  font-size: 11pt;
   color:#565F6D;
   font-weight:300;
   font-family: 'Roboto', sans-serif;
+  letter-spacing:1px;
 }
 
 #menu > li > a:hover{
