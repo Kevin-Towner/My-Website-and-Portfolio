@@ -19,7 +19,7 @@
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 2px solid #565F6D;
+  border-bottom: 1px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -40,6 +40,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14pt;
+  letter-spacing: 0.3px;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
@@ -103,7 +104,8 @@
 }
 .font-italic {
   font-style: italic;
-  font-size: 12.5pt;
+  font-weight: 400;
+  font-size: 14pt;
 }
 .highlight {
   font-weight: 400;
@@ -152,7 +154,7 @@ h2 {
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 2px solid #565F6D;
+  border-bottom: 1px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -173,6 +175,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14pt;
+  letter-spacing: 0.3px;
   margin: 8px 0 8px 0;
   text-align: left;
   line-height: 140%;
@@ -305,7 +308,8 @@ sub {
 }
 .row-33_66-prim div .font-italic {
   font-style: italic;
-  font-size: 12.5pt;
+  font-weight: 400;
+  font-size: 14pt;
 }
 .row-33_66-seco {
   display: grid;
@@ -325,7 +329,8 @@ sub {
 }
 .row-33_66-seco div .font-italic {
   font-style: italic;
-  font-size: 12.5pt;
+  font-weight: 400;
+  font-size: 14pt;
 }
 .row-33_66-seco div ul {
   font-family: 'Roboto', sans-serif;

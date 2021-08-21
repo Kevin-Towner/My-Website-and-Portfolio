@@ -7,7 +7,7 @@
 @color-misc_2:#565F6D;
 @color-CTA:#B41AB7;
 @color-CTA-Alt:rgba(111, 0, 255, 70%);
-@color-hyperlink:#FF94A1;
+@color-hyperlink:#E93661;
 @box-shadow-primary: rgba(60, 64, 67, 0.4) 0px 1.5px 3px 0px, rgba(60, 64, 67, 0.2) 0px -.5px 3px 1px;
 @box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px -1px 6px -2px;
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -35,7 +35,7 @@
   font-size:24pt;
   text-align: left;
   color:@color-misc_2;
-  border-bottom:2px solid @color-misc_2;
+  border-bottom:1px solid @color-misc_2;
   line-height: 0.1em;
   margin:0 0 2em 0;
   span{
@@ -58,6 +58,7 @@
   font-weight:300;
   font-size:14pt;
   margin: 8px 0 8px 0;
+  letter-spacing:.3px;
   text-align: left;
   line-height:140%;
   color:@color-misc_1;
@@ -123,7 +124,7 @@
 .container-screen_content-67{
   display:flex;
   flex-direction:column;
-  padding:28vh 0 10vh 0;
+  padding:28vh 0 2vh 0;
   width:67%;
   margin:auto;
 }
@@ -265,50 +266,12 @@ sub{
   }
 }
 
-.row-66_33-prim{
+#row-header-prim{
   display:grid;
-  grid-template-columns: .3fr .7fr;
-  grid-gap:2em;
-  img{
-    max-width:100%;
-    border-radius:2px;
-  }
-  div{
-    span{
-      .font-caption;
-      font-size:10.5pt;
-    }
-    .font-italic{
-      .font-italic;
-    }
-  }
-}
-.row-66_33-seco{
-  display:grid;
-  grid-template-columns: .7fr .3fr;
-  grid-gap:2em;
-  img{
-    max-width:100%;
-    border-radius:2px;
-  }
-  div{
-    span{
-      .font-caption;
-      font-size:10.5pt;
-    }
-    .font-italic{
-      .font-italic;
-    }
-    ul{
-      .font-body_text-p
-    }
-  }
-}
-
-#row-header{
-  display:flex;
-  flex-direction:row;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:6em;
   width:100%;
+  margin-bottom:0;
   div{
     img{
       width:100%;
@@ -330,15 +293,14 @@ sub{
         }
       }
     }
-    p{
-      width:100%;
-    }
     a{
-      color:@color-hyperlink;
-      font-weight:400;
+      color:#0047FF;
       &:hover{
-
+        color:@color-hyperlink;
       }
+    }
+    ul{
+      .font-body_text-p
     }
   }
 }

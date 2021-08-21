@@ -67,7 +67,6 @@
 
   h2{
     font-size:24pt;
-    margin-bottom:1em;
   }
 
   h3{
@@ -120,6 +119,13 @@
   }
   .contact-image{
     max-width:96%;
+  }
+
+  #row-header-prim {
+    display: flex;
+    flex-direction:column-reverse;
+    grid-gap: 8px;
+    margin-top:
   }
 }
 

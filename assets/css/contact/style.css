@@ -19,7 +19,7 @@
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 2px solid #565F6D;
+  border-bottom: 1px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -41,6 +41,7 @@
   font-weight: 300;
   font-size: 14pt;
   margin: 8px 0 8px 0;
+  letter-spacing: 0.3px;
   text-align: left;
   line-height: 140%;
   color: #303841;
@@ -77,7 +78,7 @@
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #FF94A1;
+  color: #E93661;
 }
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
@@ -86,14 +87,14 @@
   line-height: 160%;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #FF94A1;
+  color: #E93661;
   text-decoration: none;
   font-weight: 300;
   font-size: 14pt;
 }
 .font-hyperlink_in-text:hover {
   text-decoration: underline;
-  color: #FF94A1;
+  color: #E93661;
 }
 .font-caption {
   color: #303841;
@@ -113,7 +114,7 @@
 .container-screen_content-67 {
   display: flex;
   flex-direction: column;
-  padding: 28vh 0 10vh 0;
+  padding: 28vh 0 2vh 0;
   width: 67%;
   margin: auto;
 }
@@ -152,7 +153,7 @@ h2 {
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 2px solid #565F6D;
+  border-bottom: 1px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -174,6 +175,7 @@ h4 {
   font-weight: 300;
   font-size: 14pt;
   margin: 8px 0 8px 0;
+  letter-spacing: 0.3px;
   text-align: left;
   line-height: 140%;
   color: #303841;
@@ -205,7 +207,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #FF94A1;
+  color: #E93661;
 }
 sub {
   color: #303841;
@@ -216,7 +218,7 @@ sub {
 .main-content {
   display: flex;
   flex-direction: column;
-  padding: 28vh 0 10vh 0;
+  padding: 28vh 0 2vh 0;
   width: 67%;
   margin: auto;
   animation: fadeInAnimation ease 1s;
@@ -282,52 +284,42 @@ sub {
   color: #B41AB7;
 }
 .grid-columns_3 a:hover span {
-  color: #FF94A1;
+  color: #E93661;
 }
 .grid-columns_3 a:hover {
   text-decoration: none;
 }
-.row-66_33-prim {
+#row-header-prim {
   display: grid;
-  grid-template-columns: 0.3fr 0.7fr;
-  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6em;
+  width: 100%;
+  margin-bottom: 0;
 }
-.row-66_33-prim img {
-  max-width: 100%;
-  border-radius: 2px;
+#row-header-prim div img {
+  width: 100%;
+  opacity: 1;
+  height: 50px;
+  padding: 0 1em 0 0;
 }
-.row-66_33-prim div span {
-  color: #303841;
-  font-family: 'Roboto', sans-serif;
-  line-height: 140%;
-  font-weight: 300;
-  font-size: 10.5pt;
+#row-header-prim div img:hover {
+  opacity: 1;
 }
-.row-66_33-prim div .font-italic {
-  font-style: italic;
-  font-size: 12.5pt;
+#row-header-prim div h1 span {
+  display: inline-flex;
+  align-items: center;
 }
-.row-66_33-seco {
-  display: grid;
-  grid-template-columns: 0.7fr 0.3fr;
-  grid-gap: 2em;
+#row-header-prim div h1 span img {
+  max-height: 54px;
+  display: none;
 }
-.row-66_33-seco img {
-  max-width: 100%;
-  border-radius: 2px;
+#row-header-prim div a {
+  color: #0047FF;
 }
-.row-66_33-seco div span {
-  color: #303841;
-  font-family: 'Roboto', sans-serif;
-  line-height: 140%;
-  font-weight: 300;
-  font-size: 10.5pt;
+#row-header-prim div a:hover {
+  color: #E93661;
 }
-.row-66_33-seco div .font-italic {
-  font-style: italic;
-  font-size: 12.5pt;
-}
-.row-66_33-seco div ul {
+#row-header-prim div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
@@ -335,35 +327,6 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-}
-#row-header {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-#row-header div img {
-  width: 100%;
-  opacity: 1;
-  height: 50px;
-  padding: 0 1em 0 0;
-}
-#row-header div img:hover {
-  opacity: 1;
-}
-#row-header div h1 span {
-  display: inline-flex;
-  align-items: center;
-}
-#row-header div h1 span img {
-  max-height: 54px;
-  display: none;
-}
-#row-header div p {
-  width: 100%;
-}
-#row-header div a {
-  color: #FF94A1;
-  font-weight: 400;
 }
 #row-misc_projects ul li {
   border-bottom: 1px solid #fefefe;
@@ -373,7 +336,7 @@ sub {
   color: #565F6D;
 }
 #row-misc_projects ul li a:hover {
-  color: #FF94A1;
+  color: #E93661;
 }
 /*--Importantants--*/
 #menu > li > a {

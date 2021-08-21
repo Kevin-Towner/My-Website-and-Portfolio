@@ -25,11 +25,12 @@ footer{
 }
 
 .copyright{
-  font-size:12.5pt;
+  font-size:12pt;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color:#524C66;
   margin-left:16.5vw;
+  letter-spacing:.5px;
 }
 .contact-icons{
   visibility:hidden;
