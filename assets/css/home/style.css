@@ -257,7 +257,7 @@ sub {
 .grid-columns_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 4px;
 }
 .grid-columns_3 a {
   background-color: #FEFEFE;
@@ -268,7 +268,7 @@ sub {
 }
 .grid-columns_3 a div img {
   max-width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   position: relative;
 }
 .grid-columns_3 a div span {
@@ -290,6 +290,7 @@ sub {
 }
 .grid-columns_3 a div h4 {
   font-weight: 400;
+  text-align: center;
 }
 .grid-columns_3 a:hover {
   background-color: #FEFEFE;
