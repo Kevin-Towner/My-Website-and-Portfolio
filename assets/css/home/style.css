@@ -257,7 +257,7 @@ sub {
 .grid-columns_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4px;
+  grid-gap: 12px;
 }
 .grid-columns_3 a {
   background-color: #FEFEFE;
