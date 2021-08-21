@@ -39,6 +39,7 @@
 
   .main-content {
     width: 90%;
+    padding:16vh 0 16vh 0;
   }
   .row-33_66-prim {
     display: grid;
