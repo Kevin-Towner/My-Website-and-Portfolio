@@ -113,7 +113,7 @@
   color: #565F6D;
 }
 .bullet-point {
-  padding: 0 4px 0 4px;
+  padding: 0 8px 0 8px;
   font-size: 20pt;
   color: #565F6D;
 }
@@ -280,6 +280,14 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
+.row-67-33 {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+  grid-gap: 32px;
+}
+.row-67-33 img {
+  width: 100%;
+}
 #row-header {
   display: grid;
   grid-template-columns: 1fr;
@@ -320,7 +328,7 @@ sub {
   text-decoration: none;
 }
 #row-header #row-header-image {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 #row-header #row-header-image span {
   color: #292F37;
@@ -421,4 +429,90 @@ sub {
   width: 100%;
   text-align: center;
   font-size: 10.5pt;
+}
+#row-visual .row-visual-all {
+  padding: 0.5em 0 0.5em 0;
+  border-bottom: 1px solid lightgrey;
+}
+#row-visual .row-visual-all a h4 {
+  width: auto;
+  font-weight: 400;
+  color: #0047FF;
+}
+#row-visual .row-visual-all a h4:hover {
+  color: #E93661;
+}
+#row-visual .row-visual-all a:hover {
+  text-decoration: none;
+}
+#row-visual .row-visual-all span {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+}
+#row-visual #row-visual-type_and_font {
+  border-top: 1px solid lightgrey;
+  margin-top: 2em;
+}
+#row-templates #row-templates-1 {
+  margin-top: 2em;
+}
+#row-templates #row-templates-1 img {
+  width: 100%;
+}
+#row-templates #row-templates-1 span {
+  color: #292F37;
+  font-family: 'Roboto', sans-serif;
+  line-height: 140%;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  font-size: 10.5pt;
+}
+#row-screens #row-screens-1 {
+  margin-top: 2em;
+}
+#row-screens #row-screens-1 img {
+  width: 100%;
+}
+#row-screens #row-screens-1 span {
+  color: #292F37;
+  font-family: 'Roboto', sans-serif;
+  line-height: 140%;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  font-size: 10.5pt;
+}
+#row-screens #row-screens-2 {
+  margin-top: 2em;
+}
+#row-screens #row-screens-2 .row-screens-2-all {
+  padding: 0.5em 0 0.5em 0;
+  border-bottom: 1px solid lightgrey;
+}
+#row-screens #row-screens-2 .row-screens-2-all a h4 {
+  width: auto;
+  font-weight: 400;
+  color: #0047FF;
+}
+#row-screens #row-screens-2 .row-screens-2-all a h4:hover {
+  color: #E93661;
+}
+#row-screens #row-screens-2 .row-screens-2-all a:hover {
+  text-decoration: none;
+}
+#row-screens #row-screens-2 .row-screens-2-all span {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+  width: 80%;
 }
