@@ -3,7 +3,7 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24pt;
   background-color: #565F6D;
   background-size: 100%;
@@ -11,7 +11,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
-  margin: 0 0 24px;
+  margin: 0 0 16px;
   line-height: 160%;
 }
 .font-heading_text-h2 {
@@ -46,7 +46,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14.5pt;
-  margin: 8px 0 4px 0;
+  margin: 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
@@ -148,7 +148,7 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24pt;
   background-color: #565F6D;
   background-size: 100%;
@@ -156,7 +156,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
-  margin: 0 0 24px;
+  margin: 0 0 16px;
   line-height: 160%;
 }
 h2 {
@@ -191,7 +191,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14.5pt;
-  margin: 8px 0 4px 0;
+  margin: 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
@@ -325,7 +325,7 @@ sub {
   width: 100%;
 }
 #row-header div img {
-  width: 60%;
+  width: 67%;
   opacity: 1;
 }
 #row-header div img:hover {

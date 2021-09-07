@@ -454,9 +454,28 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
+#row-visual .row-visual-all ul li {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+}
 #row-visual #row-visual-type_and_font {
   border-top: 1px solid lightgrey;
   margin-top: 2em;
+}
+#row-visual #row-visual-type_and_font ul li {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+  margin-bottom: 8px;
 }
 #row-templates #row-templates-1 {
   margin-top: 2em;
