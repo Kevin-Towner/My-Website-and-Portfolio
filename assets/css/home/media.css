@@ -45,7 +45,7 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
-    font-size:16.5pt;
+    font-size:24pt;
     margin-bottom:1em;
   }
 
@@ -68,19 +68,21 @@
     margin:auto;
   }
   #row-header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
     grid-gap:2em;
+  }
+  #row-header > div:nth-child(1){
+    text-align: center;
+  }
+  #row-header > div:nth-child(1) img{
+    width:67%;
   }
   #row-header div ul li a{
     font-size:12.5pt;
     font-weight:400;
   }
-  #row-header div img{
-    width:100%;
-  }
   #row-header div p {
-
     width:100%;
   }
 
