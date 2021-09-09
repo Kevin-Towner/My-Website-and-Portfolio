@@ -102,6 +102,10 @@
     grid-gap:2em;
   }
 
+  #row-components-1 > .row-33_33_33{
+      grid-gap:24px;  
+  }
+
   .font-hyperlink_in-text{
     font-size:14.5pt;
   }
