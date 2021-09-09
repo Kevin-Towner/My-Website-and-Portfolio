@@ -45,12 +45,12 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
-    font-size:16.5pt;
+    font-size:1.6em;
     margin-bottom:1em;
   }
 
   h2{
-    font-size:12pt;
+    font-size:
     margin:0 0 1.5em 0;
   }
   h2 span {
@@ -59,7 +59,7 @@
   }
 
   .row {
-    margin: 0 0 0em 0;
+    margin: 0 0 4em 0;
   }
 
   .main-content{
@@ -97,27 +97,9 @@
 
 
   }
-  #hidden-while-mobile_button-list{
-    display:none;
-  }
-  #visible-while-mobile_button-list{
-    display:inline-flex;
-  }
-
-  .grid-columns_3{
+  .row-33_33_33{
     grid-template-columns: 1fr;
-    width:100%;
-  }
-  .grid-columns_3 a div img{
-    max-height:100%;
-  }
-
-  .grid-columns_3 a div p{
-    text-align: left;
-    width:90%;
-  }
-  .grid-columns_3 a div h4{
-    margin:4px 0 4px 0;
+    grid-gap:2em;
   }
 
   .font-hyperlink_in-text{

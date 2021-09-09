@@ -412,9 +412,6 @@ sub {
   grid-gap: 32px;
   text-align: justify;
 }
-#row-components div h4 {
-  font-weight: 400;
-}
 #row-components #row-components-2 {
   margin-top: 2em;
 }
