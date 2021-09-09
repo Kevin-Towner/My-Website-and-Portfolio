@@ -409,8 +409,7 @@ sub {
 }
 #row-components .row-33_33_33 {
   margin-top: 2em;
-  grid-gap: 32px;
-  text-align: justify;
+  grid-gap: 16px;
 }
 #row-components #row-components-2 {
   margin-top: 2em;
