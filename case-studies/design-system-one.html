@@ -115,10 +115,10 @@
         </ul>
       </div>
     </div>
-    <div id="row-method" class="row">
-      <h2><span>Method</span></h2>
-      <div id="row-method-1">
-        <h3>Research</h3>
+    <div id="row-research" class="row">
+      <h2><span>Research</span></h2>
+      <div id="row-research-1">
+        <h3>Design systems</h3>
         <p>In order to increase my base knowledge on what a design system is, I decided to look through various design systems and frameworks available for viewing on the web. Included were Google's Material Design, NASA Graphics Standards Manual, and the Atomic Design methodology.</p>
         <h4>Material Design</h4>
         <p>Google's Material Design system is extensive and certainly a hard act to (attempt to) follow. That being said, there is a lot to learn from this Material Design such as the simplicity of one font (Roboto) and the availability of icons (Figma plugin 'Material Design Icons' by <a href="https://dondesign.net/">smrkv</a>). Material Design system is popular amongst designers and developers.</p>
@@ -127,17 +127,17 @@
         <h4>Atomic Design</h4>
         <p>Atomic Design is not so much a design 'system' as much as it is a framework for organizing and classifying components. It is a resource for planning the long-term development of design systems.</p>
         </div>
-        <div id="row-method-2">
+        <div id="row-research-2">
           <a target="blank" href="https://blog.prototypr.io/how-to-implement-atomic-design-in-your-current-project-368005f5c044"><img src="../assets/images/projects/design-system-1/atomic.png" alt=""></a>
           <span>Atomic design overview from <a href="https://blog.prototypr.io/how-to-implement-atomic-design-in-your-current-project-368005f5c044">Roberto Moreno Celta</a>'s article</span>
         </div>
-        <div id="row-method-3">
+        <div id="row-research-3">
           <div>
             <h3>Scaling down</h3>
             <p>Due to my familiarity with Galaxy phones and the layout of the system, I decided to begin my design system based off of <a target="_blank" href="https://www.samsung.com/us/apps/one-ui/">Samsung's One UI Design Guidelines</a>. Given the constraints of the project (1 contributor, time, etc.) <span style="font-weight:400;">I decided to begin the system with the components that make up the 'Settings' screens</span>.</p>
             <p>Aside from the high-level challenges such as identifying the grid system, screen dimensions, font-sizes, etc., It was important that I reference guidelines and take inventory of the components involved in Settings.</p>
           </div>
-          <div id="row-method-3">
+          <!-- <div id="row-research-4">
             <div class="row-33_33_33">
               <div>
                 <img src="../assets/images/projects/design-system-1/page-1.png" alt="Page 1 of ONE UI Design Guidelines">
@@ -152,7 +152,32 @@
                 <span>Page 61 of ONE UI Design Guidelines</span>
               </div>
             </div>
+          </div> -->
+        </div>
+      </div>
+      <div id="row-components" class="row">
+        <div id="row-components-1">
+          <h2><span>Components</span></h2>
+          <h3>Settings components</h3>
+          <p>Upon viewing the ONE UI Design Guidelines I identified three classes or types of components for Settings. <span style="font-weight:400;">The classes I identified were App (Settings), Home (phone's home screen - will house the "Settings" app icon), and System (or Operating System)</span></p>
+          <div class="row-33_33_33">
+            <div>
+              <h4>App (Settings)</h4>
+              <p>App components exist in the Settings application. These components are made up of app bars, list items, lists, icons, images, etc.</p>
+            </div>
+            <div>
+              <h4>Home</h4>
+              <p>Home components exist on the phone's homescreen. This class of components mainly includes labeled app icons</p>
+            </div>
+            <div>
+              <h4>System</h4>
+              <p>System components are elements of the device's operating system. These components include system navigation bars, bottom bars, system icons, and dialogue menus.</p>
+            </div>
           </div>
+        </div>
+        <div id="row-components-2">
+          <img src="../assets/images/projects/design-system-1/components.png" alt="collection of components">
+          <span>Components I used to design the screens I've created so far. Most of these components contain smaller components within themselves (think Atomic Design) and are created with overrides and variants in mind.</span>
         </div>
       </div>
       <div id="row-visual"class="row">
@@ -178,31 +203,6 @@
           </div>
         </div>
       </div>
-      <div id="row-components" class="row">
-        <div id="row-components-1">
-          <h2><span>Components</span></h2>
-          <h3>Settings components</h3>
-          <p>Upon viewing the ONE UI Design Guidelines I identified three classes or types of components for Settings. <span style="font-weight:400;">The classes I identified were App (Settings), Home (phone's home screen - will house the "Settings" app icon), and System (or Operating System)</span></p>
-          <div class="row-33_33_33">
-            <div>
-              <h4>App (Settings)</h4>
-              <p>App components exist within the settings application. This class of components is made up of app bar, list items, lists, icons, images, etc.</p>
-            </div>
-            <div>
-              <h4>Home</h4>
-              <p>Home components exist on the phone's homescreen. This class of components includes labeled app icons, dialogue menus, etc.</p>
-            </div>
-            <div>
-              <h4>System</h4>
-              <p>System components are elements that make up the phone's operating system. This class of components includes system navigation bars, bottom bars, system icons, etc.</p>
-            </div>
-          </div>
-        </div>
-        <div id="row-components-2">
-          <img src="../assets/images/projects/design-system-1/components.png" alt="collection of components">
-          <span>Components I used to design the screens I've created so far. Most of these components contain smaller components within themselves (think Atomic Design) and are created with overrides and variants in mind.</span>
-        </div>
-      </div>
       <div id="row-templates"class="row">
         <h2><span>Templates</span></h2>
         <h3>Templates and screen content</h3>
@@ -225,6 +225,11 @@
             <!-- <span>Final screens - scrollable content with fixed bottom and app bars</span> -->
           </div>
         </div>
+      </div>
+      <div id="row-closing"class="row">
+        <h2><span>Final thoughts</span></h2>
+        <h3>Primary takeaways</h3>
+        <p>Building a design system takes thoughtful planning in designing the components and deciding the heirarchy of the components' naming conventions. Many of the components were inspired by Samsung's One UI Design Guidelines, but I took some creative liberties in regard to specific button components and font sizes. </p>
       </div>
     </div>
   <footer>

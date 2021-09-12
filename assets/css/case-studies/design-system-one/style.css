@@ -24,7 +24,7 @@
 }
 .font-heading_text-h2 span {
   background: #FEFEFE;
-  padding: 0 1em 0 0px;
+  padding: 0 16px 0 0px;
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
@@ -38,7 +38,7 @@
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14.5pt;
+  font-size: 13.5pt;
   letter-spacing: 0.3px;
   margin: 8px 0 8px 0;
   text-align: left;
@@ -166,7 +166,7 @@ h2 {
 }
 h2 span {
   background: #FEFEFE;
-  padding: 0 1em 0 0px;
+  padding: 0 16px 0 0px;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -180,7 +180,7 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14.5pt;
+  font-size: 13.5pt;
   letter-spacing: 0.3px;
   margin: 8px 0 8px 0;
   text-align: left;
@@ -240,7 +240,7 @@ sub {
 .row-33_33_33 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 8px;
+  grid-gap: 4px;
 }
 .row-33_33_33 img {
   width: 100%;
@@ -261,7 +261,7 @@ sub {
   font-weight: 300;
   width: 100%;
   text-align: center;
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
 .row-50_50 {
   display: grid;
@@ -337,7 +337,7 @@ sub {
   font-weight: 300;
   width: 100%;
   text-align: center;
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
 #row-header #row-header-image span a {
   color: #0047FF;
@@ -353,7 +353,7 @@ sub {
   margin-top: 2em;
 }
 #row-design_system #row-design_system-2 span {
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
 #row-design_system #row-design_system-3 {
   margin-top: 2em;
@@ -367,49 +367,49 @@ sub {
   margin: 0 0 16px 0;
   margin: 0;
 }
-#row-method #row-method-1 a {
+#row-research #row-research-1 a {
   color: #0047FF;
 }
-#row-method #row-method-1 a:hover {
+#row-research #row-research-1 a:hover {
   color: #E93661;
   text-decoration: none;
 }
-#row-method #row-method-1 a img {
+#row-research #row-research-1 a img {
   width: 100%;
 }
-#row-method #row-method-2 a img {
+#row-research #row-research-2 a img {
   width: 100%;
 }
-#row-method #row-method-2 span {
+#row-research #row-research-2 span {
   color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
   width: 100%;
   text-align: center;
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
-#row-method #row-method-2 span a {
-  font-size: 10.5pt;
+#row-research #row-research-2 span a {
+  font-size: 10pt;
   color: #0047FF;
 }
-#row-method #row-method-2 span a:hover {
+#row-research #row-research-2 span a:hover {
   color: #E93661;
   text-decoration: none;
 }
-#row-method #row-method-3 {
+#row-research #row-research-3 {
   margin-top: 2em;
 }
-#row-method #row-method-3 a {
+#row-research #row-research-3 a {
   color: #0047FF;
 }
-#row-method #row-method-3 a:hover {
+#row-research #row-research-3 a:hover {
   color: #E93661;
   text-decoration: none;
 }
 #row-components .row-33_33_33 {
   margin-top: 2em;
-  grid-gap: 16px;
+  grid-gap: 2em;
 }
 #row-components #row-components-2 {
   margin-top: 2em;
@@ -424,7 +424,7 @@ sub {
   font-weight: 300;
   width: 100%;
   text-align: center;
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
 #row-visual .row-visual-all {
   padding: 0.5em 0 0.5em 0;
@@ -487,7 +487,7 @@ sub {
   font-weight: 300;
   width: 100%;
   text-align: center;
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
 #row-screens #row-screens-1 {
   margin-top: 2em;
@@ -502,7 +502,7 @@ sub {
   font-weight: 300;
   width: 100%;
   text-align: center;
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
 #row-screens #row-screens-2 {
   margin-top: 2em;
