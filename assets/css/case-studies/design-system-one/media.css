@@ -67,7 +67,6 @@
   #row-header {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:2em;
   }
   #row-header div ul li a{
     font-size:12.5pt;
@@ -96,11 +95,11 @@
   }
   .row-33_33_33{
     grid-template-columns: 1fr;
-    grid-gap:2em;
+    grid-gap:24px;
   }
 
   #row-components-1 > .row-33_33_33{
-      grid-gap:24px;
+      grid-gap:12px;
   }
 
   .font-hyperlink_in-text{
