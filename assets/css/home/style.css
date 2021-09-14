@@ -25,7 +25,7 @@
   margin: 0 0 2em 0;
 }
 .font-heading_text-h2 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 12px 0 0px;
 }
 .font-heading_text-h3 {
@@ -39,17 +39,23 @@
   margin: 0 0 2em 0;
 }
 .font-heading_text-h3 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 12px 0 0px;
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14.5pt;
-  margin: 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
+  border-bottom: 1px solid #565F6D;
+  line-height: 0.1em;
+  margin: 0 0 2em 0;
+}
+.font-heading_text-h4 span {
+  background: #FCFCFC;
+  padding: 0 12px 0 0px;
 }
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
@@ -131,17 +137,17 @@
 }
 .container-body-100 {
   margin: 0 auto;
-  background: #FEFEFE;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
 }
 /* - - - - Misc  - - - -  -*/
 html {
-  background: #FEFEFE;
+  background: #FCFCFC;
 }
 body {
   margin: 0 auto;
-  background: #FEFEFE;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
   font-size: 16pt;
@@ -170,7 +176,7 @@ h2 {
   margin: 0 0 2em 0;
 }
 h2 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 12px 0 0px;
 }
 h3 {
@@ -184,17 +190,23 @@ h3 {
   margin: 0 0 2em 0;
 }
 h3 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 12px 0 0px;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14.5pt;
-  margin: 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
+  border-bottom: 1px solid #565F6D;
+  line-height: 0.1em;
+  margin: 0 0 2em 0;
+}
+h4 span {
+  background: #FCFCFC;
+  padding: 0 12px 0 0px;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -244,7 +256,7 @@ sub {
   animation-fill-mode: forward;
 }
 .row {
-  margin: 0 0 4em 0;
+  margin: 0 0 6em 0;
 }
 .list-header_row {
   display: inline-flex;
@@ -269,7 +281,7 @@ sub {
   grid-gap: 12px;
 }
 .grid-columns_3 a {
-  background-color: #FEFEFE;
+  background-color: #FCFCFC;
 }
 .grid-columns_3 a div {
   display: flex;
@@ -294,7 +306,7 @@ sub {
   text-align: center;
 }
 .grid-columns_3 a:hover {
-  background-color: #FEFEFE;
+  background-color: #FCFCFC;
 }
 .grid-columns_3 a:hover img {
   opacity: 1;

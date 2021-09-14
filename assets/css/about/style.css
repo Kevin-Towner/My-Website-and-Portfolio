@@ -16,7 +16,7 @@
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 24pt;
+  font-size: 22pt;
   text-align: left;
   color: #565F6D;
   border-bottom: 1px solid #565F6D;
@@ -156,7 +156,7 @@ h1 {
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 24pt;
+  font-size: 22pt;
   text-align: left;
   color: #565F6D;
   border-bottom: 1px solid #565F6D;
@@ -310,7 +310,7 @@ sub {
 .row-25_25_25_25-prim {
   display: grid;
   grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
-  grid-gap: 1em;
+  grid-gap: 4em;
 }
 .row-25_25_25_25-prim div ul {
   font-family: 'Roboto', sans-serif;
@@ -320,6 +320,10 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
+  margin: auto;
+}
+.row-25_25_25_25-prim div ul li {
+  margin: auto;
 }
 #row-header {
   display: flex;
