@@ -24,7 +24,7 @@
   margin: 0 0 2em 0;
 }
 .font-heading_text-h2 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 1em 0 0px;
 }
 .font-heading_text-h3 {
@@ -126,17 +126,17 @@
 }
 .container-body-100 {
   margin: 0 auto;
-  background: #FEFEFE;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
 }
 /* - - - - Misc  - - - -  -*/
 html {
-  background: #FEFEFE;
+  background: #FCFCFC;
 }
 body {
   margin: 0 auto;
-  background: #FEFEFE;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
   font-size: 16pt;
@@ -164,7 +164,7 @@ h2 {
   margin: 0 0 2em 0;
 }
 h2 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 1em 0 0px;
 }
 h3 {
