@@ -64,6 +64,9 @@
       }
     }
   }
+  .row-33_66-seco div p{
+    text-align: left;
+  }
 
 @media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
