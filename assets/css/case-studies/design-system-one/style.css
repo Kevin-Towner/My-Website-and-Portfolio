@@ -540,7 +540,11 @@ sub {
   margin: 0 0 16px 0;
   width: 80%;
 }
-#row-closing li {
+#row-closing ul {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 1em;
+}
+#row-closing ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
@@ -549,4 +553,8 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
   margin-bottom: 8px;
+}
+#row-closing #ul-three {
+  border-bottom: none;
+  padding: bottom:0;
 }
