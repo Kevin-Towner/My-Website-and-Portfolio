@@ -31,7 +31,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18pt;
-  margin: 8px 0 8px 0;
+  margin: 0 0 18px 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
@@ -41,7 +41,7 @@
   font-weight: 300;
   font-size: 14.5pt;
   letter-spacing: 0.3px;
-  margin: 8px 0 8px 0;
+  margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
   color: #292F37;
@@ -113,6 +113,9 @@
   font-weight: 400;
   color: #565F6D;
 }
+.font-bold {
+  font-weight: 400;
+}
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
   display: flex;
@@ -168,7 +171,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18pt;
-  margin: 8px 0 8px 0;
+  margin: 0 0 18px 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
@@ -178,7 +181,7 @@ h4 {
   font-weight: 300;
   font-size: 14.5pt;
   letter-spacing: 0.3px;
-  margin: 8px 0 8px 0;
+  margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
   color: #292F37;
@@ -233,6 +236,9 @@ sub {
 .row {
   margin: 0 0 4em 0;
 }
+.row h4 {
+  width: 60%;
+}
 .list-header_row {
   display: inline-flex;
   list-style-type: none;
@@ -252,9 +258,6 @@ sub {
   max-width: 100%;
   border-radius: 2px;
 }
-.row-33_66-prim div p {
-  text-align: justify;
-}
 .row-33_66-prim div span {
   color: #292F37;
   font-family: 'Roboto', sans-serif;
@@ -271,7 +274,7 @@ sub {
 }
 .row-33_66-seco {
   display: grid;
-  grid-template-columns: 0.7fr 0.3fr;
+  grid-template-columns: 0.68fr 0.32fr;
   grid-gap: 2em;
 }
 .row-33_66-seco img {
@@ -300,6 +303,9 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
+}
+.row-33_66-seco div p {
+  text-align: justify;
 }
 .row-25_25_25_25-prim {
   display: grid;

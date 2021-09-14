@@ -47,7 +47,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight:300;
   font-size:18pt;
-  margin: 8px 0 8px 0;
+  margin: 0 0 18px 0;
   text-align: left;
   line-height:140%;
   color:@color-misc_2;
@@ -58,7 +58,7 @@
   font-weight:300;
   font-size:14.5pt;
   letter-spacing:.3px;
-  margin: 8px 0 8px 0;
+  margin: 0 0 12px 0;
   text-align: left;
   line-height:140%;
   color:@color-misc_1;
@@ -120,6 +120,10 @@
 .highlight{
   font-weight:400;
   color:@color-misc_2;
+}
+
+.font-bold{
+  font-weight:400;
 }
 
 
@@ -198,6 +202,9 @@ sub{
 
 .row{
   margin:0 0 4em 0;
+  h4{
+    width:60%;
+  }
 }
 
 .list-header_row{
@@ -222,9 +229,6 @@ sub{
     border-radius:2px;
   }
   div{
-    p{
-      text-align: justify;
-    }
     span{
       .font-caption;
       font-size:10.5pt;
@@ -236,7 +240,7 @@ sub{
 }
 .row-33_66-seco{
   display:grid;
-  grid-template-columns: .7fr .3fr;
+  grid-template-columns: .68fr .32fr;
   grid-gap:2em;
   img{
     max-width:100%;
@@ -252,6 +256,9 @@ sub{
     }
     ul{
       .font-body_text-p
+    }
+    p{
+      text-align: justify;
     }
   }
 }

@@ -2,8 +2,8 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 32pt;
+  font-weight: 500;
+  font-size: 36pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -30,7 +30,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18pt;
-  margin: 8px 0 8px 0;
+  margin: 0 0 18px 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
@@ -40,7 +40,7 @@
   font-weight: 300;
   font-size: 13.5pt;
   letter-spacing: 0.3px;
-  margin: 8px 0 8px 0;
+  margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
   color: #292F37;
@@ -144,8 +144,8 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 32pt;
+  font-weight: 500;
+  font-size: 36pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -172,7 +172,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18pt;
-  margin: 8px 0 8px 0;
+  margin: 0 0 18px 0;
   text-align: left;
   line-height: 140%;
   color: #565F6D;
@@ -182,7 +182,7 @@ h4 {
   font-weight: 300;
   font-size: 13.5pt;
   letter-spacing: 0.3px;
-  margin: 8px 0 8px 0;
+  margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
   color: #292F37;
@@ -293,6 +293,11 @@ sub {
   grid-template-columns: 1fr;
   width: 100%;
 }
+#row-header h4 {
+  color: #565F6D;
+  line-height: 160%;
+  margin: 0 0 24px 0;
+}
 #row-header #row-header-signature {
   display: flex;
   flex-direction: row;
@@ -328,7 +333,7 @@ sub {
   text-decoration: none;
 }
 #row-header #row-header-image {
-  margin-top: 2em;
+  margin-top: 20px;
 }
 #row-header #row-header-image span {
   color: #292F37;
@@ -410,6 +415,9 @@ sub {
 #row-components .row-33_33_33 {
   margin-top: 2em;
   grid-gap: 2em;
+}
+#row-components div p {
+  text-align: justify;
 }
 #row-components #row-components-2 {
   margin-top: 2em;
@@ -531,4 +539,14 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
   width: 80%;
+}
+#row-closing li {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+  margin-bottom: 8px;
 }

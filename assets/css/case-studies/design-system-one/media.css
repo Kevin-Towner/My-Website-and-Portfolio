@@ -20,10 +20,7 @@
   .main-content{
     width:90%;
   }
-  #row-header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
+
   h1{
     font-size:1.6em;
     margin:0 0 24px;
@@ -50,7 +47,7 @@
   }
 
   h2{
-    font-size:
+    font-size:;
     margin:0 0 1.5em 0;
   }
   h2 span {

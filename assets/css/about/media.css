@@ -16,6 +16,9 @@
 
 
 @media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .row h4{
+    width:100%;
+  }
   .main-content {
     width: 90%;
   }
