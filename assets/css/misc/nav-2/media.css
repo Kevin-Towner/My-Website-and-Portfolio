@@ -1,0 +1,161 @@
+
+@media only screen  and (min-width: 1824px) {
+  nav{
+
+  }
+
+  #logo{
+    margin-left:25vw;
+  }
+  #menu{
+    margin-right:25vw;
+  }
+}
+
+@media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+
+}
+
+@media only screen and (max-width:1025px) {
+
+  label{
+    margin:auto;
+    text-align:center;
+    display:none;
+  }
+  #logo{
+    margin-left:16.7vw;
+    margin-left:5vw;
+  }
+
+  #toggle{
+    display:none;
+    margin-left:5vw;
+  }
+
+  #menu{
+    margin-right:5vw;
+  }
+}
+
+
+@media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #logo{
+    height:32px;
+    margin-left:5vw;
+  }
+}
+
+@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+
+  #logo{
+    height:40px;
+    margin-left:5vw;
+  }
+
+  #menu{
+    margin-right:5vw;
+    padding:0;
+  }
+  /* nav{
+    width:100%;
+    position:fixed;
+    z-index:1;
+    background-color:#fff;
+    margin:0;
+    padding:15px 0 15px 0;
+    box-shadow: none;
+    border-bottom:0;
+  } */
+}
+
+@media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  label{
+    display:block;
+    cursor:pointer;
+    font-size:32px;
+    color:#8e8e8e;
+    float:right;
+    margin-right:5vw;
+  }
+  label:hover{
+    color:#7558C8;
+  }
+
+  nav{
+    width:100%;
+    position:fixed;
+    z-index:1;
+    background-color:#fff;
+    margin:0;
+    padding:5px 0 5px 0;
+  }
+
+  #navigation-h1{
+    display:block;
+  }
+
+  #logo{
+  }
+
+  #home-container-all{
+    display:grid;width:100%;
+    margin:auto;
+  }
+
+  #toggle{
+    display: none;
+    height:32px;
+    margin-right:5vw !important;
+  }
+
+  #menu{
+    display:none;
+    height:24px;
+    margin-right:5vw;
+  }
+
+  #toggle:checked + #menu{
+    display:block;
+    z-index:1;
+    position:absolute;
+    height:500vh;
+    margin-top:2.5em;
+    background-color:#fff;
+    text-align:center;
+    width:100%;
+    left:0;
+    top:0;
+  }
+
+
+  #menu > li > a {
+    display:block;
+    font-size:18pt;
+    padding:44px 0 44px 0;
+  }
+  #menu > li:nth-child(1){
+    margin-right:0em;
+  }
+  #menu > li:nth-child(3){
+    margin-left:0em;
+  }
+
+  #anchor-index{
+    padding:0  0 0;
+  }
+
+  #anchor-about{
+    padding:0 0 0 0;
+  }
+
+  #anchor-portfolio{
+    padding:0 0 0 0;
+  }
+
+  #anchor-contact{
+    padding:0 0 0 0;
+  }
+
+}

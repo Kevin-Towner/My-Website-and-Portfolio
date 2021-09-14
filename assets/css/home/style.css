@@ -298,11 +298,12 @@ sub {
   font-size: 12pt;
 }
 .grid-columns_3 a div p {
+  font-size: 12pt;
   margin-top: 4px;
   text-align: center;
 }
 .grid-columns_3 a div h4 {
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
 }
 .grid-columns_3 a:hover {
@@ -326,10 +327,11 @@ sub {
 #row-header {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-gap: 4em;
   width: 100%;
 }
 #row-header div img {
-  width: 70%;
+  width: 80%;
   opacity: 1;
 }
 #row-header div img:hover {
