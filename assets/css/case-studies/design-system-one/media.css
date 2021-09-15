@@ -55,6 +55,14 @@
     padding: 0 .5em 0 0px;
   }
 
+  h4{
+    line-height: 180%;
+  }
+
+  p{
+    line-height: 180%;
+  }
+
   .row {
     margin: 0 0 4em 0;
   }
@@ -76,7 +84,6 @@
     width:100%;
   }
   #row-header div p {
-
     width:100%;
   }
 

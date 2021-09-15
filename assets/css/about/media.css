@@ -40,6 +40,10 @@
     padding: 0 .5em 0 0px;
   }
 
+  p{
+    line-height: 180%;
+  }
+
   .main-content {
     width: 90%;
     padding:16vh 0 16vh 0;

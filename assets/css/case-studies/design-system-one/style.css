@@ -382,11 +382,11 @@ sub {
 }
 #row-research #row-research-1 #paragraph-research-1-2 {
   border-bottom: 1px solid lightgrey;
-  padding-bottom: 1.2em;
+  padding: 0 0 2em 0;
 }
 #row-research #row-research-1 #paragraph-research-1-3 {
   border-bottom: 1px solid lightgrey;
-  padding-bottom: 1.2em;
+  padding: 0 0 2em 0;
 }
 #row-research #row-research-2 a img {
   width: 100%;

@@ -109,7 +109,7 @@
   line-height:140%;
   font-weight:300;
   width:100%;
-  text-align: center;
+  font-size:10.5pt;
 }
 .font-italic{
   font-style:italic;
@@ -123,7 +123,9 @@
 }
 
 .font-bold{
+  .font-body_text-p;
   font-weight:400;
+  color:@color-hyperlink;
 }
 
 
@@ -201,9 +203,9 @@ sub{
 }
 
 .row{
-  margin:0 0 4em 0;
+  margin:0 0 6em 0;
   h4{
-    width:60%;
+
   }
 }
 
@@ -229,10 +231,6 @@ sub{
     border-radius:2px;
   }
   div{
-    span{
-      .font-caption;
-      font-size:10.5pt;
-    }
     .font-italic{
       .font-italic;
     }
@@ -247,13 +245,6 @@ sub{
     border-radius:2px;
   }
   div{
-    span{
-      .font-caption;
-      font-size:10.5pt;
-    }
-    .font-italic{
-      .font-italic;
-    }
     ul{
       .font-body_text-p
     }
@@ -262,10 +253,21 @@ sub{
     }
   }
 }
+
+.row-33_33_33-prim{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap:2em;
+  div{
+    p{
+      text-align: justify;
+    }
+  }
+}
 .row-25_25_25_25-prim{
   display:grid;
   grid-template-columns: .25fr .25fr .25fr .25fr;
-  grid-gap:4em;
+  grid-gap:2em;
   div{
     h4{
 
