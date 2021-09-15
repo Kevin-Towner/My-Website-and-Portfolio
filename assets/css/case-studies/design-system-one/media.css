@@ -98,8 +98,8 @@
     grid-gap:24px;
   }
 
-  #row-components-1 > .row-33_33_33{
-      grid-gap:12px;
+  #row-components #row-components-1 .row-33_33_33{
+    grid-gap:8px;
   }
 
   .font-hyperlink_in-text{
@@ -114,6 +114,12 @@
     text-align: left;
     line-height: 160%;
     color: #565F6D;
+  }
+  #row-design_system #row-design_system-3 ul li:nth-child(2){
+    margin-top:12px;
+  }
+  #row-design_system #row-design_system-3 ul li:nth-child(3){
+    margin-top:12px;
   }
 
 }
