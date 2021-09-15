@@ -224,7 +224,7 @@ sub{
 .row-50_50{
   display:grid;
   grid-template-columns:1fr 1fr;
-  grid-gap:8px;
+  grid-gap:2em;
   img{
     width:100%;
   }
@@ -232,7 +232,7 @@ sub{
     .font-body_text-p;
   }
 }
-.row-67-33{
+.row-67_33{
   display:grid;
   grid-template-columns:.7fr .3fr;
   grid-gap:32px;
@@ -299,21 +299,13 @@ sub{
 }
 
 #row-design_system{
-  #row-design_system-1{
-    p{
-      border-bottom:1px solid lightgrey;
-      padding-bottom:1em;
-    }
-  }
-  #row-design_system-2{
-    span{
-      font-size:10pt;
-    }
-  }
-  #row-design_system-3{
+  #column-design_system-2{
     ul{
       .font-body_text-p;
       margin:0;
+      li{
+        margin-bottom:8px;
+      }
     }
   }
 }

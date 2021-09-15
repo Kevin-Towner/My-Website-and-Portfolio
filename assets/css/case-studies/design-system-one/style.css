@@ -14,11 +14,11 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 2px solid #565F6D;
+  border-bottom: 1px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -156,11 +156,11 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 2px solid #565F6D;
+  border-bottom: 1px solid #565F6D;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -266,7 +266,7 @@ sub {
 .row-50_50 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 8px;
+  grid-gap: 2em;
 }
 .row-50_50 img {
   width: 100%;
@@ -280,12 +280,12 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
-.row-67-33 {
+.row-67_33 {
   display: grid;
   grid-template-columns: 0.7fr 0.3fr;
   grid-gap: 32px;
 }
-.row-67-33 img {
+.row-67_33 img {
   width: 100%;
 }
 #row-header {
@@ -354,14 +354,7 @@ sub {
 #row-header #row-header-image img {
   width: 100%;
 }
-#row-design_system #row-design_system-1 p {
-  border-bottom: 1px solid lightgrey;
-  padding-bottom: 1em;
-}
-#row-design_system #row-design_system-2 span {
-  font-size: 10pt;
-}
-#row-design_system #row-design_system-3 ul {
+#row-design_system #column-design_system-2 ul {
   font-family: 'Roboto', sans-serif;
   font-size: 12pt;
   line-height: 160%;
@@ -369,6 +362,9 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
   margin: 0;
+}
+#row-design_system #column-design_system-2 ul li {
+  margin-bottom: 8px;
 }
 #row-research #row-research-1 a {
   color: #0047FF;

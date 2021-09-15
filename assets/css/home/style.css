@@ -111,7 +111,7 @@
   color: #E93661;
 }
 .font-caption {
-  color: #292F37;
+  color: #565F6D;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -122,6 +122,7 @@
 }
 .font-bold {
   font-weight: 400;
+  color: #E93661;
 }
 .highlight {
   font-weight: 400;
@@ -240,7 +241,7 @@ a:hover {
   color: #E93661;
 }
 sub {
-  color: #292F37;
+  color: #565F6D;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -278,7 +279,7 @@ sub {
 .grid-columns_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 12px;
+  grid-gap: 8px;
 }
 .grid-columns_3 a {
   background-color: #FCFCFC;
