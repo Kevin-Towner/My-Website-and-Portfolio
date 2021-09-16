@@ -114,7 +114,7 @@
 .container-screen_content-67 {
   display: flex;
   flex-direction: column;
-  padding: 28vh 0 2vh 0;
+  padding: 28vh 0 10vh 0;
   width: 67%;
   margin: auto;
 }
@@ -218,7 +218,7 @@ sub {
 .main-content {
   display: flex;
   flex-direction: column;
-  padding: 28vh 0 2vh 0;
+  padding: 28vh 0 10vh 0;
   width: 67%;
   margin: auto;
   animation: fadeInAnimation ease 1s;
@@ -288,6 +288,9 @@ sub {
 }
 .grid-columns_3 a:hover {
   text-decoration: none;
+}
+#row-header {
+  margin: 0 0 2em 0;
 }
 #row-header-prim {
   display: grid;

@@ -2,7 +2,7 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 36pt;
   background-color: #565F6D;
   background-size: 100%;
@@ -144,7 +144,7 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 36pt;
   background-color: #565F6D;
   background-size: 100%;
