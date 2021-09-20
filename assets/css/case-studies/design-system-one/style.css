@@ -418,9 +418,8 @@ sub {
   padding-bottom: 2em;
 }
 #row-components #row-components-1 .row-33_33_33 {
-  padding-top: 2em;
   border-bottom: 1px solid lightgrey;
-  grid-gap: 2em;
+  grid-gap: 1.5em;
 }
 #row-components #row-components-1 .row-33_33_33 div p {
   text-align: justify;
