@@ -311,6 +311,7 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
   margin: auto;
+  line-height: 200%;
 }
 .row-25_25_25_25-prim div ul li {
   margin: auto;
