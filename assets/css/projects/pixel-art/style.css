@@ -28,7 +28,7 @@
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18pt;
   text-align: left;
   color: #565F6D;
@@ -175,7 +175,7 @@ h2 span {
 }
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18pt;
   text-align: left;
   color: #565F6D;
@@ -372,7 +372,7 @@ sub {
   width: 100%;
 }
 #row-electric_frogs {
-  margin-top: 2em;
+  margin-top: 4em;
 }
 #row-electric_frogs p {
   font-family: 'Roboto', sans-serif;
@@ -405,6 +405,6 @@ sub {
 #row-electric_frogs #row-electric_frogs-image-1 img {
   width: 100%;
 }
-#row-electric_frogs .row-67_33 {
-  grid-gap: 3em;
+#row-electric_frogs .row-50_50 {
+  grid-gap: 4em;
 }
