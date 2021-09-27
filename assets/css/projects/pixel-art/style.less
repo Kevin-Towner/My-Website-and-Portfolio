@@ -207,7 +207,7 @@ sub{
 }
 
 .row{
-  margin:0 0 4em 0;
+  margin:0 0 2em 0;
 }
 
 .row-33_33_33{
@@ -303,12 +303,37 @@ sub{
     }
   }
 }
+#row-introduction{
+  ul{
+    li:nth-child(1){
+      margin-bottom:8px;
+    }
+    li:nth-child(2){
+      margin-bottom:8px;
+    }
+  }
+}
 #row-electric_frogs{
   p{
     .font-body_text-p;
   }
   #row-electric_frogs-image-1{
-    margin-top:20px;
+    span{
+      .font-caption;
+      font-size:10pt;
+      a{
+        color:#0047FF;
+        &:hover{
+          color:@color-hyperlink;
+          text-decoration:none;
+        }
+      }
+    }
+    img{
+      width:100%;
+    }
+  }
+  #row-electric_frogs-image-2{
     span{
       .font-caption;
       font-size:10pt;
@@ -327,7 +352,8 @@ sub{
   #row-electric_frogs-inner{
     margin-top:4em;
   }
-  .row-50_50{
+  .row-67_33{
     grid-gap:4em;
+    margin-top:4em;
   }
 }
