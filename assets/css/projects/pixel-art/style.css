@@ -304,6 +304,13 @@ sub {
 .row-67_33 img {
   width: 100%;
 }
+.row-33_67 {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+}
+.row-33_67 img {
+  width: 100%;
+}
 #row-header {
   display: grid;
   grid-template-columns: 1fr;
@@ -490,4 +497,59 @@ sub {
 }
 #row-electric_cats .row-67_33 p {
   width: 90%;
+}
+#row-electric_cats .row-33_67 {
+  margin-top: 2em;
+  grid-gap: 3em;
+}
+#row-electric_sharks-image-1 span {
+  color: #292F37;
+  font-family: 'Roboto', sans-serif;
+  line-height: 140%;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+}
+#row-electric_sharks-image-1 span a {
+  color: #0047FF;
+}
+#row-electric_sharks-image-1 span a:hover {
+  color: #E93661;
+  text-decoration: none;
+}
+#row-electric_sharks-image-1 img {
+  width: 100%;
+}
+#row-electric_sharks-image-2 span {
+  color: #292F37;
+  font-family: 'Roboto', sans-serif;
+  line-height: 140%;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+}
+#row-electric_sharks-image-2 span a {
+  color: #0047FF;
+}
+#row-electric_sharks-image-2 span a:hover {
+  color: #E93661;
+  text-decoration: none;
+}
+#row-electric_sharks-image-2 img {
+  width: 100%;
+}
+#row-electric_sharks-inner {
+  margin-top: 4em;
+}
+.row-67_33 {
+  margin-top: 2em;
+}
+.row-67_33 p {
+  width: 90%;
+}
+.row-33_67 {
+  margin-top: 2em;
+  grid-gap: 3em;
 }
