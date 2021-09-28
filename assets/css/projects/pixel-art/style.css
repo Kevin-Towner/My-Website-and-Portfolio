@@ -442,7 +442,10 @@ sub {
 #row-electric_frogs .row-67_33 p {
   width: 90%;
 }
-#row-electric_cats p {
+#row-electric_cats-inner {
+  margin-top: 1em;
+}
+#row-electric_cats-inner p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
@@ -451,7 +454,7 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
-#row-electric_cats #row-electric_cats-image-1 span {
+#row-electric_cats-inner #row-electric_cats-image-1 span {
   color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
@@ -460,17 +463,17 @@ sub {
   text-align: center;
   font-size: 10pt;
 }
-#row-electric_cats #row-electric_cats-image-1 span a {
+#row-electric_cats-inner #row-electric_cats-image-1 span a {
   color: #0047FF;
 }
-#row-electric_cats #row-electric_cats-image-1 span a:hover {
+#row-electric_cats-inner #row-electric_cats-image-1 span a:hover {
   color: #E93661;
   text-decoration: none;
 }
-#row-electric_cats #row-electric_cats-image-1 img {
+#row-electric_cats-inner #row-electric_cats-image-1 img {
   width: 100%;
 }
-#row-electric_cats #row-electric_cats-image-2 span {
+#row-electric_cats-inner #row-electric_cats-image-2 span {
   color: #292F37;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
@@ -479,26 +482,26 @@ sub {
   text-align: center;
   font-size: 10pt;
 }
-#row-electric_cats #row-electric_cats-image-2 span a {
+#row-electric_cats-inner #row-electric_cats-image-2 span a {
   color: #0047FF;
 }
-#row-electric_cats #row-electric_cats-image-2 span a:hover {
+#row-electric_cats-inner #row-electric_cats-image-2 span a:hover {
   color: #E93661;
   text-decoration: none;
 }
-#row-electric_cats #row-electric_cats-image-2 img {
+#row-electric_cats-inner #row-electric_cats-image-2 img {
   width: 100%;
 }
-#row-electric_cats #row-electric_cats-inner {
+#row-electric_cats-inner #row-electric_cats-inner {
   margin-top: 4em;
 }
-#row-electric_cats .row-67_33 {
+#row-electric_cats-inner .row-67_33 {
   margin-top: 2em;
 }
-#row-electric_cats .row-67_33 p {
+#row-electric_cats-inner .row-67_33 p {
   width: 90%;
 }
-#row-electric_cats .row-33_67 {
+#row-electric_cats-inner .row-33_67 {
   margin-top: 2em;
   grid-gap: 3em;
 }
