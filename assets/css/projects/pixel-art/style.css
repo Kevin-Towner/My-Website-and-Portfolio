@@ -300,7 +300,6 @@ sub {
 .row-67_33 {
   display: grid;
   grid-template-columns: 0.7fr 0.3fr;
-  grid-gap: 32px;
 }
 .row-67_33 img {
   width: 100%;
@@ -431,8 +430,64 @@ sub {
   margin-top: 4em;
 }
 #row-electric_frogs .row-67_33 {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 #row-electric_frogs .row-67_33 p {
+  width: 90%;
+}
+#row-electric_cats p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 11.5pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+}
+#row-electric_cats #row-electric_cats-image-1 span {
+  color: #292F37;
+  font-family: 'Roboto', sans-serif;
+  line-height: 140%;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+}
+#row-electric_cats #row-electric_cats-image-1 span a {
+  color: #0047FF;
+}
+#row-electric_cats #row-electric_cats-image-1 span a:hover {
+  color: #E93661;
+  text-decoration: none;
+}
+#row-electric_cats #row-electric_cats-image-1 img {
+  width: 100%;
+}
+#row-electric_cats #row-electric_cats-image-2 span {
+  color: #292F37;
+  font-family: 'Roboto', sans-serif;
+  line-height: 140%;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+}
+#row-electric_cats #row-electric_cats-image-2 span a {
+  color: #0047FF;
+}
+#row-electric_cats #row-electric_cats-image-2 span a:hover {
+  color: #E93661;
+  text-decoration: none;
+}
+#row-electric_cats #row-electric_cats-image-2 img {
+  width: 100%;
+}
+#row-electric_cats #row-electric_cats-inner {
+  margin-top: 4em;
+}
+#row-electric_cats .row-67_33 {
+  margin-top: 2em;
+}
+#row-electric_cats .row-67_33 p {
   width: 90%;
 }
