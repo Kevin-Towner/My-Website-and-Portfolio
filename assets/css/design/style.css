@@ -292,10 +292,14 @@ sub {
 .row-33_33_33-prim {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1.2em;
+  grid-gap: 1.6em;
 }
 .row-33_33_33-prim div p {
   text-align: justify;
+}
+.row-33_33_33-prim div a img {
+  max-width: 80%;
+  float: right;
 }
 .row-25_25_25_25-prim {
   display: grid;
