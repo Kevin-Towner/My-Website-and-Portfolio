@@ -492,9 +492,6 @@ sub {
 #row-electric_cats-inner #row-electric_cats-image-2 img {
   width: 100%;
 }
-#row-electric_cats-inner #row-electric_cats-inner {
-  margin-top: 4em;
-}
 #row-electric_cats-inner .row-67_33 {
   margin-top: 2em;
 }
@@ -542,9 +539,6 @@ sub {
 }
 #row-electric_sharks-image-2 img {
   width: 100%;
-}
-#row-electric_sharks-inner {
-  margin-top: 4em;
 }
 .row-67_33 {
   margin-top: 2em;
