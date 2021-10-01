@@ -311,9 +311,8 @@ sub {
 .row-33_33_33-prim div p {
   text-align: justify;
 }
-.row-33_33_33-prim div a img {
-  max-width: 80%;
-  float: right;
+.row-33_33_33-prim a img {
+  max-width: 100%;
 }
 .row-25_25_25_25-prim {
   display: grid;
@@ -363,6 +362,9 @@ sub {
 #row-header div a {
   color: #E93661;
   font-weight: 400;
+}
+#row-overview div div img {
+  max-width: 100%;
 }
 /*--Importantants--*/
 #visible-while-mobile_h1 {
