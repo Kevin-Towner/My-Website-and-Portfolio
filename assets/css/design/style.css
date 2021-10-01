@@ -312,7 +312,8 @@ sub {
   text-align: justify;
 }
 .row-33_33_33-prim a img {
-  max-width: 100%;
+  max-width: 67%;
+  float: right;
 }
 .row-25_25_25_25-prim {
   display: grid;
