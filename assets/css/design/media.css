@@ -39,15 +39,20 @@
   h1{
     margin-bottom:0;
   }
-
   h2{
+    font-size:20pt;
+  }
+
+  #row-overview > h2{
     display:none;
+  }
+  #row-skills{
+
   }
 
   p{
     line-height: 160%;
   }
-
   .main-content {
     width: 80%;
     padding:16vh 0 16vh 0;
@@ -65,17 +70,19 @@
   .row-25_25_25_25-prim{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:2em;
+    grid-gap:3em;
   }
   .row-33_66-seco div p{
     text-align: left;
   }
   .row-33_33_33-prim{
-    grid-template-columns:1fr;
-    grid-gap:.5em;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap:1.2em;
+    grid-row-gap:.5em;
   }
   .row-67_33-seco{
     display:flex;
+    grid-gap:1em;
     flex-direction:column-reverse;
   }
   .row-33_33_33-prim a img{
