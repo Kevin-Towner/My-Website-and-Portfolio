@@ -30,7 +30,10 @@
   }
   #row-header div p {
     font-size:12.5pt;
+    text-align: center;
     width:100%;
+    line-height: 140%;
+
   }
   #row-header div a{
     font-size:14pt;
@@ -45,16 +48,19 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
-    font-size:24pt;
-
+    font-size:29pt;
+    text-align: center;
   }
 
   h2{
     margin:0 0 1.5em 0;
   }
-  h2 span {
+  h4 span {
     background: #FEFEFE;
-    padding: 0 .5em 0 0px;
+    padding: 0 .5em 0 .5em;
+  }
+  h4{
+    text-align: center;
   }
 
   .row {
@@ -63,7 +69,7 @@
 
   .main-content{
     padding:16vh 0 16vh 0;
-    width:90vw;
+    width:80vw;
     margin:auto;
   }
   #row-header {
@@ -75,7 +81,7 @@
     text-align: center;
   }
   #row-header > div:nth-child(1) img{
-    width:67%;
+    width:33%;
   }
   #row-header div ul li a{
     font-size:12.5pt;
@@ -83,7 +89,6 @@
   }
   #row-header div p {
     width:100%;
-    line-height:160%;
   }
 
   #row-projects{

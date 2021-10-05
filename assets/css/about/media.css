@@ -35,9 +35,12 @@
 
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  h2 span {
-    background: #FEFEFE;
-    padding: 0 .5em 0 0px;
+  h1{
+    margin-bottom:0;
+  }
+
+  h2{
+    display:none;
   }
 
   p{
@@ -45,7 +48,7 @@
   }
 
   .main-content {
-    width: 90%;
+    width: 80%;
     padding:16vh 0 16vh 0;
   }
   .row-33_66-prim {

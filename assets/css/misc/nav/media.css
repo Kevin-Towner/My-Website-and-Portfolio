@@ -51,7 +51,7 @@
 
   #logo{
     height:40px;
-    margin-left:5vw;
+    margin-left:10vw;
   }
 
   #menu{
@@ -77,7 +77,7 @@
     font-size:32px;
     color:#8e8e8e;
     float:right;
-    margin-right:5vw;
+    margin-right:10vw;
   }
   label:hover{
     color:#7558C8;
@@ -107,13 +107,13 @@
   #toggle{
     display: none;
     height:32px;
-    margin-right:5vw !important;
+    margin-right:10vw !important;
   }
 
   #menu{
     display:none;
     height:24px;
-    margin-right:5vw;
+    margin-right:10vw;
   }
 
   #toggle:checked + #menu{
@@ -145,7 +145,7 @@
     margin-right:0em;
   }
   #menu > li:nth-child(4){
-    margin-left:0em;    
+    margin-left:0em;
   }
 
   #anchor-index{

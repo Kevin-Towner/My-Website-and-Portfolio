@@ -62,11 +62,14 @@
   }
 
   h1{
-    font-size:32pt;
+    font-size:29pt;
+    margin-bottom:0;
   }
 
   h2{
     font-size:24pt;
+    margin-bottom:1em;
+    display:none;
   }
 
   h3{
@@ -91,7 +94,7 @@
 
   .main-content{
     padding:16vh 0 16vh 0;
-    width:90%;
+    width:80%;
   }
   .contact-description-list{
 
