@@ -121,6 +121,12 @@
   font-size: 20pt;
   color: #565F6D;
 }
+.sprite-small {
+  height: 24px;
+}
+.sprite-medium {
+  height: 64px;
+}
 .font-bold {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -302,6 +308,16 @@ sub {
   display: grid;
   grid-template-columns: 0.33fr 0.67fr;
   grid-gap: 2em;
+}
+#row-TBA {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+}
+#row-TBA h1 {
+  margin: 0 0 0 0;
+}
+#row-TBA img {
+  padding-bottom: 24px;
 }
 #row-header {
   display: grid;
