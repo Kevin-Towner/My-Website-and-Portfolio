@@ -172,6 +172,14 @@
   margin: 0 0 16px 0;
   color: #EF801A;
 }
+.ul-list_items li {
+  margin-bottom: 10px;
+}
+.ul-list_keys li {
+  margin-top: 6px;
+  align-items: center;
+  color: #292F37;
+}
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
   display: flex;
@@ -392,10 +400,6 @@ sub {
 }
 #row-overview h4 {
   margin-top: 1em;
-}
-#row-overview ul li {
-  margin-top: 8px;
-  align-items: center;
 }
 #row-overview .row-67_33 {
   grid-gap: 8em;
