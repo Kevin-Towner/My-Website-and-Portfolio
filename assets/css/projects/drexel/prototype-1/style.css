@@ -29,7 +29,7 @@
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16pt;
+  font-size: 18pt;
   text-align: left;
   color: #565F6D;
   line-height: 0.1em;
@@ -226,7 +226,7 @@ h2 span {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16pt;
+  font-size: 18pt;
   text-align: left;
   color: #565F6D;
   line-height: 0.1em;
@@ -399,4 +399,11 @@ sub {
 }
 #row-overview .row-67_33 {
   grid-gap: 8em;
+  margin: 0 0 2em 0;
+  padding: 0 0 1em 0;
+  border-bottom: 1px solid lightgrey;
+}
+#row-overview .row-33_67 {
+  grid-gap: 8em;
+  margin: 0 0 2em 0;
 }
