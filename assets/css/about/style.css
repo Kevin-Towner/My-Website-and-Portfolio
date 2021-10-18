@@ -350,6 +350,10 @@ sub {
 #visible-while-mobile_h1 {
   display: none;
 }
+#font-bold-nav {
+  color: #E93661 !important;
+  font-weight: 400 !important;
+}
 footer {
   position: relative;
 }
