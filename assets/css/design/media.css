@@ -70,13 +70,13 @@
   .row-25_25_25_25-prim{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:3em;
+    grid-gap:1em;
   }
   .row-33_66-seco div p{
     text-align: left;
   }
   .row-33_33_33-prim{
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr;
     grid-column-gap:1.2em;
     grid-row-gap:.5em;
   }
