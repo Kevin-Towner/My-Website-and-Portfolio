@@ -47,8 +47,8 @@
   }
 
   h2{
-    font-size:;
-    margin:0 0 1.5em 0;
+    font-size:20pt;;
+
   }
   h2 span {
     background: #FEFEFE;
@@ -64,7 +64,7 @@
   }
 
   .row {
-    margin: 0 0 4em 0;
+    margin-bottom: 4em;
   }
 
   .main-content{
@@ -106,7 +106,7 @@
 
   h4 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 12.5pt;
     margin: 8px 0 8px 0;
     text-align: left;
