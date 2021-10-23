@@ -345,8 +345,50 @@ sub{
     padding:0 0 1em 0;
     border-bottom:1px solid lightgrey;
   }
-  .row-33_67{
+}
+
+#row-storyboards{
+  .row-67_33{
     grid-gap:8em;
     margin:0 0 2em 0;
+    padding:0 0 1em 0;
+    border-bottom:1px solid lightgrey;
+  }
+  h3{
+    margin-bottom:48px;
+  }
+  .slide-images{
+    img{
+      width:100%;
+      height:200px;
+    }
+    span{
+      .font-caption;
+      font-size:10pt;
+      a{
+        color:#0047FF;
+        &:hover{
+          color:@color-hyperlink;
+          text-decoration:none;
+        }
+      }
+    }
+  }
+  div{
+    #storyboard-seating{
+      .ul-list_items{
+        .font-teal;
+      }
+    }
+    #storyboard-order{
+      .ul-list_items{
+        .font-orange;
+      }
+    }
+    #storyboard-payment{
+      .ul-list_items{
+        .font-purple;
+      }
+    }
   }
 }

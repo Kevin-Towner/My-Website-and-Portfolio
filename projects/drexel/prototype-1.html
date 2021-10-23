@@ -20,10 +20,10 @@
   <link rel="stylesheet" type="text/css" href="../../assets/css/projects/drexel/prototype-1/style.less">
   <link rel="stylesheet" type="text/css" href="../../assets/css/projects/drexel/prototype-1/media.css">
   <link rel="stylesheet" type="text/css" href="../../assets/css/projects/future-vision/media.less">
-  <link rel="stylesheet" type="text/css" href="../../assets/css/misc/foot/style.css">
-  <link rel="stylesheet" type="text/css" href="../../assets/css/misc/foot/media.css">
   <link rel="stylesheet" type="text/css" href="../../assets/css/misc/nav/style.css">
   <link rel="stylesheet" type="text/css" href="../../assets/css/misc/nav/media.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/css/misc/foot/style.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/css/misc/foot/media.css">
   <link rel="stylesheet" type="text/css" href="../../assets/js/misc/slideshow.js">
 
 <!-- less -->
@@ -50,28 +50,47 @@
 
     gtag('config', 'G-0P7SDXF3EZ');
 
-
-    var i = 0;
-    var images = [];
-    var time = 2000;
-
-    images[0] = "seating-viewing-1.png";
-    images[2] = "seating-viewing-2.png";
-    images[3] = "seating-viewing-3.png";
-    images[4] = "seating-viewing-4.png";
-
-    function changeImage(){
-      document.slide.src = images[i];
-      if(i < images.length - 1){
-        i++;
-      }else{
-        i = 0
-      }
-      setTimeout("changeImage()", time);
-    }
-
-    window.onload = changeImage;
+    // window.onload = changeImage;
+    //
+    // var i = 0;
+    // var imagesOne = [];
+    // var imagesTwo = [];
+    // var imagesThree = [];
+    // var time = 1300;
+    //
+    // imagesOne[0] = "../../assets/images/projects/prototype-1/seating-viewing-1.png";
+    // imagesOne[1] = "../../assets/images/projects/prototype-1/seating-viewing-2.png";
+    // imagesOne[2] = "../../assets/images/projects/prototype-1/seating-viewing-3.png";
+    // imagesOne[3] = "../../assets/images/projects/prototype-1/seating-viewing-4.png";
+    //
+    // imagesTwo[0] = "../../assets/images/projects/prototype-1/order-delivery-1.png";
+    // imagesTwo[1] = "../../assets/images/projects/prototype-1/order-delivery-2.png";
+    //
+    // imagesThree[0] = "../../assets/images/projects/prototype-1/seating-viewing-1.png";
+    //
+    // function changeImage(){
+    //   document.getElementsByName("slideOne" "slideTwo" "slideThree").src = imagesOne[i];
+    //   if(i < imagesOne.length - 1){
+    //     i++;
+    //   }else{
+    //     i = 0;
+    //   }
+    //   document.slideTwo.src = imagesTwo[i];
+    //   if(i < imagesTwo.length - 1){
+    //     i++;
+    //   }else{
+    //     i = 0;
+    //   }
+    //   document.slideThree.src = imagesThree[i];
+    //   if(i < imagesThree.length - 1){
+    //     i++;
+    //   }else{
+    //     i = 0;
+    //   }
+    //   setTimeout("changeImage()", time);
+    // }
   </script>
+
 </head>
 <body>
   <nav>
@@ -104,7 +123,7 @@
       </div>
     </div>
     <div id="row-overview" class="row">
-      <h2><span>Purpose & Storyboards</span></h2>
+      <h2><span>Product Specifications</span></h2>
       <div>
         <h3><span>Purpose</span></h3>
         <p>The purpose of this activity was to excercise our storyboarding and mid-fidelity prototyping skills. There was a relatively high emphasis on proper storyboarding before diving into the prototypes. Class was split up into teams and were tasked with storyboarding and designing a hypothetical product that <span class="font-bold">automates the process of visiting a restaraunt</span>.</p>
@@ -145,7 +164,7 @@
         <h3><span>Storyboarding</span></h3>
         <p>After the product specifications were divvied up and storyboards were sketched, the group picked 2/3 of the storyboards to transform into medium-fidelity clickable prototype. Storyboards from colored specifications, <span class="font-bold">"Purple" and "Teal", were prototyped</span> while<span class="font-bold"> "Contributor Orange" recorded the design processes and deliverable artifacts into documents</span>.</p>
       </div>
-      <div class="row-67_33">
+      <div style="border-bottom:none;" class="row-67_33">
         <div>
           <h4>Prototyping roles:</h4>
           <ul class="ul-list_items">
@@ -164,23 +183,73 @@
           <h4>Prototyping key:</h4>
           <ul class="ul-list_keys">
             <li class="">
-              <span><img class="color-block_small" src="../../assets/images/projects/prototype-1/color-block_orange.png" alt="frog sprite"></span>
+              <span>
+                <img class="color-block_small" src="../../assets/images/projects/prototype-1/color-block_orange.png" alt="frog sprite">
+              </span>
               <span> Team Member One (Orange)</span>
             </li>
             <li class="">
               <span><img class="color-block_small" src="../../assets/images/projects/prototype-1/color-block_purple.png" alt="frog sprite"></span>
-              <span> Me (Purple)</span>
+              <span> Team Member Two - Me (Purple)</span>
             </li>
             <li class="">
               <span><img class="color-block_small" src="../../assets/images/projects/prototype-1/color-block_teal.png" alt="frog sprite"></span>
-              <span> Team Member Two (Teal)</span>
+              <span> Team Member Three (Teal)</span>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="row" id="row-storyboards">
-      <img width="400px" name="slide" alt="Slideshow of artboards">
+      <h2><span>Storyboards</span></h2>
+      <h3>Seating, reservations & menu</h3>
+      <div class="row-67_33">
+        <div id="storyboard-seating">
+          <h4>Storyboard Steps</h4>
+          <ul class="ul-list_items">
+            <li>• Selects order type and reserves a time slot</li>
+            <li>• Selects table and confirms of reservation</li>
+            <li>• Sits down and interacts with available options</li>
+            <li>• Staff receives notification of which table needs assistance</li>
+          </ul>
+        </div>
+        <div class="slide-images">
+          <img src="../../assets/images/projects/prototype-1/seating-viewing-1.png" name="slideOne" alt="Slideshow of artboards">
+          <span>Medium fidelity wireframes</span>
+        </div>
+      </div>
+      <h3>Order submission & food delivery</h3>
+      <div class="row-67_33">
+        <div id ="storyboard-order">
+          <h4>Storyboard Steps</h4>
+          <ul class="ul-list_items">
+            <li>• Feeling hungry and awaiting for orderedfood</li>
+            <li>• Kitchen staff receive the order</li>
+            <li>• Server available for questions from customer</li>
+            <li>• Busser is notified when food is ready and where it is going</li>
+          </ul>
+        </div>
+        <div class="slide-images">
+          <img src="../../assets/images/projects/prototype-1/order-delivery-2.png" name="slideTwo" alt="Slideshow of artboards">
+          <span>Medium fidelity wireframes</span>
+        </div>
+      </div>
+      <h3>Order type, checkout & payment</h3>
+      <div class="row-67_33">
+        <div id="storyboard-payment">
+          <h4>Storyboard Steps</h4>
+          <ul class="ul-list_items">
+            <li>• Person makes an order en route to restaraunt</li>
+            <li>• Items are selected and confirmed</li>
+            <li>• Payment options are selected</li>
+            <li>• User opts for cash payment over paying with card</li>
+          </ul>
+        </div>
+        <div class="slide-images">
+          <img src="../../assets/images/projects/prototype-1/order-payment.png" name="slideThree" alt="Slideshow of artboards">
+          <span>Medium fidelity wireframes</span>
+        </div>
+      </div>
     </div>
     <div class="row" id="row-TBA">
       <h1>More to be added soon!</h1>

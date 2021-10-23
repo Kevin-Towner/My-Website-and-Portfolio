@@ -53,13 +53,13 @@ label{
   list-style-type:none;
 }
 #menu > li:nth-child(1){
-  margin-right:1.4em;
+  margin-right:26px;
 }
 #menu > li:nth-child(2){
-  margin-right:1.4em;
+  margin-right:26px;
 }
 #menu > li:nth-child(4){
-  margin-left:1.4em;
+  margin-left:26px;
 }
 
 #menu > li > a{
