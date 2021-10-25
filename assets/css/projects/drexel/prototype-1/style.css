@@ -178,7 +178,7 @@
 .ul-list_keys li {
   margin-top: 6px;
   align-items: center;
-  color: #292F37;
+  color: #565F6D;
 }
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
@@ -197,6 +197,9 @@
 /* - - - - Misc  - - - -  -*/
 html {
   background: #FCFCFC;
+}
+img {
+  border-radius: 1px;
 }
 body {
   margin: 0 auto;
@@ -402,16 +405,13 @@ sub {
   margin-top: 1em;
 }
 #row-overview .row-67_33 {
-  grid-gap: 8em;
+  grid-gap: 6em;
   margin: 0 0 2em 0;
   padding: 0 0 1em 0;
-  border-bottom: 1px solid lightgrey;
 }
 #row-storyboards .row-67_33 {
-  grid-gap: 8em;
+  grid-gap: 0em;
   margin: 0 0 2em 0;
-  padding: 0 0 1em 0;
-  border-bottom: 1px solid lightgrey;
 }
 #row-storyboards h3 {
   margin-bottom: 48px;
@@ -465,4 +465,17 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
   color: #8C2CC7;
+}
+#row-storyboards .color-block_small {
+  padding-right: 0px;
+  max-height: 16px;
+}
+#row-prototypes h4 {
+  margin-top: 1em;
+}
+#row-prototypes .row-67_33 {
+  grid-gap: 6em;
+  margin: 0 0 2em 0;
+  padding: 0 0 1em 0;
+  border-bottom: 1px solid lightgrey;
 }
