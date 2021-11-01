@@ -30,11 +30,12 @@
 .font-heading_text-h2{
   font-family: 'Roboto', sans-serif;
   font-weight:300;
-  font-size:24pt;
+  font-size:20pt;
   text-align: left;
   color:@color-misc_2;
   border-bottom:1px solid @color-misc_2;
   line-height: 0.1em;
+  letter-spacing: .7px;
   margin:0 0 2em 0;
   span{
     background:@color-secondary;
@@ -49,6 +50,7 @@
   color:@color-misc_2;
   // border-bottom:1px solid lightgrey;
   line-height: 0.1em;
+  letter-spacing:.7px;
   margin:0 0 24px 0;
   span{
     background:@color-secondary;
@@ -59,18 +61,19 @@
 .font-heading_text-h4{
   font-family: 'Roboto', sans-serif;
   font-weight:300;
-  font-size:13.5pt;
+  font-size:14pt;
   letter-spacing:.3px;
   margin: 0 0 12px 0;
   text-align: left;
   line-height:140%;
+  letter-spacing:.7px;
   color:@color-misc_1;
 }
 .font-body_text-p{
   font-family: 'Roboto', sans-serif;
   margin:0;
   font-size:11.5pt;
-  line-height:160%;
+  line-height:180%;
   font-weight:300;
   color:@color-misc_2;
   margin: 0 0 16px 0;
@@ -146,7 +149,7 @@
   .font-body_text-p;
   font-weight:400;
   // color:@color-hyperlink;
-  color:@color-misc_1;
+  color:@color-misc_2;
 }
 
 .font-teal{
@@ -171,7 +174,7 @@
 .ul-list_keys{
   li{
     align-items: center;
-    margin-top:6px;
+    margin-top:10px;
     align-items:center;
     color:@color-misc_2;
   }
@@ -291,6 +294,7 @@ sub{
     color:@color-misc_2;
     line-height:160%;
     margin:8px 0 24px 0;
+    letter-spacing: normal;
   }
   #row-header-signature{
     display:flex;
@@ -341,11 +345,10 @@ sub{
 }
 #row-overview{
   h4{
-    margin-top:1em;
+    margin-top:0;
   }
   .row-67_33{
     grid-gap:6em;
-    margin:0 0 2em 0;
     padding:0 0 1em 0;
   }
 }
@@ -379,17 +382,17 @@ sub{
   div{
     #storyboard-seating{
       .ul-list_items{
-        .font-teal;
+
       }
     }
     #storyboard-order{
       .ul-list_items{
-        .font-orange;
+
       }
     }
     #storyboard-payment{
       .ul-list_items{
-        .font-purple;
+
       }
     }
   }
@@ -399,14 +402,48 @@ sub{
   }
 }
 
-#row-prototypes{
+#row-medium{
   h4{
-    margin-top:1em;
   }
   .row-67_33{
     grid-gap:6em;
-    margin:0 0 2em 0;
     padding:0 0 1em 0;
-    border-bottom:1px solid lightgrey;
+  }
+}
+
+#row-prototypes{
+  .row-67_33{
+    grid-gap:4em;
+    margin:0 0 2em 0;
+    // border-bottom:1px solid lightgrey;
+  }
+  h3{
+    margin-bottom:48px;
+  }
+  a{
+    opacity:.8;
+    &:hover{
+      opacity:1;
+    }
+  }
+  .slide-images{
+    img{
+      width:100%;
+    }
+    span{
+      .font-caption;
+      font-size:10pt;
+      a{
+        color:#0047FF;
+        &:hover{
+          color:@color-hyperlink;
+          text-decoration:none;
+        }
+      }
+    }
+  }
+  .color-block_small{
+    padding-right:0px;
+    max-height:16px;
   }
 }
