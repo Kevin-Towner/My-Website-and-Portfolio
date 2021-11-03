@@ -60,6 +60,10 @@
     margin-bottom:24px;
   }
 
+  h3 span{
+  margin:0;
+  }
+
   p{
     line-height: 160%;
   }
