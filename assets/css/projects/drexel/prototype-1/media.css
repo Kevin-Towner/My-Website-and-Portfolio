@@ -58,6 +58,7 @@
   h3{
     font-size:16pt;
     margin-bottom:24px;
+    font-weight:400;
   }
 
   h3 span{
@@ -105,7 +106,7 @@
   }
 
   #row-overview h4{
-    font-weight:400;
+
   }
 
   #row-storyboards .row-67_33{
@@ -117,7 +118,7 @@
   }
 
   #row-storyboards h4{
-    font-weight:400;
+
   }
 
   #row-storyboards .slide-images img{
@@ -134,7 +135,7 @@
   }
 
   #row-medium h4{
-    font-weight:400;
+
   }
 
   #row-prototypes h3{
@@ -166,7 +167,6 @@
   h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 12.5pt;
     margin: 8px 0 8px 0;
     text-align: left;
     line-height: 160%;
