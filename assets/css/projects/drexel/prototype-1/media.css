@@ -59,7 +59,6 @@
   h3{
     font-size:16pt;
     margin-bottom:24px;
-    font-weight:400;
   }
 
   h3 span{
@@ -172,6 +171,7 @@
     text-align: left;
     line-height: 160%;
     color: #565F6D;
+    font-weight:400;
   }
 
 }
