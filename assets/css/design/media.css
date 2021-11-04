@@ -67,6 +67,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:1em;
+    grid-column-gap:2em;
   }
   .row-33_66-seco div p{
     text-align: left;
