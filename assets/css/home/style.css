@@ -299,7 +299,7 @@ sub {
 .grid-columns_3 a div p {
   font-size: 12pt;
   margin-top: 4px;
-  text-align: center;
+  text-align: left;
 }
 .grid-columns_3 a div h4 {
   font-weight: 300;
