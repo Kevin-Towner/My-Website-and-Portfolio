@@ -16,7 +16,7 @@
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 24pt;
+  font-size: 22pt;
   text-align: left;
   color: #565F6D;
   border-bottom: 1px solid #565F6D;
@@ -164,7 +164,7 @@ h1 {
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 24pt;
+  font-size: 22pt;
   text-align: left;
   color: #565F6D;
   border-bottom: 1px solid #565F6D;
@@ -261,7 +261,7 @@ sub {
 }
 .row-33_66-prim img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 1px;
 }
 .row-33_66-prim div .font-italic {
   font-style: italic;
