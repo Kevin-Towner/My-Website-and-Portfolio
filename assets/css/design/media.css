@@ -44,7 +44,7 @@
   }
 
   #row-overview > h2{
-    display:none;
+
   }
   #row-skills{
 
@@ -59,6 +59,11 @@
     grid-gap: 2em;
   }
   .row-33_66-seco{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+  .row-33_67-seco{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2em;
