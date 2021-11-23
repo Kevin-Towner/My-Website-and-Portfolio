@@ -448,8 +448,11 @@ sub {
 #row-breakdown .row-33_67-seco {
   grid-gap: 4em;
 }
+#row-breakdown .row-33_67-seco div p {
+  text-align: left;
+}
 #row-breakdown div .row-33_33_33-prim {
-  grid-gap: 2em;
+  grid-gap: 1em;
 }
 #row-wireframes .row-67_33-seco {
   grid-gap: 4em;
@@ -457,15 +460,12 @@ sub {
 #row-wireframes .row-67_33-seco img {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-#row-wireframes .row-67_33-seco p {
-  text-align: left;
-}
 #row-prototype div ul li a {
   color: #0047FF;
   font-weight: 400;
 }
 #row-feedback .row-33_67-prim {
-  grid-gap: 2em;
+  grid-gap: 4em;
 }
 #row-feedback ul {
   font-family: 'Roboto', sans-serif;
