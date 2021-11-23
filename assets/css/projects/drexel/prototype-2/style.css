@@ -50,7 +50,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -68,7 +68,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   color: #565F6D;
   margin: 0 0 16px 0;
   color: #292F37;
@@ -84,7 +84,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   color: #565F6D;
   margin: 0 0 16px 0;
   color: #E93661;
@@ -118,7 +118,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -199,7 +199,7 @@ p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -212,7 +212,7 @@ a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   color: #565F6D;
   margin: 0 0 16px 0;
   color: #292F37;
@@ -283,7 +283,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -304,7 +304,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -321,7 +321,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -347,7 +347,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -406,7 +406,7 @@ sub {
 #row-header-signature span {
   font-family: 'Roboto', sans-serif;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   margin: 0 0 16px 0;
   color: #565F6D;
@@ -435,7 +435,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -471,7 +471,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
-  line-height: 160%;
+  line-height: 175%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -483,7 +483,7 @@ sub {
   margin-bottom: 8px;
 }
 #row-feedback p {
-  text-align: justify;
+  text-align: left;
 }
 /*--Importantants--*/
 #visible-while-mobile_h1 {
