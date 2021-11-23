@@ -408,9 +408,8 @@ sub {
   font-size: 11.5pt;
   line-height: 160%;
   font-weight: 300;
-  color: #565F6D;
   margin: 0 0 16px 0;
-  color: #292F37;
+  color: #565F6D;
   margin: 0;
   font-weight: 400;
 }
