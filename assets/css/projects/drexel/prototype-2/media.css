@@ -1,0 +1,135 @@
+
+@media only screen  and (min-width : 1824px) {
+  .main-content{
+    width:50vw;
+  }
+}
+
+@media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+
+}
+
+@media (max-width:1025px) {
+  .main-content{
+    width:90%;
+  }
+}
+
+
+@media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .main-content{
+    width:90%;
+  }
+
+  h1{
+    font-size:1.6em;
+    margin:0 0 24px;
+  }
+  #row-header div p {
+    font-size:14.5pt;
+    width:100%;
+  }
+  #row-header div a{
+    font-size:14pt;
+  }
+  .list-header_row {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top:1em;
+  }
+}
+
+@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h1{
+    font-size:28px;
+    margin-bottom:.5em;
+    line-height:160%;
+  }
+
+  h2{
+    font-size:20pt;
+
+  }
+  h2 span {
+    background: #FEFEFE;
+    padding: 0 .5em 0 0px;
+  }
+
+  h3{
+    font-size:16pt;
+    margin-bottom:24px;
+  }
+
+  h3 span{
+  margin:0;
+  }
+
+  p{
+    line-height: 160%;
+  }
+
+  .main-content{
+    padding:16vh 0 16vh 0;
+    width:80vw;
+    margin:auto;
+  }
+  .ul-list_items li{
+    margin-bottom:6px;
+  }
+
+  .row-67_33-seco{
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+  }
+
+  .row-33_67-seco{
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+  }
+  .row-33_33_33-prim{
+    grid-template-columns: 1fr;
+    grid-gap:24px;
+  }
+
+  .font-hyperlink_in-text{
+    font-size:14.5pt;
+  }
+
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 8px 0 8px 0;
+    text-align: left;
+    line-height: 160%;
+    color: #565F6D;
+    font-weight:400;
+  }
+
+  #row-introduction div .row-67_33-seco a{
+    margin-bottom:0;
+  }
+  #row-breakdown .row-33_67-seco{
+    grid-gap:1em;
+  }
+  #row-wireframes .row-67_33-seco{
+    grid-gap: 1em;
+  }
+  #row-header-signature{
+    padding-bottom:2em;
+  }
+  #row-feedback .row-33_67-prim{
+    grid-gap:1em;
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+}
+
+@media (max-width:320px)  { /* smartphones, Android phones, landscape iPhone */
+
+
+}
