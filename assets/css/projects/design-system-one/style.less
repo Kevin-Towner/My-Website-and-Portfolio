@@ -234,7 +234,10 @@ sub{
   }
   div{
     ul{
-      .font-body_text-p
+      li{
+        .font-body_text-p;
+        margin-bottom:8px;
+      }
     }
     p{
       text-align: justify;
@@ -388,7 +391,7 @@ sub{
       }
     }
     h4{
-      line-height:180%;
+      line-height:170%;
     }
     p{
       width:100%;
@@ -422,6 +425,7 @@ sub{
     a{
     }
   }
+
 }
 
 #row-introduction{
@@ -451,9 +455,8 @@ sub{
         ul{
           .font-body_text-p;
           margin:auto;
-          line-height:200%;
           li{
-            margin:auto;
+            margin-bottom:8px;
           }
         }
       }
@@ -509,6 +512,11 @@ sub{
       border:2px solid #E5E5E5;
       &:hover{
         border:2px solid @color-hyperlink;
+      }
+    }
+    ul{
+      li{
+        margin-bottom:8px;
       }
     }
   }
@@ -577,6 +585,7 @@ sub{
 
 #row-iteration_2{
   .row-50_50-prim{
+    grid-gap:2em;
     div{
       a{
         img{

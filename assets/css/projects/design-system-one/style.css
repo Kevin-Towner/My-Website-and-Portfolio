@@ -253,7 +253,7 @@ sub {
   max-width: 100%;
   border-radius: 2px;
 }
-.row-50_50-prim div ul {
+.row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
@@ -261,6 +261,7 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
+  margin-bottom: 8px;
 }
 .row-50_50-prim div p {
   text-align: justify;
@@ -410,7 +411,7 @@ sub {
   display: none;
 }
 #row-header div h4 {
-  line-height: 180%;
+  line-height: 170%;
 }
 #row-header div p {
   width: 100%;
@@ -483,10 +484,9 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
   margin: auto;
-  line-height: 200%;
 }
 #row-introduction div .row-67_33-seco div ul li {
-  margin: auto;
+  margin-bottom: 8px;
 }
 #row-breakdown .row-33_67-seco {
   grid-gap: 4em;
@@ -527,6 +527,9 @@ sub {
 }
 #row-iteration_1 .row-50_50-seco img:hover {
   border: 2px solid #0047FF;
+}
+#row-iteration_1 .row-50_50-seco ul li {
+  margin-bottom: 8px;
 }
 #row-information h2 {
   color: #292F37;
@@ -574,6 +577,9 @@ sub {
 }
 #row-menu_items .row-33_33_33-prim ul {
   margin: 0;
+}
+#row-iteration_2 .row-50_50-prim {
+  grid-gap: 2em;
 }
 #row-iteration_2 .row-50_50-prim div a img {
   max-width: 100%;
