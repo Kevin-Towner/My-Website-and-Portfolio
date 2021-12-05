@@ -575,14 +575,14 @@ sub {
 #row-menu_items .row-33_33_33-prim ul {
   margin: 0;
 }
-#row-iteration_2 .row-33_67-seco div a img {
+#row-iteration_2 .row-50_50-prim div a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-iteration_2 .row-33_67-seco div a img:hover {
+#row-iteration_2 .row-50_50-prim div a img:hover {
   border: 2px solid #0047FF;
 }
-#row-iteration_2 .row-33_67-seco div ul li {
+#row-iteration_2 .row-50_50-prim div ul li {
   margin-bottom: 8px;
 }
 /*--Importantants--*/
