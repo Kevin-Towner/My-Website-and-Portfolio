@@ -100,11 +100,8 @@
     width:100%;
   }
 
-  #project-1{
-    display:none;
-  }
-  #project-2{
-    display:none;
+  #row-prototyping_projects{
+    flex-direction:row-row-reverse;
   }
 
   #visible-while-mobile_h1{
@@ -117,7 +114,7 @@
   #hidden-while-mobile_button-list{
     display:none;
   }
-  
+
   #visible-while-mobile_button-list{
     display:inline-flex;
   }

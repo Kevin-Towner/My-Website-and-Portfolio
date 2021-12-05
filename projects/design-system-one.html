@@ -53,185 +53,276 @@
 <body>
   <nav>
     <div class="navigation-section" id="navigation-left">
-      <a style="margin-bottom:0;" href = "../index.html"><img id="logo" src="../assets/images/misc/gundam-logo.svg" alt=""></a>
+      <a style="margin-bottom:0;" href = "../index.html"><img id="logo" src="../assets/images/misc/gundam-logo.svg" alt="logo"></a>
       <h1 id="visible-while-mobile_navigation-h1">Kevin Towner</h1>
     </div>
     <div class="navigation-section" id="navigation-right">
       <label for="toggle">☰</label>
       <input type="checkbox" id="toggle">
       <ul id="menu">
-        <li><a id="anchor-index" target="" href = "../index.html">home</a></li>
-        <li><a id="anchor-design" target="" href = "../design.html">design</a></li>
-        <li><a id="anchor-portfolio" href = "about.html">about</a></li>
-        <li><a id="anchor-contact" target="" href = "../contact.html">contact</a></li>
+        <li><a id="anchor-index" href = "../index.html">home</a></li>
+        <li><a id="anchor-design"href="../design.html">design</a></li>
+        <li><a id="anchor-portfolio" href = "../about.html">about</a></li>
+        <li><a id="anchor-contact" href = "../contact.html">contact</a></li>
       </ul>
     </div>
   </nav>
   <div class = "main-content">
-    <div id="row-header" class="row">
-      <h1>Design System One</h1>
-      <h4>Overview of my process when designing and planning Design System One (DSO), a design system I am creating in Figma. DSO is heavily influenced by Samsung's One UI Design Guidelines. It serves as a guide towards designing assets, like components from One UI Design Guidelines, for the Figma and design community.</h4>
-      <div id="row-header-signature">
-        <img src="../assets/images/me/me-2.png" alt="My logo">
-        <span><a href="../index.html">Kevin Towner</a><span class="bullet-point">•</span>ongoing project<span class="bullet-point">•</span>5 minute read</span>
+    <div class="row" id="row-header">
+      <div>
+        <h1><span>Design System - Mobile - Settings</span></h1>
       </div>
-      <div id="row-header-image">
-        <img src="../assets/images/projects/design-system-1/display-2.png" alt="12 screens of design components">
-        <span>A series of 12 'Settings' screens - includes overrides and variants. Inspired by Samsung's <a href="https://www.samsung.com/us/apps/one-ui/">One UI</a> design guidelines</span>
+      <div>
+        <h4>An ongoing project following atomic design patterns with elements inspired by Samsung's One UI Design Guidelines. I am creating a design system for long-term skill progression and component availability for future projects. The design system will be referred to as <span class="font-bold">Design System One.</span></h4>
       </div>
     </div>
-    <div id="row-design_system" class="row">
-      <h2><span>Design system</span></h2>
-      <h3>What is it?</h3>
-        <div id="column-design_system-1">
-          <h4>A design system is a systematic approach to product design/development</h4>
-          <p>There are various definitions and interpretations of what exactly a design system is. Since they come in various styles, contexts and depths I'm going to use my own definition. <span style="font-weight:400;">A design system is a systematic approach to product design/development</span>. Design systems are commonly used to expedite tasks, communicate between teams, and track the growth of a product. A design system should not misconstrued as a document with rigid guidelines. A design system is a collection of components and standards designed for efficiency and reusability.</p>
-        </div>
-        <div id="column-design_system-2">
-          <h4>I created Design System One because:</h4>
-          <ul>
-            <li>• I wanted to practice using a more systematic approach toward designing components</li>
-            <li>• I wanted to have ready-to-use components for future projects</li>
-            <li>• I wanted to delve into a project that I could iterate and improve upon</li>
-          </ul>
-        </div>
+    <div id="row-header-signature">
+      <img src="../assets/images/me/me-2.png" alt="Me">
+      <span><a class="font-hyperlink_text-1" target="_blank" href="../index.html">Kevin Towner</a><span class="bullet-point">•</span>Ongoing project<span class="bullet-point">•</span>2 minute read</span>
     </div>
-    <div id="row-research" class="row">
-      <h2><span>Research</span></h2>
-      <div id="row-research-1">
-        <h3>Design systems</h3>
-        <p id="paragraph-research-1-1">In order to increase my base knowledge on what a design system is, I decided to look through various design systems and frameworks available for viewing on the web. Included were Google's Material Design, NASA Graphics Standards Manual, and the Atomic Design methodology.</p>
-        <!-- <h4>Material Design</h4>
-        <p id="paragraph-research-1-2">Google's Material Design system is extensive and certainly a hard act to (attempt to) follow. That being said, there is a lot to learn from this Material Design such as the simplicity of one font (Roboto) and the availability of icons (Figma plugin 'Material Design Icons' by <a href="https://dondesign.net/">smrkv</a>).</p>
-        <h4>NASA Graphics Standards Manual</h4>
-        <p id="paragraph-research-1-3">Serves as a reminder that NASA, despite being a government administration, is also an organization that embraces design. </p>
-        <h4>Atomic Design</h4>
-        <p id="paragraph-research-1-4">Not so much a design 'system' as much as a design framework for organizing and classifying components. It is a resource and a reference for planning the long-term development of design systems.</p> -->
-        </div>
-        <!-- <div id="row-research-2">
-          <a target="blank" href="https://blog.prototypr.io/how-to-implement-atomic-design-in-your-current-project-368005f5c044"><img src="../assets/images/projects/design-system-1/atomic.png" alt=""></a>
-          <span>Atomic design overview from <a href="https://blog.prototypr.io/how-to-implement-atomic-design-in-your-current-project-368005f5c044">Roberto Moreno Celta</a>'s article</span>
-        </div> -->
-        <div id="row-research-3">
+    <div class="row" id="row-introduction">
+      <h2><span>Introduction</span></h2>
+      <div>
+        <div class="row-67_33-seco">
           <div>
-            <h3>Scaling down</h3>
-            <h4>One UI Design Guidelines</h4>
-            <p>Due to my familiarity with Galaxy phones and the layout of the system, I decided to begin my design system based off of <a target="_blank" href="https://www.samsung.com/us/apps/one-ui/">Samsung's One UI Design Guidelines</a>. Given the constraints of the project (1 contributor, time, etc.) <span style="font-weight:400;">I decided to begin the system with the components that make up the 'Settings' screens</span>.</p>
-            <p>Aside from the high-level challenges such as identifying the grid system, screen dimensions, font-sizes, etc., It was important that I reference guidelines and take inventory of the components involved in Settings.</p>
-          </div>
-          <!-- <div id="row-research-4">
-            <div class="row-33_33_33">
-              <div>
-                <img src="../assets/images/projects/design-system-1/page-1.png" alt="Page 1 of ONE UI Design Guidelines">
-                <span>Front page of ONE UI Design Guidelines</span>
-              </div>
-              <div>
-                <img src="../assets/images/projects/design-system-1/page-2.png" alt="Page 16 of ONE UI Design Guidelines">
-                <span>Page 16 of ONE UI Design Guidelines</span>
-              </div>
-              <div>
-                <img src="../assets/images/projects/design-system-1/page-3.png" alt="Page 61 of ONE UI Design Guidelines">
-                <span>Page 61 of ONE UI Design Guidelines</span>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </div>
-      <div id="row-components" class="row">
-        <div id="row-components-1">
-          <h2><span>Components</span></h2>
-          <!-- <h3>Settings components</h3> -->
-          <!-- <div class="row-33_33_33">
+            <h4>Why create a design system?</h4>
+            <p>Design systems on-hand are productive tools when it comes to creating consistent and reusable design patterns for user interfaces. Design systems can set branding and identity standards as well as drive realistic goals.</p>
             <div>
-              <h4>App (Settings)</h4>
-              <p>App components exist in the Settings application. These components are made up of app bars, list items, lists, icons, images, etc.</p>
+              <h4>Benefits</h4>
+              <ul>
+                <li>• Component reusability</li>
+                <li>• Consistent design</li>
+                <li>• Streamline design process</li>
+                <li>• Communication and justification</li>
+              </ul>
             </div>
-            <div>
-              <h4>Home</h4>
-              <p>Home components exist on the phone's homescreen. This class of components mainly includes labeled app icons</p>
-            </div>
-            <div>
-              <h4>System</h4>
-              <p>System components are elements of the device's operating system. These components include system navigation bars, bottom bars, system icons, and dialogue menus.</p>
-            </div>
-          </div> -->
-        </div>
-        <div id="row-components-2">
-          <img src="../assets/images/projects/design-system-1/components.png" alt="collection of components">
-          <span>Components I used to design the screens I've created so far. Most of these components contain smaller components within themselves (think Atomic Design) and are created with overrides and variants in mind.</span>
-        </div>
-      </div>
-      <div id="row-visual"class="row">
-        <h2><span>Visual elements</span></h2>
-        <h3>Type, color and icons</h3>
-        <p>More will be included in this section at a later date. The project is ongoing and visual elements are still being worked on.</p>
-        <div class="row-visual-all" id="row-visual_type-and-font">
-          <div>
-            <a target="_blank" href="../assets/images/projects/design-system-1/type.png"><h4>Type and font</h4></a>
-            <span>• Roboto, Auto</span>
           </div>
+          <a target="_blank" href="../assets/images/projects/design-system-1/display.png">
+            <img src="../assets/images/projects/design-system-1/display.png" alt="High fidelity home screen">
+            <span class="font-caption">High fidelity screens of first iteration</span>
+          </a>
         </div>
-        <div class="row-visual-all" id="row-visual-color_palette">
-          <div>
-            <a target="_blank" href="../assets/images/projects/design-system-1/color.png"><h4>Color palette</h4></a>
-            <span>• Inspired by One UI Design Guidelines. See <a target ="_blank"href="https://design.samsung.com/global/contents/one-ui/download/oneui_design_guide_eng.pdf">page 62</a></span>
-          </div>
-        </div>
-        <div class="row-visual-all" id="row-visual-icons">
-          <div>
-            <a target="_blank" href="../assets/images/projects/design-system-1/icons.png"><h4>Icons</h4></a>
-            <span>• Colors and app icons are still being created</span>
-          </div>
-        </div>
-      </div>
-      <div id="row-templates"class="row">
-        <h2><span>Templates and screens</span></h2>
-        <h3>Templates and screen content</h3>
-        <p>According to Atomic Design, templates are where organisms and components come together to create a cohesive design. In my design system the templates are components grouped together to represent the full height of the final design without the constraints of the screen dimensions.</p>
-        <div id="row-templates-1">
-          <div>
-            <a target="_blank" href="../assets/images/projects/design-system-1/templates.png"><img src="../assets/images/projects/design-system-1/templates.png" alt="screen templates"></a>
-            <!-- <span>Completed, scrollable, screen content</span> -->
-          </div>
-        </div>
-      </div>
-      <div id="row-screens"class="row">
-        <h2><span>Final screens</span></h2>
-        <h3>Final Settings screens</h3>
-        <p>Templates are placed inside 480x1067 frames. There are a total of 12 frames -  representing 6 different Settings screens - each with extended navigation and scrolled navigation states.</p>
-        <div id="row-screens-1">
-          <div>
-            <a target="_blank" href="../assets/images/projects/design-system-1/final-screens.png"><img src="../assets/images/projects/design-system-1/final-screens.png" alt="screen templates"></a>
-          </div>
-        </div>
-      </div>
-      <div id="row-closing"class="row">
-        <h2><span>Final thoughts</span></h2>
-        <h3>Lessons learned</h3>
-        <p>Building a design system takes thoughtful planning when designing components and organizing the heirarchy of components' naming conventions. Many components were inspired by Samsung's One UI Design Guidelines, but some creative liberties were taken with element padding, buttons, icons, and more.</p>
-        <h4>Key takeaways</h4>
-        <ul id="ul-one">
-          <li>• Thoughtfully consider naming conventions before diving into the component design</li>
-          <li>• There's nothing wrong with following previous designs and industry standards when working on a creative project</li>
-          <li>• When designing components with overrides, don't neglect element constraints and alignments</li>
-        </ul>
-        <h4>Ongoing design and future improvements</h4>
-        <ul id="ul-two">
-          <li>• Work on app icons with finalized colors and icon shapes</li>
-          <li>• Begin working on the dark mode counterpart to the current light mode</li>
-          <li>• Include more dialogue options in my design system for the home screen components</li>
-        </ul>
-        <h4>Project constraints</h4>
-        <ul id="ul-three">
-          <li>• Time - project is crafted around a full-time work schedule other obligation</li>
-          <li>• Human Effort / Workforce - project is a solo activity</li>
-        </ul>
-      </div>
-      <div id="row-artifacts"class="row">
-        <h2><span>Gallery and artifacts</span></h2>
-        <h3>to be updated soon..</h3>
       </div>
     </div>
+    <div class="row" id="row-breakdown">
+      <h2><span>Breakdown</span></h2>
+      <div class="row-50_50-prim">
+        <div class="row-50_50-seco">
+          <div>
+            <h4>Timeframe</h4>
+            <ul>
+              <li>• Ongoing</li>
+              <li>• TBA</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Inspiration</h4>
+            <ul>
+              <li>• One UI Design Guidelines</li>
+              <li>• Atomic Design</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h4>Scope</h4>
+          <p>Design System One consists of visual elements, a growing library inspired by One UI Design Guidelines (user interface), and Atomic Design (organization and hierarchy). The UI library is currently comprised of primarily Settings-based components.</p>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-inspiration">
+      <h2><span>Inspiration</span></h2>
+      <div class="row-33_67-seco">
+        <a target="_blank" href="../assets/images/projects/design-system-1/display-2.png">
+          <img src="../assets/images/projects/design-system-1/display-2.png" alt="High fidelity images of screen content depicting design system">
+          <span class="font-caption">Design System One on Macbook screen</span>
+        </a>
+        <div>
+          <h4>One UI Design Guidelines</h4>
+          <p>One UI Design defines the branding and user interfaces for Samsung products.</p>
+          <h4>Atomic Design</h4>
+          <p>Atomic Design, developed by Brad Frost, is a methodology for organizing interconnected components to form a deliberate user interface.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-iteration_1">
+      <h2><span>First Iteration</span></h2>
+      <div>
+        <div class="row-50_50-prim">
+          <div>
+            <h4>Summary</h4>
+            <div>
+              <p>
+                Iteration One was a great starting point for building Design System One and allowed me to experiment with visual elements such as color, type, and fonts. It also laid a solid foundation for building screens for menus and/or listed content. Design System One established fixed vs scrolled content as well as foresight to take with me into Iteration Two.
+              </p>
+            </div>
+          </div>
+          <div>
+            <a target="_blank" href="../assets/images/projects/design-system-1/templates.png">
+              <img src="../assets/images/projects/design-system-1/templates.png" alt="Template level components in System One">
+              <span class="font-caption">Templates</span>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="row-50_50-seco">
+          <div>
+            <!-- <h4>Components and elements</h4> -->
+            <a target="_blank" href="../assets/images/projects/design-system-1/components.png">
+              <img src="../assets/images/projects/design-system-1/components.png" alt="Components from first iteration">
+              <span class="font-caption">UI library from first iteration</span></a>
+          </div>
+          <div>
+            <h4>Takeaways</h4>
+            <ul>
+              <li>• Component library needs to be better organized</li>
+              <li>• Visual design elements should be concise and organized</li>
+              <li>• Settings items need to be responsive to allow multiple lines of text</li>
+              <li>• Icons, especially app icons, should be of a higher fidelity</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Improvements for iteration 2..</h4>
+            <ul>
+              <li><a href="#row-information">Naming Conventions</a></li>
+              <li><a href="#row-elements">Library & Visual Elements</a></li>
+              <li><a href="#row-icons">High Fidelity Icons</a></li>
+              <li><a href="#row-menu_items">Menu Items</a></li>
+            </ul>
+          </div>
+          <div>
+            <a target="_blank" href="../assets/images/projects/design-system-1/final-screens.png">
+              <img src="../assets/images/projects/design-system-1/final-screens.png" alt="Template level components in System One">
+              <span class="font-caption">Screens</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-information">
+      <h2><span>Naming Conventions</span></h2>
+      <div class="row-33_67-seco">
+        <a target="_blank" href="../assets/images/projects/design-system-1/information.png">
+          <img src="../assets/images/projects/design-system-1/information.png" alt="Notes of Design System One and its naming conventions">
+          <span class="font-caption">Notes and light sketches of the information in Design System One.</span>
+        </a>
+        <div>
+          <div>
+            <h4>Naming conventions</h4>
+            <p>Took visual inventory of UI components and visual elements from the first iteration and sketched new pathways for their places in Iteration Two.</p>
+            <p>Text highlighted in yellow are the improved and updated naming conventions for specific components. This process is still ongoing and hierarchy will grow as project continues</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-elements">
+      <h2><span>Library & Elements</span></h2>
+      <h3><span>• Figma Pages</span></h3>
+      <div class="row-50_50-prim">
+        <div>
+          <h4>Previous pages</h4>
+          <p>First iteration had 7 pages of visual design elements and user interface components. 4 of the pages were dedicated to visual elements while 3 of the pages were dedicated to user interface components. The overabundance of visual design pages was due to redunancies in visual element locations.</p>
+        </div>
+        <a target="_blank" href="../assets/images/projects/design-system-1/pages-I1.png">
+          <img src="../assets/images/projects/design-system-1/pages-I1.png" alt="Notes of Design System One and its naming conventions">
+          <span class="font-caption">Iteration 1's figma pages housing atomic design methodology.</span>
+        </a>
+        <a target="_blank" href="../assets/images/projects/design-system-1/pages-I2.png">
+          <img src="../assets/images/projects/design-system-1/pages-I2.png" alt="Notes of Design System One and its naming conventions">
+          <span class="font-caption">Iteration 2's figma pages housing atomic design methodology.</span>
+        </a>
+        <div>
+          <h4>Current pages</h4>
+          <p>I've reduced the amount of pages in Design System One to 3 - not including 1 page serving as a test canvas, or a "workbench". The "ui library" page houses atom, molecule, organism, and template level components. "Screens" page are where final screens are placed and prototyped. "Visual" page houses fonts, icons, colors, and images.</p>
+        </div>
+      </div>
+      <h3><span>• Library & Visual Elements</span></h3>
+      <div class="row-50_50-prim">
+        <div>
+          <h4>Visual Elements</h4>
+          <p>Visual element frames on "visual" page.</p>
+          <a target="_blank" href="../assets/images/projects/design-system-1/visual-I2.png">
+            <img src="../assets/images/projects/design-system-1/visual-I2.png" alt="Notes of Design System One and its naming conventions">
+            <span class="font-caption">Iteration 2's visual design frames.</span>
+          </a>
+        </div>
+        <div>
+          <h4>UI Library</h4>
+          <p>User interface library frames on "ui library" page.</p>
+          <a target="_blank" href="../assets/images/projects/design-system-1/library-I2.png">
+            <img src="../assets/images/projects/design-system-1/library-I2.png" alt="Notes of Design System One and its naming conventions">
+            <span class="font-caption">Iteration 2's user interface library frames.</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-icons">
+      <h2><span>High Fidelity Icons</span></h2>
+      <h4>Samsung Galaxy S8 Icons</h4>
+      <div class="row-67_33-seco">
+        <div>
+          <p>App icons for Iteration 1 were created by me and while i'm certainly not an iconogrpahy expert, I felt they did their job as representations of the icons one would find one the homescreen or as icons on a 'Settings' screen. Despite my best efforts, I chose not to overprioritize the visual aesthetic of <a target="_blank" class="font-hyperlink_text-1" href="../assets/images/projects/design-system-1/icons-I1.png">Iteration 1's application icons</a> due to time constraints and a general lack of skill in that area.</p>
+          <p>I decided to download  <a target="_blank" class="font-hyperlink_text-1" href="https://www.figma.com/community/file/1017672466339713611/80-Samsung-Galaxy-S8-Icons-%E4%B8%89%E6%98%9F%E5%9B%BE%E6%A0%87">Samsung Galaxy S8 Icons from Raven</a>. I took this route to enhance the polish of Design System One without spending an exorbitant amount of time on Iteration 2. Icons were turned into variants with a paths of:</p>
+          <p><span class="font-bold">"visual/icons/application"</span> or <span class="font-bold">"visual/icons/system"</span></p>
+        </div>
+        <a target="_blank" href="../assets/images/projects/design-system-1/icons-I2.png">
+          <img src="../assets/images/projects/design-system-1/icons-I2.png" alt="Notes of Design System One and its naming conventions">
+          <span class="font-caption">Iteration 2's user interface library frames.</span>
+        </a>
+      </div>
+    </div>
+    <div class="row" id="row-menu_items">
+      <h2><span>Menu Items</span></h2>
+      <h3>• Iteration 1</h3>
+      <div class="row-33_33_33-prim">
+        <div>
+          <h4>I-1Properties</h4>
+          <p>Menu item content margins are not equal which may take away from the refinement of the design system</p>
+          <a target="_blank" href="../assets/images/projects/design-system-1/menu_items-properties-I1.png">
+            <img src="../assets/images/projects/design-system-1/menu_items-properties-I1.png" alt="Menu item margins">
+          </a>
+        </div>
+        <div>
+          <h4>I-1Resizing</h4>
+          <p>Menu item resizing is not functional - When multiple lines of text are introducted to a label the item does not resize in relation to the component properties.</p>
+          <a target="_blank" href="../assets/images/projects/design-system-1/menu_items-resizing-I1.png">
+            <img src="../assets/images/projects/design-system-1/menu_items-resizing-I1.png" alt="Menu item lack of resizing">
+          </a>
+        </div>
+        <div>
+          <h4>I-1 list</h4>
+          <a target="_blank" href="../assets/images/projects/design-system-1/menu_items-limitations-I1.png">
+            <img src="../assets/images/projects/design-system-1/menu_items-limitations-I1.png" alt="Portion of menu list">
+          </a>
+        </div>
+      </div>
+      <h3>• Iteration 2</h3>
+      <div class="row-33_33_33-prim">
+        <div>
+          <h4>I-2 Properties</h4>
+          <p>Iteration two's property margin are equal at 24px</p>
+          <a target="_blank" href="../assets/images/projects/design-system-1/menu_items-properties-I2.png">
+            <img src="../assets/images/projects/design-system-1/menu_items-properties-I2.png" alt="Menu item margins">
+          </a>
+        </div>
+        <div>
+          <h4>I-2 Resizing</h4>
+          <p>Menu-item container stays consistent with the 24px margins set by the main component. </p>
+          <a target="_blank" href="../assets/images/projects/design-system-1/menu_items-resizing-I2.png">
+            <img src="../assets/images/projects/design-system-1/menu_items-resizing-I2.png" alt="Menu item of resizing to correspond with 24px margins">
+          </a>
+        </div>
+        <div class="">
+          <h4>I-2 list</h4>
+          <a target="_blank" href="../assets/images/projects/design-system-1/menu_items-upgrades-I2.png">
+            <img src="../assets/images/projects/design-system-1/menu_items-upgrades-I2.png" alt="Portion of menu list">
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
   <footer>
     <span class = "copyright">&copy Kevin Towner 2021</span>
   </footer>
