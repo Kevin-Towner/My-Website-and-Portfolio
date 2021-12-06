@@ -535,6 +535,9 @@ sub {
   color: #292F37;
   border-bottom: 1px solid #565F6D;
 }
+#row-information .row-50_50-prim {
+  grid-gap: 2em;
+}
 #row-information .row-50_50-prim img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
