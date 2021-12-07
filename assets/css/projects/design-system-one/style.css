@@ -504,6 +504,9 @@ sub {
 #row-inspiration .row-33_67-seco img:hover {
   border: 2px solid #0047FF;
 }
+#row-inspiration .row-33_67-seco p {
+  text-align: left;
+}
 #row-iteration_1 .row-50_50-prim {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2em;
@@ -563,22 +566,23 @@ sub {
 #row-icons img:hover {
   border: 2px solid #0047FF;
 }
-#row-menu_items .row-33_33_33-prim {
-  grid-gap: 2em;
+#row-menu_items .row-50_50-prim {
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
   margin-bottom: 1em;
 }
-#row-menu_items .row-33_33_33-prim img {
+#row-menu_items .row-50_50-prim img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-menu_items .row-33_33_33-prim img:hover {
+#row-menu_items .row-50_50-prim img:hover {
   border: 2px solid #0047FF;
 }
-#row-menu_items .row-33_33_33-prim div {
+#row-menu_items .row-50_50-prim div {
   display: flex;
   flex-direction: column;
 }
-#row-menu_items .row-33_33_33-prim ul {
+#row-menu_items .row-50_50-prim ul {
   margin: 0;
 }
 #row-iteration_2 .row-50_50-prim {
