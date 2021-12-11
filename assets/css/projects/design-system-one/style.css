@@ -548,15 +548,11 @@ sub {
 #row-information .row-50_50-prim img:hover {
   border: 2px solid #0047FF;
 }
-#row-elements .row-50_50-prim {
-  grid-gap: 2em;
-  margin-bottom: 3em;
-}
-#row-elements .row-50_50-prim img {
+#row-elements img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-elements .row-50_50-prim img:hover {
+#row-elements img:hover {
   border: 2px solid #0047FF;
 }
 #row-icons img {
