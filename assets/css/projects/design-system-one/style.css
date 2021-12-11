@@ -548,6 +548,9 @@ sub {
 #row-information .row-50_50-prim img:hover {
   border: 2px solid #0047FF;
 }
+#row-information .row-50_50-prim p {
+  text-align: left;
+}
 #row-elements .row-50_50-prim {
   grid-gap: 2em;
   margin-bottom: 4em;
@@ -564,6 +567,9 @@ sub {
 }
 #row-icons .row-50_50-prim {
   grid-column-gap: 2em;
+}
+#row-icons .row-50_50-prim p {
+  text-align: left;
 }
 #row-icons img {
   max-width: 100%;
@@ -595,6 +601,9 @@ sub {
   grid-gap: 2em;
   margin-bottom: 4em;
 }
+#row-iteration_2 .row-50_50-prim div p {
+  text-align: left;
+}
 #row-iteration_2 .row-50_50-prim div a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
@@ -604,6 +613,9 @@ sub {
 }
 #row-iteration_2 .row-50_50-prim div a .font-bold {
   margin-bottom: 8px;
+}
+#row-iteration_2 .row-50_50-prim div a .icon-to_top {
+  border: none !important;
 }
 #row-iteration_2 .row-50_50-prim div ul {
   font-family: 'Roboto', sans-serif;
