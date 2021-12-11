@@ -552,11 +552,11 @@ sub {
   grid-gap: 2em;
   margin-bottom: 4em;
 }
-#row-elements img {
+#row-elements div a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-elements img:hover {
+#row-elements div a img:hover {
   border: 2px solid #0047FF;
 }
 #row-icons img {
