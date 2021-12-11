@@ -510,7 +510,7 @@ sub {
 #row-iteration_1 .row-50_50-prim {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 #row-iteration_1 .row-50_50-prim img {
   max-width: 100%;
@@ -586,7 +586,8 @@ sub {
   margin: 0;
 }
 #row-iteration_2 .row-50_50-prim {
-  grid-gap: 2em;
+  grid-column-gap: 2em;
+  margin-bottom: 4em;
 }
 #row-iteration_2 .row-50_50-prim div a img {
   max-width: 100%;
