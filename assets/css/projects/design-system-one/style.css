@@ -552,12 +552,15 @@ sub {
   grid-gap: 2em;
   margin-bottom: 4em;
 }
-#row-elements div a img {
+#row-elements .row-50_50-prim a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-elements div a img:hover {
+#row-elements .row-50_50-prim a img:hover {
   border: 2px solid #0047FF;
+}
+#row-elements #visual-items img {
+  max-width: 67%;
 }
 #row-icons img {
   max-width: 100%;
@@ -586,7 +589,7 @@ sub {
   margin: 0;
 }
 #row-iteration_2 .row-50_50-prim {
-  grid-column-gap: 2em;
+  grid-gap: 2em;
   margin-bottom: 4em;
 }
 #row-iteration_2 .row-50_50-prim div a img {
@@ -596,7 +599,7 @@ sub {
 #row-iteration_2 .row-50_50-prim div a img:hover {
   border: 2px solid #0047FF;
 }
-#row-iteration_2 .row-50_50-prim div .font-bold {
+#row-iteration_2 .row-50_50-prim div a .font-bold {
   margin-bottom: 8px;
 }
 #row-iteration_2 .row-50_50-prim div ul {

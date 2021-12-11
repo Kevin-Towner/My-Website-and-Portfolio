@@ -546,8 +546,6 @@ sub{
   .row-50_50-prim{
     grid-gap:2em;
     margin-bottom:4em;
-  }
-  div{
     a{
       img{
         max-width:100%;
@@ -556,6 +554,11 @@ sub{
           border:2px solid @color-hyperlink;
         }
       }
+    }
+  }
+  #visual-items{
+    img{
+      max-width:67%;
     }
   }
 }
@@ -594,7 +597,7 @@ sub{
 
 #row-iteration_2{
   .row-50_50-prim{
-    grid-column-gap:2em;
+    grid-gap:2em;
     margin-bottom:4em;
     div{
       a{
@@ -605,9 +608,9 @@ sub{
             border:2px solid @color-hyperlink;
           }
         }
-      }
-      .font-bold{
-        margin-bottom:8px;
+        .font-bold{
+          margin-bottom:8px;
+        }
       }
       ul{
         .font-body_text-p;
