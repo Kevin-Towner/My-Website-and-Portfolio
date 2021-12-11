@@ -562,7 +562,7 @@ sub {
 #row-elements #visual-items img {
   max-width: 67%;
 }
-#row-icons .row-50_50-prim {
+#row-icons .row-33_33_33-prim {
   grid-column-gap: 2em;
 }
 #row-icons img {
