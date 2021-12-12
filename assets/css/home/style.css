@@ -56,6 +56,15 @@
   background: #FCFCFC;
   padding: 0 12px 0 0px;
 }
+.font-heading_text-h4-alt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14.5pt;
+  line-height: 180%;
+  color: #565F6D;
+  margin: 0;
+  border-bottom: none;
+}
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
