@@ -387,6 +387,30 @@ sub {
 .row-25_25_25_25-prim div ul li {
   margin: auto;
 }
+.row-to_top-prim {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  margin: 0 0 80px 72%;
+  text-align: right;
+}
+.row-to_top-prim a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.row-to_top-prim a span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding-right: 6px;
+  align-items: center;
+}
+.row-to_top-prim a img {
+  max-height: 36px;
+}
+.row-to_top-prim a:hover {
+  border: none;
+}
 #row-header {
   display: flex;
   flex-direction: column;
@@ -597,27 +621,24 @@ sub {
 #row-menu_items .row-50_50-prim ul {
   margin: 0;
 }
-#row-iteration_2 .row-50_50-prim {
+#row-iteration_2 .row-67_33-seco {
   grid-gap: 2em;
   margin-bottom: 4em;
 }
-#row-iteration_2 .row-50_50-prim div p {
+#row-iteration_2 .row-67_33-seco div p {
   text-align: left;
 }
-#row-iteration_2 .row-50_50-prim div a img {
+#row-iteration_2 .row-67_33-seco div a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-iteration_2 .row-50_50-prim div a img:hover {
+#row-iteration_2 .row-67_33-seco div a img:hover {
   border: 2px solid #0047FF;
 }
-#row-iteration_2 .row-50_50-prim div a .font-bold {
+#row-iteration_2 .row-67_33-seco div a .font-bold {
   margin-bottom: 8px;
 }
-#row-iteration_2 .row-50_50-prim div a .icon-to_top {
-  border: none !important;
-}
-#row-iteration_2 .row-50_50-prim div ul {
+#row-iteration_2 .row-67_33-seco div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
@@ -627,7 +648,7 @@ sub {
   margin: 0 0 16px 0;
   margin-top: 0;
 }
-#row-iteration_2 .row-50_50-prim div ul li {
+#row-iteration_2 .row-67_33-seco div ul li {
   margin-bottom: 8px;
 }
 /*--Importantants--*/
