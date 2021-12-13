@@ -91,16 +91,16 @@
     width:100%;
   }
 
-  #row-projects > .row-33_67-primary{
+  #row-projects > .row-67_33-primary{
     grid-template-columns: 1fr;
     grid-gap:1em;
   }
 
-  #row-projects .row-33_67-primary #row-projects-column-right{
+  #row-projects .row-67_33-primary #row-projects-column-right{
 
   }
 
-  #row-projects .row-33_67-primary #row-projects-column-right h4{
+  #row-projects .row-67_33-primary #row-projects-column-right h4{
     border-bottom:none;
     margin:24px 0 24px 0;
     line-height:0;
