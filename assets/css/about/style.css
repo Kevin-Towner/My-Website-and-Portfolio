@@ -270,8 +270,8 @@ sub {
 }
 .row-33_66-seco {
   display: grid;
-  grid-template-columns: 0.68fr 0.32fr;
-  grid-gap: 2em;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 4em;
 }
 .row-33_66-seco img {
   max-width: 100%;
