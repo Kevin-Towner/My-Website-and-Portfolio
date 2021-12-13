@@ -321,19 +321,19 @@ sub {
 #row-header div .bullet-point {
   color: #292F37;
 }
-#row-projects .row-67_33-primary {
+#row-projects .row-33_67-primary {
   border-bottom: 1px solid lightgrey;
   grid-gap: 2em;
   padding-bottom: 2em;
 }
-#row-projects .row-67_33-primary div a img {
+#row-projects .row-33_67-primary div a img {
   max-width: 100%;
   border: 2px solid lightgrey;
 }
-#row-projects .row-67_33-primary div a img:hover {
+#row-projects .row-33_67-primary div a img:hover {
   border: 2px solid #E93661;
 }
-#row-projects .row-67_33-primary #row-projects-column-right h4 {
+#row-projects .row-33_67-primary #row-projects-column-right h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14.5pt;
@@ -344,10 +344,10 @@ sub {
   letter-spacing: 0.6px;
   font-weight: 400;
 }
-#row-projects .row-67_33-primary #row-projects-column-right ul {
+#row-projects .row-33_67-primary #row-projects-column-right ul {
   margin: 0 0 24px 0;
 }
-#row-projects .row-67_33-primary #row-projects-column-right ul li {
+#row-projects .row-33_67-primary #row-projects-column-right ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
