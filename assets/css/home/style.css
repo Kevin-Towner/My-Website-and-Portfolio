@@ -318,7 +318,7 @@ sub {
   color: #292F37;
 }
 #row-projects .row-33_67-primary {
-  grid-gap: 3em;
+  grid-gap: 4em;
 }
 #row-projects .row-33_67-primary div a img {
   max-width: 100%;
@@ -328,7 +328,7 @@ sub {
   border: 2px solid #E93661;
 }
 #row-projects .row-33_67-primary #row-projects-column-right {
-  border-bottom: 1px solid #565F6D;
+  border-bottom: 1px solid lightgrey;
 }
 #row-projects .row-33_67-primary #row-projects-column-right h4 {
   font-family: 'Roboto', sans-serif;
