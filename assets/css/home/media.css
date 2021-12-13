@@ -22,7 +22,8 @@
   }
   #row-header {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:2em;
   }
   h1{
     font-size:1.6em;
@@ -43,6 +44,10 @@
     list-style-type: none;
     padding: 0;
     margin-top:1em;
+  }
+  #row-projects .row-67_33-primary{
+    grid-template-columns: 2fr 1fr;
+    grid-gap:2em;
   }
 }
 
