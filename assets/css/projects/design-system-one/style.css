@@ -49,7 +49,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -67,7 +67,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -189,7 +189,7 @@ p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -257,7 +257,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -278,7 +278,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -313,7 +313,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -334,7 +334,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -351,7 +351,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -377,7 +377,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -439,6 +439,7 @@ sub {
 }
 #row-header div h4 {
   line-height: 170%;
+  font-weight: 300;
 }
 #row-header div p {
   width: 100%;
@@ -447,7 +448,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -521,7 +522,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -530,10 +531,10 @@ sub {
 #row-introduction div .row-67_33-seco div ul li {
   margin-bottom: 8px;
 }
-#row-breakdown .row-33_67-seco {
+#row-breakdown .row-50_50-prim {
   grid-gap: 4em;
 }
-#row-breakdown .row-33_67-seco div p {
+#row-breakdown .row-50_50-prim div p {
   text-align: left;
 }
 #row-breakdown div .row-33_33_33-prim {
@@ -660,7 +661,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 165%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
