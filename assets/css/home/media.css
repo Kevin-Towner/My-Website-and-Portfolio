@@ -48,10 +48,10 @@
 
 @media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
-    font-size:28pt;
   }
 
   h2{
+    font-size:20pt;
     margin:0 0 1.5em 0;
   }
 
@@ -77,10 +77,6 @@
   }
   #row-header > div:nth-child(1) img{
     display:none;
-  }
-  #row-header div ul li a{
-    font-size:12.5pt;
-    font-weight:400;
   }
   #row-header div p {
     width:100%;
