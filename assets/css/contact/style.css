@@ -3,8 +3,8 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 28pt;
+  font-weight: 400;
+  font-size: 29pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -15,7 +15,7 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
@@ -25,7 +25,7 @@
 }
 .font-heading_text-h2 span {
   background: #FEFEFE;
-  padding: 0 1em 0 0px;
+  padding: 0 0.5em 0 0px;
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
@@ -38,7 +38,7 @@
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14pt;
   margin: 8px 0 8px 0;
   letter-spacing: 0.3px;
@@ -137,8 +137,8 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 28pt;
+  font-weight: 400;
+  font-size: 29pt;
   background-color: #565F6D;
   background-size: 100%;
   text-fill-color: transparent;
@@ -149,7 +149,7 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24pt;
   text-align: left;
   color: #565F6D;
@@ -159,7 +159,7 @@ h2 {
 }
 h2 span {
   background: #FEFEFE;
-  padding: 0 1em 0 0px;
+  padding: 0 0.5em 0 0px;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -172,7 +172,7 @@ h3 {
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14pt;
   margin: 8px 0 8px 0;
   letter-spacing: 0.3px;
