@@ -30,7 +30,7 @@
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18pt;
   text-align: left;
   color: #565F6D;
@@ -45,7 +45,7 @@
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14.5pt;
+  font-size: 14pt;
   line-height: 140%;
   color: #565F6D;
   border-bottom: 1px solid #C4C4C4;
@@ -68,7 +68,7 @@
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
+  font-size: 12pt;
   line-height: 160%;
   letter-spacing: 0.5px;
   font-weight: 300;
@@ -87,7 +87,7 @@
 .font-hyperlink_text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
+  font-size: 12pt;
   line-height: 160%;
   letter-spacing: 0.5px;
   color: #565F6D;
@@ -104,7 +104,7 @@
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
+  font-size: 12pt;
   line-height: 160%;
   letter-spacing: 0.5px;
   color: #565F6D;
@@ -189,7 +189,7 @@ h2 span {
 }
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18pt;
   text-align: left;
   color: #565F6D;
@@ -204,7 +204,7 @@ h3 span {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14.5pt;
+  font-size: 14pt;
   line-height: 140%;
   color: #565F6D;
   border-bottom: 1px solid #C4C4C4;
@@ -218,7 +218,7 @@ h4 span {
 p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
+  font-size: 12pt;
   line-height: 160%;
   letter-spacing: 0.5px;
   font-weight: 300;
@@ -232,7 +232,7 @@ ul {
 a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
+  font-size: 12pt;
   line-height: 160%;
   letter-spacing: 0.5px;
   color: #565F6D;
@@ -334,12 +334,17 @@ sub {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14pt;
-  line-height: 165%;
+  line-height: 140%;
   color: #565F6D;
-  margin: 0 0 12px 0;
-  border-bottom: none;
+  border-bottom: 1px solid #C4C4C4;
+  line-height: 0.1em;
+  margin: 0 0 2em 0;
   letter-spacing: 0.6px;
   font-weight: 400;
+}
+#row-projects .row-33_67-primary #row-projects-column-right h4 span {
+  background: #FCFCFC;
+  padding: 0 12px 0 0px;
 }
 #row-projects .row-33_67-primary #row-projects-column-right ul {
   margin: 0 0 24px 0;
@@ -347,7 +352,7 @@ sub {
 #row-projects .row-33_67-primary #row-projects-column-right ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
+  font-size: 12pt;
   line-height: 160%;
   letter-spacing: 0.5px;
   font-weight: 300;
