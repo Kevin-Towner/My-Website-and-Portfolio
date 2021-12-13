@@ -16,7 +16,7 @@
 
 .font-heading_text-h1{
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
+  font-weight:400;
   font-size:28pt;
   background-color:@color-misc_2;
   // background-image: linear-gradient(to right, @color-misc_1, @color-CTA, @color-hyperlink, @color-hyperlink);
@@ -24,7 +24,7 @@
   text-fill-color:transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing:1px;
+  letter-spacing:.4px;
   margin:0 0 16px;
   line-height:160%;
   // border-bottom:2px solid #e0e0e0;
@@ -77,10 +77,10 @@
 .font-heading_text-h4-alt{
   font-family: 'Roboto', sans-serif;
   font-weight:300;
-  font-size:14.5pt;
+  font-size:14pt;
   line-height:180%;
   color:@color-misc_2;
-  margin:0;
+  margin:0 0 12px 0;
   border-bottom:none;
 }
 
@@ -245,57 +245,9 @@ sub{
   }
 }
 
-.grid-columns_3{
+.row-33_67-primary{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-gap:.5em;
-  a{
-    background-color:@color-secondary;
-    // box-shadow:@box-shadow-primary;
-    // border:1px solid #8E8E8E;
-    div{
-      display:flex;
-      flex-direction:column;
-      img{
-        max-width:100%;
-        opacity:.95;
-        position:relative;
-      }
-      span{
-        color:@color-misc_2;
-        text-align: left;
-        font-size:12pt;
-      }
-      p{
-        font-size:12pt;
-        margin-top:4px;
-        text-align: left;
-      }
-      h4{
-        font-weight:300;
-        text-align: center;
-      }
-    }
-    &:hover{
-      background-color:@color-secondary;
-      img{
-        opacity:1;
-      }
-      span{
-        color:@color-hyperlink;
-      }
-      h4{
-        color:@color-hyperlink;
-      }
-      p{
-        color:@color-hyperlink;
-      }
-    }
-
-    &:hover{
-      text-decoration:none;
-    }
-  }
+  grid-template-columns:1fr 2fr;
 }
 
 #row-header{
@@ -337,29 +289,21 @@ sub{
     }
   }
 }
-#row-personal{
-  div{
-    .row-personal-row{
-      a{
-        font-size:14.5pt;
+
+#row-projects{
+  .row-33_67-primary{
+    grid-gap:3em;
+    div{
+      h4{
+        .font-heading_text-h4-alt;
         font-weight:400;
-        color:#0047FF;
-        &:hover{
-          color:@color-hyperlink;
-          text-decoration:none;
+        letter-spacing:.6px;
+      }
+      a{
+        img{
+          max-width:100%;
         }
       }
-      span{
-        .font-body_text-p
-      }
-    }
-  }
-}
-#row-prototyping_projects{
-  h4{
-    text-align: right;
-    span{
-      padding:0 0 0 12px;
     }
   }
 }

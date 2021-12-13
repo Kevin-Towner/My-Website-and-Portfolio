@@ -67,7 +67,7 @@ label{
   color:#292F37;
   font-weight:300;
   font-family: 'Roboto', sans-serif;
-  letter-spacing:1px;
+  letter-spacing:.4px;
 }
 
 #menu > li > a:hover{

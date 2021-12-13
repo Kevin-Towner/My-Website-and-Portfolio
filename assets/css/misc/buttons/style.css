@@ -1,79 +1,22 @@
+.button-CTA{
+  background:#FF4A6B;
+  border:1px solid #B23D53;
+  border-radius: 2px;
+  padding:10px 16px 10px 16px;
+}
 
+.button-CTA:hover{
+  cursor:pointer;
+}
 
-/*--Social Media Buttons--*/
-
-button{
-  
-  border-color:none;
-  display:flex;
-  padding:6px 18px 6px 18px;
-  letter-spacing:.2px;
-  border-radius:.5px;
-  border: 2px solid #686868;
-  color:#524C66;
-  background-color:#fff;
-  font-size:11pt;
-  font-weight:400;
+.button-CTA > span{
+  margin:auto;
+  color:#FEFEFE;
   font-family: 'Roboto', sans-serif;
+  font-size:11.5pt;
+  font-weight:400;
+  letter-spacing:.4px;
 }
-
-button:hover{
-  /* background-image: linear-gradient(to right, rgb(138, 73, 161), rgb(193, 85, 139), rgb(246, 186, 109)); */
-  background-color:#7558C8;
-  cursor: pointer;
-  color:#fff;
-}
-
-.btn-list{
-  display:inline-flex;
-  margin: 0 0 16px 0;
-  list-style-type:none;
-}
-
-.btn-list > li:nth-child(1){
-  margin-right:24px;
-}
-
-
-.btn-list > li:nth-child(3){
-  margin-left:24px;
-}
-
-.button-icons{
-  height:16px;
-  padding-right:8px;
-}
-
-.btn-text{
-  text-decoration:none;
-  color:#fff;
-  display:inline-flex;
-}
-.btn-text:hover{
-}
-
-
-/* #btn-insta{
-  background-image: linear-gradient(to right, rgb(138, 73, 161), rgb(193, 85, 139), rgb(246, 186, 109));
-  font-weight:600;
-  font-size:9pt;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#btn-insta:hover{
-
-}
-
-#btn-linkedin{
-  background-image: linear-gradient(to right, rgba(0,119,181,67%), rgba(0,119,181,1));
-  font-weight:600;
-  font-size:9pt;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#btn-linkedin:hover{
-
-} */
 
 
 animation: fadeInAnimation ease 1s;
