@@ -78,7 +78,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight:300;
   font-size:14pt;
-  line-height:180%;
+  line-height:165%;
   color:@color-misc_2;
   margin:0 0 12px 0;
   border-bottom:none;
@@ -298,18 +298,18 @@ sub{
         .font-heading_text-h4-alt;
         letter-spacing:.6px;
       }
-      p{
-
-      }
       a{
         img{
           max-width:100%;
-          border:2px solid #E5E5E5;
+          border:2px solid @color-primary;
           &:hover{
             border:2px solid @color-hyperlink;
           }
         }
       }
+    }
+    #row-projects-column-right{
+      border-bottom:1px solid lightgrey;
     }
   }
 }
