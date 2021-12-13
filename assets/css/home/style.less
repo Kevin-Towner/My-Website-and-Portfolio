@@ -92,7 +92,7 @@
   letter-spacing:.5px;
   font-weight:300;
   color:@color-misc_2;
-  margin: 0 0 16px 0;
+  margin: 0 0 24px 0;
 }
 .font-subtitle{
   font-family: 'Roboto', sans-serif;
@@ -296,12 +296,18 @@ sub{
     div{
       h4{
         .font-heading_text-h4-alt;
-        font-weight:400;
         letter-spacing:.6px;
+      }
+      p{
+
       }
       a{
         img{
           max-width:100%;
+          border:2px solid #E5E5E5;
+          &:hover{
+            border:2px solid @color-hyperlink;
+          }
         }
       }
     }

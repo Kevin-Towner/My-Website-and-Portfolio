@@ -1,21 +1,28 @@
 .button-CTA{
-  background:#FF4A6B;
-  border:1px solid #B23D53;
+  background:#FFF;
+  border:2px solid #FF4A6B;
   border-radius: 2px;
   padding:10px 16px 10px 16px;
-}
-
-.button-CTA:hover{
-  cursor:pointer;
+  color:#FF4A6B;
 }
 
 .button-CTA > span{
   margin:auto;
-  color:#FEFEFE;
   font-family: 'Roboto', sans-serif;
   font-size:11.5pt;
   font-weight:400;
   letter-spacing:.4px;
+}
+
+.button-CTA > span:hover{
+  color:#fff;
+}
+
+.button-CTA:hover{
+  cursor:pointer;
+  border:2px solid #B23D53;
+  background:#FF4A6B;
+  color:#FFF;
 }
 
 
