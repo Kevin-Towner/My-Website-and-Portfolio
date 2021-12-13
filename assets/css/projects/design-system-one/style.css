@@ -38,7 +38,7 @@
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 14.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -178,7 +178,7 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 14.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -477,7 +477,7 @@ sub {
 #row-header-signature span {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 14.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -487,7 +487,7 @@ sub {
 }
 #row-header-signature span a {
   font-family: 'Roboto', sans-serif;
-  font-size: 14pt;
+  font-size: 14.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
