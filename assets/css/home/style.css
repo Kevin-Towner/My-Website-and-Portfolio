@@ -3,7 +3,7 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 28pt;
   background-color: #565F6D;
   background-size: 100%;
@@ -58,7 +58,7 @@
 }
 .font-heading_text-h4-alt {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14pt;
   line-height: 165%;
   color: #565F6D;
@@ -73,7 +73,7 @@
   letter-spacing: 0.5px;
   font-weight: 300;
   color: #565F6D;
-  margin: 0 0 24px 0;
+  margin: 0 0 12px 0;
 }
 .font-subtitle {
   font-family: 'Roboto', sans-serif;
@@ -91,7 +91,7 @@
   line-height: 160%;
   letter-spacing: 0.5px;
   color: #565F6D;
-  margin: 0 0 24px 0;
+  margin: 0 0 12px 0;
   color: #292F37;
   text-decoration: none;
   font-weight: 300;
@@ -108,7 +108,7 @@
   line-height: 160%;
   letter-spacing: 0.5px;
   color: #565F6D;
-  margin: 0 0 24px 0;
+  margin: 0 0 12px 0;
   color: #E93661;
   text-decoration: none;
   font-weight: 300;
@@ -130,7 +130,6 @@
 }
 .font-bold {
   font-weight: 400;
-  color: #E93661;
 }
 .highlight {
   font-weight: 400;
@@ -163,7 +162,7 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 28pt;
   background-color: #565F6D;
   background-size: 100%;
@@ -224,7 +223,7 @@ p {
   letter-spacing: 0.5px;
   font-weight: 300;
   color: #565F6D;
-  margin: 0 0 24px 0;
+  margin: 0 0 12px 0;
 }
 ul {
   list-style-type: none;
@@ -237,7 +236,7 @@ a {
   line-height: 160%;
   letter-spacing: 0.5px;
   color: #565F6D;
-  margin: 0 0 24px 0;
+  margin: 0 0 12px 0;
   color: #292F37;
   text-decoration: none;
   font-weight: 300;
@@ -321,16 +320,6 @@ sub {
 #row-projects .row-33_67-primary {
   grid-gap: 3em;
 }
-#row-projects .row-33_67-primary div h4 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14pt;
-  line-height: 165%;
-  color: #565F6D;
-  margin: 0 0 12px 0;
-  border-bottom: none;
-  letter-spacing: 0.6px;
-}
 #row-projects .row-33_67-primary div a img {
   max-width: 100%;
   border: 2px solid #FFF;
@@ -340,6 +329,30 @@ sub {
 }
 #row-projects .row-33_67-primary #row-projects-column-right {
   border-bottom: 1px solid lightgrey;
+}
+#row-projects .row-33_67-primary #row-projects-column-right h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  line-height: 165%;
+  color: #565F6D;
+  margin: 0 0 12px 0;
+  border-bottom: none;
+  letter-spacing: 0.6px;
+}
+#row-projects .row-33_67-primary #row-projects-column-right ul {
+  margin: 0 0 24px 0;
+}
+#row-projects .row-33_67-primary #row-projects-column-right ul li {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 11.5pt;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 12px 0;
+  margin-bottom: 8px;
 }
 /*--Importantants--*/
 #menu > li > a {

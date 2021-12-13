@@ -76,7 +76,7 @@
 
 .font-heading_text-h4-alt{
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
+  font-weight:400;
   font-size:14pt;
   line-height:165%;
   color:@color-misc_2;
@@ -92,7 +92,7 @@
   letter-spacing:.5px;
   font-weight:300;
   color:@color-misc_2;
-  margin: 0 0 24px 0;
+  margin: 0 0 12px 0;
 }
 .font-subtitle{
   font-family: 'Roboto', sans-serif;
@@ -137,7 +137,6 @@
 }
 .font-bold{
   font-weight:400;
-  color:@color-hyperlink;
 }
 .highlight{
   font-weight:400;
@@ -294,10 +293,6 @@ sub{
   .row-33_67-primary{
     grid-gap:3em;
     div{
-      h4{
-        .font-heading_text-h4-alt;
-        letter-spacing:.6px;
-      }
       a{
         img{
           max-width:100%;
@@ -310,6 +305,17 @@ sub{
     }
     #row-projects-column-right{
       border-bottom:1px solid lightgrey;
+      h4{
+        .font-heading_text-h4-alt;
+        letter-spacing:.6px;
+      }
+      ul{
+        margin:0 0 24px 0;
+        li{
+          .font-body_text-p;
+          margin-bottom:8px;
+        }
+      }
     }
   }
 }
