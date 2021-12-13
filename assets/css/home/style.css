@@ -58,7 +58,7 @@
 }
 .font-heading_text-h4-alt {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14pt;
   line-height: 165%;
   color: #565F6D;
@@ -332,13 +332,14 @@ sub {
 }
 #row-projects .row-33_67-primary #row-projects-column-right h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14pt;
   line-height: 165%;
   color: #565F6D;
   margin: 0 0 12px 0;
   border-bottom: none;
   letter-spacing: 0.6px;
+  font-weight: 400;
 }
 #row-projects .row-33_67-primary #row-projects-column-right ul {
   margin: 0 0 24px 0;
