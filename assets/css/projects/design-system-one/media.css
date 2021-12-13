@@ -120,6 +120,9 @@
   .row-to_top-prim{
       margin:0 0 67px 67%;
   }
+  #row-menu_items .row-50_50-prim{
+    grid-gap:2em;
+  }
 
 }
 

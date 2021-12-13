@@ -628,9 +628,8 @@ sub {
   border: 2px solid #0047FF;
 }
 #row-menu_items .row-50_50-prim {
-  grid-column-gap: 2em;
-  grid-row-gap: 2em;
-  margin-bottom: 1em;
+  grid-column-gap: 4em;
+  grid-row-gap: 4em;
 }
 #row-menu_items .row-50_50-prim img {
   max-width: 100%;
@@ -642,6 +641,9 @@ sub {
 #row-menu_items .row-50_50-prim div {
   display: flex;
   flex-direction: column;
+}
+#row-menu_items .row-50_50-prim div p {
+  margin-bottom: 1em;
 }
 #row-menu_items .row-50_50-prim ul {
   margin: 0;
