@@ -34,7 +34,7 @@
   font-size: 18pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 1px solid #565F6D;
+  border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -193,7 +193,7 @@ h3 {
   font-size: 18pt;
   text-align: left;
   color: #565F6D;
-  border-bottom: 1px solid #565F6D;
+  border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
