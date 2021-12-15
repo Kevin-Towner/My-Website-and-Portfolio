@@ -32,8 +32,8 @@
 }
 .font-heading_text-h2{
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
-  font-size:24pt;
+  font-weight:400;
+  font-size:22pt;
   text-align: left;
   color:@color-misc_2;
   border-bottom:1px solid @color-misc_2;
@@ -41,7 +41,7 @@
   margin:0 0 2em 0;
   span{
     background:@color-secondary;
-    padding:0 12px 0 0px;
+    padding:0 .5em 0 0px;
   }
 }
 .font-heading_text-h3{
@@ -91,7 +91,7 @@
   line-height:165%;
   letter-spacing:.5px;
   font-weight:300;
-  color:@color-misc_1;
+  color:@color-misc_2;
   margin: 0 0 12px 0;
 }
 .font-subtitle{
@@ -149,7 +149,7 @@
 .container-screen_content-67{
   display:flex;
   flex-direction:column;
-  padding:20vh 0 12vh 0;
+  padding:28vh 0 12vh 0;
   width:67%;
   margin:auto;
 }
@@ -254,17 +254,17 @@ sub{
 }
 
 #row-header{
-  display:grid;
-  grid-template-columns: 1fr;
-  grid-gap:2em;
+  display:flex;
+  flex-direction:row;
   width:100%;
+  margin:0 0 2em 0;
   div{
-    text-align: center;
     img{
-      display:block;
-      margin:auto;
-      width:20%;
+      width:100%;
+      // border-radius:300%;
       opacity:1;
+      height:50px;
+      padding:0 1em 0 0;
       &:hover{
         opacity:1;
       }
@@ -288,9 +288,6 @@ sub{
       &:hover{
 
       }
-    }
-    .bullet-point{
-      color:@color-misc_1;
     }
   }
 }

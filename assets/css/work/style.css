@@ -16,8 +16,8 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 24pt;
+  font-weight: 400;
+  font-size: 22pt;
   text-align: left;
   color: #565F6D;
   border-bottom: 1px solid #565F6D;
@@ -26,7 +26,7 @@
 }
 .font-heading_text-h2 span {
   background: #FCFCFC;
-  padding: 0 12px 0 0px;
+  padding: 0 0.5em 0 0px;
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
@@ -72,7 +72,7 @@
   line-height: 165%;
   letter-spacing: 0.5px;
   font-weight: 300;
-  color: #292F37;
+  color: #565F6D;
   margin: 0 0 12px 0;
 }
 .font-subtitle {
@@ -90,6 +90,7 @@
   font-size: 12pt;
   line-height: 165%;
   letter-spacing: 0.5px;
+  color: #565F6D;
   margin: 0 0 12px 0;
   color: #292F37;
   text-decoration: none;
@@ -106,7 +107,7 @@
   font-size: 12pt;
   line-height: 165%;
   letter-spacing: 0.5px;
-  color: #292F37;
+  color: #565F6D;
   margin: 0 0 12px 0;
   color: #E93661;
   text-decoration: none;
@@ -138,7 +139,7 @@
 .container-screen_content-67 {
   display: flex;
   flex-direction: column;
-  padding: 20vh 0 12vh 0;
+  padding: 28vh 0 12vh 0;
   width: 67%;
   margin: auto;
 }
@@ -174,8 +175,8 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 24pt;
+  font-weight: 400;
+  font-size: 22pt;
   text-align: left;
   color: #565F6D;
   border-bottom: 1px solid #565F6D;
@@ -184,7 +185,7 @@ h2 {
 }
 h2 span {
   background: #FCFCFC;
-  padding: 0 12px 0 0px;
+  padding: 0 0.5em 0 0px;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -221,7 +222,7 @@ p {
   line-height: 165%;
   letter-spacing: 0.5px;
   font-weight: 300;
-  color: #292F37;
+  color: #565F6D;
   margin: 0 0 12px 0;
 }
 ul {
@@ -234,6 +235,7 @@ a {
   font-size: 12pt;
   line-height: 165%;
   letter-spacing: 0.5px;
+  color: #565F6D;
   margin: 0 0 12px 0;
   color: #292F37;
   text-decoration: none;
@@ -253,7 +255,7 @@ sub {
 .main-content {
   display: flex;
   flex-direction: column;
-  padding: 20vh 0 12vh 0;
+  padding: 28vh 0 12vh 0;
   width: 67%;
   margin: auto;
   animation: fadeInAnimation ease 1s;
@@ -289,19 +291,16 @@ sub {
   grid-template-columns: 2fr 1fr;
 }
 #row-header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2em;
+  display: flex;
+  flex-direction: row;
   width: 100%;
-}
-#row-header div {
-  text-align: center;
+  margin: 0 0 2em 0;
 }
 #row-header div img {
-  display: block;
-  margin: auto;
-  width: 20%;
+  width: 100%;
   opacity: 1;
+  height: 50px;
+  padding: 0 1em 0 0;
 }
 #row-header div img:hover {
   opacity: 1;
@@ -320,9 +319,6 @@ sub {
 #row-header div a {
   color: #E93661;
   font-weight: 400;
-}
-#row-header div .bullet-point {
-  color: #292F37;
 }
 #row-projects .row-33_67-primary {
   border-bottom: 1px solid lightgrey;
@@ -357,7 +353,7 @@ sub {
   line-height: 165%;
   letter-spacing: 0.5px;
   font-weight: 300;
-  color: #292F37;
+  color: #565F6D;
   margin: 0 0 12px 0;
   margin-bottom: 8px;
 }

@@ -20,10 +20,10 @@
   <link rel="stylesheet" type="text/css" href="assets/css/misc/others/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/others/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/buttons/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/misc/buttonss/media.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/contact/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/contact/master.less">
-  <link rel="stylesheet" type="text/css" href="assets/css/contact/media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/misc/buttons/media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/work/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/work/master.less">
+  <link rel="stylesheet" type="text/css" href="assets/css/work/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/nav/media.css">
   <link rel="stylesheet" type="text/css" href="assets/css/misc/foot/style.css">
@@ -36,7 +36,7 @@
   <!--fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
 
 
 
@@ -62,66 +62,47 @@
       <input type="checkbox" id="toggle">
       <ul id="menu">
         <li><a id="anchor-index" href = "index.html">home</a></li>
-        <li><a id="anchor-"href="design.html">design</a></li>
-        <li><a id="anchor-contact" href = "work.html">work</a></li>
+        <li><a id="anchor-design"href="design.html">design</a></li>
+        <li><a class="font-bold-nav" id="anchor-contact" href = "work.html">work</a></li>
         <li><a id="anchor-about" href = "about.html">about</a></li>
-        <li><a class="font-bold-nav" id="anchor-contact" href = "contact.html">contact</a></li>
+        <li><a id="anchor-contact" href = "contact.html">contact</a></li>
       </ul>
     </div>
   </nav>
   <div class = "main-content">
-    <h1 id="visible-while-mobile_h1" class="hidden-white-not-mobile"><span>ABOUT</span></h1>
-    <div class="row" id = "row-header">
+    <div class="row" id="row-header">
+      <!-- <div>
+        <a target="_blank" href="assets/images/misc/gundam-image.png"><img id="me-1" src="assets/images/misc/gundam-image.svg" alt="Gundam, RX-78-2, designed by Kevin using Figma"></a>
+      </div> -->
       <div>
-        <h1 id="hidden-while-mobile_h1"><span>CONTACT</span></h1>
+        <h1 id="hidden-while-mobile_h1"><span>PROJECTS</span></h1>
       </div>
     </div>
-    <div class="row">
-      <h2><span>Let's Connect</span></h2>
-      <div id="row-header-prim" class="row">
-        <div id="row-header-secondary">
-          <h4>Direct</h4>
-            <ul>
-              <li>• Email: <a target="_blank" href="emailto:kevintowner@gmail.com">kevintowner@gmail.com</a></li>
-            </ul>
-          <h4>Social</h4>
+    <div class="row" id="row-projects">
+      <h2><span>Case Studies</span></h2>
+      <div id="case_study-first" class="row-33_67-primary">
+        <div id="row-projects-column-left">
+          <a target="_blank" href="projects/design-system-one.html">
+            <img src="assets/images/projects/design-system-1/final-screens-I2.png" alt="Design System One Templates">
+          </a>
+        </div>
+        <div id="row-projects-column-right">
+          <h4><span>Design System One</span></h4>
+          <p>Design System One consists of visual elements, a growing library inspired by One UI Design Guidelines, and Atomic Design patterns.</p>
           <ul>
-            <li>• Instagram: <a target="_blank" href="https://www.instagram.com/kevn_tee/?hl=en">kevn_tee</a></li>
-            <li>• Linkedin: <a target="_blank" href="https://www.linkedin.com/in/kevin-towner-b0960b96/">kevin-towner-b0960b96</a></li>
+            <li>• Timeframe: <span class="font-bold">Ongoing</span></li>
+            <li>• Tools: <span class="font-bold">Figma, HTML &amp CSS</span></li>
           </ul>
-        </div>
-        <div>
-          <h4>Feel free to reach out for questions or conversation.</h4>
-          <p>the most reliable way to contact me would be through email but I'm also active on Instagram.</p>
+          <a target="_blank" href="projects/design-system-one.html">
+            <button class="button-CTA">
+              <span>View case study</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
-
-    <!-- <div class="row" id="row-misc_projects">
-      <h2><span>Design Systems</span></h2>
-      <ul class="list-misc_projects">
-        <li>
-          <a target="_blank" href="">One UI, Design Guidelines in Figma</a>
-          <sub>May 2nd, 2021</sub>
-        </li>
-      </ul>
-    </div> -->
-    <!-- <div class="row" id="row-misc_projects">
-      <h2><span>Misc</span></h2>
-      <ul class="list-misc_projects">
-        <li>
-          <a target="_blank" href="case-studies/muay-thai.html">Three Lessons Muay Thai Taught Me About Changing Careers</a>
-          <sub>Date</sub>
-        </li>
-      </ul>
-    </div> -->
   </div>
-  <footer style="position:fixed;">
-    <!-- <div class="contact-icons">
-      <a href="https://www.linkedin.com/in/kevin-towner-b0960b96/"><img class="footer-icon" src="assets/images/icons/icons-linkedin.png" alt="Linkedin icon"></a>
-      <a href="https://www.instagram.com/kevn0_o/"><img class="footer-icon" src="assets/images/icons/icons-instagram.png" alt="Instagram icon"></a>
-      <a href="mailto:kevintowner@gmail.com"><img class="footer-icon" src="assets/images/icons/icons-email.png" alt="Email icon"></a>
-    </div> -->
+  <footer>
     <span class = "copyright">&copy Kevin Towner 2021</span>
   </footer>
 </body>
