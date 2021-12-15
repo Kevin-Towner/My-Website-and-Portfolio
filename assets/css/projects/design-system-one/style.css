@@ -534,33 +534,15 @@ sub {
 #row-introduction div .row-67_33-seco div ul li {
   margin-bottom: 8px;
 }
-#row-breakdown .row-50_50-prim {
-  grid-gap: 4em;
-}
-#row-breakdown .row-50_50-prim div {
+#row-breakdown .row-25_25_25_25-prim {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  justify-content: space-between;
 }
-#row-breakdown .row-50_50-prim div h4 {
+#row-breakdown .row-25_25_25_25-prim h4 {
   text-align: center;
-}
-#row-breakdown .row-50_50-prim div p {
-  text-align: center;
-}
-#row-breakdown .row-50_50-prim .row-50_50-seco {
-  grid-gap: 2em;
-}
-#row-inspiration .row-67_33-seco {
-  grid-gap: 4em;
-}
-#row-inspiration .row-67_33-seco img {
-  max-width: 100%;
-  border: 2px solid #E5E5E5;
-}
-#row-inspiration .row-67_33-seco img:hover {
-  border: 2px solid #0047FF;
-}
-#row-inspiration .row-67_33-seco p {
-  text-align: left;
 }
 #row-iteration_1 .row-50_50-prim {
   grid-template-columns: 1fr 1fr;
@@ -579,7 +561,7 @@ sub {
   border-bottom: 1px solid lightgrey;
 }
 #row-information .row-50_50-prim {
-  grid-gap: 2em;
+  grid-gap: 4em;
 }
 #row-information .row-50_50-prim img {
   max-width: 100%;
@@ -592,7 +574,7 @@ sub {
   text-align: left;
 }
 #row-elements .row-50_50-prim {
-  grid-gap: 2em;
+  grid-gap: 4em;
   margin-bottom: 4em;
 }
 #row-elements .row-50_50-prim a img {
