@@ -343,6 +343,9 @@ sub {
   letter-spacing: 0.6px;
   font-weight: 400;
 }
+#row-projects .row-33_67-primary #row-projects-column-right p {
+  width: 67%;
+}
 #row-projects .row-33_67-primary #row-projects-column-right ul {
   margin: 0 0 24px 0;
 }
