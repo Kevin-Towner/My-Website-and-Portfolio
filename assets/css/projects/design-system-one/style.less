@@ -465,8 +465,8 @@ sub{
 
 #row-introduction{
   h2{
-    color:@color-misc_1;
-    border-bottom:1px solid @color-misc_2;
+    color:@color-misc_2;
+    border-bottom:1px solid lightgrey;
   }
   div{
     .row-67_33-seco{
@@ -501,16 +501,18 @@ sub{
 }
 #row-breakdown{
   .row-50_50-prim{
-    grid-gap:2em;
+    grid-gap:4em;
     div{
+      text-align: center;
+      h4{
+        text-align: center;
+      }
       p{
-        text-align:left;
+      text-align: center;
       }
     }
-  }
-  div{
-    .row-33_33_33-prim{
-      grid-gap:1em;
+    .row-50_50-seco{
+      grid-gap:2em;
     }
   }
 }
@@ -533,7 +535,7 @@ sub{
 #row-iteration_1{
   .row-50_50-prim{
     grid-template-columns: 1fr 1fr;
-    grid-column-gap:2em;
+    grid-gap:4em;
     margin-bottom:4em;
     img{
       max-width:100%;
@@ -543,29 +545,12 @@ sub{
       }
     }
   }
-  .row-50_50-seco{
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap:2em;
-    grid-row-gap:3em;
-    img{
-      max-width:100%;
-      border:2px solid #E5E5E5;
-      &:hover{
-        border:2px solid @color-hyperlink;
-      }
-    }
-    ul{
-      li{
-        margin-bottom:8px;
-      }
-    }
-  }
 }
 
 #row-information{
   h2{
-    color:@color-misc_1;
-    border-bottom:1px solid @color-misc_2;
+    color:@color-misc_2;
+    border-bottom:1px solid lightgrey;
   }
   .row-50_50-prim{
     grid-gap:2em;

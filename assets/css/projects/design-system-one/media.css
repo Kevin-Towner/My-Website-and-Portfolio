@@ -109,6 +109,18 @@
   #row-header div p {
     width:100%;
   }
+  #row-breakdown p{
+    margin-bottom:0em;
+  }
+  #row-breakdown .row-50_50-prim div{
+    text-align: left;
+  }
+  #row-breakdown .row-50_50-prim div h4{
+    text-align: left;
+  }
+  #row-breakdown .row-50_50-prim div p{
+    text-align: left;
+  }
   #row-iteration_1 .row-50_50-prim{
     grid-template-columns: 1fr;
     margin-bottom:0;
@@ -117,11 +129,17 @@
     grid-template-columns: 1fr;
     grid-row-gap:1em;
   }
+  .row-50_50-prim div p{
+    text-align: left;
+  }
   .row-to_top-prim{
       margin:0 0 67px 67%;
   }
   #row-menu_items .row-50_50-prim{
-    grid-gap:2em;
+    grid-gap:4em;
+  }
+  #row-iteration_2 .row-50_50-seco{
+    margin-bottom:4em;
   }
 
 }
