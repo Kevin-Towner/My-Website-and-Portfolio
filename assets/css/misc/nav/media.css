@@ -89,7 +89,7 @@
     z-index:1;
     background-color:#fff;
     margin:0;
-    padding:5px 0 5px 0;
+    padding:5px 0 6px 0;
   }
 
   #navigation-h1{
@@ -133,7 +133,8 @@
   #menu > li > a {
     display:block;
     font-size:18pt;
-    padding:44px 0 44px 0;
+    padding:36px 0 36px 0;
+    text-align: center
   }
   #menu > li:nth-child(1){
     margin-right:0em;
@@ -145,7 +146,10 @@
     margin-right:0em;
   }
   #menu > li:nth-child(4){
-    margin-left:0em;
+    margin-right:0em;
+  }
+  #menu > li:nth-child(5){
+    margin-right:0em;
   }
 
   #anchor-index{
