@@ -8,9 +8,8 @@
 .button-CTA > span{
   margin:auto;
   font-family: 'Roboto', sans-serif;
-  font-size:12pt;
   font-weight:400;
-  letter-spacing:.5px;
+  letter-spacing:.2px;
 }
 
 .button-CTA > span:hover{
