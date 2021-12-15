@@ -320,7 +320,7 @@ sub {
 #row-header div img {
   display: block;
   margin: auto;
-  width: 20%;
+  width: 16%;
   opacity: 1;
 }
 #row-header div img:hover {
