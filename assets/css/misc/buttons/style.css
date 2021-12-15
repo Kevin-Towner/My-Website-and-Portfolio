@@ -1,6 +1,5 @@
 .button-CTA{
   background:#FFF;
-  border:2px solid #E93661;
   border-radius: 2px;
   padding:10px 16px 10px 16px;
   color:#FF4A6B;
@@ -20,8 +19,6 @@
 
 .button-CTA:hover{
   cursor:pointer;
-  border:2px solid #E93661;
-  background:#FF4A6B;
   color:#FFF;
 }
 

@@ -74,7 +74,7 @@ label{
 }
 
 #menu > li > a:hover{
-  color:#FF3B6A;
+  color:#0047FF;
   text-decoration:underline;
 }
 
@@ -98,6 +98,8 @@ label{
   display:none;
 }
 .font-bold-nav{
+  /* font-weight:400 !important;
+  color:#E93661 !important; */
   font-weight:400 !important;
-  color:#E93661 !important;
+  color:#0047FF !important;
 }
