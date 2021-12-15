@@ -135,6 +135,10 @@
   font-weight: 400;
   color: #565F6D;
 }
+.button-CTA {
+  border: 2px solid #0047FF;
+  color: #0047FF;
+}
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
   display: flex;
@@ -330,7 +334,7 @@ sub {
   border: 2px solid lightgrey;
 }
 #row-projects .row-33_67-primary div a img:hover {
-  border: 2px solid #E93661;
+  border: 2px solid #0047FF;
 }
 #row-projects .row-33_67-primary #row-projects-column-right h4 {
   font-family: 'Roboto', sans-serif;
