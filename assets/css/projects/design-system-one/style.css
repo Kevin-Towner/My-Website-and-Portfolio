@@ -71,7 +71,7 @@
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #0047FF;
+  color: #2E69FF;
   text-decoration: none;
   font-weight: 400;
 }
@@ -83,7 +83,7 @@
   margin: 0 0 16px 0;
   font-weight: 400;
   line-height: 175%;
-  color: #0047FF;
+  color: #2E69FF;
   margin-bottom: 0;
   text-decoration: none;
   font-size: 12.5pt;
@@ -203,7 +203,7 @@ a {
   margin: 0 0 16px 0;
   font-weight: 400;
   line-height: 175%;
-  color: #0047FF;
+  color: #2E69FF;
   margin-bottom: 0;
   text-decoration: none;
   font-size: 12.5pt;
@@ -452,7 +452,7 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-  color: #0047FF;
+  color: #2E69FF;
   text-decoration: none;
   font-weight: 400;
 }
@@ -495,7 +495,7 @@ sub {
   line-height: 140%;
   color: #565F6D;
   font-weight: 400;
-  color: #0047FF;
+  color: #2E69FF;
 }
 #row-header-signature span a:hover {
   color: #FF4A6B;
@@ -516,7 +516,7 @@ sub {
   border: 2px solid #E5E5E5;
 }
 #row-introduction div .row-67_33-seco a img:hover {
-  border: 2px solid #0047FF;
+  border: 2px solid #2E69FF;
 }
 #row-introduction div .row-67_33-seco div p {
   margin-bottom: 2em;
@@ -554,7 +554,7 @@ sub {
   border: 2px solid #E5E5E5;
 }
 #row-iteration_1 .row-50_50-prim img:hover {
-  border: 2px solid #0047FF;
+  border: 2px solid #2E69FF;
 }
 #row-information h2 {
   color: #565F6D;
@@ -568,7 +568,7 @@ sub {
   border: 2px solid #E5E5E5;
 }
 #row-information .row-50_50-prim img:hover {
-  border: 2px solid #0047FF;
+  border: 2px solid #2E69FF;
 }
 #row-information .row-50_50-prim p {
   text-align: left;
@@ -582,7 +582,7 @@ sub {
   border: 2px solid #E5E5E5;
 }
 #row-elements .row-50_50-prim a img:hover {
-  border: 2px solid #0047FF;
+  border: 2px solid #2E69FF;
 }
 #row-elements #visual-items img {
   max-width: 67%;
@@ -598,7 +598,7 @@ sub {
   border: 2px solid #E5E5E5;
 }
 #row-icons img:hover {
-  border: 2px solid #0047FF;
+  border: 2px solid #2E69FF;
 }
 #row-menu_items .row-50_50-prim {
   grid-column-gap: 4em;
@@ -609,7 +609,7 @@ sub {
   border: 2px solid #E5E5E5;
 }
 #row-menu_items .row-50_50-prim img:hover {
-  border: 2px solid #0047FF;
+  border: 2px solid #2E69FF;
 }
 #row-menu_items .row-50_50-prim div {
   display: flex;
@@ -633,7 +633,7 @@ sub {
   border: 2px solid #E5E5E5;
 }
 #row-iteration_2 .row-50_50-seco div a img:hover {
-  border: 2px solid #0047FF;
+  border: 2px solid #2E69FF;
 }
 #row-iteration_2 .row-50_50-seco div a .font-bold {
   margin-bottom: 8px;
