@@ -320,7 +320,7 @@ sub {
 #row-header div img {
   display: block;
   margin: auto;
-  width: 16%;
+  width: 20%;
   opacity: 1;
 }
 #row-header div img:hover {
@@ -345,43 +345,6 @@ sub {
 #row-header div .bullet-point {
   color: #292F37;
 }
-#row-projects .row-33_67-primary {
-  border-bottom: 1px solid lightgrey;
-  grid-gap: 4em;
-  padding-bottom: 2em;
-}
-#row-projects .row-33_67-primary div a img {
-  max-width: 100%;
-  border: 2px solid lightgrey;
-}
-#row-projects .row-33_67-primary div a img:hover {
-  border: 2px solid #E93661;
-}
-#row-projects .row-33_67-primary #row-projects-column-right h4 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14.5pt;
-  line-height: 165%;
-  color: #565F6D;
-  margin: 0 0 12px 0;
-  border-bottom: none;
-  letter-spacing: 0.6px;
-  font-weight: 400;
-}
-#row-projects .row-33_67-primary #row-projects-column-right ul {
-  margin: 0 0 24px 0;
-}
-#row-projects .row-33_67-primary #row-projects-column-right ul li {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  font-size: 12pt;
-  line-height: 165%;
-  letter-spacing: 0.5px;
-  font-weight: 300;
-  color: #292F37;
-  margin: 0 0 12px 0;
-  margin-bottom: 8px;
-}
 /*--Importantants--*/
 #menu > li > a {
   text-decoration: none;
@@ -389,9 +352,6 @@ sub {
 }
 #visible-while-mobile_h1 {
   display: none;
-}
-footer {
-  position: relative;
 }
 /*--Keyframes--*/
 @keyframes fadeInAnimation {
