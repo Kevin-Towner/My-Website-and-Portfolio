@@ -588,7 +588,7 @@ sub {
   max-width: 67%;
 }
 #row-icons .row-50_50-prim {
-  grid-column-gap: 2em;
+  grid-column-gap: 4em;
 }
 #row-icons .row-50_50-prim p {
   text-align: left;
