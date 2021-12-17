@@ -21,10 +21,13 @@
   }
   footer div{
     width:80%;
-    flex-direction:Column;
+    flex-direction:Column-reverse;
+  }
+  footer span{
+    margin-top:16px;
   }
   footer div ul{
-    margin-top:20px
+    margin-top:16px
   }
 }
 
