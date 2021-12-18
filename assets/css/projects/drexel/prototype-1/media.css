@@ -127,25 +127,24 @@
   #row-breakdown .row-25_25_25_25-prim div ul{
     text-align: left;
   }
-  #row-iteration_1 .row-50_50-prim{
+  #row-initial .row-33_67-seco{
     grid-template-columns: 1fr;
     margin-bottom:0;
+    grid-gap:2em;
   }
-  #row-iteration_1 .row-50_50-seco{
-    grid-template-columns: 1fr;
-    grid-row-gap:1em;
-  }
-  .row-50_50-prim div p{
-    text-align: left;
+  #row-refinement .row-50_50-prim{
+    grid-gap:2em;
+    display:flex;
+    flex-direction:column-reverse;
   }
   .row-to_top-prim{
       margin:0 0 67px 67%;
   }
-  #row-menu_items .row-50_50-prim{
-    grid-gap:4em;
+  #row-prototype{
+    margin:0 0 0 0;
   }
-  #row-iteration_2 .row-50_50-seco{
-    margin-bottom:4em;
+  #row-prototype .row-33_67-seco{
+    grid-gap:2em;
   }
 
 }
