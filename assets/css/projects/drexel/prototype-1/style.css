@@ -547,13 +547,12 @@ sub {
 #row-initial .row-33_67-seco {
   grid-template-columns: 1fr 1fr;
   grid-gap: 4em;
-  margin-bottom: 4em;
 }
-#row-initial .row-33_67-seco img {
+#row-initial .row-33_67-seco margin-bottom:0 img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-initial .row-33_67-seco img:hover {
+#row-initial .row-33_67-seco margin-bottom:0 img:hover {
   border: 2px solid #2E69FF;
 }
 #row-refinement h2 {
@@ -575,7 +574,6 @@ sub {
 }
 #row-prototype .row-33_67-seco {
   grid-gap: 4em;
-  margin-bottom: 4em;
 }
 #row-prototype .row-33_67-seco a img {
   max-width: 100%;
@@ -584,7 +582,10 @@ sub {
 #row-prototype .row-33_67-seco a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-feedback div ul li {
+#row-feedback .row-50_50-prim {
+  grid-gap: 2em;
+}
+#row-feedback .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
