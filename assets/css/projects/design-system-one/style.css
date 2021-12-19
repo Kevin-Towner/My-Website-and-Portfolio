@@ -577,6 +577,9 @@ sub {
   grid-gap: 4em;
   margin-bottom: 4em;
 }
+#row-elements .row-50_50-prim div p {
+  text-align: left;
+}
 #row-elements .row-50_50-prim a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
