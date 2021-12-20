@@ -50,11 +50,15 @@
   h3{
     margin-bottom:1.5em;
   }
-
   .row {
     padding-bottom: 0 0 2em 0;
   }
-
+  .row-50_50-prim{
+    grid-template-columns: 1fr;
+  }
+  .row-25_25_25_25-prim{
+    grid-template-columns: 1fr;
+  }
   .main-content{
     padding:20vh 0 16vh 0;
     width:80vw;
@@ -64,13 +68,6 @@
   #row-header{
     grid-template-columns: 1fr;
   }
-  #row-header > div:nth-child(2){
-
-  }
-
-  #row-header > div:nth-child(1){
-
-  }
   #row-header > div:nth-child(1) img{
     width:33%;
   }
@@ -78,6 +75,27 @@
   #row-header div p {
     width:100%;
     line-height:160%;
+  }
+  #row-introduction div .row-67_33-seco{
+    grid-template-columns: 1fr;
+    grid-gap:2em;
+  }
+
+  #row-breakdown .row-25_25_25_25-prim{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+    text-align: left;
+  }
+  #row-breakdown .row-25_25_25_25-prim h4{
+    text-align:left;
+  }
+  #row-animals .row-25_25_25_25-prim{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .row-to_top-prim{
+    margin-bottom:120px;
   }
 }
 
