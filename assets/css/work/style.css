@@ -344,7 +344,7 @@ sub {
 #row-case_studies .row-33_67-primary div a img:hover {
   border: 2px solid #0047FF;
 }
-#row-case_studies .row-33_67-primary #row-projects-column-right h4 {
+#row-case_studies .row-33_67-primary #row-case_studies-column-right h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14.5pt;
@@ -355,13 +355,13 @@ sub {
   letter-spacing: 0.6px;
   font-weight: 400;
 }
-#row-case_studies .row-33_67-primary #row-projects-column-right p {
+#row-case_studies .row-33_67-primary #row-case_studies-column-right p {
   width: 100%;
 }
-#row-case_studies .row-33_67-primary #row-projects-column-right ul {
+#row-case_studies .row-33_67-primary #row-case_studies-column-right ul {
   margin: 0 0 24px 0;
 }
-#row-case_studies .row-33_67-primary #row-projects-column-right ul li {
+#row-case_studies .row-33_67-primary #row-case_studies-column-right ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
@@ -371,6 +371,9 @@ sub {
   color: #565F6D;
   margin: 0 0 12px 0;
   margin-bottom: 8px;
+}
+#row-case_studies #case_study-2 {
+  border-bottom: none;
 }
 #row-side_projects .row-33_67-primary {
   border-bottom: 1px solid lightgrey;

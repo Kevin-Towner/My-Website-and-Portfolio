@@ -1,0 +1,91 @@
+
+@media screen  and (min-width:1824px) {
+  .main-content{
+    width:50vw;
+  }
+}
+
+@media screen and (max-width:1281px) { /*1281 big landscape tablets, laptops, and desktops */
+}
+
+@media screen and (max-width:1025px) {
+  .main-content{
+    width:90%;
+  }
+}
+
+
+@media screen and (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .main-content{
+    width:90%;
+  }
+
+  h1{
+    font-size:1.6em;
+    margin:0 0 24px;
+  }
+  #row-header div p {
+    font-size:12.5pt;
+    width:100%;
+    line-height: 140%;
+
+  }
+  #row-header div a{
+    font-size:14pt;
+  }
+  .list-header_row {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top:1em;
+  }
+}
+
+@media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+  h2{
+    font-size:20pt;
+    margin:0 0 1.5em 0;
+  }
+  h3{
+    margin-bottom:1.5em;
+  }
+
+  .row {
+    padding-bottom: 0 0 2em 0;
+  }
+
+  .main-content{
+    padding:20vh 0 16vh 0;
+    width:80vw;
+    margin:auto;
+  }
+
+  #row-header{
+    grid-template-columns: 1fr;
+  }
+  #row-header > div:nth-child(2){
+
+  }
+
+  #row-header > div:nth-child(1){
+
+  }
+  #row-header > div:nth-child(1) img{
+    width:33%;
+  }
+
+  #row-header div p {
+    width:100%;
+    line-height:160%;
+  }
+}
+
+@media screen and (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+}
+
+@media screen and (max-width:320px)  { /* smartphones, Android phones, landscape iPhone */
+
+
+}
