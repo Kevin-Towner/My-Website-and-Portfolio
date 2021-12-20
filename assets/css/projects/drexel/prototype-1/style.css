@@ -585,6 +585,12 @@ sub {
 #row-feedback .row-50_50-prim {
   grid-gap: 2em;
 }
+#row-feedback .row-50_50-prim div {
+  margin-bottom: 2em;
+}
+#row-feedback .row-50_50-prim div p {
+  text-align: left;
+}
 #row-feedback .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -593,7 +599,7 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 .button-CTA {
   border: 2px solid #565F6D;
