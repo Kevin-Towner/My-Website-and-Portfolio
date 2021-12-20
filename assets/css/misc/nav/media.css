@@ -1,5 +1,5 @@
 
-@media only screen  and (min-width: 1824px) {
+@media screen  and (min-width: 1824px) {
   nav{
 
   }
@@ -12,11 +12,11 @@
   }
 }
 
-@media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+@media screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
 
 }
 
-@media only screen and (max-width:1025px) {
+@media screen and (max-width:1025px) {
 
   label{
     margin:auto;
@@ -39,14 +39,14 @@
 }
 
 
-@media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   #logo{
     height:32px;
     margin-left:5vw;
   }
 }
 
-@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
 
   #logo{
@@ -70,7 +70,7 @@
   } */
 }
 
-@media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   label{
     display:block;
     cursor:pointer;

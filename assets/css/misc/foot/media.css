@@ -1,21 +1,21 @@
 
-@media only screen  and (min-width : 1824px) {
+@media screen  and (min-width : 1824px) {
   footer div{
     width:50%;
   }
 }
 
-@media only screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
+@media screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
 }
 
-@media (max-width:1025px) {
+@media screen and (max-width:1025px) {
 }
 
 
-@media (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
 }
 
-@media (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   footer{
     position:relative !important;
   }
@@ -31,11 +31,11 @@
   }
 }
 
-@media (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 
 }
 
-@media (max-width:320px)  { /* smartphones, Android phones, landscape iPhone */
+@media screen and (max-width:320px)  { /* smartphones, Android phones, landscape iPhone */
 
 
 }
