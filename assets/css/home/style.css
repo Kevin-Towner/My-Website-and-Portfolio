@@ -98,7 +98,7 @@
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
@@ -108,14 +108,14 @@
   letter-spacing: 0.5px;
   color: #292F37;
   margin: 0 0 12px 0;
-  color: #E93661;
+  color: #2E69FF;
   text-decoration: none;
   font-weight: 300;
   font-size: 14pt;
 }
 .font-hyperlink_in-text:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 .font-caption {
   color: #565F6D;
@@ -242,7 +242,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 sub {
   color: #565F6D;
@@ -309,6 +309,13 @@ sub {
   background-color: #2E69FF;
   border: 2px solid #2E69FF;
 }
+.button-row a #button-1 {
+  color: #2E69FF;
+  border: 2px solid #2E69FF;
+}
+.button-row a #button-1:hover {
+  color: #FCFCFC;
+}
 #row-header {
   display: grid;
   grid-template-columns: 1fr;
@@ -340,7 +347,7 @@ sub {
   margin: auto;
 }
 #row-header div a {
-  color: #E93661;
+  color: #2E69FF;
   font-weight: 400;
 }
 #row-header div .bullet-point {
