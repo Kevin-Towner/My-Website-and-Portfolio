@@ -370,7 +370,7 @@ sub {
 }
 .row-25_25_25_25-prim {
   display: grid;
-  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 3em;
 }
 .row-25_25_25_25-prim div ul {
@@ -477,23 +477,22 @@ sub {
 }
 #row-header-signature span {
   font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  line-height: 165%;
+  font-weight: 300;
+  margin: 0 0 16px 0;
   font-weight: 400;
-  font-size: 14.5pt;
-  letter-spacing: 0.3px;
-  margin: 0 0 12px 0;
-  text-align: left;
-  line-height: 140%;
   color: #565F6D;
   margin: 0;
 }
 #row-header-signature span a {
   font-family: 'Roboto', sans-serif;
-  font-size: 14.5pt;
-  letter-spacing: 0.3px;
-  margin: 0 0 12px 0;
-  text-align: left;
-  line-height: 140%;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 165%;
+  font-weight: 300;
   color: #565F6D;
+  margin: 0 0 16px 0;
   font-weight: 400;
   color: #2E69FF;
 }

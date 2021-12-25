@@ -18,7 +18,7 @@
 .font-heading_text-h1{
   font-family: 'Roboto', sans-serif;
   font-weight:400;
-  font-size:29pt;
+  font-size:26pt;
   background-color:@color-misc_2;
   // background-image: linear-gradient(to right, @color-misc_1, @color-CTA, @color-hyperlink, @color-hyperlink);
   background-size:100%;
@@ -33,7 +33,7 @@
 .font-heading_text-h2{
   font-family: 'Roboto', sans-serif;
   font-weight:400;
-  font-size:22pt;
+  font-size:20pt;
   text-align: left;
   color:@color-misc_2;
   border-bottom:1px solid lightgrey;
@@ -48,7 +48,7 @@
 .font-heading_text-h3{
   font-family: 'Roboto', sans-serif;
   font-weight:300;
-  font-size:18pt;
+  font-size:16pt;
   text-align: left;
   color:@color-misc_2;
   margin:0 0 2em 0;
@@ -57,7 +57,7 @@
 .font-heading_text-h4{
   font-family: 'Roboto', sans-serif;
   font-weight:400;
-  font-size:14.5pt;
+  font-size:14pt;
   letter-spacing:.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -67,7 +67,7 @@
 .font-body_text-p{
   font-family: 'Roboto', sans-serif;
   margin:0;
-  font-size:12pt;
+  font-size:11.5pt;
   line-height:165%;
   font-weight:300;
   color:@color-misc_2;
@@ -448,11 +448,12 @@ sub{
     }
   }
   span{
-    .font-heading_text-h4;
+    .font-body_text-p;
+    font-weight:400;
     color:@color-misc_2;
     margin:0;
     a{
-      .font-heading_text-h4;
+      .font-body_text-p;
       font-weight:400;
       color:@color-hyperlink;
       &:hover{
@@ -460,7 +461,6 @@ sub{
       }
     }
   }
-
 }
 
 #row-introduction{

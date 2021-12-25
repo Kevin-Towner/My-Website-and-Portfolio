@@ -68,7 +68,7 @@
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12pt;
+  font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
   font-weight: 300;
@@ -87,7 +87,7 @@
 .font-hyperlink_text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12pt;
+  font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
   color: #565F6D;
@@ -104,7 +104,7 @@
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12pt;
+  font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
   color: #565F6D;
@@ -145,7 +145,9 @@
   border: 2px solid #2E69FF;
 }
 .button-CTA span {
-  font-size: 11.5pt;
+  font-weight: 500;
+  letter-spacing: 0.33;
+  font-size: 10.5pt;
 }
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
@@ -230,7 +232,7 @@ h4 span {
 p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12pt;
+  font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
   font-weight: 300;
@@ -244,7 +246,7 @@ ul {
 a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12pt;
+  font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
   color: #565F6D;
@@ -364,7 +366,7 @@ sub {
 #row-case_studies .row-33_67-primary #row-case_studies-column-right ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12pt;
+  font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
   font-weight: 300;
@@ -408,7 +410,7 @@ sub {
 #row-side_projects .row-33_67-primary #row-projects-column-right ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12pt;
+  font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
   font-weight: 300;
