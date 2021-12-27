@@ -386,6 +386,7 @@ sub {
   max-width: 100%;
   min-width: 100%;
   border: 2px solid lightgrey;
+  border-radius: 2px;
 }
 #row-side_projects .row-33_67-primary div a img:hover {
   border: 2px solid #0047FF;
@@ -400,6 +401,15 @@ sub {
   border-bottom: none;
   letter-spacing: 0.6px;
   font-weight: 400;
+}
+#row-side_projects .row-33_67-primary #row-projects-column-right div a img {
+  max-width: 100%;
+  min-width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 2px;
+}
+#row-side_projects .row-33_67-primary #row-projects-column-right div a img:hover {
+  border: 2px solid #0047FF;
 }
 #row-side_projects .row-33_67-primary #row-projects-column-right p {
   width: 100%;
