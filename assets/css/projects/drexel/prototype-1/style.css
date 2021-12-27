@@ -247,7 +247,7 @@ sub {
 .row-50_50-prim {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 4em;
+  grid-column-gap: 2em;
 }
 .row-50_50-prim img {
   max-width: 100%;
@@ -543,23 +543,19 @@ sub {
 #row-breakdown .row-25_25_25_25-prim h4 {
   text-align: center;
 }
-#row-initial .row-33_67-seco {
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 4em;
+#row-assumptions .row-50_50-prim {
+  margin-bottom: 0;
 }
-#row-initial .row-33_67-seco margin-bottom:0 img {
+#row-assumptions .row-50_50-prim img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-initial .row-33_67-seco margin-bottom:0 img:hover {
+#row-assumptions .row-50_50-prim img:hover {
   border: 2px solid #2E69FF;
 }
 #row-refinement h2 {
   color: #565F6D;
   border-bottom: 1px solid lightgrey;
-}
-#row-refinement .row-50_50-prim {
-  grid-gap: 4em;
 }
 #row-refinement .row-50_50-prim img {
   max-width: 100%;
@@ -570,9 +566,6 @@ sub {
 }
 #row-refinement .row-50_50-prim p {
   text-align: left;
-}
-#row-prototype .row-50_50-prim {
-  grid-gap: 4em;
 }
 #row-prototype .row-50_50-prim a img {
   max-width: 100%;
@@ -598,6 +591,7 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
+  text-align: justify;
   margin-bottom: 6px;
 }
 .button-CTA {
@@ -612,7 +606,8 @@ sub {
 .button-CTA span {
   font-size: 11.5pt;
 }
-#row-feedback #visible-while-mobile_h1 {
+/*--Importantants--*/
+#visible-while-mobile_h1 {
   display: none;
 }
 footer {
