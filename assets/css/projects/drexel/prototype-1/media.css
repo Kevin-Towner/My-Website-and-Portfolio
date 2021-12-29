@@ -141,10 +141,13 @@
       margin:0 0 67px 67%;
   }
   #row-prototype{
-    margin:0 0 0 0;
+    margin:0 0 4em 0;
   }
   #row-prototype .row-33_67-seco{
     grid-gap:2em;
+  }
+  #row-feedback .row-33_67-seco div{
+    margin-bottom:0;
   }
 
 }
