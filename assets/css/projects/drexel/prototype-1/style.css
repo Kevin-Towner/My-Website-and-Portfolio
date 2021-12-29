@@ -574,16 +574,23 @@ sub {
 #row-prototype .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-feedback .row-33_67-seco {
+#row-feedback div a img {
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-feedback div a img:hover {
+  border: 2px solid #2E69FF;
+}
+#row-feedback .row-67_33-seco {
   grid-gap: 2em;
 }
-#row-feedback .row-33_67-seco div {
+#row-feedback .row-67_33-seco div {
   margin-bottom: 1em;
 }
-#row-feedback .row-33_67-seco div p {
+#row-feedback .row-67_33-seco div p {
   text-align: justify;
 }
-#row-feedback .row-33_67-seco div ul li {
+#row-feedback .row-67_33-seco div ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
@@ -594,7 +601,7 @@ sub {
   text-align: justify;
   margin-bottom: 6px;
 }
-#row-feedback .row-33_67-seco div ul li span img {
+#row-feedback .row-67_33-seco div ul li span img {
   height: 9.7px;
   padding-right: 4.7px;
 }
