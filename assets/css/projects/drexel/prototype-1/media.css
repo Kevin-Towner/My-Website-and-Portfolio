@@ -143,6 +143,13 @@
   #row-prototype{
     margin:0 0 4em 0;
   }
+  #row-prototype .row-50_50-prim{
+    display:flex;
+    flex-direction:column-reverse;
+  }
+  #row-prototype .row-50_50-prim a{
+    margin-bottom:2em;
+  }
   #row-prototype .row-33_67-seco{
     grid-gap:2em;
   }
