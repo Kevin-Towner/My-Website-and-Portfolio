@@ -574,16 +574,16 @@ sub {
 #row-prototype .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-feedback .row-50_50-prim {
+#row-feedback .row-33_67-seco {
   grid-gap: 2em;
 }
-#row-feedback .row-50_50-prim div {
-  margin-bottom: 2em;
+#row-feedback .row-33_67-seco div {
+  margin-bottom: 1em;
 }
-#row-feedback .row-50_50-prim div p {
-  text-align: left;
+#row-feedback .row-33_67-seco div p {
+  text-align: justify;
 }
-#row-feedback .row-50_50-prim div ul li {
+#row-feedback .row-33_67-seco div ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
@@ -593,6 +593,10 @@ sub {
   margin: 0 0 16px 0;
   text-align: justify;
   margin-bottom: 6px;
+}
+#row-feedback .row-33_67-seco div ul li span img {
+  height: 9.7px;
+  padding-right: 4.7px;
 }
 .button-CTA {
   border: 2px solid #565F6D;
