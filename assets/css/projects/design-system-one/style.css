@@ -86,7 +86,6 @@
   color: #2E69FF;
   margin-bottom: 0;
   text-decoration: none;
-  font-size: 12.5pt;
   line-height: 200%;
   letter-spacing: 0.2px;
 }
@@ -206,7 +205,6 @@ a {
   color: #2E69FF;
   margin-bottom: 0;
   text-decoration: none;
-  font-size: 12.5pt;
   line-height: 200%;
   letter-spacing: 0.2px;
 }
@@ -531,7 +529,7 @@ sub {
   margin: auto;
 }
 #row-introduction div .row-50_50-prim div ul li {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 #row-breakdown .row-25_25_25_25-prim {
   margin-top: 2em;
@@ -557,6 +555,9 @@ sub {
 }
 #row-iteration_1 .row-50_50-prim p {
   text-align: left;
+}
+#row-iteration_1 .row-50_50-prim ul {
+  margin: 0;
 }
 #row-information h2 {
   color: #565F6D;
