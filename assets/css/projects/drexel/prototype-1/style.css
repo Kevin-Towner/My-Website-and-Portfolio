@@ -581,12 +581,6 @@ sub {
 #row-feedback div a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-feedback .row-33_67-seco {
-  grid-gap: 2em;
-}
-#row-feedback .row-33_67-seco div {
-  margin-bottom: 2em;
-}
 #row-feedback .row-33_67-seco div p {
   text-align: justify;
 }
