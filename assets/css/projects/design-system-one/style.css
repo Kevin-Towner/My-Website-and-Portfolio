@@ -622,10 +622,13 @@ sub {
   flex-direction: column;
 }
 #row-menu_items .row-50_50-prim div p {
-  margin-bottom: 1em;
+  margin: 0 0 8px 0;
 }
 #row-menu_items .row-50_50-prim ul {
   margin: 0;
+}
+#row-menu_items .row-50_50-prim ul li {
+  margin: 0 0 0 0;
 }
 #row-iteration_2 .row-50_50-prim {
   grid-gap: 2em;
