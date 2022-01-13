@@ -638,18 +638,18 @@ sub {
 #row-iteration_2 .row-50_50-prim div a .font-bold {
   margin-bottom: 8px;
 }
-#row-variants_1 h2 {
+#row-variants_1 #row-variants_2 h2 {
   color: #565F6D;
   border-bottom: 1px solid lightgrey;
 }
-#row-variants_1 .row-50_50-prim img {
+#row-variants_1 #row-variants_2 .row-50_50-prim img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-variants_1 .row-50_50-prim img:hover {
+#row-variants_1 #row-variants_2 .row-50_50-prim img:hover {
   border: 2px solid #2E69FF;
 }
-#row-variants_1 .row-50_50-prim p {
+#row-variants_1 #row-variants_2 .row-50_50-prim p {
   text-align: left;
 }
 /*--Importantants--*/
