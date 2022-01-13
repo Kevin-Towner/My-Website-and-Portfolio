@@ -649,9 +649,6 @@ sub {
 #row-variants_1 #row-variants_2 .row-50_50-prim img:hover {
   border: 2px solid #2E69FF;
 }
-#row-variants_1 #row-variants_2 .row-50_50-prim p {
-  text-align: left;
-}
 /*--Importantants--*/
 #visible-while-mobile_h1 {
   display: none;
