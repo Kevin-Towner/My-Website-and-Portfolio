@@ -649,6 +649,16 @@ sub {
 #row-variants_1 #row-variants_2 .row-50_50-prim img:hover {
   border: 2px solid #2E69FF;
 }
+#row-end a img {
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-end a img:hover {
+  border: 2px solid #2E69FF;
+}
+#row-end a .font-bold {
+  margin-bottom: 8px;
+}
 /*--Importantants--*/
 #visible-while-mobile_h1 {
   display: none;
