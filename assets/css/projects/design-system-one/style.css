@@ -648,11 +648,17 @@ sub {
 #row-variants_1 #row-variants_2 .row-50_50-prim p {
   text-align: left;
 }
+#row-iteration_3 .row-50_50-prim div ul {
+  margin: 0;
+}
 #row-iteration_3 .row-50_50-prim div ul li {
   margin: 0 0 2px 0;
 }
 #row-iteration_3 .row-50_50-prim div ul li a {
   line-height: 0;
+}
+#row-Diversify ul {
+  margin: 0;
 }
 #row-Diversify ul li {
   margin: 0 0 2px 0;
