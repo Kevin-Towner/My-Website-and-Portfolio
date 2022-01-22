@@ -261,9 +261,6 @@ sub {
   margin: 0 0 16px 0;
   margin-bottom: 8px;
 }
-.row-50_50-prim div p {
-  text-align: justify;
-}
 .row-50_50-seco {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -280,9 +277,6 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-}
-.row-50_50-seco div p {
-  text-align: justify;
 }
 .row-33_67-prim {
   display: grid;
@@ -316,9 +310,6 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
-.row-67_33-seco div p {
-  text-align: justify;
-}
 .row-33_67-seco {
   display: grid;
   grid-template-columns: 0.33fr 0.67fr;
@@ -336,9 +327,6 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-}
-.row-33_67-seco div p {
-  text-align: justify;
 }
 .row-33_33_33-prim {
   display: grid;
@@ -559,7 +547,7 @@ sub {
   margin: 0;
 }
 #row-iteration_1 .row-50_50-prim ul li {
-  margin: 0 0 8px 0;
+  margin: 0 0 2px 0;
 }
 #row-information h2 {
   color: #565F6D;
@@ -576,17 +564,13 @@ sub {
   text-align: left;
 }
 #row-elements .row-50_50-prim {
-  grid-row-gap: 2em;
+  grid-row-gap: 4em;
 }
 #row-elements .row-50_50-prim div p {
-  text-align: left;
+  margin: 0 0 8px 0;
 }
-#row-elements .row-50_50-prim a img {
-  max-width: 100%;
-  border: 2px solid #E5E5E5;
-}
-#row-elements .row-50_50-prim a img:hover {
-  border: 2px solid #2E69FF;
+#row-elements .row-50_50-prim div ul {
+  margin: 0;
 }
 #row-elements #visual-items img {
   max-width: 67%;
@@ -619,7 +603,10 @@ sub {
   margin: 0;
 }
 #row-menu_items .row-50_50-prim ul li {
-  margin: 0 0 0 0;
+  margin: 0 0 2px 0;
+}
+#row-menu_items .row-50_50-prim ul li a {
+  line-height: 0;
 }
 #row-iteration_2 .row-50_50-prim {
   grid-gap: 2em;
@@ -638,6 +625,15 @@ sub {
 #row-iteration_2 .row-50_50-prim div a .font-bold {
   margin-bottom: 8px;
 }
+#row-iteration_2 .row-50_50-prim div ul {
+  margin: 0;
+}
+#row-iteration_2 .row-50_50-prim div ul li {
+  margin: 0 0 2px 0;
+}
+#row-iteration_2 .row-50_50-prim div ul li a {
+  line-height: 0;
+}
 #row-variants_1 #row-variants_2 h2 {
   color: #565F6D;
   border-bottom: 1px solid lightgrey;
@@ -648,6 +644,15 @@ sub {
 }
 #row-variants_1 #row-variants_2 .row-50_50-prim img:hover {
   border: 2px solid #2E69FF;
+}
+#row-variants_1 #row-variants_2 .row-50_50-prim p {
+  text-align: left;
+}
+#row-iteration_3 .row-50_50-prim div ul li {
+  margin: 0 0 2px 0;
+}
+#row-iteration_3 .row-50_50-prim div ul li a {
+  line-height: 0;
 }
 #row-end a img {
   max-width: 100%;
