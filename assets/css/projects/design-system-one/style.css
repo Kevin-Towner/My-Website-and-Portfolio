@@ -654,6 +654,12 @@ sub {
 #row-iteration_3 .row-50_50-prim div ul li a {
   line-height: 0;
 }
+#row-Diversify ul li {
+  margin: 0 0 2px 0;
+}
+#row-Diversify ul li a {
+  line-height: 0;
+}
 #row-end a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
