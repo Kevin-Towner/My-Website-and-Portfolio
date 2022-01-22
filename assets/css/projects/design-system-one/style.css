@@ -657,13 +657,16 @@ sub {
 #row-iteration_3 .row-50_50-prim div ul li a {
   line-height: 0;
 }
-#row-Diversify ul {
+#row-diversify-1 .row-50_50-prim {
+  grid-row-gap: 2em;
+}
+#row-diversify-1 .row-50_50-prim div ul {
   margin: 0;
 }
-#row-Diversify ul li {
+#row-diversify-1 .row-50_50-prim div ul li {
   margin: 0 0 2px 0;
 }
-#row-Diversify ul li a {
+#row-diversify-1 .row-50_50-prim div ul li a {
   line-height: 0;
 }
 #row-end a img {
