@@ -374,9 +374,6 @@ sub {
   margin: 0 0 12px 0;
   margin-bottom: 8px;
 }
-#row-case_studies #case_study-2 {
-  border-bottom: none;
-}
 #row-side_projects .row-33_67-primary {
   border-bottom: 1px solid lightgrey;
   grid-gap: 2em;
