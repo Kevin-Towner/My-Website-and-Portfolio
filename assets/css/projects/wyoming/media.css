@@ -77,16 +77,6 @@
     width:80vw;
     margin:auto;
   }
-
-  .row-67_33-seco{
-    grid-template-columns: 1fr;
-  }
-  .row-33_67-seco{
-    grid-template-columns: 1fr;
-  }
-  .row-33_33_33-prim{
-      grid-template-columns: 1fr;
-  }
   .row-50_50-prim{
     grid-template-columns: 1fr;
   }
@@ -116,6 +106,7 @@
   #row-header div p {
     width:100%;
   }
+
   #row-breakdown{
     text-align: left;
   }
@@ -123,6 +114,9 @@
     display:grid;
     grid-template-columns:1fr;
     grid-gap:2em;
+  }
+  #row-introduction div .row-50_50-prim div ul li{
+    line-height:164%
   }
 
   #row-breakdown .row-25_25_25_25-prim h4{
