@@ -521,6 +521,13 @@ sub {
 }
 #row-introduction div .row-50_50-prim div ul li {
   margin-bottom: 4px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 11.5pt;
+  line-height: 180%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
 }
 #row-breakdown .row-25_25_25_25-prim {
   margin-top: 2em;
