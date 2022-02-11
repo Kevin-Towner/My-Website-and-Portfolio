@@ -89,7 +89,7 @@
   }
   .row-50_50-prim{
     grid-template-columns: 1fr;
-    grid-gap:2em;
+    grid-gap:1.5em;
   }
   .row-50_50-seco{
     grid-template-columns: 1fr;
@@ -117,6 +117,10 @@
   #row-header div p {
     width:100%;
   }
+  #row-introduction .row-50_50-prim{
+    display:flex;
+    flex-direction: column-reverse;
+  }
   #row-breakdown{
     text-align: left;
   }
@@ -125,7 +129,6 @@
     grid-template-columns:1fr;
     grid-gap:2em;
   }
-
   #row-breakdown .row-25_25_25_25-prim h4{
     text-align: left;
   }
@@ -163,7 +166,7 @@
 
   }
   #row-variants_2 .row-50_50-prim h4{
-    margin-top:2em;
+
   }
 
   #row-diversify-1 .row-50_50-prim{
