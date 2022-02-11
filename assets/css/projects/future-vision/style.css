@@ -642,14 +642,14 @@ sub {
 #row-improvement a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-end a img {
+#row-final_screens a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-end a img:hover {
+#row-final_screens a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-end a .font-bold {
+#row-final_screens a .font-bold {
   margin-bottom: 8px;
 }
 /*--Importantants--*/
