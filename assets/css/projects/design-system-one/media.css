@@ -143,18 +143,13 @@
     margin-bottom:0;
   }
   #row-iteration_1 .row-50_50-seco{
-    grid-template-columns: 1fr;
-
+    display: flex;
+    flex-direction: column-reverse;
   }
 
-  #row-elements .row-50_50-prim{
+  #row-information .row-50_50-prim{
 
   }
-
-  #row-menu_items .row-50_50-prim{
-
-  }
-
   #row-iteration_2 .row-50_50-seco{
     margin-bottom:4em;
   }
