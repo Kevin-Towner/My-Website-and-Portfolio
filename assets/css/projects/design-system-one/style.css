@@ -598,7 +598,7 @@ sub {
   flex-direction: column;
 }
 #row-menu_items .row-50_50-prim div p {
-  margin: 0 0 8px 0;
+  margin: 0 0 16px 0;
 }
 #row-menu_items .row-50_50-prim ul {
   margin: 0;
