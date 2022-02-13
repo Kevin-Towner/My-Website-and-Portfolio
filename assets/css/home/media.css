@@ -28,6 +28,7 @@
     font-size:1.6em;
     margin:0 0 24px;
   }
+
   #row-header div p {
     font-size:12.5pt;
     width:100%;
@@ -37,6 +38,10 @@
   #row-header div a{
     font-size:14pt;
   }
+  #row-header > div:nth-child(1) img{
+
+  }
+
   .list-header_row {
     display: inline-flex;
     list-style-type: none;
@@ -51,6 +56,8 @@
 
 @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
+    text-align: center;
+    line-height: 140%;
   }
 
   h2{
