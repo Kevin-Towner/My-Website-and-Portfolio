@@ -340,11 +340,13 @@ sub {
   padding-bottom: 2em;
 }
 #row-case_studies .row-33_67-primary div a img {
+  border-radius: 2px;
   max-width: 100%;
-  border: 2px solid lightgrey;
+  min-width: 100%;
+  border: 1px solid lightgrey;
 }
 #row-case_studies .row-33_67-primary div a img:hover {
-  border: 2px solid #0047FF;
+  border: 1px solid #0047FF;
 }
 #row-case_studies .row-33_67-primary #row-case_studies-column-right h4 {
   font-family: 'Roboto', sans-serif;
@@ -380,13 +382,14 @@ sub {
   padding-bottom: 2em;
 }
 #row-side_projects .row-33_67-primary div a img {
+  border-radius: 2px;
   max-width: 100%;
   min-width: 100%;
   border: 2px solid lightgrey;
-  border-radius: 2px;
+  border-radius: 1px;
 }
 #row-side_projects .row-33_67-primary div a img:hover {
-  border: 2px solid #0047FF;
+  border: 1px solid #0047FF;
 }
 #row-side_projects .row-33_67-primary #row-projects-column-right h4 {
   font-family: 'Roboto', sans-serif;
@@ -406,7 +409,7 @@ sub {
   border-radius: 2px;
 }
 #row-side_projects .row-33_67-primary #row-projects-column-right div a img:hover {
-  border: 2px solid #0047FF;
+  border: 1px solid #0047FF;
 }
 #row-side_projects .row-33_67-primary #row-projects-column-right p {
   width: 100%;

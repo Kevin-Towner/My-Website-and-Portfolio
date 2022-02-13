@@ -21,13 +21,17 @@
   }
   footer div{
     width:80%;
-    flex-direction:Column-reverse;
+
   }
   footer span{
-    margin-top:16px;
+    margin-top:8px;
   }
   footer div ul{
     margin-top:16px
+  }
+
+  footer div ul li a .footer-icon{
+    height:16px;
   }
 }
 

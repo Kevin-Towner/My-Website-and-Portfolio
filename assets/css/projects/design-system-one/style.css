@@ -259,6 +259,7 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
+  line-height: 120%;
   margin-bottom: 8px;
 }
 .row-50_50-seco {
@@ -658,7 +659,7 @@ sub {
   line-height: 0;
 }
 #row-diversify-1 .row-50_50-prim {
-  grid-row-gap: 2em;
+  grid-gap: 2em;
 }
 #row-diversify-1 .row-50_50-prim div ul {
   margin: 0;
@@ -667,6 +668,19 @@ sub {
   margin: 0 0 2px 0;
 }
 #row-diversify-1 .row-50_50-prim div ul li a {
+  line-height: 0;
+}
+#row-diversify-1 .row-50_50-seco {
+  grid-gap: 2em;
+  padding: 4em 0 4em 0;
+}
+#row-diversify-1 .row-50_50-seco div ul {
+  margin: 0;
+}
+#row-diversify-1 .row-50_50-seco div ul li {
+  margin: 0 0 2px 0;
+}
+#row-diversify-1 .row-50_50-seco div ul li a {
   line-height: 0;
 }
 #row-end a img {

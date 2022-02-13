@@ -693,7 +693,24 @@ sub{
 
 #row-diversify-1{
   .row-50_50-prim{
-    grid-row-gap:2em;
+    grid-gap:2em;
+    div{
+      ul{
+        margin:0;
+        li{
+          margin: 0 0 2px 0;
+          a{
+            line-height:0;
+          }
+        }
+      }
+    }
+  }
+  .row-50_50-seco{
+    grid-gap:2em;
+    padding:4em 0 4em 0;
+    // border-top:1px solid lightgrey;
+    // border-bottom:1px solid lightgrey;
     div{
       ul{
         margin:0;
@@ -707,6 +724,7 @@ sub{
     }
   }
 }
+
 #row-end{
   a{
     img{

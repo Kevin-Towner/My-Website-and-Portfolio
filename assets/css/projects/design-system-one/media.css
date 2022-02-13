@@ -117,10 +117,12 @@
   #row-header div p {
     width:100%;
   }
+
   #row-introduction .row-50_50-prim{
     display:flex;
     flex-direction: column-reverse;
   }
+
   #row-breakdown{
     text-align: left;
   }
@@ -138,6 +140,7 @@
   #row-breakdown .row-25_25_25_25-prim div ul{
     text-align: left;
   }
+
   #row-iteration_1 .row-50_50-prim{
     grid-template-columns: 1fr;
     margin-bottom:0;
@@ -147,29 +150,35 @@
     flex-direction: column-reverse;
   }
 
-  #row-information .row-50_50-prim{
-
+  #row-menu_items .row-50_50-prim ul li{
+    margin-bottom:8px;
   }
-  #row-iteration_2 .row-50_50-seco{
+
+  #row-iteration_2 .row-50_50-prim{
     margin-bottom:4em;
   }
-  #row-variants_2{
+  #row-iteration_2 .row-50_50-prim div ul li{
+    margin-bottom:8px;
+  }
+
+  #row-variants_2 .row-50_50-prim{
     display:flex;
     flex-direction:column-reverse;
   }
-  #row-variants_2 .row-50_50-prim{
-
-  }
-  #row-variants_2 .row-50_50-prim h4{
-
-  }
 
   #row-diversify-1 .row-50_50-prim{
+    display:flex;
+    flex-direction:column-reverse;
+    grid-gap:1em;
+  }
+  #row-diversify-1 .row-50_50-prim div ul li{
+    margin-bottom:8px;
+  }
+  #row-diversify-1 .row-50_50-seco{
+    padding:2em 0 2em 0;
+    grid-gap:1em;
+  }
 
-  }
-  #row-diversify-1 .row-50_50-prim h4{
-    margin-top:2em;
-  }
   #row-iteration_4 .row-50_50-prim {
     display: flex;
     flex-direction: column-reverse;
