@@ -149,6 +149,9 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  #row-elements .row-50_50-prim{
+    grid-gap:2em;
+  }
 
   #row-menu_items .row-50_50-prim ul li{
     margin-bottom:8px;
