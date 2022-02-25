@@ -1,0 +1,308 @@
+<html>
+
+<head>
+
+  <!--meta-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Kevin Towner">
+  <meta name="description" content="Personal website of Kevin Towner's user experience, human-computer interaction and user interface design work, studies and processes.">
+  <meta name="keywords" content="Kevin Towner, Human-Computer Interaction, Drexel University, Design Systems, User Experience, User Interface Design, UI Design, UX Design">
+  <title>Dashboard UI</title>
+
+
+  <!--css styles -->
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/others/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/others/media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/buttons/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/buttonss/media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/projects/dashboard-1/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/projects/dashboard-1/style.less">
+  <link rel="stylesheet" type="text/css" href="../assets/css/projects/dashboard-1/media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/nav/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/nav/media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/foot/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/misc/foot/media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/js/misc/slideshow.js">
+
+  <!-- less -->
+  <link rel="stylesheet/less" type="text/css" href="../assets/css/styles.less" />
+  <script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
+
+  <!--FAVICON-->
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0P7SDXF3EZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0P7SDXF3EZ');
+
+    // window.onload = changeImage;
+    //
+    // var i = 0;
+    // var imagesOne = [];
+    // var imagesTwo = [];
+    // var imagesThree = [];
+    // var time = 1300;
+    //
+    // imagesOne[0] = "../../assets/images/projects/prototype-1/seating-viewing-1.png";
+    // imagesOne[1] = "../../assets/images/projects/prototype-1/seating-viewing-2.png";
+    // imagesOne[2] = "../../assets/images/projects/prototype-1/seating-viewing-3.png";
+    // imagesOne[3] = "../../assets/images/projects/prototype-1/seating-viewing-4.png";
+    //
+    // imagesTwo[0] = "../../assets/images/projects/prototype-1/order-delivery-1.png";
+    // imagesTwo[1] = "../../assets/images/projects/prototype-1/order-delivery-2.png";
+    //
+    // imagesThree[0] = "../../assets/images/projects/prototype-1/seating-viewing-1.png";
+    //
+    // function changeImage(){
+    //   document.getElementsByName("slideOne" "slideTwo" "slideThree").src = imagesOne[i];
+    //   if(i < imagesOne.length - 1){
+    //     i++;
+    //   }else{
+    //     i = 0;
+    //   }
+    //   document.slideTwo.src = imagesTwo[i];
+    //   if(i < imagesTwo.length - 1){
+    //     i++;
+    //   }else{
+    //     i = 0;
+    //   }
+    //   document.slideThree.src = imagesThree[i];
+    //   if(i < imagesThree.length - 1){
+    //     i++;
+    //   }else{
+    //     i = 0;
+    //   }
+    //   setTimeout("changeImage()", time);
+    // }
+  </script>
+
+</head>
+
+<body>
+  <nav>
+    <div class="navigation-section" id="navigation-left">
+      <a style="margin-bottom:0;" href="../index.html"><img id="logo" src="../assets/images/misc/gundam-logo.svg" alt=""></a>
+      <h1 id="visible-while-mobile_navigation-h1">Kevin Towner</h1>
+    </div>
+    <div class="navigation-section" id="navigation-right">
+      <label for="toggle">☰</label>
+      <input type="checkbox" id="toggle">
+      <ul id="menu">
+        <li><a id="anchor-index" href="../index.html">home</a></li>
+        <li><a id="../anchor-contact" href="../work.html">work</a></li>
+        <li><a id="anchor-design" href="../design.html">design</a></li>
+        <li><a id="anchor-about" href="../about.html">about</a></li>
+        <li><a id="anchor-contact" href="../contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="main-content">
+    <div class="row" id="row-header">
+      <div>
+        <h1><span>Dashboard Design</span></h1>
+      </div>
+      <div>
+        <h4>Dashboards need to show the big picture, while allowing users the freedom to hone in on a specific elements. Given the complicated nature of Dashboard Design, I created a Dashboard UI with the help of carefully crafted components, competitive analyses, and rudimentary research.</h4>
+      </div>
+    </div>
+    <div id="row-header-signature">
+      <img src="../assets/images/me/me-2.png" alt="Me">
+      <span><a class="font-hyperlink_text-1" target="_blank" href="../index.html">Kevin Towner</a><span class="bullet-point">•</span>3 minute read</span>
+    </div>
+    <div class="row" id="row-breakdown">
+      <h2><span>Breakdown</span></h2>
+      <div class="row-25_25_25_25-prim">
+        <div>
+          <h4>Timeframe:</h4>
+          <ul>
+            <li>• 9.18 - Ongoing</li>
+            <li>• 1 week </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Role:</h4>
+          <ul>
+            <li>• UI Designer</li>
+            <li>• Product Designer</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Case Study:</h4>
+          <ul>
+            <li>• HTML</li>
+            <li>• CSS</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Tools:</h4>
+          <ul>
+            <li>• Sketch</li>
+            <li>• Invision</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-introduction">
+      <h2><span>Introduction</span></h2>
+      <div class="row-50_50-prim">
+        <div>
+          <h4>Purpose</h4>
+          <p>While doing some work on my website I realized my hosted projects involving visual design elements were for the most part designs of mobile applications. <mark>I chose a dashboard design because of recent opportunities as well as the challenge of, not only presenting data but, using data to tell a story.</p>
+        </div>
+        <div>
+          <h4>The Approach</h4>
+          <p>I approached the dashboard with the goal of designing something built for long lasting success.<mark> I wanted to design an interface that would be suitable for a variety of layouts, using flexible components, with a heavy emphasis on utilizing informed constraints</mark>. Components should respond gracefully, horizontally and vertically.</p>
+        </div>
+      </div>
+      <div>
+        <a target="_blank" href="../assets/images/projects/dashboard-1/assumed_layout.png">
+          <img src="../assets/images/projects/dashboard-1/assumed_layout.png" alt="Low-fidelity ">
+          <span class="font-caption">Forming assumptions about the general layout of most dashboards</span>
+        </a>
+      </div>
+    </div>
+    <div class="row" id="row-inspiration">
+      <h2><span>Overview</span></h2>
+      <div>
+        <div class="row-50_50-prim">
+          <div>
+            <h4>AIG Style Guide</h4>
+            <p>Since the opportunity mentioned above was an opportunity to advance my career within AIG corporate structure, I definately believed it would be a good idea view <mark>AIG's style guide for visual references</mark>.</p>
+          </div>
+          <div>
+            <h4>Google Analytics</h4>
+            <p>A popular product among Google's marketing platform, Google Analyics offers a variety of <mark>data visualizations to reference as well as layout and formatting information</mark>.</p>
+          </div>
+          <div>
+            <h4>Specifications</h4>
+            <p>It's difficult trying to pinpoint where to begin designing a product when research-related resources are scarce or time is limited. To design a product pertaining to the opportunity at hand, I knew <mark>the dashboard had to be an enterprise application, it needs to tell a story, and it needs to (at least) somewhat adhere to AIG's visual identity<mark>.</p>
+          </div>
+          <div>
+            <h4>Constraints</h4>
+            <ul>
+              <li>• Time - Since this project was prepared for the event of a possible interviewi in the near relevant future, <mark>time for conducting thorough research and creating a deep design system are compromised</mark>.</li>
+              <li>• Scope - The exact goals or metrics of success for this project are somewhat ambiguous as <mark>this is a theoretical dashboard based heavily on designer assumptions and brainstormed experiences</mark>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-brainstorm">
+      <h2><span>Brainstorming</span></h2>
+      <div id="row-50_50-prim-1" class="row-50_50-prim">
+        <a target="_blank" href="../assets/images/projects/dashboard-1/brainstorm-1.png">
+          <img src="../assets/images/projects/dashboard-1/brainstorm-1.png" alt="Stormboard idea generation">
+          <span class="font-caption">Quick brainstorming session</span>
+        </a>
+        <div>
+          <div>
+            <h4>Experience, dashboard, and company</h4>
+            <p>Three broad topics which would have a direct impact on the final design mockup. <mark>I chose Experience, Dashboards, Company</mark>.</p>
+            <ul>
+              <li>• Experience - Past professional or work experiences</li>
+              <li>• Dashboard - My experiences or assumed ideas about what a dashboard is</li>
+              <li>• Company - High-level information about the company, team, or department the dashboard is for</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="row-50_50-prim-2" class="row-50_50-prim">
+        <div>
+          <div>
+            <h4>Retail, management, and KPIs</h4>
+            <p>Stringing subtopics, without matching any of the same colors togethor - KPIs was the subtopic most shared across the three topics, with retail and management as subtopics.</p>
+          </div>
+        </div>
+        <a target="_blank" href="../assets/images/projects/dashboard-1/brainstorm-2.png">
+          <img src="../assets/images/projects/dashboard-1/brainstorm-2.png" alt="Stormboard idea generation">
+          <span class="font-caption">Quick brainstorming session</span>
+        </a>
+      </div>
+    </div>
+    <div id="row-user" class="row">
+      <h2><span>Retail KPIs</span></h2>
+      <div class="row-50_50-prim">
+        <div>
+          <h4>Past experience</h4>
+          <p>Reflecting on the days when I worked in retail management, <mark>I decided to use inspiration from prior experiences analyzing store and district KPIs</mark> as the primary metrics visualized for the user.</p>
+        </div>
+        <div>
+          <h4>KPIs</h4>
+          <p>Being that replicating a product for something I have limited experience in is an extremely time consuming task, I am going to focus less on the actual products the KPIs are mentioning and more on the KPIs themselves.</p>
+          <ul>
+            <li>• <mark>Percent to LY</mark></li>
+            <li>• <mark>Percent to plan</mark></li>
+            <li>• <mark>Percent to last quarter</mark></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="row-screens_1" class="row">
+      <h2><span>UI Screens</span></h2>
+      <div class="row-50_50-prim">
+        <div>
+          <h4>Assumption low-fidelity</h4>
+          <a target="_blank" href="../assets/images/projects/dashboard-1/final-iteration_1.png">
+            <img src="../assets/images/projects/dashboard-1/final-iteration_1.png" alt="first iteration">
+            <span class="font-caption">Low fidelity layout - assumption</span>
+          </a>
+        </div>
+        <div>
+          <h4>Second iteration</h4>
+          <a target="_blank" href="../assets/images/projects/dashboard-1/final-iteration_2.png">
+            <img src="../assets/images/projects/dashboard-1/final-iteration_2.png" alt="seconds iteration">
+            <span class="font-caption">KPIs and data visualizations</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="row-screens_2">
+      <h2><span></span></h2>
+      <h4>Current UI</h4>
+      <a target="_blank" href="../assets/images/projects/dashboard-1/final-iteration_3-2.png">
+        <img src="../assets/images/projects/dashboard-1/final-iteration_3.png" alt="third iteration">
+        <span class="font-caption">Current UI with KPIs and supporting data visualization</span>
+      </a>
+    </div>
+
+    <div class="row-to_top-prim">
+      <a href="#row-header-signature">
+        <span></span>
+        <img class="icon-to_top" src="../assets/images/icons/top.png">
+      </a>
+    </div>
+  </div>
+  <footer>
+    <div>
+      <span class="copyright">&copy Kevin Towner 2021</span>
+      <ul>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/kevin-towner-b0960b96/"><img id="footer-icon_linkedin" class="footer-icon" src="../assets/images/icons/linkedin-icon.png" alt="linkedIn icon"></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/kevn_tee/"><img id="footer-icon_instagram" class="footer-icon" src="../assets/images/icons/instagram-icon.png" alt="instagram icon"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
