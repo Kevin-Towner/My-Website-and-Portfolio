@@ -540,6 +540,7 @@ mark{
     margin-bottom:0;
   }
 }
+
 #row-user{
   .row-50_50-prim{
     grid-gap:2em;
@@ -548,6 +549,22 @@ mark{
         margin:auto;
         li{
           .font-body_text-p;
+        }
+      }
+    }
+  }
+}
+
+#row-colors{
+  div{
+    a{
+      display:flex;
+      flex-direction: column;
+      img{
+        max-width:100%;
+        border:2px solid #E5E5E5;
+        &:hover{
+          border:2px solid @color-hyperlink;
         }
       }
     }
