@@ -3,6 +3,9 @@
   .main-content{
     width:50vw;
   }
+  #row-header > div:nth-child(1) img{
+    width:25%;
+  }
 }
 
 @media screen and (max-width:1281px) { /*1281 big landscape tablets, laptops, and desktops */
