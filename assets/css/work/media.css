@@ -109,7 +109,7 @@
   }
   #row-case_studies > .row-33_67-primary{
     grid-template-columns: 1fr;
-    grid-gap:2em;
+    grid-gap:1em;
     display:flex;
     flex-direction:column-reverse;
   }
@@ -121,7 +121,7 @@
 
   #row-side_projects > .row-33_67-primary{
     grid-template-columns: 1fr;
-    grid-gap:2em;
+    grid-gap:1em;
     display:flex;
     flex-direction:column-reverse;
   }

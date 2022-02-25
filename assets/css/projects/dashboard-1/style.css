@@ -586,6 +586,9 @@ mark {
   color: #565F6D;
   margin: 0 0 8px 0;
 }
+#row-screens_1 {
+  margin-bottom: 2em;
+}
 #row-screens_1 a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
@@ -615,6 +618,7 @@ mark {
 }
 #row-components .row-50_50-prim {
   grid-gap: 2em;
+  margin-bottom: 2em;
 }
 /*--Importantants--*/
 #visible-while-mobile_h1 {
