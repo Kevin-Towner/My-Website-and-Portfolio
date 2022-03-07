@@ -191,6 +191,9 @@ p{
 ul{
   list-style-type: none;
   padding:0;
+  li{
+    .font-body_text-p;
+  }
 }
 
 a{
@@ -242,8 +245,7 @@ mark{
     ul{
       li{
         .font-body_text-p;
-        line-height:120%;
-        margin-bottom:8px;
+        margin-bottom:2px;
       }
     }
     p{
@@ -263,9 +265,7 @@ mark{
     border-radius:2px;
   }
   div{
-    ul{
-      .font-body_text-p
-    }
+
     p{
 
     }
@@ -342,12 +342,6 @@ mark{
     }
     p{
       text-align: justify;
-    }
-  }
-  a{
-    img{
-      max-width:67%;
-      float:right;
     }
   }
 }
@@ -470,10 +464,6 @@ mark{
 }
 
 #row-introduction{
-  h2{
-    color:@color-misc_2;
-    border-bottom:1px solid lightgrey;
-  }
   div{
     .row-50_50-prim{
       grid-gap:4em;
@@ -491,9 +481,6 @@ mark{
         }
       }
       div{
-        p{
-
-        }
         ul{
           .font-body_text-p;
           margin:auto;
@@ -521,17 +508,47 @@ mark{
 }
 
 #row-empathy{
-  .row-33_33_33-prim{
+  .row-50_50-prim{
     grid-gap:2em;
     p{
       text-align: left;
+    }
+    .report-section{
+      h4{
+        text-align: right;
+      }
+      text-align: right;
     }
   }
 }
 
 #row-ideate{
   .row-50_50-prim{
-    margin-bottom:3.5em;
+    grid-gap:2em;
+    a{
+      display:flex;
+      flex-direction:column;
+      img{
+        max-width:100%;
+        min-height:280px;
+        max-height:280px;
+        border:2px solid #E5E5E5;
+        &:hover{
+          border:2px solid @color-hyperlink;
+        }
+      }
+    }
+    .report-section{
+      h4{
+        text-align: right;
+      }
+      text-align: right;
+    }
+  }
+}
+#row-sketches{
+  .row-33_33_33-prim{
+    grid-gap:2em;
     a{
       display:flex;
       flex-direction:column;
@@ -542,46 +559,10 @@ mark{
           border:2px solid @color-hyperlink;
         }
       }
-      span{
-      }
     }
-    ul{
-      .font-body_text-p;
-      margin:auto;
-      li{
-        margin-bottom:0px;
-      }
-    }
-  }
-  #row-50_50-prim-2{
-    margin-bottom:0;
   }
 }
 #row-experiment{
-  .row-67_33-prim{
-    grid-gap:4em;
-    div{
-      p{
-        margin-bottom:2em;
-      }
-      ul{
-        .font-body_text-p;
-        margin:auto;
-      }
-    }
-    a{
-      img{
-        max-width:100%;
-        border:2px solid #E5E5E5;
-        &:hover{
-          border:2px solid @color-hyperlink;
-        }
-      }
-    }
-  }
-}
-
-#row-test{
   .row-67_33-seco{
     grid-gap:6em;
     div{
@@ -593,6 +574,26 @@ mark{
         margin:auto;
       }
     }
+    a{
+      img{
+        max-width:100%;
+        border:2px solid #E5E5E5;
+        &:hover{
+          border:2px solid @color-hyperlink;
+        }
+      }
+    }
+    .report-section{
+      h4{
+        text-align: right;
+      }
+      text-align: right;
+    }
+  }
+}
+
+#row-test{
+  div{
     a{
       img{
         max-width:100%;

@@ -199,6 +199,15 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+ul li {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 11.5pt;
+  line-height: 180%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 8px 0;
+}
 a {
   font-family: 'Roboto', sans-serif;
   margin: 0 0 16px 0;
@@ -272,8 +281,7 @@ mark {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 8px 0;
-  line-height: 120%;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 .row-50_50-seco {
   display: grid;
@@ -282,15 +290,6 @@ mark {
 .row-50_50-seco img {
   max-width: 100%;
   border-radius: 2px;
-}
-.row-50_50-seco div ul {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  font-size: 11.5pt;
-  line-height: 180%;
-  font-weight: 300;
-  color: #565F6D;
-  margin: 0 0 8px 0;
 }
 .row-33_67-prim {
   display: grid;
@@ -363,10 +362,6 @@ mark {
 }
 .row-33_33_33-prim div p {
   text-align: justify;
-}
-.row-33_33_33-prim a img {
-  max-width: 67%;
-  float: right;
 }
 .row-25_25_25_25-prim {
   display: grid;
@@ -501,13 +496,11 @@ mark {
 #row-header-signature span a:hover {
   color: #FF4A6B;
 }
-#row-introduction h2 {
-  color: #565F6D;
-  border-bottom: 1px solid lightgrey;
+#row-introduction {
+  margin-bottom: 0;
 }
 #row-introduction div .row-50_50-prim {
   grid-gap: 4em;
-  margin: 0;
 }
 #row-introduction div .row-50_50-prim a {
   display: flex;
@@ -543,14 +536,20 @@ mark {
 #row-breakdown .row-25_25_25_25-prim h4 {
   text-align: center;
 }
-#row-empathy .row-33_33_33-prim {
+#row-empathy .row-50_50-prim {
   grid-gap: 2em;
 }
-#row-empathy .row-33_33_33-prim p {
+#row-empathy .row-50_50-prim p {
   text-align: left;
 }
+#row-empathy .row-50_50-prim .report-section {
+  text-align: right;
+}
+#row-empathy .row-50_50-prim .report-section h4 {
+  text-align: right;
+}
 #row-ideate .row-50_50-prim {
-  margin-bottom: 3.5em;
+  grid-gap: 2em;
 }
 #row-ideate .row-50_50-prim a {
   display: flex;
@@ -558,57 +557,40 @@ mark {
 }
 #row-ideate .row-50_50-prim a img {
   max-width: 100%;
+  min-height: 280px;
+  max-height: 280px;
   border: 2px solid #E5E5E5;
 }
 #row-ideate .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-ideate .row-50_50-prim ul {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  font-size: 11.5pt;
-  line-height: 180%;
-  font-weight: 300;
-  color: #565F6D;
-  margin: 0 0 8px 0;
-  margin: auto;
+#row-ideate .row-50_50-prim .report-section {
+  text-align: right;
 }
-#row-ideate .row-50_50-prim ul li {
-  margin-bottom: 0px;
+#row-ideate .row-50_50-prim .report-section h4 {
+  text-align: right;
 }
-#row-ideate #row-50_50-prim-2 {
-  margin-bottom: 0;
+#row-sketches .row-33_33_33-prim {
+  grid-gap: 2em;
 }
-#row-experiment .row-67_33-prim {
-  grid-gap: 4em;
+#row-sketches .row-33_33_33-prim a {
+  display: flex;
+  flex-direction: column;
 }
-#row-experiment .row-67_33-prim div p {
-  margin-bottom: 2em;
-}
-#row-experiment .row-67_33-prim div ul {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  font-size: 11.5pt;
-  line-height: 180%;
-  font-weight: 300;
-  color: #565F6D;
-  margin: 0 0 8px 0;
-  margin: auto;
-}
-#row-experiment .row-67_33-prim a img {
+#row-sketches .row-33_33_33-prim a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-experiment .row-67_33-prim a img:hover {
+#row-sketches .row-33_33_33-prim a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-test .row-67_33-seco {
+#row-experiment .row-67_33-seco {
   grid-gap: 6em;
 }
-#row-test .row-67_33-seco div p {
+#row-experiment .row-67_33-seco div p {
   margin-bottom: 2em;
 }
-#row-test .row-67_33-seco div ul {
+#row-experiment .row-67_33-seco div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
@@ -618,11 +600,24 @@ mark {
   margin: 0 0 8px 0;
   margin: auto;
 }
-#row-test .row-67_33-seco a img {
+#row-experiment .row-67_33-seco a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-test .row-67_33-seco a img:hover {
+#row-experiment .row-67_33-seco a img:hover {
+  border: 2px solid #2E69FF;
+}
+#row-experiment .row-67_33-seco .report-section {
+  text-align: right;
+}
+#row-experiment .row-67_33-seco .report-section h4 {
+  text-align: right;
+}
+#row-test div a img {
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-test div a img:hover {
   border: 2px solid #2E69FF;
 }
 #row-improvement .row-33_33_33-prim {
