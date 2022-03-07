@@ -366,7 +366,7 @@ mark {
 .row-25_25_25_25-prim {
   display: grid;
   grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
-  grid-gap: 3em;
+  grid-gap: 2em;
 }
 .row-25_25_25_25-prim div ul {
   font-family: 'Roboto', sans-serif;
@@ -620,15 +620,14 @@ mark {
 #row-test div a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-improvement .row-33_33_33-prim {
-  grid-column-gap: 2em;
-  grid-row-gap: 2.5em;
+#row-improvement .row-25_25_25_25-prim {
+  grid-column-gap: 1em;
   margin-top: 2em;
 }
-#row-improvement .row-33_33_33-prim p {
+#row-improvement .row-25_25_25_25-prim p {
   text-align: left;
 }
-#row-improvement .row-33_33_33-prim ul {
+#row-improvement .row-25_25_25_25-prim ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
@@ -638,7 +637,7 @@ mark {
   margin: 0 0 8px 0;
   margin: auto;
 }
-#row-improvement .row-33_33_33-prim ul li {
+#row-improvement .row-25_25_25_25-prim ul li {
   margin-bottom: 0px;
 }
 #row-improvement a img {
