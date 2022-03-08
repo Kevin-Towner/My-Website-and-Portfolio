@@ -527,9 +527,6 @@ mark {
 #row-inspiration .row-50_50-prim {
   grid-gap: 2em;
 }
-#row-inspiration .row-50_50-prim p {
-  text-align: left;
-}
 #row-inspiration .row-50_50-prim ul {
   margin: auto;
 }
@@ -541,6 +538,13 @@ mark {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 8px 0;
+}
+#row-inspiration .row-50_50-prim div a img {
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-inspiration .row-50_50-prim div a img:hover {
+  border: 2px solid #2E69FF;
 }
 #row-brainstorm .row-50_50-prim {
   margin-bottom: 3.5em;

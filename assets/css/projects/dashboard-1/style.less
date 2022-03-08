@@ -264,12 +264,6 @@ mark{
     ul{
       .font-body_text-p
     }
-    p{
-
-    }
-    h4{
-
-    }
   }
 }
 
@@ -503,13 +497,21 @@ mark{
 #row-inspiration{
   .row-50_50-prim{
     grid-gap:2em;
-    p{
-      text-align: left;
-    }
     ul{
       margin:auto;
       li{
         .font-body_text-p;
+      }
+    }
+    div{
+      a{
+        img{
+          max-width:100%;
+          border:2px solid #E5E5E5;
+          &:hover{
+            border:2px solid @color-hyperlink;
+          }
+        }
       }
     }
   }
