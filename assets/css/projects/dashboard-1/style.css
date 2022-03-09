@@ -647,6 +647,24 @@ mark {
   grid-gap: 2em;
   margin-bottom: 2.5em;
 }
+#row-visualization-2 a img {
+  width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-visualization-2 a img:hover {
+  border: 2px solid #2E69FF;
+}
+#row-visualization-2 .row-50_50-prim {
+  grid-gap: 2em;
+  margin-bottom: 2em;
+}
+#row-visualization-2 .row-50_50-prim div a img {
+  width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-visualization-2 .row-50_50-prim div a img:hover {
+  border: 2px solid #2E69FF;
+}
 /*--Importantants--*/
 #visible-while-mobile_h1 {
   display: none;
