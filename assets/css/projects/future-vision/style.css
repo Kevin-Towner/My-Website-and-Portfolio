@@ -496,9 +496,6 @@ mark {
 #row-header-signature span a:hover {
   color: #FF4A6B;
 }
-#row-introduction {
-  margin-bottom: 0;
-}
 #row-introduction div .row-50_50-prim {
   grid-gap: 4em;
 }

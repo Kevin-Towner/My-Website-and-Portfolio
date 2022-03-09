@@ -687,6 +687,10 @@ mark {
 #row-visual .row-50_50-prim div a img:hover {
   border: 2px solid #2E69FF;
 }
+#row-takeaways .row-50_50-prim {
+  grid-gap: 2em;
+  margin-bottom: 2em;
+}
 #row-takeaways .report-section {
   margin-top: 2em;
   text-align: right;
