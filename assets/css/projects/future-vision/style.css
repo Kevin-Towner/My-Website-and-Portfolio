@@ -658,6 +658,21 @@ mark {
 #row-final_screens a .font-bold {
   margin-bottom: 8px;
 }
+#row-takeaways a img {
+  margin-top: 2em;
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-takeaways a img:hover {
+  border: 2px solid #2E69FF;
+}
+#row-takeaways .report-section {
+  margin-top: 2em;
+  text-align: right;
+}
+#row-takeaways .report-section h4 {
+  text-align: right;
+}
 /*--Importantants--*/
 #visible-while-mobile_h1 {
   display: none;
