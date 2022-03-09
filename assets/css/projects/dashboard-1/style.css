@@ -676,6 +676,17 @@ mark {
 #row-visualization-new .row-50_50-prim div a img:hover {
   border: 2px solid #2E69FF;
 }
+#row-visual .row-50_50-prim {
+  grid-gap: 2em;
+  margin-bottom: 2em;
+}
+#row-visual .row-50_50-prim div a img {
+  width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-visual .row-50_50-prim div a img:hover {
+  border: 2px solid #2E69FF;
+}
 /*--Importantants--*/
 #visible-while-mobile_h1 {
   display: none;
