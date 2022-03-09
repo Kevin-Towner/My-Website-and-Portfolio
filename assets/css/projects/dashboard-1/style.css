@@ -687,6 +687,13 @@ mark {
 #row-visual .row-50_50-prim div a img:hover {
   border: 2px solid #2E69FF;
 }
+#row-takeaways .report-section {
+  margin-top: 2em;
+  text-align: right;
+}
+#row-takeaways .report-section h4 {
+  text-align: right;
+}
 /*--Importantants--*/
 #visible-while-mobile_h1 {
   display: none;
