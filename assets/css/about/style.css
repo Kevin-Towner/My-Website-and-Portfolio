@@ -269,7 +269,7 @@ sub {
 .row-33_66-seco {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 4em;
+  grid-gap: 6em;
 }
 .row-33_66-seco img {
   max-width: 100%;
