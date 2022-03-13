@@ -285,7 +285,7 @@ sub {
   margin: 0 0 16px 0;
 }
 .row-33_66-seco div p {
-  text-align: justify;
+  text-align: left;
 }
 .row-33_33_33-prim {
   display: grid;
