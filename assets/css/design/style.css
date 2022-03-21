@@ -341,9 +341,6 @@ sub {
 .row-33_33_33-prim div ul li {
   margin: auto;
 }
-.row-33_33_33-prim div p {
-  text-align: justify;
-}
 .row-33_33_33-prim a img {
   max-width: 67%;
   float: right;
