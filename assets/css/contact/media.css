@@ -12,6 +12,9 @@
   ul{
     font-size:13.5pt;
   }
+  footer{
+    bottom:0;
+  }
 }
 
 @media screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
