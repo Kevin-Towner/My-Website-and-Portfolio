@@ -37,6 +37,7 @@ footer div ul li {
   margin-bottom: 0;
 }
 footer div ul li a .footer-icon {
+  margin-top: 2px;
   height: 24px;
 }
 footer div ul li a #footer-icon_instagram {
