@@ -26,7 +26,7 @@ footer div {
   justify-content: space-between;
   align-items: center;
   width: 67%;
-  padding: 12px 0 8px 0;
+  padding: 12px 0 12px 0;
   margin: auto;
 }
 footer div ul {
@@ -37,7 +37,7 @@ footer div ul li {
   margin-bottom: 0;
 }
 footer div ul li a .footer-icon {
-  height: 20px;
+  height: 24px;
 }
 footer div ul li a #footer-icon_instagram {
   padding-left: 24px;
