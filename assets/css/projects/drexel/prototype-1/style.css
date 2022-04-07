@@ -261,9 +261,6 @@ sub {
   margin: 0 0 16px 0;
   margin-bottom: 6px;
 }
-.row-50_50-prim div p {
-  text-align: justify;
-}
 .row-50_50-seco {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -281,13 +278,10 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
-.row-50_50-seco div p {
-  text-align: justify;
-}
 .row-33_67-prim {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 8em;
+  grid-gap: 4em;
 }
 .row-33_67-prim img {
   max-width: 100%;
@@ -316,9 +310,6 @@ sub {
   color: #565F6D;
   margin: 0 0 16px 0;
 }
-.row-67_33-seco div p {
-  text-align: justify;
-}
 .row-33_67-seco {
   display: grid;
   grid-template-columns: 0.33fr 0.67fr;
@@ -336,9 +327,6 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-}
-.row-33_67-seco div p {
-  text-align: justify;
 }
 .row-33_33_33-prim {
   display: grid;
@@ -358,9 +346,6 @@ sub {
 }
 .row-33_33_33-prim div ul li {
   margin: auto;
-}
-.row-33_33_33-prim div p {
-  text-align: justify;
 }
 .row-33_33_33-prim a img {
   max-width: 67%;
@@ -580,9 +565,6 @@ sub {
 #row-feedback div a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-feedback .row-50_50-prim div p {
-  text-align: justify;
-}
 #row-feedback .row-50_50-prim div ul {
   margin: 0;
 }
@@ -594,7 +576,6 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
-  text-align: justify;
   margin-bottom: 6px;
 }
 #row-feedback .row-50_50-prim div ul li span img {
