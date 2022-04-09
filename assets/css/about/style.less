@@ -239,7 +239,7 @@ sub{
 .row-33_66-seco{
   display:grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap:6em;
+  grid-gap:2em;
   img{
     max-width:100%;
     border-radius:2px;
@@ -283,6 +283,21 @@ sub{
   }
 }
 
+.row-50_50-prim{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:2em;
+  img{
+    width:100%;
+    // border-radius:300%;
+    opacity:1;
+    padding:0 1em 0 0;
+    &:hover{
+      opacity:1;
+    }
+  }
+}
+
 #row-header{
   display:flex;
   flex-direction:row;
@@ -320,6 +335,14 @@ sub{
       }
     }
   }
+}
+
+#row-professional_and_academic{
+  margin-bottom:4em;
+}
+
+#row-interests_and_hobbies{
+
 }
 
 /*--Importantants--*/

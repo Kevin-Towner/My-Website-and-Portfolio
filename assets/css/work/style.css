@@ -375,7 +375,7 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 12px 0;
-  margin-bottom: 8px;
+  font-weight: 400;
 }
 #row-ui_design .row-33_67-primary {
   grid-gap: 2em;
@@ -415,7 +415,7 @@ sub {
   width: 100%;
 }
 #row-ui_design .row-33_67-primary #row-ui_design-column-right ul {
-  margin: 0 0 24px 0;
+  margin: 0 0 16px 0;
 }
 #row-ui_design .row-33_67-primary #row-ui_design-column-right ul li {
   font-family: 'Roboto', sans-serif;
@@ -426,7 +426,7 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 12px 0;
-  margin-bottom: 8px;
+  font-weight: 400;
 }
 /*--Importantants--*/
 #menu > li > a {
