@@ -288,12 +288,12 @@ sub{
   grid-template-columns: 1fr 1fr;
   grid-gap:2em;
   img{
-    width:100%;
-    // border-radius:300%;
-    opacity:1;
-    padding:0 1em 0 0;
+    max-width:100%;
+    min-width:100%;
+    border:2px solid lightgrey;
+    border-radius:2px;
     &:hover{
-      opacity:1;
+      border:2px solid #0047FF;
     }
   }
 }

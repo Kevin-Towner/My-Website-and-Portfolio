@@ -86,10 +86,6 @@
   color:@color-misc_1;
   text-decoration:none;
   font-weight:300;
-  &:hover{
-    text-decoration:underline;
-    color:@color-hyperlink;
-  }
   font-size:12.5pt;
 }
 .font-hyperlink_in-text{
@@ -97,10 +93,6 @@
   color:@color-hyperlink;
   text-decoration:none;
   font-weight:300;
-  &:hover{
-    text-decoration:underline;
-    color:@color-hyperlink;
-  }
   font-size:14pt;
 }
 .font-caption{
@@ -228,7 +220,12 @@ sub{
   grid-gap:2em;
   img{
     max-width:100%;
+    min-width:100%;
+    border:2px solid lightgrey;
     border-radius:2px;
+    &:hover{
+      border:2px solid #0047FF;
+    }
   }
 }
 
@@ -238,7 +235,12 @@ sub{
   grid-gap:1em;
   img{
     max-width:100%;
+    min-width:100%;
+    border:2px solid lightgrey;
     border-radius:2px;
+    &:hover{
+      border:2px solid #0047FF;
+    }
   }
   div{
     .font-italic{
@@ -252,7 +254,12 @@ sub{
   grid-gap:2em;
   img{
     max-width:100%;
+    min-width:100%;
+    border:2px solid lightgrey;
     border-radius:2px;
+    &:hover{
+      border:2px solid #0047FF;
+    }
   }
   div{
     ul{
@@ -371,6 +378,12 @@ sub{
         flex-direction:column;
         img{
           max-width:100%;
+          min-width:100%;
+          border:2px solid lightgrey;
+          border-radius:2px;
+          &:hover{
+            border:2px solid #0047FF;
+          }
         }
         span{
         }
@@ -386,6 +399,12 @@ sub{
         flex-direction:column;
         img{
           max-width:100%;
+          min-width:100%;
+          border:2px solid lightgrey;
+          border-radius:2px;
+          &:hover{
+            border:2px solid #0047FF;
+          }
         }
         span{
         }

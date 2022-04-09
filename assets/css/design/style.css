@@ -75,10 +75,6 @@
   font-weight: 300;
   font-size: 12.5pt;
 }
-.font-hyperlink_text:hover {
-  text-decoration: underline;
-  color: #E93661;
-}
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -90,10 +86,6 @@
   text-decoration: none;
   font-weight: 300;
   font-size: 14pt;
-}
-.font-hyperlink_in-text:hover {
-  text-decoration: underline;
-  color: #E93661;
 }
 .font-caption {
   color: #292F37;
@@ -217,10 +209,6 @@ a {
   font-weight: 300;
   font-size: 12.5pt;
 }
-a:hover {
-  text-decoration: underline;
-  color: #E93661;
-}
 sub {
   color: #292F37;
   font-family: 'Roboto', sans-serif;
@@ -259,12 +247,12 @@ sub {
 }
 .row-50_50-prim img {
   max-width: 100%;
+  min-width: 100%;
+  border: 2px solid lightgrey;
   border-radius: 2px;
 }
-.row-50_50-prim div .font-italic {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 14pt;
+.row-50_50-prim img:hover {
+  border: 2px solid #0047FF;
 }
 .row-33_66-prim {
   display: grid;
@@ -273,7 +261,12 @@ sub {
 }
 .row-33_66-prim img {
   max-width: 100%;
+  min-width: 100%;
+  border: 2px solid lightgrey;
   border-radius: 2px;
+}
+.row-33_66-prim img:hover {
+  border: 2px solid #0047FF;
 }
 .row-33_66-prim div .font-italic {
   font-style: italic;
@@ -287,7 +280,12 @@ sub {
 }
 .row-67_33-seco img {
   max-width: 100%;
+  min-width: 100%;
+  border: 2px solid lightgrey;
   border-radius: 2px;
+}
+.row-67_33-seco img:hover {
+  border: 2px solid #0047FF;
 }
 .row-67_33-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -400,6 +398,12 @@ sub {
 }
 #row-overview div .row-50_50-prim a img {
   max-width: 100%;
+  min-width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 2px;
+}
+#row-overview div .row-50_50-prim a img:hover {
+  border: 2px solid #0047FF;
 }
 #row-design_thinking div .row-50_50-prim a {
   display: flex;
@@ -407,6 +411,12 @@ sub {
 }
 #row-design_thinking div .row-50_50-prim a img {
   max-width: 100%;
+  min-width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 2px;
+}
+#row-design_thinking div .row-50_50-prim a img:hover {
+  border: 2px solid #0047FF;
 }
 /*--Importantants--*/
 #visible-while-mobile_h1 {

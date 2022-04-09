@@ -320,12 +320,13 @@ sub {
   grid-gap: 2em;
 }
 .row-50_50-prim img {
-  width: 100%;
-  opacity: 1;
-  padding: 0 1em 0 0;
+  max-width: 100%;
+  min-width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 2px;
 }
 .row-50_50-prim img:hover {
-  opacity: 1;
+  border: 2px solid #0047FF;
 }
 #row-header {
   display: flex;
