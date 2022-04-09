@@ -51,27 +51,17 @@
     width: 80%;
     padding:16vh 0 16vh 0;
   }
-  .row-33_66-prim {
+  .row-50_50-prim {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2em;
+    grid-gap: 1em;
   }
-  .row-33_66-seco{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2em;
+  #row-interests_and_hobbies{
+    display:flex;
+    flex-direction:column-reverse;
   }
-  .row-25_25_25_25-prim{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:2em;
-  }
-  .row-33_66-seco div p{
-    text-align: left;
-  }
-  .row-33_33_33-prim{
-    grid-template-columns:1fr;
-    grid-gap:.5em;
+  #row-professional_and_academic{
+    margin-bottom:2em;
   }
 
 @media screen and (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
