@@ -136,8 +136,11 @@
   color: #565F6D;
 }
 .button-CTA {
+  margin-top: 1em;
   border: 2px solid #565F6D;
+  border-radius: 4px;
   color: #565F6D;
+  background: #FFF;
 }
 .button-CTA:hover {
   color: #FFF;
@@ -376,22 +379,22 @@ sub {
   margin: 0 0 12px 0;
   margin-bottom: 8px;
 }
-#row-side_projects .row-33_67-primary {
+#row-ui_design .row-33_67-primary {
   border-bottom: 1px solid lightgrey;
   grid-gap: 2em;
   padding-bottom: 2em;
 }
-#row-side_projects .row-33_67-primary div a img {
+#row-ui_design .row-33_67-primary div a img {
   border-radius: 2px;
   max-width: 100%;
   min-width: 100%;
   border: 2px solid lightgrey;
   border-radius: 1px;
 }
-#row-side_projects .row-33_67-primary div a img:hover {
+#row-ui_design .row-33_67-primary div a img:hover {
   border: 1px solid #0047FF;
 }
-#row-side_projects .row-33_67-primary #row-projects-column-right h4 {
+#row-ui_design .row-33_67-primary #row-ui_design-column-right h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14.5pt;
@@ -402,22 +405,22 @@ sub {
   letter-spacing: 0.6px;
   font-weight: 400;
 }
-#row-side_projects .row-33_67-primary #row-projects-column-right div a img {
+#row-ui_design .row-33_67-primary #row-ui_design-column-right div a img {
   max-width: 100%;
   min-width: 100%;
   border: 2px solid lightgrey;
   border-radius: 2px;
 }
-#row-side_projects .row-33_67-primary #row-projects-column-right div a img:hover {
+#row-ui_design .row-33_67-primary #row-ui_design-column-right div a img:hover {
   border: 1px solid #0047FF;
 }
-#row-side_projects .row-33_67-primary #row-projects-column-right p {
+#row-ui_design .row-33_67-primary #row-ui_design-column-right p {
   width: 100%;
 }
-#row-side_projects .row-33_67-primary #row-projects-column-right ul {
+#row-ui_design .row-33_67-primary #row-ui_design-column-right ul {
   margin: 0 0 24px 0;
 }
-#row-side_projects .row-33_67-primary #row-projects-column-right ul li {
+#row-ui_design .row-33_67-primary #row-ui_design-column-right ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
