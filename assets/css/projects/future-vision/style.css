@@ -546,7 +546,7 @@ mark {
   text-align: right;
 }
 #row-ideate .row-50_50-prim {
-  grid-gap: 2em;
+  grid-gap: 3em;
 }
 #row-ideate .row-50_50-prim a {
   display: flex;
