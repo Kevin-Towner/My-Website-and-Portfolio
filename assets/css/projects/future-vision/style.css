@@ -207,6 +207,7 @@ ul li {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 8px 0;
+  margin-bottom: 0;
 }
 a {
   font-family: 'Roboto', sans-serif;
