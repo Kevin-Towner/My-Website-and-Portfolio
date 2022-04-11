@@ -249,7 +249,10 @@ sub {
 }
 .row-50_50-prim img {
   max-width: 100%;
-  border-radius: 2px;
+  border: 2px solid #E5E5E5;
+}
+.row-50_50-prim img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
@@ -268,7 +271,10 @@ sub {
 }
 .row-50_50-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border: 2px solid #E5E5E5;
+}
+.row-50_50-seco img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-50_50-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -286,7 +292,10 @@ sub {
 }
 .row-33_67-prim img {
   max-width: 100%;
-  border-radius: 2px;
+  border: 2px solid #E5E5E5;
+}
+.row-33_67-prim img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-33_67-prim div .font-italic {
   font-style: italic;
@@ -300,7 +309,10 @@ sub {
 }
 .row-67_33-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border: 2px solid #E5E5E5;
+}
+.row-67_33-seco img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-67_33-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -318,7 +330,10 @@ sub {
 }
 .row-33_67-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border: 2px solid #E5E5E5;
+}
+.row-33_67-seco img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-33_67-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -352,8 +367,11 @@ sub {
   text-align: justify;
 }
 .row-33_33_33-prim a img {
-  max-width: 67%;
-  float: right;
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+.row-33_33_33-prim a img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-25_25_25_25-prim {
   display: grid;

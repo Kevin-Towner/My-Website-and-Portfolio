@@ -228,7 +228,10 @@ sub{
   grid-column-gap:2em;
   img{
     max-width:100%;
-    border-radius:2px;
+    border:2px solid #E5E5E5;
+    &:hover{
+      border:2px solid @color-hyperlink;
+    }
   }
   div{
     ul{
@@ -252,7 +255,10 @@ sub{
   grid-template-columns: 1fr 1fr;
   img{
     max-width:100%;
-    border-radius:2px;
+    border:2px solid #E5E5E5;
+    &:hover{
+      border:2px solid @color-hyperlink;
+    }
   }
   div{
     ul{
@@ -273,7 +279,10 @@ sub{
   grid-gap:8em;
   img{
     max-width:100%;
-    border-radius:2px;
+    border:2px solid #E5E5E5;
+    &:hover{
+      border:2px solid @color-hyperlink;
+    }
   }
   div{
     .font-italic{
@@ -287,7 +296,10 @@ sub{
   grid-gap:2em;
   img{
     max-width:100%;
-    border-radius:2px;
+    border:2px solid #E5E5E5;
+    &:hover{
+      border:2px solid @color-hyperlink;
+    }
   }
   div{
     ul{
@@ -304,7 +316,10 @@ sub{
   grid-gap:2em;
   img{
     max-width:100%;
-    border-radius:2px;
+    border:2px solid #E5E5E5;
+    &:hover{
+      border:2px solid @color-hyperlink;
+    }
   }
   div{
     ul{
@@ -338,8 +353,11 @@ sub{
   }
   a{
     img{
-      max-width:67%;
-      float:right;
+      max-width:100%;
+      border:2px solid #E5E5E5;
+      &:hover{
+        border:2px solid @color-hyperlink;
+      }
     }
   }
 }

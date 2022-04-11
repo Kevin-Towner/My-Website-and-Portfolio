@@ -249,7 +249,7 @@ sub {
 }
 .row-50_50-prim img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
@@ -267,7 +267,7 @@ sub {
 }
 .row-50_50-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-50_50-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -285,7 +285,7 @@ sub {
 }
 .row-33_67-prim img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-33_67-prim div .font-italic {
   font-style: italic;
@@ -299,7 +299,7 @@ sub {
 }
 .row-67_33-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-67_33-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -317,7 +317,7 @@ sub {
 }
 .row-33_67-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-33_67-seco div ul {
   font-family: 'Roboto', sans-serif;

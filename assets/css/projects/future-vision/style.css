@@ -271,7 +271,7 @@ mark {
 }
 .row-50_50-prim img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
@@ -281,7 +281,7 @@ mark {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 8px 0;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 .row-50_50-seco {
   display: grid;
@@ -289,7 +289,7 @@ mark {
 }
 .row-50_50-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-33_67-prim {
   display: grid;
@@ -298,7 +298,7 @@ mark {
 }
 .row-33_67-prim img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-33_67-prim div .font-italic {
   font-style: italic;
@@ -312,7 +312,7 @@ mark {
 }
 .row-67_33-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-67_33-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -330,7 +330,7 @@ mark {
 }
 .row-33_67-seco img {
   max-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .row-33_67-seco div ul {
   font-family: 'Roboto', sans-serif;
