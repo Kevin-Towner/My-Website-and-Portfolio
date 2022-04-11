@@ -290,10 +290,7 @@ sub {
 .row-33_33_33-prim {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2em;
-}
-.row-33_33_33-prim div p {
-  text-align: justify;
+  grid-gap: 1em;
 }
 .row-25_25_25_25-prim {
   display: grid;
