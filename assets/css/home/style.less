@@ -3,8 +3,8 @@
 /* - - - - COLORS & EFFECTS - - - - -  */
 @color-primary:#FFF;
 @color-secondary:#FCFCFC;
-@color-misc_1:#292F37;
-@color-misc_2:#565F6D;
+@color-misc_1:#565F6D;
+@color-misc_2:#6C7583;
 @color-CTA:#B41AB7;
 @color-CTA-Alt:rgba(111, 0, 255, 70%);
 @color-hyperlink:#2E69FF;
@@ -81,7 +81,7 @@
   line-height:165%;
   letter-spacing:.5px;
   font-weight:300;
-  color:@color-misc_2;
+  color:@color-misc_1;
   margin: 0 0 12px 0;
 }
 .font-subtitle{
@@ -251,12 +251,12 @@ sub{
   a{
     button{
       background-color:@color-primary;
-      border:2px solid #565F6D;
+      border:2px solid @color-misc_2;
       border-radius:4px;
-      color:#565F6D;
+      color:@color-misc_2;
       padding:12px 20px 12px 20px;
       span{
-        font-weight:400;
+        font-weight:500;
         font-size:11pt;
         letter-spacing:.33px;
       }

@@ -3,9 +3,9 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 29pt;
-  background-color: #565F6D;
+  background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -15,10 +15,10 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 22pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
@@ -34,17 +34,17 @@
   margin: 0 0 18px 0;
   text-align: left;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
 }
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
@@ -61,7 +61,7 @@
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #292F37;
+  color: #565F6D;
   margin: 24px 0 8px 0;
 }
 .font-hyperlink_text {
@@ -69,9 +69,8 @@
   margin: 0;
   font-size: 11.5pt;
   line-height: 160%;
-  color: #565F6D;
   margin: 0 0 16px 0;
-  color: #292F37;
+  color: #565F6D;
   text-decoration: none;
   font-weight: 300;
 }
@@ -96,7 +95,7 @@
   color: #2E69FF;
 }
 .font-caption {
-  color: #292F37;
+  color: #565F6D;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -110,7 +109,7 @@
 }
 .highlight {
   font-weight: 400;
-  color: #565F6D;
+  color: #6C7583;
 }
 .font-bold {
   font-family: 'Roboto', sans-serif;
@@ -150,9 +149,9 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 29pt;
-  background-color: #565F6D;
+  background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -162,10 +161,10 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 22pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
@@ -181,17 +180,17 @@ h3 {
   margin: 0 0 18px 0;
   text-align: left;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -211,9 +210,8 @@ a {
   margin: 0;
   font-size: 11.5pt;
   line-height: 160%;
-  color: #565F6D;
   margin: 0 0 16px 0;
-  color: #292F37;
+  color: #565F6D;
   text-decoration: none;
   font-weight: 300;
 }
@@ -222,7 +220,7 @@ a:hover {
   color: #2E69FF;
 }
 sub {
-  color: #292F37;
+  color: #565F6D;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -250,7 +248,7 @@ sub {
 .bullet-point {
   padding: 0 10px 0 10px;
   font-size: 20pt;
-  color: #565F6D;
+  color: #6C7583;
 }
 .row-33_66-prim {
   display: grid;

@@ -3,9 +3,9 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 28pt;
-  background-color: #565F6D;
+  background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -19,7 +19,7 @@
   font-weight: 400;
   font-size: 22pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
@@ -33,7 +33,7 @@
   font-weight: 400;
   font-size: 18pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
@@ -44,10 +44,10 @@
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14.5pt;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid #C4C4C4;
   line-height: 0.1em;
   margin: 0 0 24px 0;
@@ -58,10 +58,10 @@
 }
 .font-heading_text-h4-alt {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14.5pt;
   line-height: 165%;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 12px 0;
   border-bottom: none;
 }
@@ -81,7 +81,7 @@
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #292F37;
+  color: #565F6D;
   margin: 24px 0 8px 0;
 }
 .font-hyperlink_text {
@@ -90,16 +90,15 @@
   font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
-  color: #565F6D;
   margin: 0 0 12px 0;
-  color: #292F37;
+  color: #565F6D;
   text-decoration: none;
   font-weight: 300;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
@@ -109,17 +108,17 @@
   letter-spacing: 0.5px;
   color: #565F6D;
   margin: 0 0 12px 0;
-  color: #E93661;
+  color: #2E69FF;
   text-decoration: none;
   font-weight: 300;
   font-size: 14pt;
 }
 .font-hyperlink_in-text:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 .font-caption {
-  color: #565F6D;
+  color: #6C7583;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -133,13 +132,13 @@
 }
 .highlight {
   font-weight: 400;
-  color: #565F6D;
+  color: #6C7583;
 }
 .button-CTA {
   margin: 1em 0 0 0;
-  border: 2px solid #565F6D;
+  border: 2px solid #6C7583;
   border-radius: 4px;
-  color: #565F6D;
+  color: #6C7583;
   background: #FFF;
 }
 .button-CTA:hover {
@@ -179,9 +178,9 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 28pt;
-  background-color: #565F6D;
+  background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -195,7 +194,7 @@ h2 {
   font-weight: 400;
   font-size: 22pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
@@ -209,7 +208,7 @@ h3 {
   font-weight: 400;
   font-size: 18pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
@@ -220,10 +219,10 @@ h3 span {
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14.5pt;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid #C4C4C4;
   line-height: 0.1em;
   margin: 0 0 24px 0;
@@ -252,19 +251,18 @@ a {
   font-size: 11.5pt;
   line-height: 165%;
   letter-spacing: 0.5px;
-  color: #565F6D;
   margin: 0 0 12px 0;
-  color: #292F37;
+  color: #565F6D;
   text-decoration: none;
   font-weight: 300;
   font-size: 12.5pt;
 }
 a:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 sub {
-  color: #565F6D;
+  color: #6C7583;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -290,7 +288,7 @@ sub {
 .bullet-point {
   padding: 0 10px 0 10px;
   font-size: 14pt;
-  color: #565F6D;
+  color: #6C7583;
 }
 .list-misc_projects li {
   display: flex;
@@ -335,7 +333,7 @@ sub {
   width: 100%;
 }
 #row-header div a {
-  color: #E93661;
+  color: #2E69FF;
   font-weight: 400;
 }
 #row-case_studies .row-33_67-primary {
@@ -352,14 +350,13 @@ sub {
 }
 #row-case_studies .row-33_67-primary #row-case_studies-column-right h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14.5pt;
   line-height: 165%;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 12px 0;
   border-bottom: none;
   letter-spacing: 0.6px;
-  font-weight: 400;
 }
 #row-case_studies .row-33_67-primary #row-case_studies-column-right p {
   width: 100%;
@@ -392,14 +389,13 @@ sub {
 }
 #row-ui_design .row-33_67-primary #row-ui_design-column-right h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14.5pt;
   line-height: 165%;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 12px 0;
   border-bottom: none;
   letter-spacing: 0.6px;
-  font-weight: 400;
 }
 #row-ui_design .row-33_67-primary #row-ui_design-column-right div a img {
   max-width: 100%;
@@ -430,7 +426,7 @@ sub {
 /*--Importantants--*/
 #menu > li > a {
   text-decoration: none;
-  color: #292F37;
+  color: #565F6D;
 }
 #visible-while-mobile_h1 {
   display: none;

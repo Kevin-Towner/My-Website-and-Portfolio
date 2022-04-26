@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 26pt;
-  background-color: #565F6D;
+  background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -18,13 +18,13 @@
   font-weight: 400;
   font-size: 20pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
 .font-heading_text-h2 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 0.5em 0 0px;
 }
 .font-heading_text-h3 {
@@ -32,7 +32,7 @@
   font-weight: 300;
   font-size: 16pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 2em 0;
 }
 .font-heading_text-h4 {
@@ -43,7 +43,7 @@
   margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
 }
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
@@ -51,7 +51,7 @@
   font-size: 11.5pt;
   line-height: 160%;
   font-weight: 300;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 16px 0;
 }
 .font-subtitle {
@@ -60,7 +60,7 @@
   font-weight: 500;
   text-align: left;
   line-height: 140%;
-  color: #303841;
+  color: #565F6D;
   margin: 24px 0 8px 0;
 }
 .font-hyperlink_text {
@@ -68,35 +68,35 @@
   margin: 0;
   font-size: 11.5pt;
   line-height: 160%;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 16px 0;
-  color: #303841;
+  color: #565F6D;
   text-decoration: none;
   font-weight: 300;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 11.5pt;
   line-height: 160%;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 16px 0;
-  color: #E93661;
+  color: #2E69FF;
   text-decoration: none;
   font-weight: 300;
   font-size: 14pt;
 }
 .font-hyperlink_in-text:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 .font-caption {
-  color: #303841;
+  color: #565F6D;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -107,7 +107,7 @@
 }
 .highlight {
   font-weight: 400;
-  color: #565F6D;
+  color: #6C7583;
 }
 /* - - - -CONTAINERS - - - - - */
 .container-screen_content-67 {
@@ -119,17 +119,17 @@
 }
 .container-body-100 {
   margin: 0 auto;
-  background: #FEFEFE;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
 }
 /* - - - - Misc  - - - -  -*/
 html {
-  background: #FEFEFE;
+  background: #FCFCFC;
 }
 body {
   margin: 0 auto;
-  background: #FEFEFE;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
   font-size: 16pt;
@@ -138,7 +138,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 26pt;
-  background-color: #565F6D;
+  background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -151,13 +151,13 @@ h2 {
   font-weight: 400;
   font-size: 20pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
 h2 span {
-  background: #FEFEFE;
+  background: #FCFCFC;
   padding: 0 0.5em 0 0px;
 }
 h3 {
@@ -165,7 +165,7 @@ h3 {
   font-weight: 300;
   font-size: 16pt;
   text-align: left;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 2em 0;
 }
 h4 {
@@ -176,7 +176,7 @@ h4 {
   margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -184,7 +184,7 @@ p {
   font-size: 11.5pt;
   line-height: 160%;
   font-weight: 300;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 16px 0;
 }
 ul {
@@ -196,19 +196,19 @@ a {
   margin: 0;
   font-size: 11.5pt;
   line-height: 160%;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 16px 0;
-  color: #303841;
+  color: #565F6D;
   text-decoration: none;
   font-weight: 300;
   font-size: 12.5pt;
 }
 a:hover {
   text-decoration: underline;
-  color: #E93661;
+  color: #2E69FF;
 }
 sub {
-  color: #303841;
+  color: #565F6D;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -234,7 +234,7 @@ sub {
 .bullet-point {
   padding: 0 10px 0 10px;
   font-size: 20pt;
-  color: #565F6D;
+  color: #6C7583;
 }
 .list-misc_projects li {
   display: flex;
@@ -249,7 +249,7 @@ sub {
   grid-gap: 24px;
 }
 .grid-columns_3 a {
-  background-color: #FEFEFE;
+  background-color: #FCFCFC;
 }
 .grid-columns_3 a div {
   display: flex;
@@ -261,19 +261,19 @@ sub {
   position: relative;
 }
 .grid-columns_3 a div span {
-  color: #303841;
+  color: #565F6D;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
-  color: #565F6D;
+  color: #6C7583;
   text-align: left;
   font-weight: 300;
 }
 .grid-columns_3 a div p {
-  color: #565F6D;
+  color: #6C7583;
   margin: 0;
 }
 .grid-columns_3 a:hover {
-  background-color: #FEFEFE;
+  background-color: #FCFCFC;
 }
 .grid-columns_3 a:hover img {
   opacity: 1;
@@ -282,7 +282,7 @@ sub {
   color: #B41AB7;
 }
 .grid-columns_3 a:hover span {
-  color: #E93661;
+  color: #2E69FF;
 }
 .grid-columns_3 a:hover {
   text-decoration: none;
@@ -318,7 +318,7 @@ sub {
   color: #0047FF;
 }
 #row-header-prim div a:hover {
-  color: #E93661;
+  color: #2E69FF;
 }
 #row-header-prim div ul {
   font-family: 'Roboto', sans-serif;
@@ -326,7 +326,7 @@ sub {
   font-size: 11.5pt;
   line-height: 160%;
   font-weight: 300;
-  color: #565F6D;
+  color: #6C7583;
   margin: 0 0 16px 0;
 }
 #row-misc_projects ul li {
@@ -334,15 +334,15 @@ sub {
   padding-bottom: 1.5em;
 }
 #row-misc_projects ul li a {
-  color: #565F6D;
+  color: #6C7583;
 }
 #row-misc_projects ul li a:hover {
-  color: #E93661;
+  color: #2E69FF;
 }
 /*--Importantants--*/
 #menu > li > a {
   text-decoration: none;
-  color: #303841;
+  color: #565F6D;
 }
 #visible-while-mobile_h1 {
   display: none;
