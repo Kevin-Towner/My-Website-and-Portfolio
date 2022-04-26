@@ -3,7 +3,7 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 26pt;
   background-color: #6C7583;
   background-size: 100%;
@@ -14,7 +14,7 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20pt;
   text-align: left;
   color: #6C7583;
@@ -37,7 +37,7 @@
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
@@ -142,7 +142,7 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 26pt;
   background-color: #6C7583;
   background-size: 100%;
@@ -153,7 +153,7 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20pt;
   text-align: left;
   color: #6C7583;
@@ -176,7 +176,7 @@ h3 {
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
@@ -471,6 +471,7 @@ mark {
 }
 #row-header-signature span {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 14pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
@@ -482,6 +483,7 @@ mark {
 }
 #row-header-signature span a {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 14pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
