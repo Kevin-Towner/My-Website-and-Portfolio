@@ -3,8 +3,8 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 26pt;
+  font-weight: 300;
+  font-size: 32pt;
   background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
@@ -14,8 +14,8 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 20pt;
+  font-weight: 400;
+  font-size: 24pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid lightgrey;
@@ -29,15 +29,16 @@
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16pt;
+  font-size: 24pt;
+  margin: 0 0 18px 0;
   text-align: left;
+  line-height: 140%;
   color: #6C7583;
-  margin: 0 0 2em 0;
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14pt;
+  font-weight: 400;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -47,8 +48,8 @@
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -65,8 +66,8 @@
 .font-hyperlink_text-1 {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -141,8 +142,8 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 26pt;
+  font-weight: 300;
+  font-size: 32pt;
   background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
@@ -152,8 +153,8 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 20pt;
+  font-weight: 400;
+  font-size: 24pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid lightgrey;
@@ -167,15 +168,16 @@ h2 span {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16pt;
+  font-size: 24pt;
+  margin: 0 0 18px 0;
   text-align: left;
+  line-height: 140%;
   color: #6C7583;
-  margin: 0 0 2em 0;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14pt;
+  font-weight: 400;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -185,8 +187,8 @@ h4 {
 p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -252,8 +254,8 @@ sub {
 .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -270,8 +272,8 @@ sub {
 .row-50_50-seco div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -302,8 +304,8 @@ sub {
 .row-67_33-seco div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -320,8 +322,8 @@ sub {
 .row-33_67-seco div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -334,8 +336,8 @@ sub {
 .row-33_33_33-prim div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -357,8 +359,8 @@ sub {
 .row-25_25_25_25-prim div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -419,7 +421,8 @@ sub {
   display: none;
 }
 #row-header div h4 {
-  line-height: 170%;
+  font-size: 14.5pt;
+  line-height: 150%;
   font-weight: 300;
 }
 #row-header div p {
@@ -428,8 +431,8 @@ sub {
 #row-header div a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -458,8 +461,7 @@ sub {
 }
 #row-header-signature span {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14pt;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -470,8 +472,7 @@ sub {
 }
 #row-header-signature span a {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14pt;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -507,8 +508,8 @@ sub {
 #row-introduction div div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -571,8 +572,8 @@ sub {
 #row-feedback .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 11.5pt;
-  line-height: 165%;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
