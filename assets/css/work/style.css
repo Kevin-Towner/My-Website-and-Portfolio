@@ -10,7 +10,6 @@
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0.4px;
   margin: 0 0 16px;
   line-height: 160%;
 }
@@ -185,7 +184,6 @@ h1 {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0.4px;
   margin: 0 0 16px;
   line-height: 160%;
 }
