@@ -3,20 +3,19 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 26pt;
+  font-weight: 300;
+  font-size: 32pt;
   background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0px;
-  margin: 0 0 32px 0;
+  margin: 0 0 24px;
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20pt;
+  font-size: 24pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid lightgrey;
@@ -30,39 +29,30 @@
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16pt;
+  font-size: 24pt;
+  margin: 0 0 18px 0;
   text-align: left;
+  line-height: 140%;
   color: #6C7583;
-  margin: 0 0 2em 0;
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
   color: #6C7583;
 }
-.font-heading_text-h4-alt {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14.5pt;
-  line-height: 165%;
-  color: #6C7583;
-  margin: 0 0 12px 0;
-  border-bottom: none;
-}
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12.5pt;
-  line-height: 165%;
-  letter-spacing: 0.5px;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
-  margin: 0 0 12px 0;
+  margin: 0 0 16px 0;
 }
 .font-subtitle {
   font-family: 'Roboto', sans-serif;
@@ -76,9 +66,9 @@
 .font-hyperlink_text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  line-height: 165%;
-  letter-spacing: 0.5px;
-  margin: 0 0 12px 0;
+  font-size: 12pt;
+  line-height: 160%;
+  margin: 0 0 16px 0;
   color: #565F6D;
   text-decoration: none;
   font-weight: 300;
@@ -91,11 +81,10 @@
 .font-hyperlink_in-text {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12.5pt;
-  line-height: 165%;
-  letter-spacing: 0.5px;
+  font-size: 12pt;
+  line-height: 160%;
   color: #565F6D;
-  margin: 0 0 12px 0;
+  margin: 0 0 16px 0;
   color: #2E69FF;
   text-decoration: none;
   font-weight: 300;
@@ -149,20 +138,19 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 26pt;
+  font-weight: 300;
+  font-size: 32pt;
   background-color: #6C7583;
   background-size: 100%;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0px;
-  margin: 0 0 32px 0;
+  margin: 0 0 24px;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20pt;
+  font-size: 24pt;
   text-align: left;
   color: #6C7583;
   border-bottom: 1px solid lightgrey;
@@ -176,15 +164,16 @@ h2 span {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 16pt;
+  font-size: 24pt;
+  margin: 0 0 18px 0;
   text-align: left;
+  line-height: 140%;
   color: #6C7583;
-  margin: 0 0 2em 0;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -194,12 +183,11 @@ h4 {
 p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 12.5pt;
-  line-height: 165%;
-  letter-spacing: 0.5px;
+  font-size: 12pt;
+  line-height: 160%;
   font-weight: 300;
   color: #565F6D;
-  margin: 0 0 12px 0;
+  margin: 0 0 16px 0;
 }
 ul {
   list-style-type: none;
@@ -208,9 +196,9 @@ ul {
 a {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  line-height: 165%;
-  letter-spacing: 0.5px;
-  margin: 0 0 12px 0;
+  font-size: 12pt;
+  line-height: 160%;
+  margin: 0 0 16px 0;
   color: #565F6D;
   text-decoration: none;
   font-weight: 300;
@@ -279,8 +267,8 @@ sub {
   padding: 12px 20px 12px 20px;
 }
 .button-row a button span {
-  font-weight: 500;
-  font-size: 11pt;
+  font-weight: 400;
+  font-size: 10.5pt;
   letter-spacing: 0.33px;
 }
 .button-row a button:hover {
