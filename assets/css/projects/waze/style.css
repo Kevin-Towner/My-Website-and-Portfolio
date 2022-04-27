@@ -467,12 +467,15 @@ sub {
 }
 #row-header-signature span {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
   line-height: 140%;
-  font-weight: 400;
+  font-size: 14.5pt;
+  line-height: 150%;
+  font-weight: 300;
   color: #6C7583;
   margin: 0;
 }
