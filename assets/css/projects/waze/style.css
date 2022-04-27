@@ -355,8 +355,7 @@ sub {
   margin: auto;
 }
 .row-33_33_33-prim a img {
-  max-width: 67%;
-  float: right;
+  max-width: 100%;
 }
 .row-25_25_25_25-prim {
   display: grid;
@@ -559,11 +558,14 @@ sub {
 #row-refinement .row-50_50-prim p {
   text-align: left;
 }
-#row-prototype .row-50_50-prim a img {
+#row-test .row-50_50-prim {
+  grid-gap: 2em;
+}
+#row-test .row-50_50-prim a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-prototype .row-50_50-prim a img:hover {
+#row-test .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
 }
 #row-feedback div a img {
@@ -587,6 +589,30 @@ sub {
   margin-bottom: 6px;
 }
 #row-feedback .row-50_50-prim div ul li span img {
+  height: 9.7px;
+  padding-right: 4.7px;
+}
+#row-components div a img {
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+#row-components div a img:hover {
+  border: 2px solid #2E69FF;
+}
+#row-components .row-33_33_33-prim div ul {
+  margin: 0;
+}
+#row-components .row-33_33_33-prim div ul li {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #565F6D;
+  margin: 0 0 16px 0;
+  margin-bottom: 6px;
+}
+#row-components .row-33_33_33-prim div ul li span img {
   height: 9.7px;
   padding-right: 4.7px;
 }
