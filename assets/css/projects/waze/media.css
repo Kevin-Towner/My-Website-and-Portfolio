@@ -135,9 +135,6 @@
   .row-to_top-prim{
       margin:0 0 67px 67%;
   }
-  #row-prototype{
-    margin:0 0 4em 0;
-  }
   #row-test_B .row-50_50-prim{
     grid-gap:1em;
   }
