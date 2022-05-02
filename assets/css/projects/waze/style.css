@@ -257,6 +257,7 @@ sub {
 .row-50_50-prim a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
+  border-radius: 2px;
 }
 .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
@@ -370,6 +371,7 @@ sub {
 .row-33_33_33-prim a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
+  border-radius: 2px;
 }
 .row-33_33_33-prim a img:hover {
   border: 2px solid #2E69FF;
