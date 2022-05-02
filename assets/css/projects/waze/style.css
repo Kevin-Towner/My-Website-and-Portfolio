@@ -254,9 +254,12 @@ sub {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2em;
 }
-.row-50_50-prim img {
+.row-50_50-prim a img {
   max-width: 100%;
-  border-radius: 4px;
+  border: 2px solid #E5E5E5;
+}
+.row-50_50-prim a img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-50_50-prim div ul li {
   font-family: 'Roboto', sans-serif;
@@ -272,9 +275,12 @@ sub {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.row-50_50-seco img {
+.row-50_50-seco a img {
   max-width: 100%;
-  border-radius: 4px;
+  border: 2px solid #E5E5E5;
+}
+.row-50_50-seco a img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-50_50-seco div ul {
   font-family: 'Roboto', sans-serif;
@@ -284,6 +290,13 @@ sub {
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
+}
+.row-50_50-seco div a img {
+  max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+.row-50_50-seco div a img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-33_67-prim {
   display: grid;
@@ -356,6 +369,10 @@ sub {
 }
 .row-33_33_33-prim a img {
   max-width: 100%;
+  border: 2px solid #E5E5E5;
+}
+.row-33_33_33-prim a img:hover {
+  border: 2px solid #2E69FF;
 }
 .row-25_25_25_25-prim {
   display: grid;
@@ -563,13 +580,6 @@ sub {
 }
 #row-test .row-50_50-prim {
   grid-gap: 2em;
-}
-#row-test .row-50_50-prim a img {
-  max-width: 100%;
-  border: 2px solid #E5E5E5;
-}
-#row-test .row-50_50-prim a img:hover {
-  border: 2px solid #2E69FF;
 }
 #row-feedback div a img {
   max-width: 100%;
