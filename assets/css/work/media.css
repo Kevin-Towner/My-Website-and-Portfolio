@@ -42,27 +42,6 @@
     padding: 0;
     margin-top:1em;
   }
-  #row-case_studies .row-67_33-primary{
-    grid-template-columns: 2fr 1fr;
-    grid-gap:2em;
-  }
-  #row-case_studies .row-33_67-primary #row-case_studies-column-right p{
-    width:100%;
-  }
-  #row-case_studies .row-33_67-primary{
-    grid-gap:2em;
-  }
-
-  #row-side_projects .row-67_33-primary{
-    grid-template-columns: 2fr 1fr;
-    grid-gap:2em;
-  }
-  #row-side_projects .row-33_67-primary #row-projects-column-right p{
-    width:100%;
-  }
-  #row-side_projects .row-33_67-primary{
-    grid-gap:2em;
-  }
 }
 
 @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -91,6 +70,7 @@
 
   .row-33_33_33-primary{
     grid-template-columns: 1fr;
+    grid-row-gap:1em;
   }
 
   #row-header{

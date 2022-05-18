@@ -274,6 +274,7 @@ sub {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
+  grid-row-gap: 0.6em;
 }
 .row-33_33_33-primary div a {
   position: relative;
