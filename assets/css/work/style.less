@@ -252,18 +252,29 @@ sub{
 .row-33_33_33-primary{
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
-  grid-gap:1em;
-  grid-row-gap:.6em;
+  grid-gap:0;
   div{
     a{
       position: relative;
       display: inline-block;
-        vertical-align:middle;
+      vertical-align:middle;
+      margin:0;
       img{
         max-width:100%;
         min-width:100%;
         min-height:250px;
-        border-radius:2px;
+      }
+      .img-br-tl {
+        border-top-left-radius:2px;
+      }
+      .img-br-tr {
+        border-top-right-radius:2px;
+      }
+      .img-br-br {
+        border-bottom-right-radius:2px;
+      }
+      .img-br-bl{
+        border-bottom-left-radius:2px;
       }
       h4{
         text-align: center;
