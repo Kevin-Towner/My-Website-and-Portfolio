@@ -316,12 +316,10 @@ sub {
 .row-33_33_33-primary div a h4 span {
   font-weight: 300;
   font-size: 12pt;
-  margin-top: 12px;
   line-height: 140%;
-  padding: 0 12px 0 12px;
 }
 .row-33_33_33-primary div a h4:hover {
-  opacity: 0.93;
+  opacity: 0.95;
 }
 #row-header {
   display: flex;
