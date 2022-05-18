@@ -299,7 +299,7 @@ sub {
   background: #2E69FF;
   color: #fff;
   opacity: 0;
-  transition: 0.7s;
+  transition: 0.8s;
 }
 .row-33_33_33-primary div a h4:hover {
   opacity: 0.93;
