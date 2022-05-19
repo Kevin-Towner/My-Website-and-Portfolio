@@ -56,10 +56,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight:500;
   font-size:16pt;
-  letter-spacing:.3px;
-  margin: 0 0 12px 0;
+  margin: 0 0 8px 0;
   text-align: left;
-  line-height:140%;
   color:@color-misc_2;
 }
 
@@ -105,7 +103,8 @@
 }
 .font-caption{
   color:@color-misc_2;
-  font-family: 'Roboto', sans-serif;
+  .font-body_text-p;
+  font-size:10.5pt;
   line-height:140%;
   font-weight:300;
 }
@@ -264,18 +263,6 @@ sub{
         min-width:100%;
         min-height:250px;
       }
-      .img-br-tl {
-        border-top-left-radius:2px;
-      }
-      .img-br-tr {
-        border-top-right-radius:2px;
-      }
-      .img-br-br {
-        border-bottom-right-radius:2px;
-      }
-      .img-br-bl{
-        border-bottom-left-radius:2px;
-      }
       h4{
         text-align: center;
         padding:auto;
@@ -290,6 +277,7 @@ sub{
         color: #fff;
         opacity:0;
         transition:.3s;
+        margin-block-end:0;
         span{
           font-weight:300;
           font-size:12pt;
@@ -299,6 +287,21 @@ sub{
           opacity:.95;
         }
       }
+      #img-br-tl {
+        border-top-left-radius:4px;
+      }
+      #img-br-tr {
+        border-top-right-radius:4px;
+      }
+       #img-br-br {
+        border-bottom-right-radius:4px;
+      }
+      #img-br-bl{
+        border-bottom-left-radius:4px;
+      }
+    }
+    .font-caption{
+      display:none;
     }
   }
 }

@@ -70,8 +70,10 @@
 
   .row-33_33_33-primary{
     grid-template-columns: 1fr;
-    grid-gap:1em;
-    grid-row-gap:1em;
+    grid-row-gap:.5em;
+  }
+  .row-33_33_33-primary div .font-caption{
+    display:block;
   }
 
   #row-header{
