@@ -295,7 +295,7 @@ sub {
 #row-header div img {
   display: block;
   margin: auto;
-  width: 18%;
+  width: 14%;
   opacity: 1;
 }
 #row-header div img:hover {
