@@ -101,6 +101,9 @@
   .row-to_top-prim{
       margin:0 0 67px 67%;
   }
+  .row-25_25_25_25-prim{
+    grid-template-columns: 1fr;
+  }
 
   #row-header {
     display: grid;
@@ -140,6 +143,9 @@
   #row-50_50-prim-1{
     display:flex;
     flex-direction:column-reverse;
+  }
+  #row-improvement .row-25_25_25_25-prim{
+    grid-gap:1.5em;
   }
 
 
