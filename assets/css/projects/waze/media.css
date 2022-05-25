@@ -88,6 +88,7 @@
   }
   .row-50_50-prim{
     grid-template-columns: 1fr;
+    grid-gap:1em;
   }
   .row-50_50-seco{
     grid-template-columns: 1fr;
@@ -109,6 +110,7 @@
   #row-header div p {
     width:100%;
   }
+
   #row-breakdown{
     text-align: left;
   }
@@ -117,7 +119,6 @@
     grid-template-columns:1fr;
     grid-gap:2em;
   }
-
   #row-breakdown .row-25_25_25_25-prim h4{
     text-align: left;
   }
@@ -127,14 +128,23 @@
   #row-breakdown .row-25_25_25_25-prim div ul{
     text-align: left;
   }
+
   #row-test_a .row-50_50-prim{
     grid-gap:1em;
     display:flex;
     flex-direction:column-reverse;
   }
+
+  #row-takeaways .row-50_50-prim{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+
   .row-to_top-prim{
       margin:0 0 67px 67%;
   }
+
   #row-test_B .row-50_50-prim{
     grid-gap:1em;
   }
