@@ -254,7 +254,7 @@ sub{
 .row-50_50-seco{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap:1em;
+  grid-gap:3em;
   a{
     img{
       max-width:100%;
@@ -437,20 +437,9 @@ sub{
 }
 
 #row-assumptions{
-  h2{
-    color:@color-misc_2;
-    border-bottom:1px solid lightgrey;
-  }
-  div{
-    a{
-      img{
-        max-width:100%;
-        border:2px solid #E5E5E5;
-        &:hover{
-          border:2px solid @color-hyperlink;
-        }
-      }
-    }
+  .row-50_50-prim{
+    grid-template-columns: 1fr;
+    grid-gap:3em;
   }
 }
 

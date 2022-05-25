@@ -270,7 +270,7 @@ sub {
 .row-50_50-seco {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 3em;
 }
 .row-50_50-seco a img {
   max-width: 100%;
@@ -468,16 +468,9 @@ sub {
 #row-breakdown .row-25_25_25_25-prim h4 {
   text-align: center;
 }
-#row-assumptions h2 {
-  color: #6C7583;
-  border-bottom: 1px solid lightgrey;
-}
-#row-assumptions div a img {
-  max-width: 100%;
-  border: 2px solid #E5E5E5;
-}
-#row-assumptions div a img:hover {
-  border: 2px solid #2E69FF;
+#row-assumptions .row-50_50-prim {
+  grid-template-columns: 1fr;
+  grid-gap: 3em;
 }
 #row-refinement h2 {
   color: #6C7583;

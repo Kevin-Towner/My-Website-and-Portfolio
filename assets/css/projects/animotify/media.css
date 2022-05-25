@@ -78,11 +78,11 @@
   }
   .row-50_50-prim{
     grid-template-columns: 1fr;
+    grid-gap:1em;
   }
   .row-50_50-seco{
     grid-template-columns: 1fr;
     grid-gap:1em;
-    margin-bottom:1em;
   }
 
   #row-header {
@@ -117,17 +117,24 @@
   #row-breakdown .row-25_25_25_25-prim div ul{
     text-align: left;
   }
-  /* #row-test_a .row-50_50-prim{
-    grid-gap:1em;
+
+  #row-assumptions-2{
     display:flex;
     flex-direction:column-reverse;
-  } */
+  }
+  #row-assumptions .row-50_50-prim{
+    grid-gap:1em;
+  }
+
   .row-to_top-prim{
       margin:0 0 67px 67%;
   }
-  /* #row-test_B .row-50_50-prim{
-    grid-gap:1em;
-  } */
+
+  .row-33_33_33-prim{
+    grid-template-columns: 1fr;
+  }
+
+
 }
 
 @media screen and (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
