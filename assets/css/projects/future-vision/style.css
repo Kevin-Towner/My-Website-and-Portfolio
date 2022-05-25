@@ -579,13 +579,13 @@ mark {
 #row-sketches .row-33_33_33-prim a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-experiment .row-67_33-seco {
-  grid-gap: 6em;
+#row-experiment .row-50_50-prim {
+  grid-gap: 3em;
 }
-#row-experiment .row-67_33-seco div p {
+#row-experiment .row-50_50-prim div p {
   margin-bottom: 2em;
 }
-#row-experiment .row-67_33-seco div ul {
+#row-experiment .row-50_50-prim div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
@@ -595,17 +595,17 @@ mark {
   margin: 0 0 16px 0;
   margin: auto;
 }
-#row-experiment .row-67_33-seco a img {
+#row-experiment .row-50_50-prim a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
-#row-experiment .row-67_33-seco a img:hover {
+#row-experiment .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-experiment .row-67_33-seco .report-section {
+#row-experiment .row-50_50-prim .report-section {
   text-align: right;
 }
-#row-experiment .row-67_33-seco .report-section h4 {
+#row-experiment .row-50_50-prim .report-section h4 {
   text-align: right;
 }
 #row-test div a img {
