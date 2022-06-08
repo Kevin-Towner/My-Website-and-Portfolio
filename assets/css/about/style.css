@@ -357,7 +357,7 @@ sub {
   grid-row-gap: 2em;
 }
 #row-skills .row-33_33_33-prim div {
-  border-left: 2px solid lightgrey;
+  border-left: 1px solid lightgrey;
   padding-left: 16px;
 }
 #row-skills .row-33_33_33-prim div p {
