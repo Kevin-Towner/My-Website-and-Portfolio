@@ -42,14 +42,14 @@
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
-  line-height: 140%;
+  line-height: 160%;
   color: #6C7583;
 }
 .font-body_text-p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -67,7 +67,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -182,14 +182,14 @@ h4 {
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
-  line-height: 140%;
+  line-height: 160%;
   color: #6C7583;
 }
 p {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -261,7 +261,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -283,7 +283,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -304,7 +304,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -331,7 +331,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -403,7 +403,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -437,7 +437,7 @@ sub {
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
-  line-height: 140%;
+  line-height: 160%;
   font-size: 14.5pt;
   line-height: 150%;
   font-weight: 300;
@@ -450,7 +450,7 @@ sub {
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
-  line-height: 140%;
+  line-height: 160%;
   color: #6C7583;
   font-weight: 400;
   color: #2E69FF;
@@ -471,6 +471,9 @@ sub {
 #row-assumptions .row-50_50-prim {
   grid-template-columns: 1fr;
   grid-gap: 3em;
+}
+#row-competitors .row-33_33_33-prim {
+  grid-gap: 2em;
 }
 #row-refinement h2 {
   color: #6C7583;
@@ -500,7 +503,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;
@@ -524,7 +527,7 @@ sub {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
-  line-height: 160%;
+  line-height: 170%;
   font-weight: 300;
   color: #565F6D;
   margin: 0 0 16px 0;

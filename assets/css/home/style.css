@@ -269,7 +269,7 @@ sub {
   padding: 12px 20px 12px 20px;
 }
 .button-row a button span {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 11pt;
 }
 .button-row a button:hover {
