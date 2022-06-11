@@ -18,7 +18,7 @@
   font-size: 24pt;
   text-align: left;
   color: #6C7583;
-  border-bottom: 1px solid #6C7583;
+  border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -160,7 +160,7 @@ h2 {
   font-size: 24pt;
   text-align: left;
   color: #6C7583;
-  border-bottom: 1px solid #6C7583;
+  border-bottom: 1px solid lightgrey;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -531,7 +531,7 @@ mark {
   text-align: center;
 }
 #row-empathy div .row-33_33_33-prim {
-  grid-gap: 2em;
+  grid-gap: 1em;
 }
 #row-empathy div .row-33_33_33-prim div {
   border-left: 1px solid lightgrey;
@@ -598,18 +598,18 @@ mark {
 #row-test div a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-improvement .row-25_25_25_25-prim {
+#row-improvement .row-50_50-prim {
   grid-gap: 2.5em;
 }
-#row-improvement .row-25_25_25_25-prim div {
+#row-improvement .row-50_50-prim div {
   border-left: 1px solid lightgrey;
   padding-left: 16px;
 }
-#row-improvement .row-25_25_25_25-prim div p {
+#row-improvement .row-50_50-prim div p {
   margin-bottom: 0;
   text-align: left;
 }
-#row-improvement .row-25_25_25_25-prim div ul {
+#row-improvement .row-50_50-prim div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
