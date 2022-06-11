@@ -153,6 +153,12 @@
 .list-inline_flex{
 
 }
+.report-section{
+  margin-top:2em;
+  a{
+    float:right;
+  }
+}
 
 
 
@@ -235,7 +241,7 @@ mark{
 .row-50_50-prim{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap:2em;
+  grid-column-gap:1em;
   img{
     max-width:100%;
     border-radius:4px;
@@ -348,7 +354,7 @@ mark{
 .row-25_25_25_25-prim{
   display:grid;
   grid-template-columns: .25fr .25fr .25fr .25fr;
-  grid-gap:2em;
+  grid-gap:4em;
   div{
     h4{
 
@@ -507,23 +513,24 @@ mark{
 }
 
 #row-empathy{
-  .row-50_50-prim{
-    grid-gap:2em;
-    p{
-      text-align: left;
-    }
-    .report-section{
-      h4{
-        text-align: right;
+  div{
+    .row-33_33_33-prim{
+      grid-gap:2.5em;
+      div{
+        border-left:1px solid lightgrey;
+        padding-left:16px;
+        p{
+          margin-bottom:0;
+          text-align:left;
+        }
       }
-      text-align: right;
     }
   }
 }
 
 #row-ideate{
   .row-50_50-prim{
-    grid-gap:3em;
+    grid-gap:2em;
     a{
       display:flex;
       flex-direction:column;
@@ -536,12 +543,6 @@ mark{
           border:2px solid @color-hyperlink;
         }
       }
-    }
-    .report-section{
-      h4{
-        text-align: right;
-      }
-      text-align: right;
     }
   }
 }
@@ -563,7 +564,7 @@ mark{
 }
 #row-experiment{
   .row-50_50-prim{
-    grid-gap:3em;
+    grid-gap:2em;
     div{
       p{
         margin-bottom:2em;
@@ -581,12 +582,6 @@ mark{
           border:2px solid @color-hyperlink;
         }
       }
-    }
-    .report-section{
-      h4{
-        text-align: right;
-      }
-      text-align: right;
     }
   }
 }
@@ -607,26 +602,21 @@ mark{
 
 #row-improvement{
   .row-25_25_25_25-prim{
-    grid-gap:2em;
-    margin-top:2em;
-    p{
-      text-align: left;
-    }
-    ul{
-      .font-body_text-p;
-      margin:auto;
-      li{
-        margin-bottom:0px;
+    grid-gap:2.5em;
+    margin-top:1em;
+    div{
+      border-left:1px solid lightgrey;
+      padding-left:16px;
+      p{
+        margin-bottom:0;
+        text-align:left;
       }
-    }
-  }
-  a{
-    img{
-      margin-top:2em;
-      max-width:100%;
-      border:2px solid #E5E5E5;
-      &:hover{
-        border:2px solid @color-hyperlink;
+      ul{
+        .font-body_text-p;
+        margin:auto;
+        li{
+          margin-bottom:0px;
+        }
       }
     }
   }
@@ -656,13 +646,6 @@ mark{
         border:2px solid @color-hyperlink;
       }
     }
-  }
-  .report-section{
-    margin-top:2em;
-    h4{
-      text-align: right;
-    }
-    text-align: right;
   }
 }
 

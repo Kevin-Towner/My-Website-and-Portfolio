@@ -130,6 +130,12 @@
   min-height: 100%;
 }
 /* - - - - Misc  - - - -  -*/
+.report-section {
+  margin-top: 2em;
+}
+.report-section a {
+  float: right;
+}
 html {
   background: #FCFCFC;
 }
@@ -264,7 +270,7 @@ mark {
 .row-50_50-prim {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2em;
+  grid-column-gap: 1em;
 }
 .row-50_50-prim img {
   max-width: 100%;
@@ -363,7 +369,7 @@ mark {
 .row-25_25_25_25-prim {
   display: grid;
   grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
-  grid-gap: 2em;
+  grid-gap: 4em;
 }
 .row-25_25_25_25-prim div ul {
   font-family: 'Roboto', sans-serif;
@@ -531,20 +537,19 @@ mark {
 #row-breakdown .row-25_25_25_25-prim h4 {
   text-align: center;
 }
-#row-empathy .row-50_50-prim {
-  grid-gap: 2em;
+#row-empathy div .row-33_33_33-prim {
+  grid-gap: 2.5em;
 }
-#row-empathy .row-50_50-prim p {
+#row-empathy div .row-33_33_33-prim div {
+  border-left: 1px solid lightgrey;
+  padding-left: 16px;
+}
+#row-empathy div .row-33_33_33-prim div p {
+  margin-bottom: 0;
   text-align: left;
 }
-#row-empathy .row-50_50-prim .report-section {
-  text-align: right;
-}
-#row-empathy .row-50_50-prim .report-section h4 {
-  text-align: right;
-}
 #row-ideate .row-50_50-prim {
-  grid-gap: 3em;
+  grid-gap: 2em;
 }
 #row-ideate .row-50_50-prim a {
   display: flex;
@@ -558,12 +563,6 @@ mark {
 }
 #row-ideate .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
-}
-#row-ideate .row-50_50-prim .report-section {
-  text-align: right;
-}
-#row-ideate .row-50_50-prim .report-section h4 {
-  text-align: right;
 }
 #row-sketches .row-33_33_33-prim {
   grid-gap: 2em;
@@ -580,7 +579,7 @@ mark {
   border: 2px solid #2E69FF;
 }
 #row-experiment .row-50_50-prim {
-  grid-gap: 3em;
+  grid-gap: 2em;
 }
 #row-experiment .row-50_50-prim div p {
   margin-bottom: 2em;
@@ -602,12 +601,6 @@ mark {
 #row-experiment .row-50_50-prim a img:hover {
   border: 2px solid #2E69FF;
 }
-#row-experiment .row-50_50-prim .report-section {
-  text-align: right;
-}
-#row-experiment .row-50_50-prim .report-section h4 {
-  text-align: right;
-}
 #row-test div a img {
   max-width: 100%;
   border: 2px solid #E5E5E5;
@@ -616,13 +609,18 @@ mark {
   border: 2px solid #2E69FF;
 }
 #row-improvement .row-25_25_25_25-prim {
-  grid-gap: 2em;
-  margin-top: 2em;
+  grid-gap: 2.5em;
+  margin-top: 1em;
 }
-#row-improvement .row-25_25_25_25-prim p {
+#row-improvement .row-25_25_25_25-prim div {
+  border-left: 1px solid lightgrey;
+  padding-left: 16px;
+}
+#row-improvement .row-25_25_25_25-prim div p {
+  margin-bottom: 0;
   text-align: left;
 }
-#row-improvement .row-25_25_25_25-prim ul {
+#row-improvement .row-25_25_25_25-prim div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 12pt;
@@ -632,16 +630,8 @@ mark {
   margin: 0 0 16px 0;
   margin: auto;
 }
-#row-improvement .row-25_25_25_25-prim ul li {
+#row-improvement .row-25_25_25_25-prim div ul li {
   margin-bottom: 0px;
-}
-#row-improvement a img {
-  margin-top: 2em;
-  max-width: 100%;
-  border: 2px solid #E5E5E5;
-}
-#row-improvement a img:hover {
-  border: 2px solid #2E69FF;
 }
 #row-final_screens a img {
   max-width: 100%;
@@ -660,13 +650,6 @@ mark {
 }
 #row-takeaways a img:hover {
   border: 2px solid #2E69FF;
-}
-#row-takeaways .report-section {
-  margin-top: 2em;
-  text-align: right;
-}
-#row-takeaways .report-section h4 {
-  text-align: right;
 }
 /*--Importantants--*/
 #visible-while-mobile_h1 {
