@@ -18,7 +18,7 @@
   font-size: 24pt;
   text-align: left;
   color: #6C7583;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #6C7583;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
@@ -160,7 +160,7 @@ h2 {
   font-size: 24pt;
   text-align: left;
   color: #6C7583;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #6C7583;
   line-height: 0.1em;
   margin: 0 0 2em 0;
 }
