@@ -156,7 +156,6 @@
 .report-section{
   margin-top:2em;
   a{
-    float:right;
   }
 }
 
@@ -335,7 +334,7 @@ mark{
 .row-33_33_33-prim{
   display:grid;
   grid-template-columns:.33fr .33fr .33fr;
-  grid-gap:1.6em;
+  grid-gap:2em;
   div{
     ul{
       .font-body_text-p;
@@ -346,7 +345,6 @@ mark{
       }
     }
     p{
-      text-align: justify;
     }
   }
 }
@@ -354,7 +352,7 @@ mark{
 .row-25_25_25_25-prim{
   display:grid;
   grid-template-columns: .25fr .25fr .25fr .25fr;
-  grid-gap:4em;
+  grid-gap:2.5em;
   div{
     h4{
 
@@ -500,7 +498,6 @@ mark{
 }
 #row-breakdown{
   .row-25_25_25_25-prim{
-    margin-top:2em;
     display:flex;
     flex-direction:row;
     text-align: center;
@@ -515,7 +512,7 @@ mark{
 #row-empathy{
   div{
     .row-33_33_33-prim{
-      grid-gap:2.5em;
+      grid-gap:2em;
       div{
         border-left:1px solid lightgrey;
         padding-left:16px;
@@ -529,15 +526,22 @@ mark{
 }
 
 #row-ideate{
-  .row-50_50-prim{
-    grid-gap:2em;
+  .row-33_33_33-prim{
+    // .ideate-descriptors{
+    //   border-left:1px solid lightgrey;
+    //   padding-left:16px;
+    //   p{
+    //     margin-bottom:0;
+    //     text-align:left;
+    //   }
+    // }
     a{
       display:flex;
       flex-direction:column;
       img{
         max-width:100%;
-        min-height:280px;
-        max-height:280px;
+        min-height:240px;
+        max-height:240px;
         border:2px solid #E5E5E5;
         &:hover{
           border:2px solid @color-hyperlink;
@@ -603,7 +607,6 @@ mark{
 #row-improvement{
   .row-25_25_25_25-prim{
     grid-gap:2.5em;
-    margin-top:1em;
     div{
       border-left:1px solid lightgrey;
       padding-left:16px;
@@ -639,7 +642,6 @@ mark{
 #row-takeaways{
   a{
     img{
-      margin-top:2em;
       max-width:100%;
       border:2px solid #E5E5E5;
       &:hover{

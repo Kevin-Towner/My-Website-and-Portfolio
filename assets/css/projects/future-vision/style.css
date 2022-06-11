@@ -133,9 +133,6 @@
 .report-section {
   margin-top: 2em;
 }
-.report-section a {
-  float: right;
-}
 html {
   background: #FCFCFC;
 }
@@ -347,7 +344,7 @@ mark {
 .row-33_33_33-prim {
   display: grid;
   grid-template-columns: 0.33fr 0.33fr 0.33fr;
-  grid-gap: 1.6em;
+  grid-gap: 2em;
 }
 .row-33_33_33-prim div ul {
   font-family: 'Roboto', sans-serif;
@@ -363,13 +360,10 @@ mark {
 .row-33_33_33-prim div ul li {
   margin: auto;
 }
-.row-33_33_33-prim div p {
-  text-align: justify;
-}
 .row-25_25_25_25-prim {
   display: grid;
   grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
-  grid-gap: 4em;
+  grid-gap: 2.5em;
 }
 .row-25_25_25_25-prim div ul {
   font-family: 'Roboto', sans-serif;
@@ -528,7 +522,6 @@ mark {
   margin-bottom: 0px;
 }
 #row-breakdown .row-25_25_25_25-prim {
-  margin-top: 2em;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -538,7 +531,7 @@ mark {
   text-align: center;
 }
 #row-empathy div .row-33_33_33-prim {
-  grid-gap: 2.5em;
+  grid-gap: 2em;
 }
 #row-empathy div .row-33_33_33-prim div {
   border-left: 1px solid lightgrey;
@@ -548,20 +541,17 @@ mark {
   margin-bottom: 0;
   text-align: left;
 }
-#row-ideate .row-50_50-prim {
-  grid-gap: 2em;
-}
-#row-ideate .row-50_50-prim a {
+#row-ideate .row-33_33_33-prim a {
   display: flex;
   flex-direction: column;
 }
-#row-ideate .row-50_50-prim a img {
+#row-ideate .row-33_33_33-prim a img {
   max-width: 100%;
-  min-height: 280px;
-  max-height: 280px;
+  min-height: 240px;
+  max-height: 240px;
   border: 2px solid #E5E5E5;
 }
-#row-ideate .row-50_50-prim a img:hover {
+#row-ideate .row-33_33_33-prim a img:hover {
   border: 2px solid #2E69FF;
 }
 #row-sketches .row-33_33_33-prim {
@@ -610,7 +600,6 @@ mark {
 }
 #row-improvement .row-25_25_25_25-prim {
   grid-gap: 2.5em;
-  margin-top: 1em;
 }
 #row-improvement .row-25_25_25_25-prim div {
   border-left: 1px solid lightgrey;
@@ -644,7 +633,6 @@ mark {
   margin-bottom: 8px;
 }
 #row-takeaways a img {
-  margin-top: 2em;
   max-width: 100%;
   border: 2px solid #E5E5E5;
 }
