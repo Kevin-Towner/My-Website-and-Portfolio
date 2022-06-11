@@ -599,15 +599,15 @@ mark {
   border: 2px solid #2E69FF;
 }
 #row-improvement .row-50_50-prim {
-  grid-gap: 2.5em;
+  grid-gap: 2em;
 }
 #row-improvement .row-50_50-prim div {
   border-left: 1px solid lightgrey;
   padding-left: 16px;
 }
 #row-improvement .row-50_50-prim div p {
-  margin-bottom: 0;
   text-align: left;
+  margin-bottom: 8px;
 }
 #row-improvement .row-50_50-prim div ul {
   font-family: 'Roboto', sans-serif;
